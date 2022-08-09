@@ -7,9 +7,8 @@ assignees: ''
 
 ---
 
-**If you have any mods added by yourself -- first uninstall it and confirm the issue still occurs.
-
-WE DO NOT PROVIDE SUPPORT TO HEAVILY MODIFIED MODPACKS. OUR PACK IS CURATED FOR WORKABILITY AND NO CONTENT OVERLAP, NOT ADDING ADDITIONAL MODS TO.**
+**If you have any mods added by yourself -- first uninstall it and confirm the issue still occurs.**
+**WE DO NOT PROVIDE SUPPORT TO HEAVILY MODIFIED MODPACKS. OUR PACK IS CURATED FOR WORKABILITY AND NO CONTENT OVERLAP, NOT ADDING ADDITIONAL MODS TO.**
 
 **Describe the bug**
 A clear and concise description of what the bug is.
