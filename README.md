@@ -1,7 +1,7 @@
 # Life in the village 3
 [![LOGO](https://user-images.githubusercontent.com/7347489/183632701-7306ec25-19eb-428a-bbbd-c3e36ef7efe0.png)](https://www.curseforge.com/minecraft/modpacks/life-in-the-village-3)
 
-[![1](https://img.shields.io/discord/512339624627011586?color=blue&label=discord&logo=discord&style=for-the-badge)](https://discord.gg/CG6HjQjW5c) [![2](https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Dreams01&type=patrons&style=for-the-badge)](https://www.patreon.com/Dreams01) [![3](https://img.shields.io/badge/Rent%20-a%20server-cyan?style=for-the-badge&logo=Codeforces&logoColor=cyan)](https://www.curseforge.com/linkout?remoteUrl=https%253a%252f%252fbisecthosting.com%252fxdreamz) [![4](https://img.shields.io/badge/My-projects-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/dreams01/projects)
+[![1](https://img.shields.io/discord/512339624627011586?color=blue&label=discord&logo=discord&style=for-the-badge)](https://discord.gg/CG6HjQjW5c) [![2](https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=Dreams01&type=patrons&style=for-the-badge)](https://www.patreon.com/Dreams01) [![3](https://img.shields.io/badge/Rent%20-a%20server-cyan?style=for-the-badge&logo=Codeforces&logoColor=cyan)](https://bisecthosting.com/xdreamz) [![4](https://img.shields.io/badge/My-projects-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/members/dreams01/projects)
 
 Modpack is continuation of my previous pack [**Life in the village 2**](https://www.curseforge.com/minecraft/modpacks/life-in-the-village-2) but for newer versions of Minecraft. (1.18+)
 
