@@ -3,7 +3,7 @@
 
 
 
-Modpack is continuation of my previous pack Life in the village 2 but for newer versions of Minecraft. (Minecraft 1.18+)
+Modpack is continuation of my previous pack Life in the village 2 but for newer versions of Minecraft. (1.18+)
 
 # **Features:**
 
