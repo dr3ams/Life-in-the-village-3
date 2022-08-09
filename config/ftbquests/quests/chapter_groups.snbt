@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "2280ECB310C79FE3", title: "Exploration" }
+		{ id: "4BB8DCEF290E19CA", title: "Technology" }
+		{ id: "46433AE7955AB640", title: "Farming | Cooking" }
+	]
+}

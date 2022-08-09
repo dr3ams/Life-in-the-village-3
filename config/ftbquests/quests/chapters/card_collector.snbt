@@ -1,0 +1,991 @@
+{
+	id: "67F553A303C8E102"
+	group: ""
+	order_index: 4
+	filename: "card_collector"
+	title: "Card Collector"
+	icon: "buddycards:buddycard_pack_mystery"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: 2.5d
+			shape: "octagon"
+			size: 2.0d
+			id: "2D701990943C8711"
+			tasks: [{
+				id: "63F71BD54B506EE2"
+				type: "item"
+				title: "Any #buddycards:buddycard_packs"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "buddycards:buddycard_packs"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7D3C28AB1BF33A67"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7C36CB04B653B8E6"
+					type: "item"
+					item: "aquaculture:box"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 7.0d
+			shape: "hexagon"
+			dependencies: ["6EBC4DDD8CB96BF2"]
+			size: 1.5d
+			id: "28E1A362EAC8E3E4"
+			tasks: [{
+				id: "11B5D91D42BF06CD"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "061630B9292CB15D"
+				type: "item"
+				item: "kubejs:copper_coin"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["2D701990943C8711"]
+			id: "075FC647B9F7BF30"
+			tasks: [{
+				id: "759C612459133063"
+				type: "item"
+				item: {
+					id: "buddycards:oak_card_display"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F9C853C1F43AF66"
+				type: "xp"
+				xp: 300
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.0d
+			dependencies: ["28E1A362EAC8E3E4"]
+			id: "7B45543324F9662B"
+			tasks: [{
+				id: "6B4B2860BCE131F7"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "34A2C760FC00C1AA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1422C95DC39A0391"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "395D11E55F614A3F"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 4.5d
+			shape: "octagon"
+			size: 2.0d
+			id: "6EBC4DDD8CB96BF2"
+			tasks: [{
+				id: "441803DE2C427B05"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_blend"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3909D201E5E13B29"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4E865CA325E75A0F"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 11.0d
+			dependencies: ["136EE9024D36A8F2"]
+			id: "385D11469484563D"
+			tasks: [{
+				id: "2DD715E7117E8104"
+				type: "item"
+				item: {
+					id: "buddycards:luminis_block"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "62EB64CCA5BDCB81"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.0d
+			id: "136EE9024D36A8F2"
+			tasks: [{
+				id: "445ACB8079D2E36E"
+				type: "item"
+				item: {
+					id: "buddycards:luminis"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "17726775D28A9A1C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: 8.0d
+			dependencies: ["28E1A362EAC8E3E4"]
+			id: "565A56A4106D6FF0"
+			tasks: [
+				{
+					id: "639F53E1BB05BA20"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "5838298138A72DA4"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4481F33748431A80"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "4F49C79EF08F5550"
+					type: "item"
+					item: {
+						id: "buddycards:buddysteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3E9BCC8E82DE4047"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+				}
+				{
+					id: "7B088B219D6BD068"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 6.0d
+			dependencies: ["28E1A362EAC8E3E4"]
+			id: "7ADB88A4C8F35C5F"
+			tasks: [{
+				id: "099A0BFA357A674A"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "646010A697852810"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "5F95BBCE6354101F"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			dependencies: ["28E1A362EAC8E3E4"]
+			id: "0C4392B7819B7E07"
+			tasks: [{
+				id: "7A91BEE4342CAD0C"
+				type: "item"
+				item: {
+					id: "buddycards:buddysteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0CF5AFA1F7DD8080"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "0E64A234506B0C82"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 10.0d
+			dependencies: ["136EE9024D36A8F2"]
+			id: "19D894B1D039D67F"
+			tasks: [{
+				id: "7D26CF75086076C0"
+				type: "item"
+				item: "buddycards:luminis_ring"
+			}]
+			rewards: [{
+				id: "7BF6D68CC188255C"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			dependencies: ["136EE9024D36A8F2"]
+			id: "6FA6003DC06CED24"
+			tasks: [{
+				id: "302388F367D74389"
+				type: "item"
+				item: {
+					id: "buddycards:luminis_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AF419611D28DC41"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			dependencies: ["2D701990943C8711"]
+			id: "2D66A856ADFF9351"
+			tasks: [{
+				id: "655297F9AAA54CFD"
+				type: "item"
+				item: "buddycards:buddycard_pack_base"
+			}]
+			rewards: [
+				{
+					id: "0BB9878F9E74A3EA"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "440EDCA0C19C4957"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			dependencies: ["2D66A856ADFF9351"]
+			id: "1C5D2BF7994D4734"
+			tasks: [{
+				id: "513F31089B091079"
+				type: "item"
+				item: "buddycards:buddycard_binder_base"
+			}]
+			rewards: [
+				{
+					id: "013F226F301C1547"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "72098E284FD269B4"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["2D701990943C8711"]
+			id: "2F4968266CDB994F"
+			tasks: [{
+				id: "4E7355C57FF28999"
+				type: "item"
+				item: "buddycards:buddycard_pack_nether"
+			}]
+			rewards: [
+				{
+					id: "13D046C5B8C49254"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "27502373320DD5FF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			dependencies: ["2F4968266CDB994F"]
+			id: "23463308ADFA2FD4"
+			tasks: [{
+				id: "1675B34B5E8BB209"
+				type: "item"
+				item: "buddycards:buddycard_binder_nether"
+			}]
+			rewards: [
+				{
+					id: "726556EA50AF883E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+				{
+					id: "630F46DDACC549F1"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			dependencies: ["2D701990943C8711"]
+			id: "366AA6901659BE3C"
+			tasks: [{
+				id: "6A177444E93F0E46"
+				type: "item"
+				item: "buddycards:buddycard_pack_end"
+			}]
+			rewards: [
+				{
+					id: "5B4FBE63996C16F4"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "3BD899C757F56CD5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["366AA6901659BE3C"]
+			id: "4282BF18B2F59C56"
+			tasks: [{
+				id: "70A5FA1BD0EB3068"
+				type: "item"
+				item: "buddycards:buddycard_binder_end"
+			}]
+			rewards: [
+				{
+					id: "1453AEAC89A4B29B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+				}
+				{
+					id: "28542AD489B87102"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			dependencies: ["4282BF18B2F59C56"]
+			id: "49760A18EBB831F8"
+			tasks: [{
+				id: "584F0F4D95EE9E38"
+				type: "item"
+				item: "buddycards:ender_buddycard_binder"
+			}]
+			rewards: [
+				{
+					id: "09448BA5A0C5F02B"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "58E67B05E2E0DDA0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.5d
+			dependencies: ["2D701990943C8711"]
+			id: "0781FBF614B46706"
+			tasks: [{
+				id: "15663CFB3DD73E20"
+				type: "item"
+				item: "buddycards:buddycard_pack_mystery"
+			}]
+			rewards: [
+				{
+					id: "7278B3FA98FC65B5"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+					random_bonus: 10
+				}
+				{
+					id: "0791B89B644FEC90"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+					random_bonus: 10
+				}
+				{
+					id: "67087E116B3A9F17"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "78BE921FE9D2B684"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+				{
+					id: "1C5CB70DCBCE6CC0"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.5d
+			dependencies: ["1C5D2BF7994D4734"]
+			id: "47475360330EB264"
+			tasks: [{
+				id: "5ECA3087F0398228"
+				type: "item"
+				item: "buddycards:buddysteel_medal_base"
+			}]
+			rewards: [
+				{
+					id: "070CF801891E5A7D"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "05EBBC77788FFCD0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.5d
+			dependencies: ["23463308ADFA2FD4"]
+			id: "193464FF676F4093"
+			tasks: [{
+				id: "447BEF103207C882"
+				type: "item"
+				item: "buddycards:buddysteel_medal_nether"
+			}]
+			rewards: [
+				{
+					id: "455D630945AD8F8B"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "5430917F41E23749"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			dependencies: ["4282BF18B2F59C56"]
+			id: "7A36705E1BFE67B2"
+			tasks: [{
+				id: "16FB2CA41D5965C9"
+				type: "item"
+				item: "buddycards:buddysteel_medal_end"
+			}]
+			rewards: [
+				{
+					id: "6B07B553742E1023"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "24CCACC6DF4A8865"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 11.0d
+			id: "3DE7F43E3255DD9B"
+			tasks: [{
+				id: "06681767394D3912"
+				type: "item"
+				item: "buddycards:void_zylex"
+			}]
+			rewards: [
+				{
+					id: "069B032CA19A85DA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5EFF829D4AE79D9E"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "40F4B135F8339C11"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 10.0d
+			id: "5E190556935CC719"
+			tasks: [{
+				id: "259DEB4B3339F21E"
+				type: "item"
+				item: "buddycards:zylex_nugget"
+			}]
+			rewards: [
+				{
+					id: "0B012A9B776666CD"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5066750649B7F02D"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "12A514247FA7D978"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 10.0d
+			dependencies: ["5E190556935CC719"]
+			id: "099A44EEFA817E0C"
+			tasks: [{
+				id: "18A0CAA4AB06AAF4"
+				type: "item"
+				item: "buddycards:zylex_block"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "06904C5DBEBC7923"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+				}
+				{
+					id: "21BF716467A0369F"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "617114374FCDDD00"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 11.0d
+			dependencies: ["3DE7F43E3255DD9B"]
+			id: "791B2A2F723DD51D"
+			tasks: [{
+				id: "20A3454718515DAA"
+				type: "item"
+				item: "buddycards:void_zylex_block"
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "48ADA13A81BB8982"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+				}
+				{
+					id: "57CE7B1BB6A94858"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "2C06CC14BBCEB0B3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 6.0d
+			dependencies: ["28E1A362EAC8E3E4"]
+			id: "2E2A80C1CDE55541"
+			tasks: [{
+				id: "08F672D3C586FC64"
+				type: "item"
+				item: "buddycards:grading_sleeve"
+			}]
+			rewards: [
+				{
+					id: "66421B491B135378"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "3988D51765753351"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 6.0d
+			dependencies: ["2E2A80C1CDE55541"]
+			id: "1E609DE415D34448"
+			tasks: [{
+				id: "3CCE9371B046F489"
+				type: "item"
+				item: "buddycards:golden_grading_sleeve"
+			}]
+			rewards: [
+				{
+					id: "57FDE1568580BBA4"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "3EAD95FA711ED473"
+					type: "xp"
+					xp: 300
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 6.0d
+			dependencies: ["1E609DE415D34448"]
+			id: "252D8073ECEA534D"
+			tasks: [{
+				id: "25816688E52187AC"
+				type: "item"
+				item: "buddycards:luminis_sleeve"
+			}]
+			rewards: [
+				{
+					id: "3CA1DA8C58876458"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+				}
+				{
+					id: "61A8B3B1236E26DC"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "4E19C785A971B36B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["252D8073ECEA534D"]
+			id: "1FAC6EC23646E865"
+			tasks: [{
+				id: "5BF804A74D00BF60"
+				type: "item"
+				item: "buddycards:zylex_grading_sleeve"
+			}]
+			rewards: [
+				{
+					id: "01C6F3A789F50195"
+					type: "item"
+					item: "minecraft:emerald"
+				}
+				{
+					id: "769ED1FE7BD3DDE9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+				}
+				{
+					id: "4D702B6721BB2AC1"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "42A2E159CA49E680"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 8.0d
+			dependencies: ["28E1A362EAC8E3E4"]
+			id: "7BEEE5D1135B65D5"
+			tasks: [{
+				id: "340C4AD613F8BC0B"
+				type: "item"
+				item: "buddycards:buddysteel_power_meter"
+			}]
+			rewards: [{
+				id: "1CC3B1A15E8CC99B"
+				type: "item"
+				item: "kubejs:copper_coin"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 8.0d
+			dependencies: ["7BEEE5D1135B65D5"]
+			id: "1287054FFAD1B9C5"
+			tasks: [{
+				id: "24BC8DB174FAF6EC"
+				type: "item"
+				item: {
+					id: "buddycards:zylex_power_meter"
+					Count: 1b
+					tag: {
+						power: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "036A6EA58753E97F"
+				type: "item"
+				item: "kubejs:gold_coin"
+			}]
+		}
+	]
+}

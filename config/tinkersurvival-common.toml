@@ -1,0 +1,6 @@
+#Enables the generation of rock piles on the surface.
+ENABLE_ROCK_GEN = true
+#RockGeneration frequency. (1 = low, 5 = all over)
+#Range: 1 ~ 5
+ROCK_GEN_FREQUENCY = 2
+

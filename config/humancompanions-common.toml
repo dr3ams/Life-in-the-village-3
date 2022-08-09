@@ -1,0 +1,11 @@
+
+#Settings for world gen (Doesn't work in 1.18.2. Use datapacks instead.)
+["World Gen"]
+	#Average chunk separation between companion houses
+	#Range: > 11
+	averageHouseSeparation = 40
+
+[Other]
+	#Toggle friendly fire
+	friendlyFire = false
+

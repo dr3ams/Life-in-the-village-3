@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:witches_treestump",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169481684,
+    "spacing": 12,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

@@ -1,0 +1,1021 @@
+{
+	id: "00F1CE62AA4E59BC"
+	group: "2280ECB310C79FE3"
+	order_index: 3
+	filename: "nomad"
+	title: "Nomad"
+	icon: {
+		id: "nomadictents:tiny_tepee"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["2BD6FC49BA95C2B9"]
+			id: "11C31D32E9F5239A"
+			tasks: [{
+				id: "10C3118E15709E55"
+				type: "item"
+				item: {
+					id: "nomadictents:golden_mallet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "51CB2416DDBA32F6"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["53BA33792C86F45A"]
+			id: "117D702B2BA28DD9"
+			tasks: [{
+				id: "50BC4F3403049969"
+				type: "item"
+				item: "nomadictents:diamond_tent_shovel"
+			}]
+			rewards: [
+				{
+					id: "67BE16C4BEC2FCCF"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "581AD676DFCE4388"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			id: "2BD6FC49BA95C2B9"
+			tasks: [{
+				id: "198CF829D519DC4F"
+				type: "item"
+				item: {
+					id: "nomadictents:mallet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1B06D2C827C06E50"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			id: "0B70E2A25EC719FF"
+			tasks: [{
+				id: "0B346259E937DDB5"
+				type: "item"
+				item: {
+					id: "nomadictents:tiny_yurt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1174F59B797E4F7D"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "34969E771EB8B726"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			id: "5743AD8EB21D6A76"
+			tasks: [{
+				id: "6A590A92C03DB04B"
+				type: "item"
+				item: {
+					id: "nomadictents:tiny_tepee"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "188BA103011CB544"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "59CDFB3E1362DECB"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			id: "68784039E31575D2"
+			tasks: [{
+				id: "7C38F2C0446CAE2A"
+				type: "item"
+				item: {
+					id: "nomadictents:tiny_bedouin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "298002D00D9F8875"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "131789E30285EE93"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			id: "5D17DB2B1E81D12F"
+			tasks: [{
+				id: "4CC3BED8373B1A4B"
+				type: "item"
+				item: {
+					id: "nomadictents:tiny_indlu"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "705F99F177C5F1E6"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "0687DC3E1057FE39"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			id: "270B19D4EFF4A086"
+			tasks: [{
+				id: "0E65B8666575DF8E"
+				type: "item"
+				item: {
+					id: "nomadictents:tiny_shamiyana"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "22B395322BE25D59"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "4F9383A6FB592467"
+					type: "xp"
+					xp: 200
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			id: "1638072A811B93D9"
+			tasks: [{
+				id: "09DA28687CA37E0C"
+				type: "item"
+				item: "nomadictents:stone_tent_shovel"
+			}]
+			rewards: [{
+				id: "140C0E0307521AE6"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["1638072A811B93D9"]
+			id: "19AFD5C7FE1F476C"
+			tasks: [{
+				id: "1C0B184600CE55F2"
+				type: "item"
+				item: "nomadictents:iron_tent_shovel"
+			}]
+			rewards: [
+				{
+					id: "2EDC8408AB0540DF"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "3EA22FF14BD95D17"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			dependencies: ["19AFD5C7FE1F476C"]
+			id: "6FD33E326499743E"
+			tasks: [{
+				id: "078EF8F758C6307F"
+				type: "item"
+				item: "nomadictents:golden_tent_shovel"
+			}]
+			rewards: [
+				{
+					id: "5922C8750ECC90D0"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "412655723BC54921"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["6FD33E326499743E"]
+			id: "53BA33792C86F45A"
+			tasks: [{
+				id: "5E5FB82990E8DDCD"
+				type: "item"
+				item: "nomadictents:obsidian_tent_shovel"
+			}]
+			rewards: [
+				{
+					id: "4F1C995913175B8D"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "3373F3A20D003E99"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["0B70E2A25EC719FF"]
+			id: "39B6C23B912285FF"
+			tasks: [{
+				id: "405523270D323D9D"
+				type: "item"
+				item: {
+					id: "nomadictents:small_yurt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0DE850C1072E8DBE"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "00614B50B3C8EEA0"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			dependencies: ["39B6C23B912285FF"]
+			id: "67AF39D5CA3E89A2"
+			tasks: [{
+				id: "3BF99F74EAD43084"
+				type: "item"
+				item: {
+					id: "nomadictents:medium_yurt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "4A3C24AB9BC197B4"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "406729200995CF2D"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["4B46CFEC13B3DF75"]
+			id: "2105FCFE9610149A"
+			tasks: [{
+				id: "19CA63531E62E0C0"
+				type: "item"
+				item: {
+					id: "nomadictents:giant_yurt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "75B1F7F83AD8E1AF"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "5284880D6AD035DE"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "53A6860DD1E07837"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["2105FCFE9610149A"]
+			id: "2919E8DA65AEE017"
+			tasks: [{
+				id: "573B772A9C70F17A"
+				type: "item"
+				item: {
+					id: "nomadictents:mega_yurt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "10C866104EEB8651"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "2DD3E19A0F997540"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+				{
+					id: "7B1FF52FE20794FA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["5743AD8EB21D6A76"]
+			id: "3325C480F8B9033E"
+			tasks: [{
+				id: "1E542C1830507E42"
+				type: "item"
+				item: {
+					id: "nomadictents:small_tepee"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7BE8AAA081913F93"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "430707B8645C11EA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.5d
+			dependencies: ["3325C480F8B9033E"]
+			id: "102BAB2EE0B49D5E"
+			tasks: [{
+				id: "56A6C9A5501078A7"
+				type: "item"
+				item: {
+					id: "nomadictents:medium_tepee"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "20D370D1BF9BB155"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "28F9B19EBACDA8DA"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["019E9AB87BD9DE0F"]
+			id: "2E737BA6EA39EAC5"
+			tasks: [{
+				id: "64F7A9CCD06EA301"
+				type: "item"
+				item: {
+					id: "nomadictents:giant_tepee"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "16ABEF2A08BAA60F"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "37F66E4C4808DC80"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "56A7A58DD1A1BACD"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -0.5d
+			dependencies: ["2E737BA6EA39EAC5"]
+			id: "55AFA697790EA994"
+			tasks: [{
+				id: "0F630B337E639A7F"
+				type: "item"
+				item: {
+					id: "nomadictents:mega_tepee"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "33E74CE244055740"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "0D9C4CA3EA5A0D55"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+				{
+					id: "0C90CCB9A0B598C7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["68784039E31575D2"]
+			id: "2EC285A3BA8F1D16"
+			tasks: [{
+				id: "51475230A686571D"
+				type: "item"
+				item: {
+					id: "nomadictents:small_bedouin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "7AEDD7DFBDC80FEB"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "54702608C1A00062"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.5d
+			dependencies: ["2EC285A3BA8F1D16"]
+			id: "2E95E34CC40472F3"
+			tasks: [{
+				id: "1671CFCB22D45DBA"
+				type: "item"
+				item: {
+					id: "nomadictents:medium_bedouin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3985D09FBF0F8B00"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "23DC1F35D851AABB"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			dependencies: ["50C34F1191FE2A21"]
+			id: "5059B17D6E92FAEF"
+			tasks: [{
+				id: "74922DE31E86E130"
+				type: "item"
+				item: {
+					id: "nomadictents:giant_bedouin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "351B0995D7817B05"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "4C1D28CE59B7EA37"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "6CEFBD5301FD32F1"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["5059B17D6E92FAEF"]
+			id: "08A093592BE800BF"
+			tasks: [{
+				id: "0BAB08EA7E939921"
+				type: "item"
+				item: {
+					id: "nomadictents:mega_bedouin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "6F344C53B00575F7"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "6D339C970C61DF25"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+				{
+					id: "2C8722EF3F6234C0"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["5D17DB2B1E81D12F"]
+			id: "62B18503200B29BB"
+			tasks: [{
+				id: "61D4A32B8883BDE2"
+				type: "item"
+				item: {
+					id: "nomadictents:small_indlu"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "62E425A12CA60020"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "7DBDB18535C73AED"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["62B18503200B29BB"]
+			id: "063015BA07734242"
+			tasks: [{
+				id: "4C961F33098F36E3"
+				type: "item"
+				item: {
+					id: "nomadictents:medium_indlu"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "52C2BFFFDEAF70BB"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "111478904F8FBBED"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["0A212C964AFF04A5"]
+			id: "05B6B128CD86486E"
+			tasks: [{
+				id: "4023FCF921B94EE0"
+				type: "item"
+				item: {
+					id: "nomadictents:giant_indlu"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "56F2CA7E4EAD608C"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "44E6C14FBF2F4E54"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "7271088DC7EBA504"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["05B6B128CD86486E"]
+			id: "6777E1792B6DBBC7"
+			tasks: [{
+				id: "4BDBCE053CE84E54"
+				type: "item"
+				item: {
+					id: "nomadictents:mega_indlu"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3CDBEC83BD9D98A6"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "35E00503912A98F7"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+				{
+					id: "321AC63BE6F91314"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["270B19D4EFF4A086"]
+			id: "1353320CF0C75B7F"
+			tasks: [{
+				id: "3BED1EBC8B27ECDD"
+				type: "item"
+				item: {
+					id: "nomadictents:small_shamiyana"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "20BF7A52FE94A8FD"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "4852BBC932D5C480"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["1353320CF0C75B7F"]
+			id: "6DF6005B64256742"
+			tasks: [{
+				id: "6756431F8F8A666C"
+				type: "item"
+				item: {
+					id: "nomadictents:medium_shamiyana"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "34DDF0EAE1CE5976"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "0C8640F8043966D5"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["7771611A73A84EA2"]
+			id: "3C0F2939C0BC9770"
+			tasks: [{
+				id: "4B85ACC574938D39"
+				type: "item"
+				item: {
+					id: "nomadictents:giant_shamiyana"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "050494D493E536EC"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "6910A0766A1FCC1D"
+					type: "item"
+					item: "kubejs:diamond_nugget"
+				}
+				{
+					id: "393C1B1DD5A92528"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			dependencies: ["3C0F2939C0BC9770"]
+			id: "2ED5B4845B7FA120"
+			tasks: [{
+				id: "014BCE6F74600C9A"
+				type: "item"
+				item: {
+					id: "nomadictents:mega_shamiyana"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "55A7AA2FDEEC8CC7"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "3F3C409CD1456EA1"
+					type: "item"
+					item: "kubejs:emerald_nugget"
+				}
+				{
+					id: "51D1E38B39C04A56"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["67AF39D5CA3E89A2"]
+			id: "4B46CFEC13B3DF75"
+			tasks: [{
+				id: "0053295FC37EE115"
+				type: "item"
+				item: {
+					id: "nomadictents:large_yurt"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "594499C311540BB2"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "51A48525028F975A"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			dependencies: ["102BAB2EE0B49D5E"]
+			id: "019E9AB87BD9DE0F"
+			tasks: [{
+				id: "4672BDEBA8D9379A"
+				type: "item"
+				item: {
+					id: "nomadictents:large_tepee"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "3C3D28BEDDB60A1B"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "4C130D805801241D"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["2E95E34CC40472F3"]
+			id: "50C34F1191FE2A21"
+			tasks: [{
+				id: "14FABC86371B47DD"
+				type: "item"
+				item: {
+					id: "nomadictents:large_bedouin"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "16BA86BE2E7EE06B"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "0AC8222069E12730"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["063015BA07734242"]
+			id: "0A212C964AFF04A5"
+			tasks: [{
+				id: "24D486AA256438F1"
+				type: "item"
+				item: {
+					id: "nomadictents:large_indlu"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "1ED913B3E431C600"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "4860B14D3AEC7666"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["6DF6005B64256742"]
+			id: "7771611A73A84EA2"
+			tasks: [{
+				id: "1E0F0BEBC7C81533"
+				type: "item"
+				item: {
+					id: "nomadictents:large_shamiyana"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "21A01E584CB8C8EE"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "301C6F3081C6AD00"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+	]
+}

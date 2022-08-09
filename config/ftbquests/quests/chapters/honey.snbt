@@ -1,0 +1,450 @@
+{
+	id: "0000000000000004"
+	group: "46433AE7955AB640"
+	order_index: 2
+	filename: "honey"
+	title: "Busy Bees"
+	icon: "minecraft:honeycomb"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["Sweet, sweet comb."]
+			dependencies: ["0000000000000129"]
+			id: "1AFBAF4ECA08B555"
+			tasks: [{
+				id: "00000000000000CF"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+			rewards: [{
+				id: "610CB89180D2102C"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["575C18AFB7EB80A0"]
+			id: "0000000000000127"
+			tasks: [{
+				id: "0000000000000128"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+			rewards: [{
+				id: "365E48C39BD1331D"
+				type: "item"
+				item: "kubejs:copper_coin"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			description: ["The first home you can make for bees."]
+			dependencies: ["000000000000030F"]
+			id: "0000000000000129"
+			tasks: [{
+				id: "000000000000012A"
+				type: "item"
+				item: "minecraft:beehive"
+			}]
+			rewards: [
+				{
+					id: "53B68CE745141B05"
+					type: "item"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "00000000000002FF"
+					type: "item"
+					item: "minecraft:orange_carpet"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			description: [
+				"Bees inhabiting the advanced beehive will produce resources for you."
+				"Resources can be extracted automatically."
+				"Honey will be harvested automatically."
+				"Advanced hives are comfortable and bees living in here will not mind the hive being harvested."
+				"Can be expanded using an expansion box."
+			]
+			dependencies: ["0000000000000129"]
+			id: "0000000000000307"
+			tasks: [{
+				id: "0000000000000308"
+				type: "item"
+				item: "productivebees:advanced_oak_beehive"
+			}]
+			rewards: [
+				{
+					id: "000000000000060C"
+					type: "item"
+					item: "minecraft:azure_bluet"
+				}
+				{
+					id: "2632C18832A9FFB3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["Adds room for 2 more bees for a total of 5."]
+			dependencies: ["0000000000000307"]
+			id: "0000000000000309"
+			tasks: [{
+				id: "000000000000030A"
+				type: "item"
+				item: "productivebees:expansion_box_oak"
+			}]
+			rewards: [{
+				id: "77082DAB56DC1E6B"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.0d
+			description: ["Extract resources from combs produced by your bees."]
+			dependencies: ["0000000000000307"]
+			id: "000000000000030B"
+			tasks: [{
+				id: "000000000000030C"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+			rewards: [
+				{
+					id: "0000000000000607"
+					type: "item"
+					item: "minecraft:wither_rose"
+					count: 2
+				}
+				{
+					id: "154637A2EEDB22E8"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			description: [
+				"Calms down angry bees, heals bees, and baby bees will grow faster when fed this."
+				""
+				""
+			]
+			dependencies: ["0000000000000127"]
+			id: "000000000000030D"
+			tasks: [{
+				id: "000000000000030E"
+				type: "item"
+				item: "productivebees:honey_treat"
+			}]
+			rewards: [{
+				id: "6CDAF6DF2B663E89"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "hexagon"
+			description: ["Capture and keep your bees safe during transport. One time use."]
+			size: 1.5d
+			id: "000000000000030F"
+			tasks: [{
+				id: "0000000000000310"
+				type: "item"
+				item: "productivebees:bee_cage"
+			}]
+			rewards: [
+				{
+					id: "0000000000000323"
+					type: "item"
+					item: "productivebees:bee_cage"
+				}
+				{
+					id: "05D26ED057875854"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["Will allow bees to be fed."]
+			dependencies: ["0000000000000129"]
+			id: "1DBF47C93EE85A18"
+			tasks: [{
+				id: "09548C9F7C01F30F"
+				type: "item"
+				item: "productivebees:feeder"
+			}]
+			rewards: [{
+				id: "1BB91AF2B691CC45"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["Places honey into bottles."]
+			dependencies: [
+				"00000000000000CE"
+				"1AFBAF4ECA08B555"
+			]
+			id: "575C18AFB7EB80A0"
+			tasks: [{
+				id: "5EF42AACD36AC17A"
+				type: "item"
+				item: "productivebees:bottler"
+			}]
+			rewards: [
+				{
+					id: "396DC8167D45292A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_materials"
+						}
+					}
+				}
+				{
+					id: "37F1FA452D406232"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["will generate power when fed with honey."]
+			dependencies: [
+				"00000000000000CE"
+				"0000000000000127"
+			]
+			id: "106B69AD442F9392"
+			tasks: [{
+				id: "0D97FC8347CCB2DD"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+			rewards: [
+				{
+					id: "2B4FC320EA042265"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "742C48DACB33233D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["Raises baby bees."]
+			dependencies: ["106B69AD442F9392"]
+			id: "42928DFCE3C87478"
+			tasks: [{
+				id: "1968EA80744DEBB9"
+				type: "item"
+				item: "productivebees:incubator"
+			}]
+			rewards: [
+				{
+					id: "501A48019096B061"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "78647A99397892FA"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			description: ["A handy knowledge book about Productive Bees."]
+			dependencies: ["000000000000030F"]
+			id: "15037C611BEEBB4F"
+			tasks: [{
+				id: "4C1AB16E2EBCAA5A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "productivebees:guide"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2F38F948DB30AC7B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "random_dyes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["Right click the locator on a block of your choosing and it will locate a nest of the same type within a distance."]
+			dependencies: ["000000000000030F"]
+			id: "3F072BDFACB5F6DF"
+			tasks: [{
+				id: "3F9BE709C13D4B87"
+				type: "item"
+				item: {
+					id: "productivebees:nest_locator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3694D59288754183"
+				type: "item"
+				item: "aquaculture:box"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			description: ["Will catch bees that fly over it."]
+			dependencies: ["0000000000000129"]
+			id: "0AB33D74F6160D35"
+			tasks: [{
+				id: "082B7EC4206E697B"
+				type: "item"
+				item: "productivebees:catcher"
+			}]
+			rewards: [{
+				id: "56BA6500BF77CBFF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "random_mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			description: ["Will allow you to display a bee."]
+			dependencies: ["000000000000030F"]
+			id: "454453E103EFA02A"
+			tasks: [{
+				id: "14660E3E34B6C228"
+				type: "item"
+				item: {
+					id: "productivebees:jar_oak"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "119818F75F94F863"
+					type: "item"
+					item: "aquaculture:box"
+				}
+				{
+					id: "1FA653CBB8EC94AD"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			description: ["Uses power to process comb faster."]
+			dependencies: ["106B69AD442F9392"]
+			id: "15BD3956AF2AFFF7"
+			tasks: [{
+				id: "3A49EB973763F130"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "0E281C156430A4D1"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "06B5897739CD5923"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			subtitle: "Breed all the vanilla type Productive bees"
+			dependencies: ["0000000000000307"]
+			id: "720DA46F439D8886"
+			tasks: [{
+				id: "417266D2492161EE"
+				type: "advancement"
+				advancement: "productivebees:husbandry/bee_cage/quartz_nest/catch_crystalline_bee/breed_iron_bee/breed_all_productive_bees"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "7BE27E520EBAB261"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "320D3EA394A6638D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+	]
+}

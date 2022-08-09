@@ -1,0 +1,3192 @@
+{
+	id: "0000000000000002",
+	group: "",
+	order_index: 0,
+	filename: "basicsurvival",
+	title: "Basic survival",
+	icon: "minecraft:iron_pickaxe",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -5.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;8],
+			dependency_requirement: "all_completed",
+			id: 6,
+			tasks: [{
+				id: 7,
+				type: "item",
+				item: "minecraft:crafting_table"
+			}],
+			rewards: [{
+				id: 542,
+				type: "item",
+				item: {
+					id: "minecraft:cookie",
+					Count: 5b
+				}
+			}]
+		},
+		{
+			x: -6.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;],
+			dependency_requirement: "all_completed",
+			id: 8,
+			tasks: [{
+				id: 9,
+				type: "item",
+				title: "Any minecraft:logs",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}],
+			rewards: [{
+				id: 541,
+				type: "item",
+				item: {
+					id: "minecraft:apple",
+					Count: 3b
+				}
+			}]
+		},
+		{
+			x: -4.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;6],
+			dependency_requirement: "all_completed",
+			id: 10,
+			tasks: [{
+				id: 11,
+				type: "item",
+				item: {
+					id: "minecraft:wooden_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 543,
+					type: "item",
+					item: {
+						id: "minecraft:stick",
+						Count: 6b
+					}
+				},
+				{
+					id: 706,
+					type: "xp",
+					xp: 100
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;10],
+			dependency_requirement: "all_completed",
+			id: 13,
+			tasks: [{
+				id: 14,
+				type: "item",
+				item: {
+					id: "minecraft:stone_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 906,
+				type: "item",
+				item: {
+					id: "minecraft:apple",
+					Count: 3b
+				}
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;63],
+			dependency_requirement: "all_completed",
+			id: 15,
+			tasks: [{
+				id: 16,
+				type: "item",
+				item: {
+					id: "minecraft:iron_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 925,
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 3b
+					}
+				},
+				{
+					id: 926,
+					type: "item",
+					item: {
+						id: "minecraft:string",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;13],
+			dependency_requirement: "all_completed",
+			id: 17,
+			tasks: [{
+				id: 18,
+				type: "item",
+				item: "minecraft:furnace"
+			}],
+			rewards: [
+				{
+					id: 545,
+					type: "item",
+					item: {
+						id: "minecraft:charcoal",
+						Count: 8b
+					}
+				},
+				{
+					id: 907,
+					type: "item",
+					item: {
+						id: "minecraft:cod",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;17],
+			dependency_requirement: "all_completed",
+			id: 19,
+			tasks: [{
+				id: 20,
+				type: "item",
+				title: "Any forge:chests",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "forge:chests"
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 453,
+					type: "item",
+					item: {
+						id: "quark:mushroom_chest",
+						Count: 2b
+					}
+				},
+				{
+					id: 721,
+					type: "item",
+					item: {
+						id: "minecraft:oak_log",
+						Count: 16b
+					}
+				}
+			]
+		},
+		{
+			x: -6.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"You can craft a new quest book with a book and stone.",
+				"",
+				"But better not lose it :)"
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;8],
+			dependency_requirement: "all_completed",
+			id: 21,
+			tasks: [{
+				id: 22,
+				type: "item",
+				item: "ftbquests:book"
+			}],
+			rewards: [{
+				id: 539,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;17],
+			dependency_requirement: "all_completed",
+			id: 23,
+			tasks: [{
+				id: 24,
+				type: "item",
+				title: "Any minecraft:beds",
+				item: {
+					id: "itemfilters:tag",
+					Count: 1b,
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+			}],
+			rewards: [{
+				id: 456,
+				type: "item",
+				item: "pamhc2crops:hotteaitem"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;23],
+			dependency_requirement: "all_completed",
+			id: 25,
+			tasks: [{
+				id: 26,
+				type: "item",
+				item: "comforts:sleeping_bag_white"
+			}],
+			rewards: [{
+				id: 457,
+				type: "item",
+				item: "pamhc2crops:hotcoffeeitem"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;69],
+			dependency_requirement: "all_completed",
+			id: 27,
+			tasks: [{
+				id: 28,
+				type: "item",
+				item: {
+					id: "minecraft:diamond_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 733,
+					type: "item",
+					item: "minecraft:diamond"
+				},
+				{
+					id: 734,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;76],
+			dependency_requirement: "all_completed",
+			id: 29,
+			tasks: [{
+				id: 30,
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 631,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				},
+				{
+					id: 713,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 3b
+					}
+				},
+				{
+					id: 716,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 724,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: -2.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;37],
+			dependency_requirement: "all_completed",
+			id: 32,
+			tasks: [
+				{
+					id: 33,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 34,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 35,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 36,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 471,
+				type: "item",
+				item: {
+					id: "minecraft:potion",
+					Count: 1b,
+					tag: {
+						Potion: "quark:long_resistance"
+					}
+				}
+			}]
+		},
+		{
+			x: -2.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;59],
+			dependency_requirement: "all_completed",
+			id: 37,
+			tasks: [
+				{
+					id: 38,
+					type: "item",
+					item: {
+						id: "pickletweaks:grass_fiber_mesh",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 39,
+					type: "item",
+					item: {
+						id: "pickletweaks:flint_shears",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 41,
+					type: "item",
+					item: "minecraft:grass",
+					count: 15L
+				}
+			],
+			rewards: [
+				{
+					id: 42,
+					type: "item",
+					item: {
+						id: "minecraft:flint",
+						Count: 5b
+					}
+				},
+				{
+					id: 56,
+					type: "item",
+					item: {
+						id: "minecraft:gravel",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;76],
+			dependency_requirement: "all_completed",
+			id: 43,
+			tasks: [
+				{
+					id: 44,
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 45,
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 46,
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 47,
+					type: "item",
+					item: {
+						id: "pickletweaks:emerald_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 630,
+				type: "item",
+				item: "pickletweaks:emerald_apple"
+			}]
+		},
+		{
+			x: 5.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;29],
+			dependency_requirement: "all_completed",
+			id: 48,
+			tasks: [{
+				id: 49,
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_paxel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 714,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 3b
+					}
+				},
+				{
+					id: 717,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 725,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;27],
+			dependency_requirement: "all_completed",
+			id: 52,
+			tasks: [{
+				id: 53,
+				type: "item",
+				item: {
+					id: "pickletweaks:diamond_paxel",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 922,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 923,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:unbreaking"
+							}]
+						}
+					}
+				},
+				{
+					id: 924,
+					type: "item",
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;183],
+			dependency_requirement: "all_completed",
+			id: 54,
+			tasks: [{
+				id: 55,
+				type: "item",
+				item: "charm:bookshelf_chest_oak"
+			}],
+			rewards: [
+				{
+					id: 527,
+					type: "item",
+					item: "projectvibrantjourneys:pine_door"
+				},
+				{
+					id: 709,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "How to use JEI(that thing with items on the left)",
+			size: 1.0d,
+			description: [
+				'• Hovering over an item and pressing the "R" key (for Recipe) will display that item\'s recipe.',
+				'• Pressing the "U" key (for Use) shows what that item can be used to create through crafting grids. ',
+				'• To search by mod name use the "@" key before search in search box.',
+				"• To select the search box without clicking on it, the player can press Ctrl + F."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;8],
+			dependency_requirement: "all_completed",
+			id: 57,
+			tasks: [{
+				id: 58,
+				type: "checkmark",
+				icon: "itemfilters:not"
+			}],
+			rewards: [{
+				id: 540,
+				type: "xp_levels",
+				xp_levels: 1
+			}]
+		},
+		{
+			title: "Flint is now useful too!",
+			x: -3.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;13],
+			dependency_requirement: "all_completed",
+			id: 59,
+			tasks: [{
+				id: 60,
+				type: "item",
+				item: "minecraft:flint"
+			}],
+			rewards: [{
+				id: 617,
+				type: "item",
+				item: {
+					id: "minecraft:lapis_lazuli",
+					Count: 4b
+				}
+			}]
+		},
+		{
+			x: -3.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;59],
+			dependency_requirement: "all_completed",
+			id: 61,
+			tasks: [{
+				id: 62,
+				type: "item",
+				item: {
+					id: "pickletweaks:flint_pickaxe",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 618,
+				type: "item",
+				item: {
+					id: "minecraft:red_dye",
+					Count: 4b
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;17],
+			dependency_requirement: "all_completed",
+			id: 63,
+			tasks: [{
+				id: 64,
+				type: "item",
+				item: "minecraft:iron_ingot"
+			}],
+			rewards: [
+				{
+					id: 735,
+					type: "xp_levels",
+					xp_levels: 3
+				},
+				{
+					id: 900,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 4b
+					}
+				},
+				{
+					id: 901,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 4b
+					}
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;63],
+			dependency_requirement: "all_completed",
+			id: 65,
+			tasks: [
+				{
+					id: 66,
+					type: "item",
+					item: {
+						id: "minecraft:shield",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 75,
+					type: "item",
+					item: {
+						id: "minecraft:iron_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 462,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				},
+				{
+					id: 902,
+					type: "item",
+					item: {
+						id: "minecraft:bone",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;63],
+			dependency_requirement: "all_completed",
+			id: 67,
+			tasks: [{
+				id: 68,
+				type: "item",
+				item: "minecraft:lava_bucket"
+			}],
+			rewards: [{
+				id: 899,
+				type: "item",
+				item: {
+					id: "minecraft:black_dye",
+					Count: 3b
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;15],
+			dependency_requirement: "all_completed",
+			id: 69,
+			tasks: [{
+				id: 70,
+				type: "item",
+				item: "minecraft:diamond"
+			}],
+			rewards: [
+				{
+					id: 443,
+					type: "item",
+					item: "quark:blue_blossom_sapling"
+				},
+				{
+					id: 934,
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				183,
+				185
+			],
+			dependency_requirement: "all_completed",
+			id: 71,
+			tasks: [{
+				id: 72,
+				type: "item",
+				item: "minecraft:enchanting_table"
+			}],
+			rewards: [
+				{
+					id: 633,
+					type: "item",
+					item: {
+						id: "minecraft:book",
+						Count: 5b
+					}
+				},
+				{
+					id: 732,
+					type: "xp_levels",
+					xp_levels: 5
+				}
+			]
+		},
+		{
+			x: -3.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;13],
+			dependency_requirement: "all_completed",
+			id: 73,
+			tasks: [{
+				id: 74,
+				type: "item",
+				item: {
+					id: "minecraft:stone_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 544,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				},
+				{
+					id: 887,
+					type: "item",
+					item: {
+						id: "minecraft:slime_ball",
+						Count: 3b
+					}
+				},
+				{
+					id: 1202,
+					type: "item",
+					item: {
+						id: "minecraft:ink_sac",
+						Count: 16b
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;287],
+			dependency_requirement: "all_completed",
+			id: 76,
+			tasks: [{
+				id: 77,
+				type: "item",
+				item: "minecraft:emerald"
+			}],
+			rewards: [
+				{
+					id: 712,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 3b
+					}
+				},
+				{
+					id: 715,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 723,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;84],
+			dependency_requirement: "all_completed",
+			id: 78,
+			tasks: [{
+				id: 79,
+				type: "item",
+				item: "strange:writing_desk"
+			}],
+			rewards: [
+				{
+					id: 526,
+					type: "item",
+					item: "projectvibrantjourneys:fir_door"
+				},
+				{
+					id: 708,
+					type: "xp_levels",
+					xp_levels: 2
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;78],
+			dependency_requirement: "all_completed",
+			id: 80,
+			tasks: [{
+				id: 81,
+				type: "item",
+				item: {
+					id: "strange:scroll",
+					Count: 1b,
+					tag: {
+						tier: 1,
+						display: {
+							Name: '{"translate":"item.strange.scroll_tier1"}'
+						}
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 534,
+					type: "item",
+					item: "projectvibrantjourneys:aspen_sapling"
+				},
+				{
+					id: 711,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 896,
+					type: "item",
+					item: {
+						id: "minecraft:black_dye",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;84],
+			dependency_requirement: "all_completed",
+			id: 82,
+			tasks: [{
+				id: 83,
+				type: "item",
+				item: {
+					id: "strange:travel_journal",
+					Count: 1b,
+					tag: {
+						entries: {
+							strange_ZlRqXHYM: {
+								color: 15,
+								pos: -115998480502708L,
+								name: "Savanna",
+								dim: 0,
+								id: "strange_ZlRqXHYM",
+								posref: "00l9c9p1bl0o"
+							}
+						}
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 897,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 4b
+					}
+				},
+				{
+					id: 898,
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;369],
+			dependency_requirement: "all_completed",
+			id: 84,
+			tasks: [{
+				id: 85,
+				type: "item",
+				item: "minecraft:book"
+			}],
+			rewards: [
+				{
+					id: 707,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 893,
+					type: "item",
+					item: {
+						id: "minecraft:paper",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;1207],
+			dependency_requirement: "all_completed",
+			id: 97,
+			tasks: [{
+				id: 1367,
+				type: "item",
+				item: "backpacked:backpack"
+			}],
+			rewards: [
+				{
+					id: 627,
+					type: "item",
+					item: {
+						id: "minecraft:leather",
+						Count: 3b
+					}
+				},
+				{
+					id: 889,
+					type: "item",
+					item: {
+						id: "minecraft:slime_ball",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths.",
+				"",
+				"A Trowel will break after placing 256 blocks, or four stacks."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;63],
+			dependency_requirement: "all_completed",
+			id: 99,
+			tasks: [{
+				id: 100,
+				type: "item",
+				item: {
+					id: "quark:trowel",
+					Count: 1b,
+					tag: {
+						Damage: 0,
+						last_stack: {
+							id: "minecraft:polished_andesite",
+							Count: 1
+						},
+						placing_seed: -1712070416600608528L
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 908,
+					type: "item",
+					item: "minecraft:stone"
+				},
+				{
+					id: 909,
+					type: "item",
+					item: "minecraft:andesite"
+				},
+				{
+					id: 910,
+					type: "item",
+					item: "minecraft:cobblestone"
+				},
+				{
+					id: 911,
+					type: "item",
+					item: "minecraft:gravel"
+				},
+				{
+					id: 912,
+					type: "item",
+					item: "minecraft:mossy_cobblestone"
+				},
+				{
+					id: 913,
+					type: "item",
+					item: "minecraft:stone_bricks"
+				},
+				{
+					id: 914,
+					type: "item",
+					item: "minecraft:cracked_stone_bricks"
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;19],
+			dependency_requirement: "all_completed",
+			id: 101,
+			tasks: [{
+				id: 102,
+				type: "item",
+				item: "quark:chute"
+			}],
+			rewards: [
+				{
+					id: 626,
+					type: "item",
+					item: "projectvibrantjourneys:baobab_door"
+				},
+				{
+					id: 888,
+					type: "item",
+					item: {
+						id: "minecraft:paper",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;19],
+			dependency_requirement: "all_completed",
+			id: 171,
+			tasks: [{
+				id: 172,
+				type: "item",
+				item: "mcwwindows:window_base"
+			}],
+			rewards: [
+				{
+					id: 529,
+					type: "item",
+					item: "projectvibrantjourneys:willow_door"
+				},
+				{
+					id: 890,
+					type: "item",
+					item: {
+						id: "minecraft:glass",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;171],
+			dependency_requirement: "all_completed",
+			id: 173,
+			tasks: [{
+				id: 174,
+				type: "item",
+				item: "mcwwindows:window_centre_bar_base"
+			}],
+			rewards: [
+				{
+					id: 528,
+					type: "item",
+					item: "projectvibrantjourneys:palm_door"
+				},
+				{
+					id: 628,
+					type: "item",
+					item: {
+						id: "minecraft:glass",
+						Count: 6b
+					}
+				}
+			]
+		},
+		{
+			x: -1.5d,
+			y: -3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;171],
+			dependency_requirement: "all_completed",
+			id: 175,
+			tasks: [{
+				id: 176,
+				type: "item",
+				item: "mcwwindows:spruce_plank_parapet"
+			}],
+			rewards: [
+				{
+					id: 470,
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 3b
+					}
+				},
+				{
+					id: 530,
+					type: "item",
+					item: "projectvibrantjourneys:mangrove_door"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;19],
+			dependency_requirement: "all_completed",
+			id: 177,
+			tasks: [{
+				id: 178,
+				type: "item",
+				item: "storagedrawers:oak_full_drawers_1"
+			}],
+			rewards: [
+				{
+					id: 726,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 891,
+					type: "item",
+					item: {
+						id: "minecraft:paper",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;177],
+			dependency_requirement: "all_completed",
+			id: 179,
+			tasks: [{
+				id: 180,
+				type: "item",
+				item: "storagedrawers:oak_full_drawers_2"
+			}],
+			rewards: [
+				{
+					id: 727,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 892,
+					type: "item",
+					item: {
+						id: "minecraft:black_dye",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;63],
+			dependency_requirement: "all_completed",
+			id: 181,
+			tasks: [{
+				id: 182,
+				type: "item",
+				item: "uppers:upper"
+			}],
+			rewards: [
+				{
+					id: 930,
+					type: "item",
+					item: {
+						id: "minecraft:string",
+						Count: 3b
+					}
+				},
+				{
+					id: 931,
+					type: "item",
+					item: {
+						id: "minecraft:black_dye",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 5.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;84],
+			dependency_requirement: "all_completed",
+			id: 183,
+			tasks: [{
+				id: 184,
+				type: "item",
+				item: "minecraft:bookshelf"
+			}],
+			rewards: [
+				{
+					id: 710,
+					type: "xp_levels",
+					xp_levels: 2
+				},
+				{
+					id: 894,
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 3b
+					}
+				},
+				{
+					id: 895,
+					type: "item",
+					item: {
+						id: "minecraft:paper",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 4.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;
+				69,
+				67
+			],
+			dependency_requirement: "one_completed",
+			id: 185,
+			tasks: [
+				{
+					id: 186,
+					type: "item",
+					item: "minecraft:obsidian"
+				},
+				{
+					id: 189,
+					type: "item",
+					item: {
+						id: "minecraft:flint_and_steel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [{
+				id: 634,
+				type: "item",
+				item: "minecraft:water_bucket"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;71],
+			dependency_requirement: "all_completed",
+			id: 187,
+			tasks: [{
+				id: 188,
+				type: "item",
+				item: "minecraft:ender_eye"
+			}],
+			rewards: [{
+				id: 905,
+				type: "item",
+				item: {
+					id: "minecraft:paper",
+					Count: 3b
+				}
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;200],
+			dependency_requirement: "all_completed",
+			id: 190,
+			tasks: [{
+				id: 191,
+				type: "item",
+				item: "minecraft:wither_skeleton_skull",
+				count: 3L
+			}],
+			rewards: [{
+				id: 928,
+				type: "item",
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		},
+		{
+			x: 9.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;196],
+			dependency_requirement: "all_completed",
+			id: 192,
+			tasks: [{
+				id: 193,
+				type: "item",
+				item: "minecraft:nether_star"
+			}],
+			rewards: [
+				{
+					id: 920,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 929,
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 3b
+					}
+				},
+				{
+					id: 1176,
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 3b
+					}
+				},
+				{
+					id: 1182,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 10b
+					}
+				},
+				{
+					id: 1188,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 5b
+					}
+				},
+				{
+					id: 1194,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			x: 10.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;192],
+			dependency_requirement: "all_completed",
+			id: 194,
+			tasks: [{
+				id: 195,
+				type: "item",
+				item: "minecraft:beacon"
+			}],
+			rewards: [
+				{
+					id: 919,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1177,
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 3b
+					}
+				},
+				{
+					id: 1183,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 10b
+					}
+				},
+				{
+					id: 1189,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 5b
+					}
+				},
+				{
+					id: 1195,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			x: 8.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;190],
+			dependency_requirement: "all_completed",
+			id: 196,
+			tasks: [{
+				id: 197,
+				type: "kill",
+				entity: "minecraft:wither",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 921,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1175,
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 3b
+					}
+				},
+				{
+					id: 1181,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 10b
+					}
+				},
+				{
+					id: 1187,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 5b
+					}
+				},
+				{
+					id: 1193,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			x: 9.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;202],
+			dependency_requirement: "all_completed",
+			id: 198,
+			tasks: [{
+				id: 199,
+				type: "kill",
+				entity: "minecraft:ender_dragon",
+				value: 1L
+			}],
+			rewards: [
+				{
+					id: 916,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1180,
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 3b
+					}
+				},
+				{
+					id: 1186,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 10b
+					}
+				},
+				{
+					id: 1192,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 5b
+					}
+				},
+				{
+					id: 1198,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;185],
+			dependency_requirement: "all_completed",
+			id: 200,
+			tasks: [{
+				id: 201,
+				type: "dimension",
+				dimension: "minecraft:the_nether"
+			}],
+			rewards: [{
+				id: 454,
+				type: "item",
+				item: {
+					id: "quark:nether_brick_chest",
+					Count: 2b
+				}
+			}]
+		},
+		{
+			x: 8.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;187],
+			dependency_requirement: "all_completed",
+			id: 202,
+			tasks: [{
+				id: 203,
+				type: "dimension",
+				dimension: "minecraft:the_end"
+			}],
+			rewards: [
+				{
+					id: 632,
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 3b
+					}
+				},
+				{
+					id: 927,
+					type: "item",
+					item: "minecraft:enchanted_golden_apple"
+				}
+			]
+		},
+		{
+			x: -0.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;63],
+			dependency_requirement: "all_completed",
+			id: 208,
+			tasks: [{
+				id: 209,
+				type: "item",
+				item: "pickletweaks:magnet"
+			}],
+			rewards: [
+				{
+					id: 932,
+					type: "item",
+					item: {
+						id: "minecraft:pumpkin_pie",
+						Count: 3b
+					}
+				},
+				{
+					id: 933,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 10.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;198],
+			dependency_requirement: "all_completed",
+			id: 210,
+			tasks: [{
+				id: 211,
+				type: "item",
+				item: {
+					id: "minecraft:elytra",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 917,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1179,
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 3b
+					}
+				},
+				{
+					id: 1185,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 10b
+					}
+				},
+				{
+					id: 1191,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 5b
+					}
+				},
+				{
+					id: 1197,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			title: "Vanilla changes",
+			x: 3.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Killing a Raid Captain no longer grants the Bad Omen effect, instead the effect can be applied by burning its banner using a Flint and Steel.",
+				"",
+				"Pillagers can drop Arrows, have improved AI, and may spawn with a Firework Rocket that they can fire."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;82],
+			dependency_requirement: "all_completed",
+			id: 287,
+			tasks: [{
+				id: 288,
+				type: "item",
+				item: "minecraft:bell"
+			}],
+			rewards: [
+				{
+					id: 469,
+					type: "item",
+					item: {
+						id: "minecraft:golden_carrot",
+						Count: 3b
+					}
+				},
+				{
+					id: 629,
+					type: "item",
+					item: "minecraft:emerald"
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;63],
+			dependency_requirement: "all_completed",
+			id: 289,
+			tasks: [{
+				id: 290,
+				type: "item",
+				item: {
+					id: "pickletweaks:watering_can",
+					Count: 1b,
+					tag: {
+						Water: 0
+					}
+				}
+			}],
+			rewards: [{
+				id: 444,
+				type: "item",
+				item: "quark:yellow_blossom_sapling"
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 5.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;65],
+			dependency_requirement: "all_completed",
+			id: 291,
+			tasks: [{
+				id: 292,
+				type: "item",
+				item: {
+					id: "minecraft:diamond_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 463,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				},
+				{
+					id: 903,
+					type: "item",
+					item: {
+						id: "minecraft:black_dye",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: 6.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;291],
+			dependency_requirement: "all_completed",
+			id: 293,
+			tasks: [{
+				id: 294,
+				type: "item",
+				item: {
+					id: "pickletweaks:emerald_sword",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}],
+			rewards: [
+				{
+					id: 464,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:healing"
+						}
+					}
+				},
+				{
+					id: 465,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				},
+				{
+					id: 466,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strength"
+						}
+					}
+				},
+				{
+					id: 904,
+					type: "item",
+					item: {
+						id: "minecraft:ender_pearl",
+						Count: 3b
+					}
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;17],
+			dependency_requirement: "all_completed",
+			id: 369,
+			tasks: [
+				{
+					id: 370,
+					type: "item",
+					item: "minecraft:sugar_cane"
+				},
+				{
+					id: 371,
+					type: "item",
+					item: "minecraft:wheat_seeds"
+				},
+				{
+					id: 372,
+					type: "item",
+					item: "minecraft:beetroot_seeds"
+				}
+			],
+			rewards: [{
+				id: 468,
+				type: "item",
+				item: {
+					id: "minecraft:golden_carrot",
+					Count: 3b
+				}
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;82],
+			dependency_requirement: "all_completed",
+			id: 373,
+			tasks: [{
+				id: 374,
+				type: "item",
+				item: "minecraft:dark_oak_boat"
+			}],
+			rewards: [
+				{
+					id: 467,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:swiftness"
+						}
+					}
+				},
+				{
+					id: 533,
+					type: "item",
+					item: "projectvibrantjourneys:baobab_sapling"
+				},
+				{
+					id: 718,
+					type: "xp_levels",
+					xp_levels: 1
+				},
+				{
+					id: 1203,
+					type: "item",
+					item: {
+						id: "minecraft:ink_sac",
+						Count: 16b
+					}
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;373],
+			dependency_requirement: "all_completed",
+			id: 375,
+			tasks: [{
+				id: 376,
+				type: "item",
+				item: "extraboats:spruce_chest_boat"
+			}],
+			rewards: [
+				{
+					id: 532,
+					type: "item",
+					item: "projectvibrantjourneys:willow_sapling"
+				},
+				{
+					id: 719,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;375],
+			dependency_requirement: "all_completed",
+			id: 377,
+			tasks: [{
+				id: 378,
+				type: "item",
+				item: "extraboats:large_jungle_boat"
+			}],
+			rewards: [
+				{
+					id: 531,
+					type: "item",
+					item: "projectvibrantjourneys:redwood_sapling"
+				},
+				{
+					id: 720,
+					type: "xp_levels",
+					xp_levels: 1
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: -3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;177],
+			dependency_requirement: "all_completed",
+			id: 434,
+			tasks: [{
+				id: 435,
+				type: "item",
+				item: "mcwfurnitures:spruce_plate"
+			}],
+			rewards: [
+				{
+					id: 436,
+					type: "item",
+					item: "mcwfurnitures:spruce_dresser_14"
+				},
+				{
+					id: 722,
+					type: "item",
+					item: {
+						id: "projectvibrantjourneys:maple_log",
+						Count: 16b
+					}
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;369],
+			dependency_requirement: "all_completed",
+			id: 678,
+			tasks: [{
+				id: 679,
+				type: "item",
+				item: "incubation:chicken_nest"
+			}],
+			rewards: [{
+				id: 728,
+				type: "item",
+				item: {
+					id: "minecraft:egg",
+					Count: 4b
+				}
+			}]
+		},
+		{
+			x: 10.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;198],
+			dependency_requirement: "all_completed",
+			id: 680,
+			tasks: [{
+				id: 681,
+				type: "item",
+				item: "minecraft:shulker_box"
+			}],
+			rewards: [
+				{
+					id: 918,
+					type: "xp_levels",
+					xp_levels: 5
+				},
+				{
+					id: 1178,
+					type: "item",
+					item: {
+						id: "minecraft:diamond",
+						Count: 3b
+					}
+				},
+				{
+					id: 1184,
+					type: "item",
+					item: {
+						id: "minecraft:iron_ingot",
+						Count: 10b
+					}
+				},
+				{
+					id: 1190,
+					type: "item",
+					item: {
+						id: "minecraft:gold_ingot",
+						Count: 5b
+					}
+				},
+				{
+					id: 1196,
+					type: "item",
+					item: {
+						id: "minecraft:emerald",
+						Count: 5b
+					}
+				}
+			]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;15],
+			dependency_requirement: "all_completed",
+			id: 682,
+			tasks: [
+				{
+					id: 683,
+					type: "item",
+					item: {
+						id: "minecraft:iron_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 684,
+					type: "item",
+					item: {
+						id: "minecraft:iron_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 685,
+					type: "item",
+					item: {
+						id: "minecraft:iron_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 686,
+					type: "item",
+					item: {
+						id: "minecraft:iron_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 729,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3,
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				},
+				{
+					id: 730,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1,
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 3.5d,
+			y: 0.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;678],
+			dependency_requirement: "all_completed",
+			id: 704,
+			tasks: [{
+				id: 705,
+				type: "item",
+				item: "quark:feeding_trough"
+			}],
+			rewards: [{
+				id: 731,
+				type: "item",
+				item: {
+					id: "minecraft:wheat",
+					Count: 16b
+				}
+			}]
+		},
+		{
+			title: "Collect them all!",
+			x: 1.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;19],
+			dependency_requirement: "all_completed",
+			id: 804,
+			tasks: [
+				{
+					id: 805,
+					type: "item",
+					item: "quark:willow_chest"
+				},
+				{
+					id: 806,
+					type: "item",
+					item: "quark:poise_chest"
+				},
+				{
+					id: 807,
+					type: "item",
+					item: "quark:driftwood_chest"
+				},
+				{
+					id: 808,
+					type: "item",
+					item: "enhanced_mushrooms:brown_mushroom_chest"
+				},
+				{
+					id: 809,
+					type: "item",
+					item: "enhanced_mushrooms:glowshroom_chest"
+				},
+				{
+					id: 810,
+					type: "item",
+					item: "quark:mushroom_chest"
+				},
+				{
+					id: 811,
+					type: "item",
+					item: "quark:prismarine_chest"
+				},
+				{
+					id: 812,
+					type: "item",
+					item: "quark:purpur_chest"
+				},
+				{
+					id: 813,
+					type: "item",
+					item: "quark:nether_brick_chest"
+				},
+				{
+					id: 814,
+					type: "item",
+					item: "quark:bamboo_chest"
+				},
+				{
+					id: 815,
+					type: "item",
+					item: "quark:dark_oak_chest"
+				},
+				{
+					id: 816,
+					type: "item",
+					item: "quark:acacia_chest"
+				},
+				{
+					id: 817,
+					type: "item",
+					item: "quark:jungle_chest"
+				},
+				{
+					id: 818,
+					type: "item",
+					item: "quark:birch_chest"
+				},
+				{
+					id: 819,
+					type: "item",
+					item: "quark:spruce_chest"
+				},
+				{
+					id: 820,
+					type: "item",
+					item: "upgrade_aquatic:river_chest"
+				},
+				{
+					id: 821,
+					type: "item",
+					item: "quark:oak_chest"
+				},
+				{
+					id: 822,
+					type: "item",
+					item: "quark:yucca_chest"
+				},
+				{
+					id: 823,
+					type: "item",
+					item: "quark:rosewood_chest"
+				},
+				{
+					id: 824,
+					type: "item",
+					item: "quark:maple_chest"
+				},
+				{
+					id: 825,
+					type: "item",
+					item: "quark:hive_chest"
+				},
+				{
+					id: 826,
+					type: "item",
+					item: "quark:wisteria_chest"
+				}
+			]
+		},
+		{
+			x: -5.5d,
+			y: 2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Quests here will be added and reworked over time, based on your suggestions.",
+				"",
+				"Some mods in this pack are in early stage of developing/porting to 1.15.2. Please note that when you find any bugs."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;57],
+			dependency_requirement: "all_completed",
+			id: 1199,
+			tasks: [{
+				id: 1200,
+				type: "checkmark",
+				title: "About quests...",
+				icon: "itemfilters:id_regex"
+			}],
+			rewards: [{
+				id: 1201,
+				type: "item",
+				item: "pamhc2foodcore:carrotcupcakeitem"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -2.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [
+				"Select the Bundle from your inventory, then left click on a stack to put it inside the Bundle.",
+				"",
+				"You can't put a full stack of items inside the Bundle! Infact you can only put half the maximum stack ofan item inside the Bundle, unless is a non stackable item. When you are done, left click the Bundle on an empty slot in your Inventory.",
+				"",
+				"If you want to take out the Items from the Bundle, right click it and all Items inside the Bundle will be added to your Inventory."
+			],
+			min_required_dependencies: 0,
+			dependencies: [I;19],
+			dependency_requirement: "all_completed",
+			id: 1207,
+			tasks: [{
+				id: 1208,
+				type: "item",
+				item: {
+					id: "bundles:bundle",
+					Count: 1b,
+					tag: {}
+				}
+			}]
+		},
+		{
+			x: 6.5d,
+			y: 3.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;200],
+			dependency_requirement: "all_completed",
+			id: 1368,
+			tasks: [{
+				id: 1369,
+				type: "item",
+				item: "extendednether:ancient_debris"
+			}],
+			rewards: [
+				{
+					id: 1395,
+					type: "item",
+					item: "extendednether:shroomlight"
+				},
+				{
+					id: 1396,
+					type: "item",
+					item: "extendednether:soul_lantern"
+				},
+				{
+					id: 1397,
+					type: "item",
+					item: "extendednether:soul_torch"
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;1368],
+			dependency_requirement: "all_completed",
+			id: 1370,
+			tasks: [{
+				id: 1371,
+				type: "item",
+				item: "extendednether:netherite_ingot"
+			}],
+			rewards: [{
+				id: 1394,
+				type: "item",
+				item: "minecraft:diamond"
+			}]
+		},
+		{
+			x: 7.5d,
+			y: 4.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;1370],
+			dependency_requirement: "all_completed",
+			id: 1372,
+			tasks: [
+				{
+					id: 1373,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1374,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1375,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1376,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 1383,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s,
+								id: "minecraft:blast_protection"
+							}]
+						}
+					}
+				},
+				{
+					id: 1384,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:thorns"
+							}]
+						}
+					}
+				},
+				{
+					id: 1385,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:depth_strider"
+							}]
+						}
+					}
+				},
+				{
+					id: 1386,
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+				},
+				{
+					id: 1387,
+					type: "item",
+					item: {
+						id: "minecraft:splash_potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_invisibility"
+						}
+					}
+				},
+				{
+					id: 1388,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:long_regeneration"
+						}
+					}
+				}
+			]
+		},
+		{
+			x: 6.5d,
+			y: 5.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;1370],
+			dependency_requirement: "all_completed",
+			id: 1377,
+			tasks: [
+				{
+					id: 1378,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_sword",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1379,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_shovel",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1381,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_axe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: 1382,
+					type: "item",
+					item: {
+						id: "extendednether:netherite_pickaxe",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: 1389,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s,
+								id: "minecraft:efficiency"
+							}]
+						}
+					}
+				},
+				{
+					id: 1390,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				},
+				{
+					id: 1391,
+					type: "item",
+					item: {
+						id: "minecraft:enchanted_book",
+						Count: 1b,
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s,
+								id: "minecraft:sweeping"
+							}]
+						}
+					}
+				},
+				{
+					id: 1392,
+					type: "item",
+					item: {
+						id: "minecraft:potion",
+						Count: 1b,
+						tag: {
+							Potion: "minecraft:strong_strength"
+						}
+					}
+				},
+				{
+					id: 1393,
+					type: "item"
+				}
+			]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;82],
+			dependency_requirement: "all_completed",
+			id: 1398,
+			tasks: [{
+				id: 1399,
+				type: "item",
+				item: {
+					id: "naturescompass:naturescompass",
+					Count: 1b,
+					tag: {}
+				}
+			}],
+			rewards: [{
+				id: 1400,
+				type: "item",
+				item: {
+					id: "randomite:randomite_ore",
+					Count: 5b
+				}
+			}]
+		},
+		{
+			x: -1.5d,
+			y: 1.5d,
+			shape: "default",
+			subtitle: "",
+			size: 1.0d,
+			description: [],
+			min_required_dependencies: 0,
+			dependencies: [I;23],
+			dependency_requirement: "all_completed",
+			id: 1537,
+			tasks: [{
+				id: 1538,
+				type: "item",
+				item: "upgrade_aquatic:bedroll_leather"
+			}],
+			rewards: [{
+				id: 1539,
+				type: "item",
+				item: "pamhc2crops:hotteaitem"
+			}]
+		}
+	]
+}

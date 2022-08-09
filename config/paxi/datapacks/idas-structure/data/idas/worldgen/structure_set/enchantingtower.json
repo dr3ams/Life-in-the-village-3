@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:enchantingtower",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169480674,
+    "spacing": 30,
+    "separation": 15,
+    "type": "minecraft:random_spread"
+  }
+}

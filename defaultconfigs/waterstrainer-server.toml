@@ -1,0 +1,55 @@
+
+[IdleTime]
+	#Time (in seconds) until a strainer catches an item. [Default: 30]
+	#Range: 0 ~ 107374182
+	idle_time = 30
+	#Adds a deviation to the idle time to make it more random. [Default: 5]
+	#Range: 0 ~ 107374182
+	idle_time_deviation = 5
+
+#Set the max durability (uses) for each strainer type.
+#Use 0 for infinite durability.
+#Default:
+#- Normal: 120
+#- Solid: 720
+#- Reinforced: 8640
+[Durability]
+	#Range: 0 ~ 2147483646
+	durability_strainer_survivalist = 120
+	#Range: 0 ~ 2147483646
+	durability_strainer_survivalist_solid = 720
+	#Range: 0 ~ 2147483646
+	durability_strainer_survivalist_reinforced = 8640
+	#Range: 0 ~ 2147483646
+	durability_strainer_fisherman = 120
+	#Range: 0 ~ 2147483646
+	durability_strainer_fisherman_solid = 720
+	#Range: 0 ~ 2147483646
+	durability_strainer_fisherman_reinforced = 8640
+
+[Bonus]
+	#Bonus efficiency (in %) for Solid Strainers. Use 0 to disable bonus efficiency. [Default: 10]
+	#Range: 0 ~ 2147483646
+	bonus_solid_efficiency = 10
+	#Bonus efficiency (in %) for Reinforced Strainers. Use 0 to disable bonus efficiency. [Default: 25]
+	#Range: 0 ~ 2147483646
+	bonus_reinforced_efficiency = 25
+
+[WormBin]
+	#Valid food items for the worm bin
+	worm_bin_food = ["minecraft:apple", "minecraft:potato", "minecraft:beetroot", "minecraft:melon_slice", "minecraft:sweet_berries", "minecraft:carrot", "minecraft:chorus_fruit"]
+
+[Misc]
+	#Strainers are more or less efficient based on their placement (water level, biome, adjacent strainers).
+	#Bonus efficiency from strainer type and enchantments still apply. [Default: true]
+	misc_enable_efficiency = true
+	#Reinforced Strainers (Tier 3) can be enchanted. [Default: true]
+	misc_enable_enchanting = true
+	#Defines the maximum 'enchantability' of Enchanted Books collected by a strainer.
+	#A higher value results in more powerful enchantments on the book.
+	#The enchanting power will be a random number ranging from 1 to X [Default: 35]
+	#Range: 1 ~ 70
+	misc_book_max_enchantability = 35
+	#Valid bait items for the Fisherman's Strainer
+	misc_valid_bait = ["waterstrainer:worm", "waterstrainer:super_worm", "aquaculture:worm"]
+

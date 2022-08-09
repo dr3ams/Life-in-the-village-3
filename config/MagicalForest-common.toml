@@ -1,0 +1,7 @@
+
+#General Magical Forest Biome Configuration
+[general]
+	#Magical Forest spawn weight in Overworld. The lower the number, the rarer is the biome. Set 0 to disable this biome.
+	#Range: > 0
+	biomeWeightForest = 1
+

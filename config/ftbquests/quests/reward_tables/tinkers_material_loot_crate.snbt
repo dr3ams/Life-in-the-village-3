@@ -1,0 +1,85 @@
+{
+	id: "1C5F555825A46F4F"
+	order_index: 10
+	title: "Tinker's Material loot crate"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+		}
+		{ item: "tconstruct:slimesteel_ingot", count: 2 }
+		{ item: "tconstruct:amethyst_bronze_ingot", count: 2 }
+		{ item: "tconstruct:rose_gold_ingot", count: 2 }
+		{ item: "tconstruct:manyullyn_ingot", count: 2 }
+		{ item: "tconstruct:queens_slime_ingot", count: 2 }
+		{ item: "tconstruct:hepatizon_ingot", count: 2 }
+		{ item: "tconstruct:earth_slime_crystal_cluster" }
+		{ item: "tconstruct:sky_slime_crystal_cluster" }
+		{ item: "tconstruct:ichor_slime_crystal_cluster" }
+		{ item: "tconstruct:earth_slime_sapling" }
+		{ item: "tconstruct:sky_slime_sapling" }
+		{ item: "tconstruct:ender_slime_sapling" }
+		{ item: "tconstruct:sky_slime_ball", count: 3 }
+		{ item: "tconstruct:ender_slime_ball", count: 3 }
+		{ item: "tconstruct:blood_slime_ball", count: 3 }
+		{ item: "tconstruct:ichor_slime_ball", count: 3 }
+		{ item: "tconstruct:necrotic_bone" }
+		{ item: "tconstruct:ender_slime_crystal_cluster" }
+		{ item: "tconstruct:earth_slime_grass_seeds" }
+		{ item: "tconstruct:sky_slime_grass_seeds" }
+		{ item: "tconstruct:ender_slime_grass_seeds" }
+		{ item: "tconstruct:blood_slime_grass_seeds" }
+		{ item: "tconstruct:jeweled_apple" }
+		{ item: "tconstruct:blazing_bone" }
+		{ item: "tconstruct:bloodbone" }
+		{ item: "tconstruct:pig_iron_ingot", count: 2 }
+		{ item: "tconstruct:iron_reinforcement" }
+		{ item: "tconstruct:slimesteel_reinforcement" }
+		{ item: "tconstruct:seared_reinforcement" }
+		{ item: "tconstruct:emerald_reinforcement" }
+		{ item: "tconstruct:bronze_reinforcement" }
+		{ item: "tconstruct:cobalt_reinforcement" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 10376192
+		string_id: "tinker_s_material_loot_crate"
+	}
+}

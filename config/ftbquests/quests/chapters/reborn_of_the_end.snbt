@@ -1,0 +1,977 @@
+{
+	id: "00000000000005C5"
+	group: "2280ECB310C79FE3"
+	order_index: 1
+	filename: "reborn_of_the_end"
+	title: "The End"
+	icon: "nourished_end:abyssal_eylium"
+	default_quest_shape: "pentagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:dragon_head"
+			x: 4.0d
+			y: 4.0d
+			shape: "hexagon"
+			dependencies: ["744D7446D8F67623"]
+			size: 2.0d
+			id: "6CDC6733BD84ACA1"
+			tasks: [{
+				id: "178EE111694A84FC"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "7A3AD98FDCA45FBF"
+					type: "item"
+					item: "kubejs:netherite_coin"
+				}
+				{
+					id: "1A77CF7500E23858"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "1F50061C97E06AA7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "05A3B89C5BFF84B1"
+			tasks: [{
+				id: "406B11C2F302952F"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 2L
+			}]
+			rewards: [
+				{
+					id: "4F75D75608650603"
+					type: "item"
+					item: "kubejs:netherite_coin"
+				}
+				{
+					id: "0D6FF9EE96BEA2A7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["05A3B89C5BFF84B1"]
+			id: "2AF6CFC422E0F2D4"
+			tasks: [{
+				id: "3CBB0298B8C142EE"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 5L
+			}]
+			rewards: [
+				{
+					id: "3AC5645B5D3E0768"
+					type: "item"
+					item: "kubejs:diamond_coin"
+				}
+				{
+					id: "1C26C70FAE806065"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			icon: "minecraft:dragon_head"
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["2AF6CFC422E0F2D4"]
+			id: "4DDC5A2D6324CF3E"
+			tasks: [{
+				id: "4830CDA6ACF5CFDB"
+				type: "kill"
+				entity: "minecraft:ender_dragon"
+				value: 10L
+			}]
+			rewards: [
+				{
+					id: "10CCDA5EADD6594D"
+					type: "item"
+					item: "kubejs:netherite_coin"
+				}
+				{
+					id: "20D4A31EDDE6B293"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "1152BB4B1748C5CE"
+			tasks: [{
+				id: "2DEB16912F5F11E9"
+				type: "item"
+				item: "nourished_end:voidsteel_ore"
+			}]
+			rewards: [
+				{
+					id: "0AD5552DE4385C72"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "55301E1CB3727439"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "3D65328C0DE839B5"
+			tasks: [{
+				id: "707C7BDDA8132271"
+				type: "item"
+				item: "nourished_end:manca_bowl"
+			}]
+			rewards: [
+				{
+					id: "54A0F7DECF3406A1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5B06FF59F25C91AC"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 8.5d
+			dependencies: ["2376520CA8B4B798"]
+			id: "60B693E8C8F3A282"
+			tasks: [{
+				id: "41F263DA164A6CE7"
+				type: "item"
+				item: "nourished_end:voidsteel_capsule"
+			}]
+			rewards: [{
+				id: "0E37A227BD18C40D"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "71C49FA211AA8781"
+			tasks: [{
+				id: "1FD7097969D6230F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "nourished_end:equalized_potion"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "108CFABD74E457D1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "616F78570FA63A3C"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "3C5913B19312E6D1"
+			tasks: [{
+				id: "26E6BF9FC96F2A03"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "nourished_end:illuminating"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "514AE78F8B6BC4BF"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "453FAF4758BC1DFF"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "6C1FA37EFD059721"
+			tasks: [{
+				id: "1EB7F7FEEB5A410F"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "nourished_end:vigorous_potion"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "72BE90882D3D67F1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "0E732DF75E08A024"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["744D7446D8F67623"]
+			id: "34D6AEB17916A04F"
+			tasks: [{
+				id: "1EC41EBB14F5F93B"
+				type: "item"
+				item: "nourished_end:nullstone"
+			}]
+			rewards: [
+				{
+					id: "394836F3F6B387B0"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 3
+				}
+				{
+					id: "69C3B72AEE8C3971"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "6E8281030D3ADFEC"
+					type: "item"
+					item: "minecraft:copper_ingot"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "32681A75F22A01F6"
+			tasks: [{
+				id: "3253C7AFF29432D2"
+				type: "item"
+				item: "nourished_end:seldge_stem"
+			}]
+			rewards: [
+				{
+					id: "4A144AE5E3CACBA2"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4B50CD7DC99FA3F8"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "3AB0A39D16CB55D3"
+			tasks: [{
+				id: "55D0FE4EBFA0CE09"
+				type: "item"
+				item: "nourished_end:verdant_stalk"
+			}]
+			rewards: [
+				{
+					id: "4227F1637554E791"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7D964A396EB9C74B"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 2.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "716268F9E83B7B6E"
+			tasks: [{
+				id: "3916F6A2C7C14E76"
+				type: "item"
+				item: "nourished_end:cerulean_stem_thick"
+			}]
+			rewards: [
+				{
+					id: "5C1410AAA4983EE6"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "30AD4ECC79956C7B"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "33D3627ABB9AAD02"
+			tasks: [{
+				id: "559505B3A31E8123"
+				type: "item"
+				item: "nourished_end:malachite_ore"
+			}]
+			rewards: [
+				{
+					id: "29136E20F80AF423"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "7623AF5D3C6D8BB2"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: 8.5d
+			dependencies: ["288F36DBEE4A47D1"]
+			id: "76B87C8D714CFF51"
+			tasks: [{
+				id: "629235A08C181ED9"
+				type: "item"
+				item: "nourished_end:blockofmalachite"
+			}]
+			rewards: [{
+				id: "6E9B8EEBD12032E0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 9.5d
+			y: 8.5d
+			dependencies: ["288F36DBEE4A47D1"]
+			id: "7082D032CB1C7E15"
+			tasks: [{
+				id: "357F92C50C19C33A"
+				type: "item"
+				item: "nourished_end:malachite_lamp"
+			}]
+			rewards: [{
+				id: "2BDF7CD84D0471C4"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "2D1754BB682D56B1"
+			tasks: [{
+				id: "540E4FA506E41FDE"
+				type: "item"
+				item: "nourished_end:ring_fern_sprout_1"
+			}]
+			rewards: [
+				{
+					id: "0484A76BB0D0B303"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "2EF70CEA399EEED3"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "6888BABE31611D7D"
+			tasks: [{
+				id: "54F3EC8419E3D381"
+				type: "item"
+				item: "nourished_end:endrye_1"
+			}]
+			rewards: [
+				{
+					id: "415A57EF03306FCC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "37966D6E9C77BB26"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 17.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "6B6EB35B605E0200"
+			tasks: [{
+				id: "431D722E82A49434"
+				type: "item"
+				item: "nourished_end:stalker_eye"
+			}]
+			rewards: [{
+				id: "1CFF1D540A030D20"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 17.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"490CD2A9D679B003"
+				"75608E7DC3EB41B9"
+			]
+			id: "62ABD36DC2B43A5E"
+			tasks: [{
+				id: "700A0D49429AF63D"
+				type: "item"
+				item: "nourished_end:chorus_soup"
+			}]
+			rewards: [{
+				id: "78506CC4F63D0A73"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["2D1754BB682D56B1"]
+			id: "65B07C4FB8A451F1"
+			tasks: [{
+				id: "6691A7631C025C0D"
+				type: "item"
+				item: "nourished_end:ennegel_ring"
+			}]
+			rewards: [{
+				id: "38258B4633AE5F77"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.5d
+			dependencies: ["33D3627ABB9AAD02"]
+			id: "288F36DBEE4A47D1"
+			tasks: [{
+				id: "6B0D69AF5702A938"
+				type: "item"
+				item: "nourished_end:malachite"
+			}]
+			rewards: [{
+				id: "5290ACDC93B59F12"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["744D7446D8F67623"]
+			id: "4C638B3AACD85121"
+			tasks: [{
+				id: "1008CB19E7B6945C"
+				type: "item"
+				item: "nourished_end:end_iron_ore"
+			}]
+			rewards: [
+				{
+					id: "1B93085C79388B05"
+					type: "item"
+					item: "minecraft:lapis_lazuli"
+					count: 5
+				}
+				{
+					id: "54FCF3D2A8F7E039"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "727978D4BFD0817B"
+					type: "item"
+					item: "minecraft:slime_ball"
+					count: 3
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: 0.5d
+			dependencies: ["3AB0A39D16CB55D3"]
+			id: "05B311608B518763"
+			tasks: [{
+				id: "71A7483AD2CF5610"
+				type: "item"
+				item: "nourished_end:verdant_shroomlight"
+			}]
+			rewards: [{
+				id: "448F2C617B95E791"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 13.5d
+			y: 7.5d
+			dependencies: ["56152ABB2556722D"]
+			id: "30059D304608F5D8"
+			tasks: [{
+				id: "190C26D125871EF7"
+				type: "item"
+				item: "nourished_end:cataclysmic_sand"
+			}]
+			rewards: [{
+				id: "0FF499ACAEEE19CD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 14.5d
+			y: 7.5d
+			dependencies: [
+				"56152ABB2556722D"
+				"490CD2A9D679B003"
+			]
+			id: "5335539DE229E393"
+			tasks: [{
+				id: "22FDF47570B2D6EA"
+				type: "item"
+				item: "nourished_end:chorus_paste"
+			}]
+			rewards: [{
+				id: "4FDF51F55267EC9A"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 6.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "56152ABB2556722D"
+			tasks: [{
+				id: "61BB3E1F02DEA39C"
+				type: "item"
+				item: "nourished_end:raw_shadow_silver"
+			}]
+			rewards: [{
+				id: "2788590974EC44CF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 16.0d
+			y: 7.0d
+			dependencies: [
+				"6A86DB6992B96180"
+				"490CD2A9D679B003"
+			]
+			id: "3DBB890B5E3265A9"
+			tasks: [{
+				id: "748376D65A3E388F"
+				type: "item"
+				item: "nourished_end:end_delight"
+			}]
+			rewards: [{
+				id: "437D90ECF4CC7D8E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 17.0d
+			y: 7.5d
+			id: "6A86DB6992B96180"
+			tasks: [{
+				id: "2F2AC1026592D552"
+				type: "item"
+				item: "nourished_end:cooked_stalker"
+			}]
+			rewards: [{
+				id: "671ECF39FF536F79"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: 7.5d
+			dependencies: [
+				"1152BB4B1748C5CE"
+				"288F36DBEE4A47D1"
+			]
+			id: "2376520CA8B4B798"
+			tasks: [{
+				id: "19E5AD1BF262D638"
+				type: "item"
+				item: "nourished_end:voidsteel_ingot"
+			}]
+			rewards: [{
+				id: "3162696553195A5E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 11.5d
+			y: 8.5d
+			dependencies: ["2376520CA8B4B798"]
+			id: "0425E9422D7225FF"
+			tasks: [{
+				id: "2D7135C3EC9D941F"
+				type: "item"
+				item: "nourished_end:voidsteel_block"
+			}]
+			rewards: [{
+				id: "056D5FED25F11C86"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["6888BABE31611D7D"]
+			id: "3D74FD5167BD5FB1"
+			tasks: [{
+				id: "77C064187D5C27A5"
+				type: "item"
+				item: "nourished_end:rye_bread"
+			}]
+			rewards: [{
+				id: "10E60BB9DEA626FD"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			shape: "hexagon"
+			subtitle: "Enter the End portal"
+			size: 2.0d
+			id: "744D7446D8F67623"
+			tasks: [{
+				id: "72B3A1EAC451D1AE"
+				type: "advancement"
+				advancement: "minecraft:story/enter_the_end"
+				criterion: ""
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.0d
+			dependencies: [
+				"00000000000000C6"
+				"6CDC6733BD84ACA1"
+			]
+			id: "00000000000002A8"
+			tasks: [{
+				id: "00000000000002A9"
+				type: "item"
+				item: "minecraft:shulker_box"
+			}]
+			rewards: [
+				{
+					id: "408A796CC10C95A1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "000000000000049A"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3
+				}
+				{
+					id: "00000000000004A0"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 10
+				}
+				{
+					id: "00000000000004A6"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 5
+				}
+				{
+					id: "00000000000004AC"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 2.0d
+			dependencies: [
+				"00000000000000C6"
+				"6CDC6733BD84ACA1"
+			]
+			id: "301222793DB00FB2"
+			tasks: [{
+				id: "3CC15784518C6E45"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5EB83677E0CD4B5B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "000000000000049B"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 3
+				}
+				{
+					id: "00000000000004A1"
+					type: "item"
+					item: "minecraft:iron_ingot"
+					count: 10
+				}
+				{
+					id: "00000000000004A7"
+					type: "item"
+					item: "minecraft:gold_ingot"
+					count: 5
+				}
+				{
+					id: "00000000000004AD"
+					type: "item"
+					item: "minecraft:emerald"
+					count: 5
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "096884CC93B7D9BD"
+			tasks: [{
+				id: "4499D41581F7F417"
+				type: "item"
+				item: "nourished_end:flarebug_sac"
+			}]
+			rewards: [{
+				id: "0049829FBEC68009"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.5d
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "490CD2A9D679B003"
+			tasks: [{
+				id: "658B360B400F25F4"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+			}]
+			rewards: [
+				{
+					id: "212558796C97A0B3"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "3F38964E31DA1013"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "241AD7C07B239921"
+			tasks: [{
+				id: "316A7969B84AD847"
+				type: "item"
+				item: "quark:myalite"
+			}]
+			rewards: [
+				{
+					id: "24F991AB17494B8B"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "4EE88268F2524F21"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "583DEE4BEBD427A8"
+			tasks: [{
+				id: "060E9AA8C980C0FC"
+				type: "item"
+				item: "quark:myalite_crystal"
+			}]
+			rewards: [
+				{
+					id: "70E2CC5DCC237831"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "5B70E093B4500769"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 5.0d
+			shape: "hexagon"
+			hide_dependency_lines: true
+			dependencies: ["75608E7DC3EB41B9"]
+			id: "30EB863CBF1958F8"
+			tasks: [{
+				id: "6DDF71DF91984D36"
+				type: "item"
+				item: "quark:dusky_myalite"
+			}]
+			rewards: [
+				{
+					id: "524BCBA00B0AA3B0"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "08C7D94F1A2391BF"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			icon: "minecraft:end_stone"
+			x: 11.0d
+			y: 4.0d
+			shape: "octagon"
+			dependencies: ["6CDC6733BD84ACA1"]
+			size: 2.0d
+			id: "75608E7DC3EB41B9"
+			tasks: [{
+				id: "316571AFCA43A168"
+				type: "biome"
+				biome: "minecraft:end_midlands"
+			}]
+		}
+	]
+}

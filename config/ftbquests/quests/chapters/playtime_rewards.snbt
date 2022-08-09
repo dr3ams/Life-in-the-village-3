@@ -1,0 +1,786 @@
+{
+	id: "404759A0E34F8ABB"
+	group: ""
+	order_index: 6
+	filename: "playtime_rewards"
+	title: "Playtime rewards(W.I.P)"
+	icon: "minecraft:clock"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.0d
+			y: -1.5d
+			description: ["Welp, you did it."]
+			id: "7361476FF42D2910"
+			tasks: [{
+				id: "6E363C8F90BE423B"
+				type: "questsadditions:days"
+				days: 5
+			}]
+			rewards: [
+				{
+					id: "351DC02FE231FB6F"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "35ADC397F95F2AA4"
+					type: "item"
+					item: "minecraft:bread"
+					count: 32
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			description: ["Welcome to the modpack."]
+			hide_dependency_lines: false
+			dependencies: ["7361476FF42D2910"]
+			hide: true
+			hide_text_until_complete: true
+			id: "6FC89177F5DA0A34"
+			tasks: [{
+				id: "2B5C883D66088EA4"
+				type: "questsadditions:days"
+				days: 10
+			}]
+			rewards: [
+				{
+					id: "50486A65028BEB4E"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "27A437AA139BD250"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["Is this the beginning of something big?"]
+			dependencies: ["6FC89177F5DA0A34"]
+			hide: true
+			hide_text_until_complete: true
+			id: "77FF20E44CAA5BDB"
+			tasks: [{
+				id: "4CFEE617D4A5AEA6"
+				type: "questsadditions:days"
+				days: 15
+			}]
+			rewards: [
+				{
+					id: "1FDB9663E058DD69"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "78B81341A1B59E5C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "5FD39B232C36C0FE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.5d
+			description: ["We have some work to do."]
+			dependencies: ["77FF20E44CAA5BDB"]
+			hide: true
+			hide_text_until_complete: true
+			id: "63370203DE635527"
+			tasks: [{
+				id: "76DEC046FFAB78E0"
+				type: "questsadditions:days"
+				days: 20
+			}]
+			rewards: [
+				{
+					id: "472DAB98E8E1247E"
+					type: "item"
+					item: "kubejs:iron_coin"
+				}
+				{
+					id: "3341A881DE4D731C"
+					type: "item"
+					item: "aquaculture:lockbox"
+				}
+				{
+					id: "617F3F5DA1564728"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			description: [
+				"Some more play days ahead..."
+				"Good old Minecraft days..."
+			]
+			dependencies: ["63370203DE635527"]
+			hide: true
+			hide_text_until_complete: true
+			id: "27937757D1C60856"
+			tasks: [{
+				id: "2C0A53105F55E024"
+				type: "questsadditions:days"
+				days: 25
+			}]
+			rewards: [
+				{
+					id: "0E1E7EF7872C3DE2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+				{
+					id: "471F7C2DC8213DF1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "430D5DC21EC258EF"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			description: ["Do you even have time to play?"]
+			hide_dependency_lines: true
+			dependencies: ["27937757D1C60856"]
+			hide: true
+			id: "176F0155A9C8E1B5"
+			tasks: [{
+				id: "0C9A36481E143EC1"
+				type: "questsadditions:days"
+				days: 30
+			}]
+			rewards: [
+				{
+					id: "52CFDA243D88B965"
+					type: "item"
+					item: "aquaculture:treasure_chest"
+				}
+				{
+					id: "6A3ECCDACEE228EF"
+					type: "item"
+					item: "minecraft:cooked_beef"
+					count: 64
+				}
+				{
+					id: "1412FEAF998A994A"
+					type: "item"
+					item: "minecraft:golden_apple"
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["Because I do."]
+			dependencies: ["176F0155A9C8E1B5"]
+			hide: true
+			hide_text_until_complete: true
+			id: "21DE75A2E9463120"
+			tasks: [{
+				id: "42EA3479C43ECBC4"
+				type: "questsadditions:days"
+				days: 35
+			}]
+			rewards: [
+				{
+					id: "615DDF0BBFBBD00E"
+					type: "item"
+					item: "kubejs:iron_coin"
+					count: 3
+				}
+				{
+					id: "55C112DCB5648811"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "5F267062F7F4D6CB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			description: ["I'm stuck here."]
+			dependencies: ["21DE75A2E9463120"]
+			hide: true
+			hide_text_until_complete: true
+			id: "59E0474D362D0937"
+			tasks: [{
+				id: "6B97C68B0F28CB4A"
+				type: "questsadditions:days"
+				days: 40
+			}]
+			rewards: [
+				{
+					id: "7D6F8EEFE6A09E4A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+				{
+					id: "6519D196AF9399EF"
+					type: "item"
+					item: "minecraft:glistering_melon_slice"
+					count: 32
+					random_bonus: 32
+				}
+				{
+					id: "39A45987E9DCF4CE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			description: ["And now you're."]
+			dependencies: ["59E0474D362D0937"]
+			hide: true
+			hide_text_until_complete: true
+			id: "46C585E26D869B01"
+			tasks: [{
+				id: "0565F285C3B2FD16"
+				type: "questsadditions:days"
+				days: 45
+			}]
+			rewards: [
+				{
+					id: "7847502274BB53D5"
+					type: "item"
+					item: "minecraft:golden_carrot"
+					count: 32
+					random_bonus: 32
+				}
+				{
+					id: "3A242563A4C6C070"
+					type: "item"
+					item: "minecraft:emerald"
+					random_bonus: 63
+				}
+				{
+					id: "728FBFF4D28BC630"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			description: ["Hah."]
+			dependencies: ["46C585E26D869B01"]
+			hide: true
+			hide_text_until_complete: true
+			id: "44467B2AB2E874A3"
+			tasks: [{
+				id: "4E70EF44145428B9"
+				type: "questsadditions:days"
+				days: 50
+			}]
+			rewards: [
+				{
+					id: "4E0B0D65780C4AB8"
+					type: "item"
+					item: "minecraft:enchanted_golden_apple"
+				}
+				{
+					id: "36112EAC6BBD0ECB"
+					type: "item"
+					item: "kubejs:gold_coin"
+				}
+				{
+					id: "22A1F0A3DB48375F"
+					type: "item"
+					item: "kubejs:iron_coin"
+					random_bonus: 5
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 0.0d
+			description: ["I created \"Reach day\" type quests about this day."]
+			hide_dependency_lines: true
+			dependencies: ["44467B2AB2E874A3"]
+			hide: true
+			hide_text_until_complete: true
+			id: "06EB31B0B8EA5CEC"
+			tasks: [{
+				id: "3F50B29A19EE16D3"
+				type: "questsadditions:days"
+				days: 55
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			description: ["If you're reading this you're playing Minecraft."]
+			dependencies: ["06EB31B0B8EA5CEC"]
+			hide: true
+			hide_text_until_complete: true
+			id: "061968753AE94B40"
+			tasks: [{
+				id: "10E9A099E0925403"
+				type: "questsadditions:days"
+				days: 60
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["I know you're wondering how many quests are there."]
+			dependencies: ["061968753AE94B40"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5B24EF11953C8CFD"
+			tasks: [{
+				id: "366096DB17557F3C"
+				type: "questsadditions:days"
+				days: 65
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["100 for sure."]
+			dependencies: ["5B24EF11953C8CFD"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2DE1CA2DC6632F19"
+			tasks: [{
+				id: "457A0E03DE80B549"
+				type: "questsadditions:days"
+				days: 70
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Sounds like a challenge?"]
+			dependencies: ["2DE1CA2DC6632F19"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0C040E6333183CAF"
+			tasks: [{
+				id: "1B0F3D61BBA1E86D"
+				type: "questsadditions:days"
+				days: 75
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: [
+				"I SURVIVED 100 DAYS IN LIVE IN THE VILLAGE MODPACK!"
+				""
+				"Good title for a Youtube video."
+			]
+			dependencies: ["0C040E6333183CAF"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3780CD2BFB857AC4"
+			tasks: [{
+				id: "444AD1EF21BD2FC1"
+				type: "questsadditions:days"
+				days: 80
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["You're almost there."]
+			dependencies: ["3780CD2BFB857AC4"]
+			hide: true
+			hide_text_until_complete: true
+			id: "011913E4D2CA7AF1"
+			tasks: [{
+				id: "09B7684823F9B51D"
+				type: "questsadditions:days"
+				days: 85
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["Final steps."]
+			dependencies: ["011913E4D2CA7AF1"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2DB922DEF5335F36"
+			tasks: [{
+				id: "790EBCC7D9249FE2"
+				type: "questsadditions:days"
+				days: 90
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["You're almost done."]
+			dependencies: ["2DB922DEF5335F36"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0D2BD2A19863BA22"
+			tasks: [{
+				id: "48A52961D23BF432"
+				type: "questsadditions:days"
+				days: 95
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: [
+				"You did it! 100 DAYS!"
+				""
+				"Oh did I said there are only 100? Nope."
+			]
+			dependencies: ["0D2BD2A19863BA22"]
+			hide: true
+			hide_text_until_complete: true
+			id: "7D6A26E08461DE07"
+			tasks: [{
+				id: "2D921604004CC894"
+				type: "questsadditions:days"
+				days: 100
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			description: [
+				"Did I already told you that I'm stuck here?"
+				""
+				"With you?"
+			]
+			hide_dependency_lines: true
+			dependencies: ["7D6A26E08461DE07"]
+			hide: true
+			hide_text_until_complete: true
+			id: "006410C879D85899"
+			tasks: [{
+				id: "2DB008DA33CFAC1F"
+				type: "questsadditions:days"
+				days: 105
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["And only you can break this spell."]
+			dependencies: ["006410C879D85899"]
+			hide: true
+			hide_text_until_complete: true
+			id: "266CE3B857691E12"
+			tasks: [{
+				id: "2B525C91219AA513"
+				type: "questsadditions:days"
+				days: 110
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			description: ["When I'll be free - you will be free too."]
+			dependencies: ["266CE3B857691E12"]
+			hide: true
+			hide_text_until_complete: true
+			id: "260E05024675DBCF"
+			tasks: [{
+				id: "6E73EB9027E3C5EF"
+				type: "questsadditions:days"
+				days: 115
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["Until then - we are bonded together."]
+			dependencies: ["260E05024675DBCF"]
+			hide: true
+			hide_text_until_complete: true
+			id: "163B9F3D4F272DF4"
+			tasks: [{
+				id: "56DECAFA08B950C1"
+				type: "questsadditions:days"
+				days: 120
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["How was your day?"]
+			dependencies: ["163B9F3D4F272DF4"]
+			hide: true
+			hide_text_until_complete: true
+			id: "377571ED344BC82D"
+			tasks: [{
+				id: "54414B6F6F672D4B"
+				type: "questsadditions:days"
+				days: 125
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: [
+				"What are your plans for future?"
+				""
+				"Do you plan sitting here until the end of quests?"
+			]
+			dependencies: ["377571ED344BC82D"]
+			hide: true
+			hide_text_until_complete: true
+			id: "47AA5BE1F75ECC8F"
+			tasks: [{
+				id: "4091B0201F455706"
+				type: "questsadditions:days"
+				days: 130
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["Seriously, stop spending time here"]
+			dependencies: ["47AA5BE1F75ECC8F"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5D986150671EC0ED"
+			tasks: [{
+				id: "327D3A552C025E5B"
+				type: "questsadditions:days"
+				days: 135
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["This won't end, I can assure you"]
+			dependencies: ["5D986150671EC0ED"]
+			hide: true
+			hide_text_until_complete: true
+			id: "195B8FC12CF1FA96"
+			tasks: [{
+				id: "097560E996E09FCC"
+				type: "questsadditions:days"
+				days: 140
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["Do you like playing games?"]
+			dependencies: ["195B8FC12CF1FA96"]
+			hide: true
+			hide_text_until_complete: true
+			id: "2EC078DB2F945FB1"
+			tasks: [{
+				id: "7932B0E62132A68A"
+				type: "questsadditions:days"
+				days: 145
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["Okay, you won. This is the last quest here. You're free now."]
+			dependencies: ["2EC078DB2F945FB1"]
+			hide: true
+			hide_text_until_complete: true
+			id: "38DADE2FC9338CE2"
+			tasks: [{
+				id: "4CC6573EC77F9E7A"
+				type: "questsadditions:days"
+				days: 150
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			description: ["Go live your life!"]
+			hide_dependency_lines: true
+			dependencies: ["38DADE2FC9338CE2"]
+			hide: true
+			hide_text_until_complete: true
+			id: "16E6EF76D395D319"
+			tasks: [{
+				id: "39CEC7A6D3B9AA96"
+				type: "questsadditions:days"
+				days: 155
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			description: ["Stop wasting your time playing games!"]
+			dependencies: ["16E6EF76D395D319"]
+			hide: true
+			hide_text_until_complete: true
+			id: "6F891D75F5BE8DD9"
+			tasks: [{
+				id: "514F23F361254806"
+				type: "questsadditions:days"
+				days: 160
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: ["Are you still here?"]
+			dependencies: ["6F891D75F5BE8DD9"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3AD9243FC656D01B"
+			tasks: [{
+				id: "685C70F0AFAE99F7"
+				type: "questsadditions:days"
+				days: 165
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["I'm tired of you."]
+			dependencies: ["3AD9243FC656D01B"]
+			hide: true
+			hide_text_until_complete: true
+			id: "0E99800B5CCBB624"
+			tasks: [{
+				id: "0D0D9AF99A9C5489"
+				type: "questsadditions:days"
+				days: 170
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			description: ["What if I say these type of quests are infinite :D"]
+			dependencies: ["0E99800B5CCBB624"]
+			hide: true
+			hide_text_until_complete: true
+			id: "22B9F32E6ECC9CA8"
+			tasks: [{
+				id: "541DFB7B05C7D5AF"
+				type: "questsadditions:days"
+				days: 175
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["And you're stuck here..."]
+			dependencies: ["22B9F32E6ECC9CA8"]
+			hide: true
+			hide_text_until_complete: true
+			id: "3AD2918C0AF2FA03"
+			tasks: [{
+				id: "0689C0DE3208B6CF"
+				type: "questsadditions:days"
+				days: 180
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			description: ["Forever . . ."]
+			dependencies: ["3AD2918C0AF2FA03"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5842A72168165AE2"
+			tasks: [{
+				id: "0A9B9C0306B1C05E"
+				type: "questsadditions:days"
+				days: 185
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: [". . ."]
+			dependencies: ["5842A72168165AE2"]
+			hide: true
+			hide_text_until_complete: true
+			id: "63133EFF7C3ACA26"
+			tasks: [{
+				id: "17BFB3CE287A3915"
+				type: "questsadditions:days"
+				days: 190
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: [". . ."]
+			dependencies: ["63133EFF7C3ACA26"]
+			hide: true
+			hide_text_until_complete: true
+			id: "5D520BFF8837A25F"
+			tasks: [{
+				id: "003B4A035E829385"
+				type: "questsadditions:days"
+				days: 195
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.0d
+			description: ["jk"]
+			dependencies: ["5D520BFF8837A25F"]
+			hide: true
+			hide_text_until_complete: true
+			id: "620A310879FED5D4"
+			tasks: [{
+				id: "26F6A413BC922510"
+				type: "questsadditions:days"
+				days: 200
+			}]
+		}
+	]
+}
