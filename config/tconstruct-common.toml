@@ -95,7 +95,7 @@
 #If your modpack makes extensive loot table changes, many of these may be automatically disabled. You can also manually set up tables for more control.
 [loot]
 	#Adds slimy saplings and seeds into various loot chests. Helps for worlds without slime islands
-	slimy_loot = true
+	slimy_loot = false
 	#Weight of blazing blood in the piglin bartering tables. Set to 0 to disable
 	#Range: 0 ~ 100
 	barter_blazing_blood = 20
@@ -111,7 +111,7 @@
 	#Generate Cobalt
 	generateCobalt = true
 	#Approx Ores per Chunk
-	veinCountCobalt = 8
+	veinCountCobalt = 6
 
 	#Options related to slime geodes
 	[worldgen.geodes]

@@ -24,7 +24,7 @@
 	#Should players be allowed to abandon their colony to create a new one easily? Note: This is buggy! [Default: false]
 	allowinfinitecolonies = false
 	#Should colonies in other dimensions be allowed? [Default: true]
-	allowotherdimcolonies = true
+	allowotherdimcolonies = false
 	#If a colony is under the initial citizen count, this changes the amount of time before a new citizen spawns. [Default: 60, min: 10, max: 600]
 	#Range: 10 ~ 600
 	citizenrespawninterval = 60
@@ -128,7 +128,7 @@
 	maxColonySize = 20
 	#The minimum distance (in chunks) between colonies. [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
-	minColonyDistance = 20
+	minColonyDistance = 100
 	#Initial claim size for a colony. This is the radius, measured in chunks. [Default: 4, min: 1, max: 15]
 	#Range: 1 ~ 15
 	initialColonySize = 4

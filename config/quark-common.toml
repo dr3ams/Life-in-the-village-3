@@ -796,11 +796,11 @@
 			#Allowed values: [-64,320]
 			"Max Y Level" = 64
 			#Allowed values: [0,)
-			"Horizontal Size" = 72
+			"Horizontal Size" = 30
 			#Allowed values: [0,)
-			"Vertical Size" = 20
+			"Vertical Size" = 10
 			#Allowed values: [0,)
-			"Horizontal Variation" = 22
+			"Horizontal Variation" = 10
 			#Allowed values: [0,)
 			"Vertical Variation" = 4
 
