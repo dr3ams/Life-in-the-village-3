@@ -71,6 +71,6 @@ decorate your buildings with new furniture, lights, windows, roofs, paintings;
 
 ## [**Support me on Patreon!**](https://www.patreon.com/Dreams01) | [Modpack's discord channel.](https://discord.com/invite/npNApNFn2r) 
 Need a server to play with friends? Don't know how to setup one? Just rent already configured server - install and update my modpacks( and dozens of others!) in one click!
-[![bisecthosting](https://i.imgur.com/Og8jfwS.png)](https://bisecthosting.com/xdreamz)
+[![bisecthosting](https://i.imgur.com/x6fE3RD.png)](https://bisecthosting.com/xdreamz)
 Click on the picture above, select plan(at least 5GB), use my code xdreamz to get 25% off your first month and enjoy playing with your friends!
 
