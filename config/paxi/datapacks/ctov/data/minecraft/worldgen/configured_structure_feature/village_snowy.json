@@ -1,0 +1,10 @@
+{
+    "type": "minecraft:village",
+    "biomes": "#minecraft:has_structure/village_snowy",
+    "config": {
+        "size": 3,
+        "start_pool": "ctov:village/biome/snowy"
+    },
+    "spawn_overrides":{},
+    "adapt_noise": true
+}

@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "idas:pillager_fortress",
+      "structure": "idas:treetop_tavern",
       "weight": 1
     }
   ],
   "placement": {
-    "salt": 169480678,
+    "salt": 169481690,
     "spacing": 55,
-    "separation": 25,
+    "separation": 20,
     "type": "minecraft:random_spread"
   }
 }

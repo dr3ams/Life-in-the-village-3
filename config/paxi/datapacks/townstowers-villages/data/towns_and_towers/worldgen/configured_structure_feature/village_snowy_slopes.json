@@ -1,7 +1,7 @@
 {
   "config": {
     "start_pool": "kaisyn:village/snowy_slopes_and_grove_inn/central",
-    "size": 4
+    "size": 3
   },
   "type": "minecraft:village",
   "biomes": "#towns_and_towers:snowy_slopes",

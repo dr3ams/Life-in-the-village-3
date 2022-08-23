@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "idas:pillager_fortress",
+      "structure": "idas:beekeepers_house",
       "weight": 1
     }
   ],
   "placement": {
-    "salt": 169480678,
-    "spacing": 55,
-    "separation": 25,
+    "salt": 169481689,
+    "spacing": 75,
+    "separation": 30,
     "type": "minecraft:random_spread"
   }
 }

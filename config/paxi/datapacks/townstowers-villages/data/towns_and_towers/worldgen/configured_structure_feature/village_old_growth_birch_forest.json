@@ -1,7 +1,7 @@
 {
   "config": {
     "start_pool": "kaisyn:village/birch_forest_romanian/town_centers",
-    "size": 4
+    "size": 3
   },
   "type": "minecraft:village",
   "biomes": "#towns_and_towers:old_growth_birch_forest",

@@ -6,7 +6,7 @@
 		# The average distance between structures of this type, measured in chunks.
 		# Default: 56
 		#Range: > 1
-		spacing = 57
+		spacing = 40
 		#
 		# A random offset applied to spacing. Values closer to 0 produce a grid effect while values closer to spacing are more random.
 		# Default: 37
@@ -31,7 +31,7 @@
 				# - Biome Tag: "#minecraft:is_ocean". If using a biome tag, only one can be used and it must be by itself. This does not support "!"
 				# Example: ["##structure_gel:wooded", "!minecraft:flower_forest"] This will include all wooded biomes except for flower forests.
 				# Default: ["##structure_gel:cold", "##structure_gel:snowy", "!##structure_gel:mountain", "!##structure_gel:beach"]
-				biomes = ["##structure_gel:cold", "##structure_gel:snowy", "!##structure_gel:mountain", "!##structure_gel:beach"]
+				biomes = ["##structure_gel:cold", "##structure_gel:snowy", "##structure_gel:plains", "##structure_gel:savanna", "!##structure_gel:mountain", "!##structure_gel:beach"]
 
 			[Castle.configured_structures.configured.dimensions]
 				#

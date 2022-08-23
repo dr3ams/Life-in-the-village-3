@@ -1,7 +1,7 @@
 {
   "config": {
     "start_pool": "kaisyn:village/flower_forest_japanese/town_centers",
-    "size": 4
+    "size": 3
   },
   "type": "minecraft:village",
   "biomes": "#towns_and_towers:flower_forest",

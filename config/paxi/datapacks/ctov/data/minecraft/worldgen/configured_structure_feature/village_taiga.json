@@ -1,0 +1,10 @@
+{
+    "type":"village",
+    "biomes": "#minecraft:has_structure/village_taiga",
+    "config":{
+        "start_pool": "ctov:village/biome/taiga",
+        "size": 3
+    },
+    "spawn_overrides":{},
+    "adapt_noise": true
+}

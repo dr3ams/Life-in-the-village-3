@@ -36,8 +36,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","file/Unity-1.18.X-Base-2.4.1.zip","LITV3-RP-1.18.2","file/Fancy,+GUI+Overhaul+v0.1.0.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/Fancy,+GUI+Overhaul+v0.1.0.zip"]
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","file/Stay_True_1.18.zip","file/Fancy,+GUI+Overhaul+v0.1.0.zip","LITV3-RP-1.18.2","file/Fancy+Boss+Bars+v0.1.1.zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/Fancy,+GUI+Overhaul+v0.1.0.zip","file/Fancy+Boss+Bars+v0.1.1.zip"]
 lastServer:
 lang:en_us
 soundDevice:
@@ -74,16 +74,16 @@ hideBundleTutorial:false
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
-soundCategory_master:0.104304634
-soundCategory_music:0.0
-soundCategory_record:0.5164319
-soundCategory_weather:0.51877934
-soundCategory_block:0.342723
-soundCategory_hostile:0.5586854
-soundCategory_neutral:0.25386226
-soundCategory_player:0.39906102
-soundCategory_ambient:0.35490987
-soundCategory_voice:0.0
+soundCategory_master:1.0
+soundCategory_music:1.0
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:0.9859155
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

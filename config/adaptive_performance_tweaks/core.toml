@@ -5,9 +5,9 @@
 	#Range: 1 ~ 90
 	timeBetweenUpdates = 10
 	#Enable/Disable logging of the overall server load.
-	logServerLoad = true
+	logServerLoad = false
 	#Enable/Disable logging of the individual level load.
-	logServerLevelLoad = true
+	logServerLevelLoad = false
 
 ["Game Difficulty Factors"]
 	#Range: 0.1 ~ 10.0

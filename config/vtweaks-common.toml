@@ -47,8 +47,8 @@
 	peacefulSurfaceMinY = 60
 	#A list of dimensions (of form <modid:type>) to ignore when prevent surface mob spawns.
 	peacefulSurfaceDimBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
-	#Any time a Baby Zombie (or Zombie Piglin) spawns, it will be replaced with an adult
-	enableBabyZombieTweak = true
+	#When any Creeper (or entity with EntityType tag #forge:creepers) explodes, all blocks destroyed will plop back into place after a few seconds!
+	ungriefCreepers = true
 
 #Block Tweaks
 ["block tweaks"]

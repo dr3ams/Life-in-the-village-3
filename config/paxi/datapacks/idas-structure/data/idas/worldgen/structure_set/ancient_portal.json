@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "idas:pillager_fortress",
+      "structure": "idas:ancient_portal",
       "weight": 1
     }
   ],
   "placement": {
-    "salt": 169480678,
-    "spacing": 55,
-    "separation": 25,
+    "salt": 169481691,
+    "spacing": 80,
+    "separation": 40,
     "type": "minecraft:random_spread"
   }
 }

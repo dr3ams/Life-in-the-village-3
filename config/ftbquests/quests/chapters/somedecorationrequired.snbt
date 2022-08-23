@@ -11,7 +11,6 @@
 		{
 			x: 5.0d
 			y: -2.5d
-			dependencies: ["0000000000000059"]
 			id: "0000000000000057"
 			tasks: [{
 				id: "6B53CDDE859988DE"
@@ -42,41 +41,8 @@
 			]
 		}
 		{
-			x: 5.0d
-			y: -3.5d
-			id: "0000000000000059"
-			tasks: [{
-				id: "000000000000005A"
-				type: "item"
-				item: "minecraft:torch"
-			}]
-			rewards: [
-				{
-					id: "287AA6599A2FD832"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "00000000000003E4"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-				}
-				{
-					id: "0000000000000420"
-					type: "item"
-					item: "minecraft:gold_nugget"
-				}
-				{
-					id: "000000000000045C"
-					type: "item"
-					item: "minecraft:iron_nugget"
-				}
-			]
-		}
-		{
 			x: 4.0d
 			y: -3.5d
-			dependencies: ["0000000000000059"]
 			id: "000000000000005D"
 			tasks: [{
 				id: "000000000000005E"
@@ -147,7 +113,6 @@
 		{
 			x: 6.0d
 			y: -3.5d
-			dependencies: ["0000000000000059"]
 			id: "000000000000009A"
 			tasks: [{
 				id: "000000000000009B"

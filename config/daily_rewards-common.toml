@@ -4,12 +4,22 @@
 	#Time in minutes the players needs to be online on the server before receiving a reward for the day.
 	#Range: 1 ~ 1440
 	rewardTimePerDay = 30
+	#Shows the rewards menu when a player joins the server (if there are unclaimed rewards).
+	showRewardMenuOnPlayerJoin = false
 
 ["Fill Items"]
 	#List of normal fill items which are used in the case we have not enough valid items for a month.
 	normalFillItems = ["minecraft:cooked_beef:16", "minecraft:iron_ingot:8", "minecraft:oak_log:16", "minecraft:white_wool:8", "minecraft:gold_ingot:4", "minecraft:pumpkin_seeds:16", "minecraft:melon_seeds:16", "minecraft:arrow:32", "minecraft:string:8", "minecraft:cake", "minecraft:leather:4", "minecraft:clay_ball:16", "minecraft:slime_ball:8", "minecraft:egg:3", "minecraft:feather:6", "minecraft:gunpowder:2", "tconstruct:sky_slime_ball", "minecraft:bone:3", "minecraft:ink_sac:6", "minecraft:redstone:16", "tconstruct:debris_nugget", "minecraft:long_swiftness", "jobsplus:long_extra_strong_swiftness", "minecraft:golden_carrot:8", "minecraft:charcoal:16", "minecraft:lapis_lazuli:8", "kubejs:diamond_nugget", "create:zinc_nugget", "kubejs:emerald_nugget", "minecraft:glistering_melon_slice:32", "minecraft:rotten_flesh", "kubejs:copper_coin", "aquaculture:box", "create:experience_nugget", "aquaculture:lockbox", "minecraft:emerald", "minecraft:quartz:3"]
 	#List of rare fill items which are used in the case we have not enough valid items for a month.
 	rareFillItems = ["minecraft:diamond", "oreberriesreplanted:gold_oreberry_bush", "tconstruct:jeweled_apple", "tconstruct:ender_slime_ball", "oreberriesreplanted:iron_oreberry_bush", "kubejs:gold_coin", "kubejs:iron_coin", "create_stuff_additions:heap_of_experience", "aquaculture:treasure_chest"]
+	#The chance to use a rare item instead of a regular one. e.g. 7 means every 7th items could be a rare item. (0 = disabled)
+	#Range: 0 ~ 100
+	rareFillItemsChance = 7
+	#List of loot bag fill items which are used in the case we have not enough valid items for a month.
+	lootBagFillItems = ["lootbagmod:lootbag"]
+	#The chance to use a loot bag item instead of a regular one. e.g. 15 means every 15th items could be a loot bag item. (0 = disabled)
+	#Range: 0 ~ 100
+	lootBagFillItemsChance = 15
 
 ["Rewards Items"]
 	#List of rewards items for January.
