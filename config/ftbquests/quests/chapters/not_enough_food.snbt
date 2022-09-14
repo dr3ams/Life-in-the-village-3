@@ -3235,16 +3235,5 @@
 				}
 			]
 		}
-		{
-			x: 4.5d
-			y: -3.0d
-			dependencies: ["19A4385584636C45"]
-			id: "517B7A1578FFC01F"
-			tasks: [{
-				id: "373A26F1FC907235"
-				type: "item"
-				item: "alexsdelight:lobster_linguini"
-			}]
-		}
 	]
 }

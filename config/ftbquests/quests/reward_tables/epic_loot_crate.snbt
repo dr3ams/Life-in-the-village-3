@@ -93,7 +93,6 @@
 		{ item: "minecraft:diamond", count: 16 }
 		{ item: "minecraft:iron_ingot", count: 64 }
 		{ item: "minecraft:netherite_ingot", count: 8 }
-		{ item: "create_stuff_additions:heap_of_experience", count: 32 }
 		{ item: "randomite:randomite_ore", count: 8 }
 		{ item: "aquaculture:lockbox", count: 5 }
 		{ item: "minecraft:golden_apple", count: 3 }
@@ -129,6 +128,7 @@
 		{ item: "oreberriesreplanted:iron_oreberry_bush" }
 		{ item: "oreberriesreplanted:gold_oreberry_bush" }
 		{ item: "oreberriesreplanted:copper_oreberry_bush" }
+		{ item: "create_sa:heap_of_experience", count: 32 }
 	]
 	loot_crate: {
 		drops: {

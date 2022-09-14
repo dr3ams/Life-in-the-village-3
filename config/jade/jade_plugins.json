@@ -53,6 +53,9 @@
     "mod_name": true,
     "entity_hp": true
   },
+  "productivebees": {
+    "bee_attributes": true
+  },
   "storagedrawers": {
     "display.stacklimit": true,
     "display.content": true,

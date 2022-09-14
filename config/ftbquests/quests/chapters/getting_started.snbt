@@ -1460,7 +1460,7 @@
 		}
 		{
 			icon: {
-				id: "create_stuff_additions:copper_pickaxe"
+				id: "create_sa:experience_pickaxe"
 				Count: 1b
 				tag: {
 					Damage: 0
@@ -2909,9 +2909,9 @@
 			dependencies: ["0000000000000047"]
 			id: "4B57CD2BB3FA6A45"
 			tasks: [{
-				id: "6C7497028DB28925"
+				id: "00DF4D3F5C2F305B"
 				type: "item"
-				item: "create_stuff_additions:heap_of_experience"
+				item: "create_sa:heap_of_experience"
 			}]
 			rewards: [
 				{

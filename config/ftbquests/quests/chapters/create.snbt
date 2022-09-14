@@ -1436,15 +1436,25 @@
 			y: 6.5d
 			dependencies: ["239CA302D0E9B38F"]
 			id: "13F6F6EE7338BBF6"
-			tasks: [{
-				id: "317BE80B7717BD2D"
-				type: "item"
-				item: {
-					id: "create_stuff_additions:brass_portable_drill"
-					Count: 1b
-					tag: { }
+			tasks: [
+				{
+					id: "62230328E583BB13"
+					type: "item"
+					item: "create_sa:brass_drone_item"
 				}
-			}]
+				{
+					id: "3722CDAF2E3FE0E8"
+					type: "item"
+					item: {
+						id: "create_sa:drone_controller"
+						Count: 1b
+						tag: {
+							tagAction: 0b
+							tagPulseAction: 0b
+						}
+					}
+				}
+			]
 			rewards: [
 				{
 					id: "2551114E28A882D1"
@@ -1483,9 +1493,13 @@
 			dependencies: ["239CA302D0E9B38F"]
 			id: "1ED526E9341CAB0A"
 			tasks: [{
-				id: "54454CB7158B157F"
+				id: "4DE1CA413A74F4E9"
 				type: "item"
-				item: "create_stuff_additions:brass_moped_item"
+				item: {
+					id: "create_sa:flamethrower"
+					Count: 1b
+					tag: { }
+				}
 			}]
 			rewards: [
 				{

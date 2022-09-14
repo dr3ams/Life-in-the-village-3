@@ -146,30 +146,6 @@
 			]
 		}
 		{
-			x: 13.0d
-			y: 1.0d
-			hide_dependency_lines: true
-			dependencies: ["75608E7DC3EB41B9"]
-			id: "3D65328C0DE839B5"
-			tasks: [{
-				id: "707C7BDDA8132271"
-				type: "item"
-				item: "nourished_end:manca_bowl"
-			}]
-			rewards: [
-				{
-					id: "54A0F7DECF3406A1"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "5B06FF59F25C91AC"
-					type: "item"
-					item: "kubejs:gold_coin"
-				}
-			]
-		}
-		{
 			x: 12.5d
 			y: 8.5d
 			dependencies: ["2376520CA8B4B798"]
@@ -458,30 +434,6 @@
 			]
 		}
 		{
-			x: 9.0d
-			y: 1.5d
-			hide_dependency_lines: true
-			dependencies: ["75608E7DC3EB41B9"]
-			id: "6888BABE31611D7D"
-			tasks: [{
-				id: "54F3EC8419E3D381"
-				type: "item"
-				item: "nourished_end:endrye_1"
-			}]
-			rewards: [
-				{
-					id: "415A57EF03306FCC"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "37966D6E9C77BB26"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-			]
-		}
-		{
 			x: 17.5d
 			y: 5.5d
 			hide_dependency_lines: true
@@ -579,22 +531,6 @@
 					count: 3
 				}
 			]
-		}
-		{
-			x: 15.5d
-			y: 0.5d
-			dependencies: ["3AB0A39D16CB55D3"]
-			id: "05B311608B518763"
-			tasks: [{
-				id: "71A7483AD2CF5610"
-				type: "item"
-				item: "nourished_end:verdant_shroomlight"
-			}]
-			rewards: [{
-				id: "448F2C617B95E791"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
 		}
 		{
 			x: 13.5d
@@ -718,22 +654,6 @@
 			}]
 		}
 		{
-			x: 8.5d
-			y: 0.5d
-			dependencies: ["6888BABE31611D7D"]
-			id: "3D74FD5167BD5FB1"
-			tasks: [{
-				id: "77C064187D5C27A5"
-				type: "item"
-				item: "nourished_end:rye_bread"
-			}]
-			rewards: [{
-				id: "10E60BB9DEA626FD"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-		}
-		{
 			x: 0.5d
 			y: 4.0d
 			shape: "hexagon"
@@ -842,23 +762,6 @@
 					count: 5
 				}
 			]
-		}
-		{
-			x: 16.5d
-			y: 5.5d
-			hide_dependency_lines: true
-			dependencies: ["75608E7DC3EB41B9"]
-			id: "096884CC93B7D9BD"
-			tasks: [{
-				id: "4499D41581F7F417"
-				type: "item"
-				item: "nourished_end:flarebug_sac"
-			}]
-			rewards: [{
-				id: "0049829FBEC68009"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
 		}
 		{
 			x: 15.0d
@@ -972,6 +875,50 @@
 				type: "biome"
 				biome: "minecraft:end_midlands"
 			}]
+		}
+		{
+			x: 11.0d
+			y: 6.5d
+			id: "35D0DCCB1DA9B901"
+			tasks: [{
+				id: "727119F2467DF04F"
+				type: "item"
+				item: "nourished_end:bismuth_ingot"
+			}]
+			rewards: [
+				{
+					id: "405C6BF6CB96A552"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "1DC7743DD838ED1D"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: 6.5d
+			id: "18B925D7B5FA52AB"
+			tasks: [{
+				id: "5A5AE50FADA1D374"
+				type: "item"
+				item: "nourished_end:starsent_ingot"
+			}]
+			rewards: [
+				{
+					id: "12625C997D29B90B"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+				{
+					id: "4617E7998E5916F9"
+					type: "xp"
+					xp: 100
+				}
+			]
 		}
 	]
 }

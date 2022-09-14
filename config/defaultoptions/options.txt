@@ -4,7 +4,7 @@ autoSuggestions:true
 chatColors:true
 chatLinks:true
 chatLinksPrompt:true
-enableVsync:true
+enableVsync:false
 entityShadows:true
 forceUnicodeFont:false
 discrete_mouse_scroll:false
@@ -20,13 +20,13 @@ toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 mouseSensitivity:0.5
-fov:0.75
+fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
 gamma:0.5
-renderDistance:32
+renderDistance:12
 simulationDistance:12
-entityDistanceScaling:0.75
+entityDistanceScaling:0.5
 guiScale:3
 particles:0
 maxFps:260
@@ -35,7 +35,7 @@ graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:true
+renderClouds:false
 resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","file/Stay_True_1.18.zip","file/Fancy,+GUI+Overhaul+v0.1.0.zip","LITV3-RP-1.18.2","file/Fancy+Boss+Bars+v0.1.1.zip"]
 incompatibleResourcePacks:["quark:emote_resources","file/Fancy,+GUI+Overhaul+v0.1.0.zip","file/Fancy+Boss+Bars+v0.1.1.zip"]
 lastServer:

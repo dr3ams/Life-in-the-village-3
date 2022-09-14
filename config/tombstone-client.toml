@@ -74,4 +74,7 @@
 	show_tooltip_combine = true
 	#Display an icon when fishing with the Rod of Misadventure showing if you're in openwater [false/true|default:true]
 	show_fishing_marker = true
+	#Defines the font to use in Tombstone's screens (only for english, french and spanish languages) [FANTASY/VANILLA|default:FANTASY]
+	#Allowed Values: FANTASY, VANILLA
+	font_rule = "FANTASY"
 
