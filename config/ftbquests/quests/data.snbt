@@ -6,9 +6,24 @@
 	default_autoclaim_rewards: "disabled"
 	default_quest_shape: "circle"
 	default_quest_disable_jei: false
-	emergency_items: [{
-		item: "minecraft:apple"
-	}]
+	emergency_items: [
+		{ id: "minecraft:apple", Count: 1b }
+		{
+			id: "minecraft:stone_pickaxe"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+		{ id: "ftbquests:book", Count: 1b }
+		{
+			id: "minecraft:potion"
+			Count: 1b
+			tag: {
+				Potion: "minecraft:swiftness"
+			}
+		}
+	]
 	emergency_items_cooldown: 300
 	drop_loot_crates: false
 	loot_crate_no_drop: {

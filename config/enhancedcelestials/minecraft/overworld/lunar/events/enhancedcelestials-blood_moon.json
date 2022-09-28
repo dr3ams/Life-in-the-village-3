@@ -19,7 +19,7 @@
       "type": "CHAT"
     }
   },
-  "blockSleeping": true,
+  "blockSleeping": false,
   "spawnCategoryMultiplier": {
     "monster": 3.0
   },

@@ -9,7 +9,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 5.5d
+			x: 6.5d
 			y: 3.0d
 			dependencies: ["29CD2BA25DD2395B"]
 			id: "4E2850F4670F5763"
@@ -31,7 +31,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.5d
 			y: -5.0d
 			dependencies: ["19A4385584636C45"]
 			id: "0ABFF67C8B76BE22"
@@ -59,7 +59,7 @@
 			]
 		}
 		{
-			x: 2.0d
+			x: 3.0d
 			y: -6.0d
 			dependencies: ["19A4385584636C45"]
 			id: "52E3B3D4F0915EEE"
@@ -93,7 +93,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: -6.5d
 			dependencies: ["19A4385584636C45"]
 			id: "107EBB12815A4B23"
@@ -128,7 +128,7 @@
 		}
 		{
 			x: 6.5d
-			y: -6.5d
+			y: -5.5d
 			dependencies: ["2FEC85DD348C7C1C"]
 			id: "42E37B71FCF59BAD"
 			tasks: [{
@@ -156,8 +156,8 @@
 			]
 		}
 		{
-			x: 7.5d
-			y: -6.0d
+			x: 7.0d
+			y: -6.5d
 			dependencies: ["2FEC85DD348C7C1C"]
 			id: "2DA15FAD0E755A26"
 			tasks: [{
@@ -185,8 +185,8 @@
 			]
 		}
 		{
-			x: 8.0d
-			y: -5.0d
+			x: 9.0d
+			y: -6.5d
 			dependencies: ["2FEC85DD348C7C1C"]
 			id: "2EE16C98E49A9947"
 			tasks: [
@@ -221,7 +221,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 2.5d
 			y: 2.0d
 			shape: "gear"
 			subtitle: "Knives are scavenging tools: they allow you to obtain a few more resources from both fauna and flora."
@@ -255,7 +255,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.5d
 			y: -1.0d
 			dependencies: ["06FCFD49B9DC5C59"]
 			id: "32D6083223BDCD90"
@@ -283,7 +283,7 @@
 			]
 		}
 		{
-			x: 3.0d
+			x: 4.0d
 			y: -4.0d
 			shape: "hexagon"
 			description: [
@@ -321,8 +321,8 @@
 			]
 		}
 		{
-			x: 4.5d
-			y: 0.0d
+			x: 7.0d
+			y: 0.5d
 			description: ["When consumed, it will remove a single random negative effect from the player, keeping positive ones untouched. This provides a simple use for Cocoa Beans in difficult, risky trips."]
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "55AF1779E7AE28A7"
@@ -338,7 +338,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 8.0d
 			y: -4.0d
 			shape: "hexagon"
 			subtitle: "The Cutting Board is a workstation where players can break down one item into many outputs, by using a valid tool on it."
@@ -373,7 +373,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 8.5d
 			y: -1.5d
 			dependencies: ["18F8DADD01FEC9C2"]
 			id: "604569BC4764E258"
@@ -389,7 +389,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 8.5d
 			y: -3.0d
 			description: ["This combination allows your mount to be a lot more agile during travels. Since mounts eat a large volume of feed, the item does not need to be contained in a Bowl, saving some inventory space."]
 			dependencies: ["604569BC4764E258"]
@@ -406,7 +406,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 9.5d
 			y: -2.5d
 			description: ["This combination allows wolves to catch up a lot more easily with you or nimble opponents, as well as last longer in battle."]
 			dependencies: ["604569BC4764E258"]
@@ -423,7 +423,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 9.0d
 			y: -0.5d
 			subtitle: "Feasts are very large meals, which can be placed as a block to provide multiple servings to players."
 			description: [
@@ -445,7 +445,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 10.5d
 			y: -1.5d
 			dependencies: ["619A52669514E850"]
 			id: "0F27533115C5827C"
@@ -461,7 +461,7 @@
 			}]
 		}
 		{
-			x: 8.0d
+			x: 10.5d
 			y: -0.5d
 			dependencies: ["619A52669514E850"]
 			id: "7B635770381DDE91"
@@ -477,7 +477,7 @@
 			}]
 		}
 		{
-			x: 7.5d
+			x: 10.0d
 			y: 0.5d
 			dependencies: ["619A52669514E850"]
 			id: "41751B25A229932D"
@@ -493,7 +493,7 @@
 			}]
 		}
 		{
-			x: 6.5d
+			x: 9.0d
 			y: 1.0d
 			dependencies: ["619A52669514E850"]
 			id: "0D2CCDC7E72BE396"
@@ -509,7 +509,7 @@
 			}]
 		}
 		{
-			x: 4.5d
+			x: 6.0d
 			y: -1.0d
 			shape: "hexagon"
 			description: [
@@ -546,7 +546,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 4.5d
 			y: 2.0d
 			dependencies: ["06FCFD49B9DC5C59"]
 			id: "028FAF610E83646D"
@@ -568,7 +568,7 @@
 			}]
 		}
 		{
-			x: 5.0d
+			x: 6.0d
 			y: 2.0d
 			dependencies: ["028FAF610E83646D"]
 			id: "1201103F5FC0E441"
@@ -597,7 +597,7 @@
 			]
 		}
 		{
-			x: 3.5d
+			x: 4.5d
 			y: 3.0d
 			dependencies: ["447D1005B0881D70"]
 			id: "29CD2BA25DD2395B"
@@ -613,7 +613,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.5d
 			y: 4.0d
 			description: [
 				"Using a Knife on grassy plants will yield Straw, a useful building and composting material. Early on, it's best used to craft some Ropes."
@@ -633,7 +633,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 5.0d
 			y: 4.0d
 			description: [
 				"Rich Soil is an enhanced type of dirt, more fertile and durable to the elements."
@@ -662,7 +662,7 @@
 			}]
 		}
 		{
-			x: 3.5d
+			x: 4.5d
 			y: 5.0d
 			description: [
 				"Ropes are essentially reverse scaffolding: the can be continuously deployed downward from the same spot, and can be climbed without collision. This allows players to safely descend or ascend high altitudes, such as ravines or mountains."
@@ -685,7 +685,7 @@
 			}]
 		}
 		{
-			x: 5.5d
+			x: 6.5d
 			y: 5.0d
 			description: ["Fully absorbs your fall without dealing damage."]
 			dependencies: ["27E4CBB51DBD27CD"]
@@ -709,7 +709,7 @@
 			]
 		}
 		{
-			x: 6.0d
+			x: 7.0d
 			y: 4.0d
 			description: [
 				"When any growable plant is placed on Rich Soil, its growth will be randomly boosted, similar to the usage of Bone Meal."
@@ -738,7 +738,7 @@
 			]
 		}
 		{
-			x: 6.5d
+			x: 7.5d
 			y: 2.0d
 			dependencies: ["1201103F5FC0E441"]
 			id: "0025624788BAAD2A"
@@ -767,7 +767,7 @@
 			]
 		}
 		{
-			x: 8.0d
+			x: 9.0d
 			y: 2.0d
 			dependencies: ["0025624788BAAD2A"]
 			id: "0277464EB3D23D4B"
@@ -2916,7 +2916,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -15.5d
 			y: -5.0d
 			id: "1551E4FD839807A2"
 			tasks: [{
@@ -2938,7 +2938,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -15.5d
 			y: -3.5d
 			dependencies: ["1551E4FD839807A2"]
 			id: "1223B74DE8108C67"
@@ -2962,7 +2962,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -15.5d
 			y: -2.0d
 			dependencies: ["1223B74DE8108C67"]
 			id: "6B649400E699D31F"
@@ -2987,7 +2987,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -15.5d
 			y: -0.5d
 			dependencies: ["6B649400E699D31F"]
 			id: "6232E0EC41F931BA"
@@ -3011,7 +3011,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -15.5d
 			y: 1.0d
 			dependencies: ["6232E0EC41F931BA"]
 			id: "71F7425B228485C4"
@@ -3035,7 +3035,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -15.5d
 			y: 2.5d
 			dependencies: ["71F7425B228485C4"]
 			id: "12F512B24CF56B09"
@@ -3059,7 +3059,7 @@
 			]
 		}
 		{
-			x: -0.5d
+			x: -15.5d
 			y: 4.0d
 			dependencies: ["12F512B24CF56B09"]
 			id: "1A565B02E67D7872"
@@ -3105,7 +3105,7 @@
 			]
 		}
 		{
-			x: 5.5d
+			x: 8.0d
 			y: 0.5d
 			dependencies: ["619A52669514E850"]
 			id: "54890B0F03CB39E0"
@@ -3121,7 +3121,7 @@
 			}]
 		}
 		{
-			x: 1.5d
+			x: 2.5d
 			y: -3.0d
 			dependencies: ["19A4385584636C45"]
 			id: "29DA0B063A256624"
@@ -3144,7 +3144,7 @@
 			]
 		}
 		{
-			x: 1.5d
+			x: 2.5d
 			y: -4.0d
 			dependencies: ["19A4385584636C45"]
 			id: "14D298CB7608D220"
@@ -3168,7 +3168,7 @@
 		}
 		{
 			x: 8.0d
-			y: -4.0d
+			y: -6.5d
 			dependencies: ["2FEC85DD348C7C1C"]
 			id: "2782C4B72A464664"
 			tasks: [{
@@ -3190,7 +3190,7 @@
 			]
 		}
 		{
-			x: 4.0d
+			x: 5.0d
 			y: -6.0d
 			dependencies: ["19A4385584636C45"]
 			id: "7FEF422EAC3257DD"
@@ -3213,7 +3213,7 @@
 			]
 		}
 		{
-			x: 4.5d
+			x: 5.5d
 			y: -5.0d
 			dependencies: ["19A4385584636C45"]
 			id: "212610E372FD7F92"
@@ -3232,6 +3232,574 @@
 					id: "7B77EFF4C6E48263"
 					type: "xp"
 					xp: 250
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -4.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "5208C122A79FB6D4"
+			tasks: [{
+				id: "40A96A255CF3974B"
+				type: "item"
+				item: "farmersdelight:salmon_roll"
+			}]
+			rewards: [{
+				id: "639781BFA9FB27B6"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "0F72242F67FB23EA"
+			tasks: [{
+				id: "63166586FF2EB727"
+				type: "item"
+				item: "farmersdelight:cabbage_rolls"
+			}]
+			rewards: [{
+				id: "77F67130A5E9031C"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 9.5d
+			y: -5.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "5625E3B3A16BC9B6"
+			tasks: [{
+				id: "4CD83405D6CCD04F"
+				type: "item"
+				item: "farmersdelight:cod_roll"
+			}]
+			rewards: [{
+				id: "20EF1019FD977D70"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			dependencies: ["2FEC85DD348C7C1C"]
+			id: "62089B796DB351EE"
+			tasks: [{
+				id: "136A1BD0C9B1D263"
+				type: "item"
+				item: "farmersdelight:kelp_roll"
+			}]
+			rewards: [{
+				id: "2CC99774A219DB9A"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 10.5d
+			y: -4.5d
+			dependencies: [
+				"5625E3B3A16BC9B6"
+				"5208C122A79FB6D4"
+				"62089B796DB351EE"
+			]
+			id: "1872F40DABDF5FAF"
+			tasks: [{
+				id: "08E3A7BEF2AC8FDE"
+				type: "item"
+				item: "farmersdelight:rice_roll_medley_block"
+			}]
+			rewards: [
+				{
+					id: "45FFC57650845DA4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "74F3CF3889317CB3"
+					type: "item"
+					item: "kubejs:copper_coin"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "6A6E488CCF7AE3AD"
+			tasks: [{
+				id: "277C9D02358EAF00"
+				type: "item"
+				item: "farmersdelight:bone_broth"
+			}]
+			rewards: [{
+				id: "0AE999E429FEF9B6"
+				type: "xp"
+				xp: 250
+			}]
+		}
+		{
+			x: 10.5d
+			y: -6.5d
+			dependencies: ["2EE16C98E49A9947"]
+			id: "2CBC743A01A4D249"
+			tasks: [{
+				id: "11ABCED42E7D31D1"
+				type: "item"
+				item: "farmersdelight:mushroom_rice"
+			}]
+			rewards: [
+				{
+					id: "6BF5BBD06C10B568"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "181762967958B7D4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			dependencies: ["18F8DADD01FEC9C2"]
+			id: "1EBAB25F45475F48"
+			tasks: [{
+				id: "16E76C5CA796E2CC"
+				type: "item"
+				item: "farmersdelight:glow_berry_custard"
+			}]
+			rewards: [
+				{
+					id: "431DB11842A45F7C"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "514A2BFE5E6D09AD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Tea time!"
+			x: 0.0d
+			y: -1.0d
+			shape: "hexagon"
+			dependencies: ["32D6083223BDCD90"]
+			size: 1.5d
+			id: "0960AD8BA5C09440"
+			tasks: [{
+				id: "50D9091CB3744BA2"
+				type: "item"
+				item: "farmersrespite:kettle"
+			}]
+			rewards: [
+				{
+					id: "5967B39F483EEE49"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5A48CD35022E76BA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "common_loot_crate"
+						}
+					}
+				}
+				{
+					id: "519D620D2E5D0FF5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "648BAB58990F8D8D"
+			tasks: [{
+				id: "7EA689C816A1D777"
+				type: "item"
+				item: "farmersrespite:coffee_beans"
+			}]
+			rewards: [
+				{
+					id: "5EDBB3EB559DA391"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "083CC03DD10CCBA4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "51DF5016D3B2B89A"
+			tasks: [{
+				id: "219B121B727AAD03"
+				type: "item"
+				item: "farmersrespite:green_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "05E0D8FEB504C313"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "618FA908F3BA2B3C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "4D9C56A8C025C187"
+			tasks: [{
+				id: "38125E4987DDB934"
+				type: "item"
+				item: "farmersrespite:yellow_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "20360452C1A299F8"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "7911F1F7AA4DE8A3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "04CDF780E05C5C2D"
+			tasks: [{
+				id: "55BC8F7744D082A2"
+				type: "item"
+				item: "farmersrespite:black_tea_leaves"
+			}]
+			rewards: [
+				{
+					id: "4226AFCB98055854"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "11E3B8B3A7FEA0C2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "6F7BFBA1ED098E26"
+			tasks: [{
+				id: "7123D9467555B8C5"
+				type: "item"
+				item: "farmersrespite:rose_hips"
+			}]
+			rewards: [
+				{
+					id: "604DAA1065469A0A"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "73D794BD014AD5A7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["2F0545EAD838C471"]
+			id: "16371A1ABC7EDFEA"
+			tasks: [{
+				id: "2E6238D6CF976114"
+				type: "item"
+				item: "farmersrespite:dandelion_tea"
+			}]
+			rewards: [
+				{
+					id: "020FE5240944C916"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "6F138EE456FAFEE3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["648BAB58990F8D8D"]
+			id: "1DB53B94CE26EC1F"
+			tasks: [{
+				id: "3E659ACCBBADA69C"
+				type: "item"
+				item: "farmersrespite:coffee"
+			}]
+			rewards: [
+				{
+					id: "765DC1016E48CFA6"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "678CD24F339DA825"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["51DF5016D3B2B89A"]
+			id: "1801CABEB4546A91"
+			tasks: [{
+				id: "614B7A3AFC24BDB3"
+				type: "item"
+				item: "farmersrespite:green_tea"
+			}]
+			rewards: [
+				{
+					id: "4C1756C0F3E688B1"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "729D0346C2B1A66A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["4D9C56A8C025C187"]
+			id: "75E87C071232E880"
+			tasks: [{
+				id: "034EDFD628CE924F"
+				type: "item"
+				item: "farmersrespite:yellow_tea"
+			}]
+			rewards: [
+				{
+					id: "52BE19B6EB7F856B"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4B3A4F5C9C9B2C56"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			shape: "hexagon"
+			dependencies: ["04CDF780E05C5C2D"]
+			id: "2DE60B5902EB6E77"
+			tasks: [{
+				id: "1E93E2F8E8763D04"
+				type: "item"
+				item: "farmersrespite:black_tea"
+			}]
+			rewards: [
+				{
+					id: "0EA9F484550BEAFD"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "14EBE219335BB49B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			shape: "hexagon"
+			dependencies: ["6F7BFBA1ED098E26"]
+			id: "254EEEE83C8C2627"
+			tasks: [{
+				id: "6BE15097F46EA6F1"
+				type: "item"
+				item: "farmersrespite:rose_hip_tea"
+			}]
+			rewards: [
+				{
+					id: "517A7D86467C6382"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "4D0D2974E2CE7F70"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "uncommon_loot_crate"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			shape: "hexagon"
+			dependencies: ["0960AD8BA5C09440"]
+			id: "2F0545EAD838C471"
+			tasks: [{
+				id: "3EB7731A52CE54FC"
+				type: "item"
+				item: "minecraft:dandelion"
+			}]
+			rewards: [
+				{
+					id: "55CC37B00C819FFB"
+					type: "xp"
+					xp: 250
+				}
+				{
+					id: "2BD8154A25176F67"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "random_dyes"
+						}
+					}
 				}
 			]
 		}

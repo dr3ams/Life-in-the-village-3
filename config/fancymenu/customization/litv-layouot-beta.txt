@@ -387,14 +387,3 @@ customization {
   height = 156
 }
 
-customization {
-  path = config/fancymenu/beta.png
-  orientation = top-centered
-  x = -211
-  width = 423
-  action = addtexture
-  actionid = 1eca5f09-e81c-43c5-b63f-d20e0685aa601659857127359
-  y = 51
-  height = 28
-}
-

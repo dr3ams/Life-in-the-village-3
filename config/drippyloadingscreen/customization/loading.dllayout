@@ -1,0 +1,35 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  backgroundimage = config/drippyloadingscreen/1.png
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  orientation = bottom-centered
+  visible = false
+  x = 9
+  action = editlogo
+  y = -116
+}
+
+customization {
+  action = editprogressbar
+  barcolor = 
+}
+
+customization {
+  path = config/drippyloadingscreen/logo_temp_transparent.png
+  orientation = top-centered
+  x = -1
+  width = 400
+  action = addtexture
+  actionid = 9b13cc86-2e4e-435c-94c9-276c6e7b1e5d1663853269952
+  y = 15
+  height = 155
+}
+

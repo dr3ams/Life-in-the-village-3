@@ -1,0 +1,58 @@
+{
+	id: "7B137D6B80D3BB81"
+	group: "4BB8DCEF290E19CA"
+	order_index: 3
+	filename: "little_logistics"
+	title: "Little Logistics(wip)"
+	icon: "littlelogistics:steam_locomotive"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.5d
+			y: -0.5d
+			id: "019D858D15FE3AC6"
+			tasks: [{
+				id: "148BD3424966FEA6"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+			}]
+		}
+		{
+			icon: "littlelogistics:tug"
+			x: -5.5d
+			y: -0.5d
+			shape: "octagon"
+			description: ["There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."]
+			dependencies: ["019D858D15FE3AC6"]
+			size: 2.0d
+			id: "51ECC8F4210B4A55"
+			tasks: [{
+				id: "5CD6A0AC27E788FB"
+				type: "checkmark"
+				title: "Vessels"
+			}]
+		}
+		{
+			icon: "littlelogistics:steam_locomotive"
+			x: 0.5d
+			y: -0.5d
+			shape: "octagon"
+			description: ["Little logistics trains operate on vanilla rails, but use custom train car entities instead of minecarts."]
+			dependencies: ["019D858D15FE3AC6"]
+			size: 2.0d
+			id: "595BD3E85F2C6557"
+			tasks: [{
+				id: "79E8198431F59D0A"
+				type: "checkmark"
+				title: "Trains"
+			}]
+		}
+	]
+}
