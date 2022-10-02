@@ -36,7 +36,7 @@
 	#Duration of suspicious stew's effect is doubled when a fiddlehead is added during or after cooking.
 	#If the effect is negative, duration is halved instead.
 	#Default: true
-	"Fern Fiddlehead Enabled" = true
+	"Fern Fiddlehead Enabled" = false
 	#Taffy is a food item that can only be found in dungeons. It restores some health, but also makes your mouth sticky, reducing eating speed with every taffy eaten.
 	#Default: true
 	"Taffy Enabled" = true
