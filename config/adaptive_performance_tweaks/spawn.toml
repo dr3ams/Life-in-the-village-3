@@ -16,13 +16,13 @@
 
 ["Global Spawn Limitations"]
 	#Enable/Disable general spawn limitations.
-	spawnLimitationEnabled = true
+	spawnLimitationEnabled = false
 	#Blocks every x spawn to avoid an over population with the limited spawn area. Use 0 to disable this optimization.
 	#Range: 0 ~ 100
 	spawnLimitationLimiter = 16
 	#Defines the max. number of entities of a specific type, which could spawn within the player view area. Use 0 to disable this optimization.
 	#Range: 0 ~ 256
-	spawnLimitationMaxMobsPerPlayer = 32
+	spawnLimitationMaxMobsPerPlayer = 64
 	#Defines the max. number of entities of a specific type, which could spawn within a single world. Use 0 to disable this optimization.
 	#Range: 0 ~ 1024
 	spawnLimitationMaxMobsPerWorld = 128

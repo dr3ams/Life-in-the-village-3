@@ -53,6 +53,9 @@
     "mod_name": true,
     "entity_hp": true
   },
+  "lootr": {
+    "info": true
+  },
   "productivebees": {
     "bee_attributes": true
   },
