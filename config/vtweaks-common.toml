@@ -39,7 +39,7 @@
 	#This controls the overall chance for V-Tweaks to attempt converting a monster to a Challenger.
 	#This chance is applied before any Challenger Mob weights or entity filters.
 	#Range: 0.0 ~ 1.0
-	challengerMobGlobalChance = 0.25
+	challengerMobGlobalChance = 0.1
 	#Prevents mobs from spawning above sea level unless it's a new moon
 	enablePeacefulSurface = false
 	#The lowest Y-level which mobs will be prevented from spawning

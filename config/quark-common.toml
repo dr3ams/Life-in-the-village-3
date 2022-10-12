@@ -1257,7 +1257,7 @@
 					"Is Blacklist" = true
 
 	[mobs.stonelings]
-		"Max Y Level" = 0
+		"Max Y Level" = 20
 		"Enable Diamond Heart" = true
 		"Cautious Stonelings" = true
 		"Tamable Stonelings" = true
@@ -1270,7 +1270,7 @@
 
 		[mobs.stonelings.spawn_config]
 			#Allowed values: (0,)
-			"Spawn Weight" = 80
+			"Spawn Weight" = 50
 			#Allowed values: [1,)
 			"Min Group Size" = 1
 			#Allowed values: [1,)
