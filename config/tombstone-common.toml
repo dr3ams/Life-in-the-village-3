@@ -83,13 +83,13 @@
 	time_for_phantom_spawn = 72000
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_request_teleport = -1
+	cooldown_request_teleport = 5
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_death = -1
+	cooldown_teleport_death = 5
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_bind = -1
+	cooldown_teleport_bind = 5
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
@@ -116,7 +116,7 @@
 	siege_chance = 10
 	#Maximum of creatures appearing in a siege [0..100|default:20]
 	#Range: 0 ~ 100
-	siege_max_creature = 20
+	siege_max_creature = 15
 	#Delay in seconds for a second test of siege when the first failed [0..1200|default:200]
 	#Range: 0 ~ 1200
 	delay_siege_test = 200
@@ -132,10 +132,10 @@
 	time_soul = 30
 	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_soul = 100
+	chance_soul = 80
 	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
 	#Range: 0 ~ 100
-	chance_pray_reward = 40
+	chance_pray_reward = 30
 	#Minimum distance between Grave Gardians to spawn [10..200|default:100]
 	#Range: 10 ~ 200
 	distance_between_grave_guardian = 100
@@ -151,7 +151,7 @@
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
 	#Range: > 1
-	max_duration_magic_siphon = 60
+	max_duration_magic_siphon = 10
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
@@ -170,7 +170,7 @@
 	recovery_player_timer = 19
 	#Maximum number of backups per player [5..100|default:15]
 	#Range: 5 ~ 100
-	recovery_player_max_saves = 15
+	recovery_player_max_saves = 5
 	#Log when players are automatically back up [false/true|default:false]
 	log_auto_backup = false
 
@@ -190,13 +190,13 @@
 	chance_soul_receptacle_on_boss = 50
 	#Chance on 1000 for undead mobs to drop Grave's Dust [0..1000|default:100]
 	#Range: 0 ~ 1000
-	chance_grave_dust = 100
+	chance_grave_dust = 60
 	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
 	#Range: > 200
 	undead_boss_life_for_drop = 200
 	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [1..200000|default:2000]
 	#Range: 1 ~ 200000
-	max_xp_lost_page = 2000
+	max_xp_lost_page = 1000
 	#Entities that can't found as loot in a Familiar Receptacle
 	unhandled_tameable_entities = []
 
