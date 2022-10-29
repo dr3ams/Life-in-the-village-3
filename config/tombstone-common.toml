@@ -163,8 +163,6 @@
 [recovery]
 	#Enables to backup automatically players [false/true|default:true]
 	recovery_player_enable = true
-	#Enables to backup automatically dead familiars [false/true|default:true]
-	recovery_familiar_enable = true
 	#Backup players on death [false/true|default:false]
 	backup_on_death = true
 	#Time in minutes between players' backups [10..1000|default:40]
