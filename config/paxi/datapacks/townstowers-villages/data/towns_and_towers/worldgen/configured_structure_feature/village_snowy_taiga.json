@@ -1,0 +1,10 @@
+{
+  "config": {
+  "start_pool": "kaisyn:village/snowy_taiga_viking/town_centers",
+    "size": 3
+  },
+  "type": "minecraft:village",
+  "biomes": "#towns_and_towers:has_structure/village_snowy_taiga_viking",
+  "adapt_noise": true,
+  "spawn_overrides": {}
+}

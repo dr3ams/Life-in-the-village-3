@@ -75,7 +75,7 @@
 [Fauna]
 	#Default: 10
 	#Range: 0 ~ 100
-	"Butterfly Spawn Weight" = 5
+	"Butterfly Spawn Weight" = 0
 
 [Flora]
 	#Dandelion puffs spawn among vanilla dandelions. You can blow on a dandelion puff by using it.

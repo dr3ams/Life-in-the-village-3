@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/mushroom_fields_fantasy/town_centers",
+  "start_pool": "kaisyn:village/mushroom_fields_fantasy/town_centers",
     "size": 3
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:mushroom_fields",
+  "biomes": "#towns_and_towers:has_structure/village_mushroom_fields_fantasy",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

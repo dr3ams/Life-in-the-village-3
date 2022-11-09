@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/birch_forest_romanian/town_centers",
+  "start_pool": "kaisyn:village/birch_forest_romanian/town_centers",
     "size": 3
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:birch_forest",
+  "biomes": "#towns_and_towers:has_structure/village_birch_forest_romanian",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

@@ -1,0 +1,80 @@
+
+#Server Config
+[server]
+	#The amount of Weapon XP a player gains when hitting a mob
+	#Range: 0 ~ 10000
+	hittingXPAmount = 1
+	#The chance of a hit giving you xp
+	#Range: 0 ~ 100
+	hittingChance = 20
+	#The amount of Weapon XP a player gains when critting a mob
+	#Range: 0 ~ 10000
+	value_crit_xp_amount = 2
+	#The chance of a crit giving you xp
+	#Range: 0 ~ 100
+	value_crit_percentage = 60
+	#The Max Level a Weapon can Reach
+	#Range: 0 ~ 10000
+	weaponMaxLevel = 100
+	#The Modifier for the equation used to calculate the amount of xp needed to level up (Default = 80)
+	#Range: 0 ~ 10000
+	weaponLevelModifier = 80
+	#The XP amount needed to reach the first level (Default = 50)
+	#Range: 0 ~ 10000
+	weaponStartAmount = 50
+	#The Extra Damage a weapon gets for each level (Default = 0.1)
+	#Range: 0.0 ~ 100.0
+	weaponDamagePerLevel = 0.1
+	#The Value, that gets multiplied with the bow's damage to lower it. It is recommended to leave it below 1  (Default = 0.25d)
+	#Range: 0.0 ~ 10.0
+	weaponBowLikeModifier = 0.25
+	#The Max Percentage an Armor Part can reduce
+	#Range: 0.0 ~ 100.0
+	weaponMaxReduction = 50.0
+
+	#Item Config
+	[server.item]
+		#Blacklisted Items
+		blacklist_items = ["jobsplus:hunters_sword_level_1", "jobsplus:hunters_sword_level_2", "jobsplus:hunters_sword_level_3", "jobsplus:hunters_sword_level_4", "jobsplus:hunters_bow_level_1", "jobsplus:hunters_bow_level_2", "jobsplus:hunters_bow_level_3", "jobsplus:hunters_bow_level_4", "jobsplus:lumberjack_axe_level_1", "jobsplus:lumberjack_axe_level_2", "jobsplus:lumberjack_axe_level_3", "jobsplus:lumberjack_axe_level_4"]
+		#Melee Weapons, that are not extending the AxeItem or SwordItem Class
+		melee_items = ["minecraft:trident", "tetra:modular_sword", "tetra:modular_double", "tconstruct:dagger", "tconstruct:sword", "tconstruct:cleaver", "tconstruct:scythe", "tconstruct:broad_axe", "tconstruct:hand_axe", "tconstruct:sledge_hammer", "tconstruct:mattock", "parrying:wood_mace", "parrying:stone_mace", "parrying:iron_mace", "parrying:gold_mace", "parrying:diamond_mace", "parrying:netherite_mace", "parrying:wood_spear", "parrying:stone_spear", "parrying:iron_spear", "parrying:gold_spear", "parrying:diamond_spear", "parrying:netherite_spear", "parrying:wood_dagger", "parrying:stone_dagger", "parrying:iron_dagger", "parrying:gold_dagger", "parrying:diamond_dagger", "parrying:netherite_dagger", "parrying:wood_flail", "parrying:stone_flail", "parrying:iron_flail", "parrying:gold_flail", "parrying:diamond_flail", "parrying:netherite_flail", "parrying:wood_hammer", "parrying:stone_hammer", "parrying:iron_hammer", "parrying:gold_hammer", "parrying:diamond_hammer", "parrying:netherite_hammer"]
+		#Armors, that are not extending the Armor Class or Should be added if Option "disable_unlisted_items" is set to true
+		armor_items = []
+		#Projectile Weapons, that are not extending the ProjectileItem Class
+		projectile_items = ["minecraft:trident", "minecraft:bow", "minecraft:crossbow", "tetra:modular_crossbow", "tetra:modular_bow", "cgm:pistol", "cgm:shotgun", "cgm:mini_gun", "cgm:assault_rifle", "cgm:machine_pistol", "cgm:heavy_rifle", "cgm:grenade_launcher", "cgm:bazooka", "parrying:wood_spear", "parrying:stone_spear", "parrying:iron_spear", "parrying:gold_spear", "parrying:diamond_spear", "parrying:netherite_spear", "parrying:wood_dagger", "parrying:stone_dagger", "parrying:iron_dagger", "parrying:gold_dagger", "parrying:diamond_dagger", "parrying:netherite_dagger"]
+		#How the player is notified about the item's Level Up
+		#ACTIONBAR: Will display the Level Up in the Actionbar
+		#TOAST: Will display the Level Up in the Actionbar
+		#Allowed Values: ACTIONBAR, TOAST
+		levelUpDisplayType = "TOAST"
+		#If set to true, items will not vanish when broken, but rather have a useless version
+		broken_items_wont_vanish = true
+		#If set to true, Swords, Axes and Armor will not be supported
+		disable_unlisted_items = false
+
+	#Entity Config
+	[server.entiy]
+		#The generic Amount of XP a Player gains when killing a not defined Entity
+		#Range: 0 ~ 10000
+		killingGenericXPAmount = 1
+		#The amount of Weapon XP a player gains when killing a mob
+		#Range: 0 ~ 10000
+		killingAnimalXPAmount = 2
+		#The amount of Weapon XP a player gains when killing a monster
+		#Range: 0 ~ 10000
+		killingMonsterXPAmount = 10
+		#The amount of Weapon XP a player gains when killing a mini boss
+		#Range: 0 ~ 10000
+		killingMiniBossXPAmount = 50
+		#The amount of Weapon XP a player gains when killing a boss
+		#Range: 0 ~ 10000
+		KillingBossXPAmount = 100
+		#A List of all the Animals affected by the mod
+		animal_entities = ["minecraft:pig", "minecraft:cow", "minecraft:sheep", "minecraft:chicken", "minecraft:mooshroom", "minecraft:axolotl", "minecraft:bee", "minecraft:cat", "minecraft:donkey", "minecraft:fox", "minecraft:goat", "minecraft:horse", "minecraft:llama", "minecraft:mule", "minecraft:ocelot", "minecraft:panda", "minecraft:rabbit", "minecraft:strider", "minecraft:hoglin", "minecraft:trader_llama", "minecraft:turtle", "minecraft:wolf", "minecraft:squid", "minecraft:glow_squid", "minecraft:dolphin", "minecraft:polar_bear", "minecraft:pufferfish", "minecraft:salmon", "minecraft:cod", "minecraft:tropical_fish", "alexsmobs:grizzly_bear", "alexsmobs:roadrunner", "alexsmobs:gazelle", "alexsmobs:crocodile", "alexsmobs:fly", "alexsmobs:hummingbird", "alexsmobs:orca", "alexsmobs:sunbird", "alexsmobs:gorilla", "alexsmobs:rattlesnake", "alexsmobs:endergrade", "alexsmobs:hammerhead_shark", "alexsmobs:lobster", "alexsmobs:komodo_dragon", "alexsmobs:capuchin_monkey", "alexsmobs:warped_toad", "alexsmobs:moose", "alexsmobs:raccoon", "alexsmobs:blobfish", "alexsmobs:seal", "alexsmobs:cockroach", "alexsmobs:shoebill", "alexsmobs:elephant", "alexsmobs:crow", "alexsmobs:snow_leopard", "alexsmobs:alligator_snapping_turtle", "alexsmobs:mungus", "alexsmobs:mantis_shrimp", "alexsmobs:polar_bear", "alexsmobs:emu", "alexsmobs:platypus", "alexsmobs:dropbear", "alexsmobs:tasmanian_devil", "alexsmobs:kangaroo", "alexsmobs:cachalot_whale", "alexsmobs:leafcutter_ant", "alexsmobs:bald_eagle", "alexsmobs:tiger", "alexsmobs:tarantula_hawk", "alexsmobs:frilled_shark", "alexsmobs:mimic_octopus", "alexsmobs:seagull", "alexsmobs:tusklin", "alexsmobs:toucan", "alexsmobs:maned_wolf", "alexsmobs:anaconda", "alexsmobs:anteater", "alexsmobs:flutter", "alexsmobs:gelada_monkey", "alexsmobs:jerboa", "alexsmobs:terrapin", "alexsmobs:comb_jelly", "alexsmobs:cosmic_cod", "alexsmobs:bunfungus", "alexsmobs:bison", "alexsmobs:giant_squid", "alexsmobs:squid_grapple", "alexsmobs:sea_bear", "alexsmobs:devils_hole_pupfish", "alexsmobs:catfish", "alexsmobs:flying_fish", "alexsmobs:rain_frog", "alexsmobs:potoo", "alexsmobs:mudskipper", "alexsmobs:rhinoceros", "alexsmobs:sugar_glider"]
+		#A List of all the Monsters affected by the mod
+		monster_entities = ["minecraft:enderman", "minecraft:zombified_piglin", "minecraft:spider", "minecraft:cave_spider", "minecraft:blaze", "minecraft:creeper", "minecraft:drowned", "minecraft:guardian", "minecraft:endermite", "minecraft:ghast", "minecraft:husk", "minecraft:magma_cube", "minecraft:phantom", "minecraft:piglin", "minecraft:piglin_brute", "minecraft:pillager", "minecraft:ravager", "minecraft:shulker", "minecraft:silverfish", "minecraft:skeleton", "minecraft:slime", "minecraft:stray", "minecraft:vex", "minecraft:vindicator", "minecraft:witch", "minecraft:wither_skeleton", "minecraft:zoglin", "minecraft:zombie", "minecraft:zombie_villager", "alexsmobs:bone_serpent", "alexsmobs:crimson_mosquito", "alexsmobs:mimicube", "alexsmobs:soul_vulture", "alexsmobs:spectre", "alexsmobs:guster", "alexsmobs:straddler", "alexsmobs:stradpole", "alexsmobs:enderiophage", "alexsmobs:froststalker", "alexsmobs:laviathan", "alexsmobs:cosmaw", "alexsmobs:rocky_roller", "alexsmobs:skelewag"]
+		#A List of all the Mini Bosses affected by the mod
+		miniboss_entities = ["minecraft:elder_guardian", "minecraft:ravager", "minecraft:evoker", "alexsmobs:warped_mosco"]
+		#A List of all the Bosses affected by the mod
+		boss_entities = ["minecraft:wither", "minecraft:ender_dragon", "alexsmobs:void_worm"]
+

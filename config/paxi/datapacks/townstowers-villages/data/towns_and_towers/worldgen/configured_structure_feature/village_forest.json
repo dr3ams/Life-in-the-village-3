@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/forest_ruins/town_centers",
-    "size": 3
+  "start_pool": "kaisyn:village/forest_ruins/town_centers",
+    "size": 4
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:forest",
+  "biomes": "#towns_and_towers:has_structure/village_forest_ruins",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

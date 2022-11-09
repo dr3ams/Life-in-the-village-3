@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/wooded_badlands_teepee/town_centers",
+  "start_pool": "kaisyn:village/wooded_badlands_tipi/town_centers",
     "size": 3
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:wooded_badlands",
+  "biomes": "#towns_and_towers:has_structure/village_wooded_badlands_tipi",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

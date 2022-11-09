@@ -34,10 +34,10 @@
 	#When true, tents have decorations when upgraded
 	tent_decor_upgrade = false
 	#When true, the tent item will not be destroyed if it is burned
-	tent_fireproof = false
+	tent_fireproof = true
 	#Percentage chance that a plain tepee block will randomly have a design
 	#Range: 0 ~ 100
-	tepee_design_chance = 35
+	tepee_design_chance = 50
 	#Block used for harvestable layer of all tent floors
 	tent_floor = "minecraft:dirt"
 	#When true, tents will be the same size on the outside and inside

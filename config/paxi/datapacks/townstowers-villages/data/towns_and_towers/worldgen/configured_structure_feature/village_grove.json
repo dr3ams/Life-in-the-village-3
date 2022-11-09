@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/snowy_slopes_and_grove_inn/central",
-    "size": 3
+  "start_pool": "kaisyn:village/grove_villager_outpost/town_centers",
+    "size": 4
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:grove",
+  "biomes": "#towns_and_towers:has_structure/village_grove_villager_outpost",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

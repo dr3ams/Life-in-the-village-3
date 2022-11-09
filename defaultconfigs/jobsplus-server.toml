@@ -1,0 +1,193 @@
+
+[general]
+	#Range: 1 ~ 1000
+	job_start_cost = 10
+	#Range: 1 ~ 1000
+	job_stop_cost = 5
+	#Range: 0 ~ 1000
+	powerup_cost = 10
+	#Range: 1 ~ 10
+	amount_of_free_jobs = 2
+	#Range: 0 ~ 100
+	job_level_to_stop_job_for_free = 1
+	set_first_job_as_display = true
+
+[chat]
+	#Make chat look fancy.
+	format_chat = true
+	display_job_in_chat_and_tab = true
+
+[level_up]
+	#Amount of coins given to a player each time they level up a job.
+	#Range: > 0
+	coins_per_level_up = 1
+
+[multiplier]
+	#Job-EXP multipliers work like this: (default job-EXP * job-EXP multiplier) * global job-EXP multiplier.
+	#Example, player gets 4 job-EXP from fishing with a 1.45 fisherman multiplier and a 3.22 global multiplier:
+	#Outcome: (4 * 1.45) * 3.22 = 18.676 = 19 job-EXP gained (rounded).
+	#Range: 0.01 ~ 1000.0
+	global_exp_multiplier = 0.8
+	#Range: 0.01 ~ 1000.0
+	alchemist_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	builder_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	digger_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	enchanter_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	farmer_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	fisherman_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	hunter_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	lumberjack_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	miner_exp_multiplier = 1.0
+	#Range: 0.01 ~ 1000.0
+	smith_exp_multiplier = 1.0
+
+[crafting]
+
+	[crafting.tools]
+
+		[crafting.tools.miner]
+			#Range: 0 ~ 100
+			required_level_miners_hammer_level_1 = 5
+			#Range: 0 ~ 100
+			required_level_miners_hammer_level_2 = 25
+			#Range: 0 ~ 100
+			required_level_miners_hammer_level_3 = 50
+			#Range: 0 ~ 100
+			required_level_miners_hammer_level_4 = 75
+
+		[crafting.tools.digger]
+			#Range: 0 ~ 100
+			required_level_diggers_excavator_level_1 = 5
+			#Range: 0 ~ 100
+			required_level_diggers_excavator_level_2 = 25
+			#Range: 0 ~ 100
+			required_level_diggers_excavator_level_3 = 50
+			#Range: 0 ~ 100
+			required_level_diggers_excavator_level_4 = 75
+
+		[crafting.tools.lumberjack]
+			#Range: 0 ~ 100
+			required_level_lumberjack_axe_level_1 = 5
+			#Range: 0 ~ 100
+			required_level_lumberjack_axe_level_2 = 25
+			#Range: 0 ~ 100
+			required_level_lumberjack_axe_level_3 = 50
+			#Range: 0 ~ 100
+			required_level_lumberjack_axe_level_4 = 75
+
+		[crafting.tools.farmer]
+			#Range: 0 ~ 100
+			required_level_farmers_hoe_level_1 = 5
+			#Range: 0 ~ 100
+			required_level_farmers_hoe_level_2 = 25
+			#Range: 0 ~ 100
+			required_level_farmers_hoe_level_3 = 50
+			#Range: 0 ~ 100
+			required_level_farmers_hoe_level_4 = 75
+
+		[crafting.tools.hunter]
+			#Range: 0 ~ 100
+			required_level_hunters_sword_level_1 = 5
+			#Range: 0 ~ 100
+			required_level_hunters_sword_level_2 = 25
+			#Range: 0 ~ 100
+			required_level_hunters_sword_level_3 = 50
+			#Range: 0 ~ 100
+			required_level_hunters_sword_level_4 = 75
+			#Range: 0 ~ 100
+			required_level_hunters_bow_level_1 = 5
+			#Range: 0 ~ 100
+			required_level_hunters_bow_level_2 = 25
+			#Range: 0 ~ 100
+			required_level_hunters_bow_level_3 = 50
+			#Range: 0 ~ 100
+			required_level_hunters_bow_level_4 = 75
+
+		[crafting.tools.fisherman]
+			#Range: 0 ~ 100
+			required_level_fishermans_rod_level_1 = 5
+			#Range: 0 ~ 100
+			required_level_fishermans_rod_level_2 = 25
+			#Range: 0 ~ 100
+			required_level_fishermans_rod_level_3 = 50
+			#Range: 0 ~ 100
+			required_level_fishermans_rod_level_4 = 75
+
+	[crafting.armor]
+		#Range: 0 ~ 100
+		required_level_reinforced_iron_helmet = 1
+		#Range: 0 ~ 100
+		required_level_reinforced_iron_chestplate = 10
+		#Range: 0 ~ 100
+		required_level_reinforced_iron_leggings = 5
+		#Range: 0 ~ 100
+		required_level_reinforced_iron_boots = 1
+		#Range: 0 ~ 100
+		required_level_obsidian_helmet = 5
+		#Range: 0 ~ 100
+		required_level_obsidian_chestplate = 20
+		#Range: 0 ~ 100
+		required_level_obsidian_leggings = 10
+		#Range: 0 ~ 100
+		required_level_obsidian_boots = 5
+		#Range: 0 ~ 100
+		required_level_reinforced_diamond_helmet = 20
+		#Range: 0 ~ 100
+		required_level_reinforced_diamond_chestplate = 50
+		#Range: 0 ~ 100
+		required_level_reinforced_diamond_leggings = 35
+		#Range: 0 ~ 100
+		required_level_reinforced_diamond_boots = 20
+		#Range: 0 ~ 100
+		required_level_reinforced_netherite_helmet = 50
+		#Range: 0 ~ 100
+		required_level_reinforced_netherite_chestplate = 100
+		#Range: 0 ~ 100
+		required_level_reinforced_netherite_leggings = 75
+		#Range: 0 ~ 100
+		required_level_reinforced_netherite_boots = 50
+
+	[crafting.other]
+		#Range: 0 ~ 100
+		required_level_hunter_wool = 1
+
+		[crafting.other.enchanter]
+			#Range: 0 ~ 100
+			required_level_exp_jar = 5
+			#Range: 0 ~ 100
+			required_level_curse_breaker = 10
+			#Range: 0 ~ 100
+			required_level_experience_bottle_tier_1 = 10
+			#Range: 0 ~ 100
+			required_level_experience_bottle_tier_2 = 20
+			#Range: 0 ~ 100
+			required_level_experience_bottle_tier_3 = 35
+			#Range: 0 ~ 100
+			required_level_experience_bottle_tier_4 = 50
+			#Range: 0 ~ 100
+			required_level_experience_bottle_tier_5 = 75
+			#Range: 0 ~ 100
+			required_level_experience_bottle_tier_6 = 100
+			#Range: 0 ~ 100
+			required_level_exp_jar_to_experience_bottle = 25
+
+		[crafting.other.builder]
+			#Range: 0 ~ 100
+			required_level_small_backpack = 5
+			#Range: 0 ~ 100
+			required_level_medium_backpack = 15
+			#Range: 0 ~ 100
+			required_level_large_backpack = 25
+			#Range: 0 ~ 100
+			required_level_huge_backpack = 50
+			#Range: 0 ~ 100
+			required_level_ender_backpack = 10
+

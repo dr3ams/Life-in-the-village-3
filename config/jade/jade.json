@@ -12,7 +12,8 @@
     "maxHeartsPerLine": 10,
     "fluidMode": "NONE",
     "reachDistance": 0.0,
-    "debug": false
+    "debug": false,
+    "hintOverlayToggle": true
   },
   "overlay": {
     "overlayPosX": 0.5,

@@ -11,12 +11,12 @@
         {
           "weight": 2,
           "type": "minecraft:item",
-          "name": "minecraft:clay"
+          "name": "minecraft:amethyst_shard"
         },
         {
           "type": "minecraft:item",
           "weight": 2,
-          "name": "minecraft:water_bucket"
+          "name": "minecraft:sweet_berries"
         },
         {
           "type": "minecraft:item",
@@ -31,7 +31,22 @@
               }
             }
           ],
-          "name": "minecraft:cod"
+          "name": "minecraft:glow_berries"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ],
+          "name": "minecraft:raw_gold"
         },
         {
           "type": "minecraft:item",
@@ -46,26 +61,7 @@
               }
             }
           ],
-          "name": "minecraft:bamboo"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:rabbit_stew"
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1.0,
-                "max": 7.0,
-                "type": "minecraft:uniform"
-              }
-            }
-          ],
-          "name": "minecraft:red_mushroom"
+          "name": "minecraft:golden_carrot"
         },
         {
           "type": "minecraft:item",
@@ -80,7 +76,7 @@
               }
             }
           ],
-          "name": "minecraft:mushroom_stew"
+          "name": "minecraft:painting"
         }
       ]
     }

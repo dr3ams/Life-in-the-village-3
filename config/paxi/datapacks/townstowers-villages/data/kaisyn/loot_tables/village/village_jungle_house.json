@@ -48,6 +48,21 @@
           "weight": 3
         },
         {
+          "name": "minecraft:bread",
+          "type": "minecraft:item",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1.0,
+                "max": 4.0,
+                "type": "minecraft:uniform"
+              }
+            }
+          ]
+        },
+        {
           "name": "minecraft:melon_slice",
           "type": "minecraft:item",
           "weight": 12,

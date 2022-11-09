@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/sunflower_plains_farm/start",
+  "start_pool": "kaisyn:village/sunflower_plains_farm/town_centers",
     "size": 3
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:sunflower_plains",
+  "biomes": "#towns_and_towers:has_structure/village_sunflower_plains_farm",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

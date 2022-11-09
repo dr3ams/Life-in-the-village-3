@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/old_growth_taiga_polish/town_centre",
+  "start_pool": "kaisyn:village/old_growth_taiga_polish/town_centers",
     "size": 3
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:old_growth_taiga",
+  "biomes": "#towns_and_towers:has_structure/village_old_growth_taiga_polish",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

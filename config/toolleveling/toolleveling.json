@@ -1,11 +1,11 @@
 {
   "_commentSyntax": "to check if your config-file has the correct syntax, test your configuration on this website: https://jsonlint.com/",
   "_comment": "explanation to the config structure can be found here: https://github.com/tristankechlo/Tool-Leveling/wiki/",
-  "globalUpgradeCostMultiplier": 3.0,
+  "globalUpgradeCostMultiplier": 4.0,
   "minUpgradeCost": 1000,
   "allowIncompatibleEnchantments": false,
   "allowWrongEnchantments": false,
-  "defaultItemWorth": 10,
+  "defaultItemWorth": 2,
   "allowLevelingOfUselessEnchantments": false,
   "allowLevelingOfBreakingEnchanments": false,
   "freeUpgradesForCreativePlayers": true,
@@ -26,6 +26,7 @@
     "minecraft:fire_protection": 100
   },
   "enchantmentUpgradeCostModifier": {
-    "minecraft:looting": 1.5
+    "minecraft:looting": 1.5,
+	"minecraft:fortune": 1.5,
   }
 }

@@ -395,7 +395,7 @@
 	"More Banner Layers" = true
 	"Lock Rotation" = true
 	"Hoe Harvesting" = true
-	"Grab Chickens" = true
+	"Grab Chickens" = false
 	"Glass Shard" = true
 	"Enhanced Ladders" = true
 	Emotes = true

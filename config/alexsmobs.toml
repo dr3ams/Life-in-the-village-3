@@ -79,10 +79,10 @@
 	leafcutterAntRepopulateFeedings = 25
 	#Max number of ant entities allowed inside a leafcutter anthill.
 	#Range: 2 ~ 100000
-	leafcutterAntColonySize = 20
+	leafcutterAntColonySize = 10
 	#Percent chance for leafcutter ants to break leaves blocks when harvesting. Set to zero so that they can not break any blocks.
 	#Range: 0.0 ~ 1.0
-	leafcutterAntBreakLeavesChance = 0.2
+	leafcutterAntBreakLeavesChance = 0.0
 	#Makes eagles teleport back to their owner if they get stuck during controlled flight. Useful for when playing with the Optifine mod, since this mod is the fault of many issues with the falconry system.
 	falconryTeleportsBack = false
 	#Makes Tarantula Hawks fireproof, perfect if you also want these guys to spawn in the nether.
@@ -571,7 +571,7 @@
 			beachedCachalotWhaleSpawnDelay = 24000
 			#Percent chance for leafcutter anthills to spawn as world gen in each chunk. Set to zero to disable spawning.
 			#Range: 0.0 ~ 1.0
-			leafcutterAnthillSpawnChance = 0.004999999888241291
+			leafcutterAnthillSpawnChance = 0.0
 			#Whether to restrict all pupfish spawns to one chunk (similar to real life) or have them only obey their spawn config.
 			restrictPupfishSpawns = true
 			#The maximum distance a pupfish spawn chunk is from world spawn(0, 0) in blocks.

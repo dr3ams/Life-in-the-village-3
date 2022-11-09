@@ -1,10 +1,10 @@
 {
   "config": {
-    "start_pool": "kaisyn:village/meadow_swiss/town_centre",
+  "start_pool": "kaisyn:village/meadow_swiss/town_centers",
     "size": 3
   },
   "type": "minecraft:village",
-  "biomes": "#towns_and_towers:meadow",
+  "biomes": "#towns_and_towers:has_structure/village_meadow_swiss",
   "adapt_noise": true,
   "spawn_overrides": {}
 }

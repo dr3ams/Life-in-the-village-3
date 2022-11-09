@@ -1,0 +1,9 @@
+{
+  "config": {
+  "start_pool": "kaisyn:ships/village_ocean/load",
+    "size": 4
+  },
+  "type": "minecraft:bastion_remnant", 
+  "spawn_overrides": {},
+  "biomes": "#towns_and_towers:has_structure/village_deep_oceans_ships"
+}
