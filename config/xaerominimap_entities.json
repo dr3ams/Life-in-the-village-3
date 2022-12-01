@@ -17,10 +17,10 @@
     "displayNameWhenIconFails": true,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
-    "dotSize": 2.0,
     "startFadingAt": 0.0,
-    "renderOverMinimapFrame": 1.0,
+    "dotSize": 2.0,
     "displayY": false,
+    "renderOverMinimapFrame": 1.0,
     "icons": 0.0,
     "names": 0.0,
     "heightLimit": 20.0,
@@ -62,8 +62,7 @@
       "settingOverrides": {
         "displayed": true,
         "renderOrder": 2.0,
-        "color": 12.0,
-        "icons": 2.0
+        "color": 2.0
       },
       "subCategories": [
         {

@@ -503,36 +503,6 @@
 			}]
 		}
 		{
-			x: 0.5d
-			y: 6.0d
-			dependencies: ["744D7446D8F67623"]
-			id: "4C638B3AACD85121"
-			tasks: [{
-				id: "1008CB19E7B6945C"
-				type: "item"
-				item: "nourished_end:end_iron_ore"
-			}]
-			rewards: [
-				{
-					id: "1B93085C79388B05"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-					count: 5
-				}
-				{
-					id: "54FCF3D2A8F7E039"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-				{
-					id: "727978D4BFD0817B"
-					type: "item"
-					item: "minecraft:slime_ball"
-					count: 3
-				}
-			]
-		}
-		{
 			x: 13.5d
 			y: 7.5d
 			dependencies: ["56152ABB2556722D"]

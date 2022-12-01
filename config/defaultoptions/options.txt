@@ -35,9 +35,9 @@ graphicsMode:1
 ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
-renderClouds:false
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","file/Stay_True_1.18.zip","file/Fancy,+GUI+Overhaul+v0.1.0.zip","LITV3-RP-1.18.2","file/Fancy+Boss+Bars+v0.1.1.zip"]
-incompatibleResourcePacks:["quark:emote_resources","file/Fancy,+GUI+Overhaul+v0.1.0.zip","file/Fancy+Boss+Bars+v0.1.1.zip"]
+renderClouds:true
+resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","file/Stay_True_1.18.zip","LITV3-RP-1.18.2","file/EclecticTrove-noconfig-1.18-1.2.0.zip","file/Fancy, GUI Overhaul v0.1.2.6.zip","file/Enhanced+Boss+Bars+1.0+[1.18].zip"]
+incompatibleResourcePacks:["quark:emote_resources","file/Fancy, GUI Overhaul v0.1.2.6.zip"]
 lastServer:
 lang:en_us
 soundDevice:

@@ -2780,55 +2780,6 @@
 			}]
 		}
 		{
-			x: 14.0d
-			y: 3.0d
-			shape: "hexagon"
-			dependencies: ["0000000000000047"]
-			size: 1.5d
-			id: "31D1ABB89A03C885"
-			tasks: [{
-				id: "13714D1A4427ED51"
-				type: "item"
-				item: "toolleveling:tool_leveling_table"
-			}]
-			rewards: [
-				{
-					id: "63FABE630BDB28ED"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-					count: 5
-				}
-				{
-					id: "79C369CF7DDD0F8B"
-					type: "item"
-					item: "minecraft:redstone"
-					count: 2
-				}
-				{
-					id: "6F095D3FE4AAB447"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "3E476344759B528C"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
-				}
-				{
-					id: "4CEA02A643895178"
-					type: "item"
-					item: "kubejs:diamond_nugget"
-					random_bonus: 2
-				}
-			]
-		}
-		{
 			x: 9.5d
 			y: 1.5d
 			dependencies: ["0000000000000045"]

@@ -1,0 +1,8 @@
+
+#General settings
+["blocks and items"]
+	#Set to false to not receive the gift on Christmas day
+	christmas_gift = true
+	#Set to false to disable the right click function to receive items from the advent calendar
+	advent_calenar = true
+

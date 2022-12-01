@@ -2084,5 +2084,225 @@
 				}
 			]
 		}
+		{
+			x: 8.5d
+			y: 3.5d
+			id: "678573C33CB6FBAE"
+			tasks: [{
+				id: "0655234F699D907B"
+				type: "item"
+				item: "christmasfestivity:garland"
+			}]
+			rewards: [
+				{
+					id: "3B9E78E79578AD34"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "113F83B97AE497A2"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			id: "38C9F5E63E1EB941"
+			tasks: [{
+				id: "479E268E23C1B392"
+				type: "item"
+				item: "christmasfestivity:garland_round"
+			}]
+			rewards: [
+				{
+					id: "3212DF1C534B65C9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "4DDEF39D4270BB2A"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			id: "63179EC66CA5487B"
+			tasks: [{
+				id: "179EC85545B34ED8"
+				type: "item"
+				item: "christmasfestivity:little_christmas_tree"
+			}]
+			rewards: [
+				{
+					id: "6CB6EB664619C1F8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "60B8C37FC83777C3"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			id: "487E6BCFFA07AEEC"
+			tasks: [{
+				id: "4196E84A4D6FA711"
+				type: "item"
+				item: "christmasfestivity:christmas_tree"
+			}]
+			rewards: [
+				{
+					id: "718F6EBA5DF1FF33"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2CC8DC4C582BBCB9"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			id: "7E29450ADA021892"
+			tasks: [{
+				id: "79D2C844914A6B3C"
+				type: "item"
+				item: "christmasfestivity:snowman_block_white"
+			}]
+			rewards: [
+				{
+					id: "3E29658FE4817CE8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "263E0A384E3002E6"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			id: "5BF30DA1F5EF3A4B"
+			tasks: [{
+				id: "195C1151BD4FED05"
+				type: "item"
+				item: "christmasfestivity:santa_claus_block"
+			}]
+			rewards: [
+				{
+					id: "468C9EA3DCB97B65"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44EF083ABE98EC37"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			id: "7AEE345A215CFA65"
+			tasks: [{
+				id: "301742F7DB88DB0E"
+				type: "item"
+				item: "christmasfestivity:christmas_bells"
+			}]
+			rewards: [
+				{
+					id: "2785981C9A3DA517"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67D4CF0E7127788C"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			id: "6468C8194ABB0089"
+			tasks: [{
+				id: "02DE47561FEFB2AD"
+				type: "item"
+				item: "christmasfestivity:christmas_hat"
+			}]
+			rewards: [
+				{
+					id: "232EA8D9D39D08B4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "58926D67EF3670B6"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 7.5d
+			id: "3BFF97D11A715FBF"
+			tasks: [{
+				id: "1E54E200B9D54018"
+				type: "item"
+				item: "christmasfestivity:candy_canes_tall"
+			}]
+			rewards: [
+				{
+					id: "1A173301AEBD1EDF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "17129038410DD7D0"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 7.5d
+			id: "41CB8D7A361BBB83"
+			tasks: [{
+				id: "0866620F5ED47DB1"
+				type: "item"
+				item: "christmasfestivity:little_snowman_magenta"
+			}]
+			rewards: [
+				{
+					id: "3FF6D0529D71AE0E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "2543681CA5B47ED3"
+					type: "item"
+					item: "minecraft:cookie"
+				}
+			]
+		}
 	]
 }

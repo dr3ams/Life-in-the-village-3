@@ -1,0 +1,8 @@
+
+#General settings
+[general]
+	#Set to false to not receive the Christmas greetings message
+	christmas_message = true
+	#Set to false to not spawn the particles of Christmas Tree Toppers
+	topper_particles = true
+

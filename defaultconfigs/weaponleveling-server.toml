@@ -18,7 +18,7 @@
 	weaponMaxLevel = 100
 	#The Modifier for the equation used to calculate the amount of xp needed to level up (Default = 80)
 	#Range: 0 ~ 10000
-	weaponLevelModifier = 80
+	weaponLevelModifier = 100
 	#The XP amount needed to reach the first level (Default = 50)
 	#Range: 0 ~ 10000
 	weaponStartAmount = 50
@@ -30,7 +30,7 @@
 	weaponBowLikeModifier = 0.25
 	#The Max Percentage an Armor Part can reduce
 	#Range: 0.0 ~ 100.0
-	weaponMaxReduction = 50.0
+	weaponMaxReduction = 30.0
 
 	#Item Config
 	[server.item]
@@ -48,7 +48,7 @@
 		#Allowed Values: ACTIONBAR, TOAST
 		levelUpDisplayType = "TOAST"
 		#If set to true, items will not vanish when broken, but rather have a useless version
-		broken_items_wont_vanish = true
+		broken_items_wont_vanish = false
 		#If set to true, Swords, Axes and Armor will not be supported
 		disable_unlisted_items = false
 
