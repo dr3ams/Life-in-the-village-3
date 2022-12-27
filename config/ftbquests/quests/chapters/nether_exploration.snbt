@@ -342,30 +342,6 @@
 			]
 		}
 		{
-			x: -1.0d
-			y: 6.5d
-			dependencies: ["3A874C0C28B98BF8"]
-			id: "603EC114C6A2D0EB"
-			tasks: [{
-				id: "41A66FC5910AC355"
-				type: "item"
-				item: "quark:crimson_ladder"
-			}]
-			rewards: [
-				{
-					id: "04A0C653DEBA34AA"
-					type: "item"
-					item: "minecraft:paper"
-					random_bonus: 4
-				}
-				{
-					id: "7EEF26833CCD0415"
-					type: "item"
-					item: "minecraft:ender_pearl"
-				}
-			]
-		}
-		{
 			x: 0.5d
 			y: 4.5d
 			dependencies: ["3A874C0C28B98BF8"]
@@ -1982,4 +1958,5 @@
 			]
 		}
 	]
+	quest_links: [ ]
 }

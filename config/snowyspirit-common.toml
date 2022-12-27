@@ -1,0 +1,21 @@
+
+[snow_season_start]
+	#Day from which villagers will start placing wreaths, presents and throwing snowballs
+	#Range: 1 ~ 12
+	month = 12
+	#Day from which villagers will  start placing wreaths, presents and throwing snowballs
+	#Range: 1 ~ 31
+	day = 20
+
+[snow_season_end]
+	#Day from which villagers will start removing placed wreaths
+	#Range: 1 ~ 12
+	month = 1
+	#Day from which villagers will start removing placed wreaths
+	#Range: 1 ~ 31
+	day = 30
+
+[serene_seasons_compat]
+	#Enables Serene Seasons compatibility. Only takes effect if the mod is installed. Will make snowy season only active during certain seasons. Note that this will override previous time window settings
+	enabled = false
+

@@ -18,6 +18,12 @@ event.create('diamond_nugget').displayName('Diamond Nugget')
 event.create('emerald_nugget').displayName('Emerald Nugget')
 
 
+event.create('coin_01').displayName('Coin')
+event.create('coin_02').displayName('Couple of Coins')
+event.create('coin_03').displayName('Stack of Coins')
+event.create('coin_04').displayName('Pile of Coins')
+event.create('coin_05').displayName('Dozen of Coins')
+
 })
 
 onEvent('block.registry', event => {

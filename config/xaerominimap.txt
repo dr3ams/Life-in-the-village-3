@@ -62,7 +62,7 @@ biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
 centeredEnlarged:false
-zoomedOutEnlarged:false
+zoomOnEnlarged:0
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
@@ -104,6 +104,8 @@ keepUnlockedWhenEnlarged:false
 enlargedMinimapAToggle:false
 displayStainedGlass:true
 waypointOnMapScale:0
+switchToAutoOnDeath:true
+displayWeatherInfo:false
 displayPacPlayers:true
 displayClaims:true
 displayCurrentClaim:true

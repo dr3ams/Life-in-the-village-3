@@ -18,9 +18,9 @@ GitHub Repository: [NEED TO MAKE ONE]
 	// Here you can find all villages.
 	"villages": {
 		// DEFAULT 48
-		"spacing": 48,
+		"spacing": 78,
 		// DEFAULT 24
-		"separation": 24,
+		"separation": 48,
 		"salt": 10587309
 	},
 	// Here you can find all outposts.
