@@ -24,6 +24,10 @@ event.create('coin_03').displayName('Stack of Coins')
 event.create('coin_04').displayName('Pile of Coins')
 event.create('coin_05').displayName('Dozen of Coins')
 
+event.create('medal').displayName('Medal').glow(true)
+event.create('heart').displayName('Heart')
+
+event.create('kruscle').displayName('Kruscle Patreon Supporter Icon')
 })
 
 onEvent('block.registry', event => {

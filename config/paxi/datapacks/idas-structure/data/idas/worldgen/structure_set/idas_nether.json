@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "idas:ancient_portal/nether_ancient_portal",
+      "weight": 1
+    },
+    {
+      "structure": "idas:animal_den/foxhound_den",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169481692,
+    "spacing": 55,
+    "separation": 30,
+    "type": "minecraft:random_spread"
+  }
+}

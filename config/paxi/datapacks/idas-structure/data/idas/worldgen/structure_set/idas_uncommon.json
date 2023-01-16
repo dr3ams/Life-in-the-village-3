@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "idas:apothecary_abode",
+      "weight": 1
+    },
+    {
+      "structure": "idas:treetop_tavern",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 169481686,
+    "spacing": 50,
+    "separation": 25,
+    "type": "minecraft:random_spread"
+  }
+}

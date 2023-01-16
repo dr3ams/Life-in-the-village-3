@@ -6,8 +6,6 @@
 	averageHouseSeparation = 40
 
 ["Companion config"]
-	#Toggles friendly fire between companions
-	friendlyFire = false
 	#Toggles fall damage for companions
 	fallDamage = true
 	#Toggles whether companions spawn with armor
@@ -21,4 +19,8 @@
 	lowHealthFood = true
 	#Toggles whether companions alert you if a creeper is nearby.
 	creeperWarning = true
+	#Toggles friendly fire between companions
+	friendlyFireCompanions = false
+	#Toggles friendly fire between player and companion
+	friendlyFirePlayer = true
 

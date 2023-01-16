@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "idas:necromancers_spire",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 169481693,
+    "spacing": 35,
+    "separation": 20,
+    "type": "minecraft:random_spread"
+  }
+}
