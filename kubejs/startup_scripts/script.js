@@ -27,6 +27,7 @@ event.create('coin_05').displayName('Dozen of Coins')
 event.create('medal').displayName('Medal').glow(true)
 event.create('heart').displayName('Heart')
 
+event.create('fox').displayName('ShadowFoxy Patreon Supporter Icon')
 event.create('kruscle').displayName('Kruscle Patreon Supporter Icon')
 })
 

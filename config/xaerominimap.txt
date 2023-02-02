@@ -19,7 +19,7 @@ oldDeathpoints:true
 distance:1
 showCoords:true
 lockNorth:false
-zoom:0
+zoom:1
 minimapSize:0
 chunkGrid:-1
 slimeChunks:false
@@ -57,7 +57,7 @@ openSlimeSettings:true
 alwaysShowDistance:false
 showLightLevel:0
 crossDimensionalTp:true
-showTime:0
+showTime:1
 biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180

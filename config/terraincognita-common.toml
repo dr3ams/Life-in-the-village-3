@@ -101,10 +101,6 @@
 	#Default: 0.5
 	#Range: 0.0 ~ 1.0
 	"Small Lilypad Ratio" = 0.5
-	#Sedge is a sugarcane-like plant that can be found in swamps. It can be grown in the same way as sugar cane, or, alternatively, in one block deep water.
-	#Sedge can be crafted into a variety of decorative wicker blocks and baskets.
-	#Default: true
-	"Sedge Enabled" = true
 	#Adds marigolds, snapdragons, irises, oleanders and sage to savannas.
 	#Default: true
 	"Savanna Flowers Enabled" = true
@@ -116,10 +112,6 @@
 	#Edelweiss has a minimum altitude requirement to generate.
 	#Default: true
 	"Alpine Flowers Enabled" = true
-	#Minimum Y level where edelweiss can generate in the mountains.
-	#Default: 128
-	#Range: 96 ~ 256
-	"Minimum Altitude for Edelweiss" = 128
 	#Adds heather, white dryads, fireweed and white rhododendrons to taiga and tundra biomes.
 	#Default: true
 	"Arctic Flowers Enabled" = true
@@ -140,4 +132,12 @@
 	"Hanging Moss Enabled" = true
 	#Default: true
 	"Cactus Flowers Enabled" = true
+	#Sedge is a sugarcane-like plant that can be found in swamps. It can be grown in the same way as sugar cane, or, alternatively, in one block deep water.
+	#Sedge can be crafted into a variety of decorative wicker blocks and baskets.
+	#Default: true
+	"Sedge Enabled" = true
+	#Minimum Y level where edelweiss can generate in the mountains.
+	#Default: 128
+	#Range: 96 ~ 256
+	"Minimum Altitude for Edelweiss" = 128
 

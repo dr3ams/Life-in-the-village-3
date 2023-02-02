@@ -1,18 +1,10 @@
 {
 	id: "1E11739B02616720"
 	group: ""
-	order_index: 7
+	order_index: 1
 	filename: "the_patreon"
 	title: "The Patreon"
-	icon: {
-		ForgeCaps: {
-			"dungeons_libraries:built_in_enchantments": {
-				BuiltInEnchantments: [ ]
-			}
-		}
-		id: "kubejs:heart"
-		Count: 1b
-	}
+	icon: "kubejs:heart"
 	default_quest_shape: "hexagon"
 	default_hide_dependency_lines: false
 	images: [{
@@ -29,15 +21,7 @@
 	}]
 	quests: [
 		{
-			icon: {
-				id: "kubejs:heart"
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-			}
+			icon: "kubejs:heart"
 			x: 3.0d
 			y: 3.5d
 			description: [
@@ -45,18 +29,6 @@
 				""
 				"Your contribution is very important."
 				""
-				"Also, I would like to thank everyone who were somehow involved in RAD 2 development:"
-				""
-				"• Bizzoula#4739"
-				"• Doctor Mage#5234"
-				"• Hawk.Eye#2569"
-				"• Zarchyar#3407"
-				"• recyclingTiger#0854"
-				"• Samiel Flame#3844"
-				"• Xaikii#5318"
-				"• Samara#0323"
-				"• Mastarin#6697 "
-				"• Rho#1633"
 			]
 			size: 2.0d
 			id: "1E533E35056D96A1"
@@ -1978,27 +1950,64 @@
 			}]
 		}
 		{
-			icon: "kubejs:medal"
-			x: 6.5d
+			title: "Chuck (curleyc)"
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -0.5d
 			y: -1.5d
-			subtitle: "CJ Miles"
-			id: "70AA6012853BE727"
+			subtitle: "Chuck (curleyc)"
+			id: "7BD9D7EA370F8D6B"
 			tasks: [{
-				id: "29DCDF5582C54159"
+				id: "6C2095EDF7A733C7"
 				type: "checkmark"
-				title: "CJ Miles"
+				title: "Charles Curley"
 			}]
 		}
 		{
-			icon: "kubejs:medal"
-			x: -0.5d
-			y: -1.5d
-			subtitle: "Phillip Capps"
-			id: "60E7E950F1B9C729"
+			icon: {
+				id: "kubejs:fox"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: 8.5d
+			y: 6.5d
+			subtitle: "Shadow_Demon_Fox "
+			id: "5DF3F68E29D5C655"
 			tasks: [{
-				id: "081FB14A2DE3FB24"
+				id: "3CDA814BB547247B"
 				type: "checkmark"
 				title: "Phillip Capps"
+			}]
+		}
+		{
+			icon: {
+				id: "kubejs:medal"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+			}
+			x: -1.5d
+			y: 8.5d
+			subtitle: "CJ Miles"
+			id: "6C9000391CDFF32E"
+			tasks: [{
+				id: "060E1F6522341C8C"
+				type: "checkmark"
+				title: "CJ Miles"
 			}]
 		}
 	]

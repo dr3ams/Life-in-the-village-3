@@ -1093,14 +1093,13 @@
 						id: "tconstruct:travelers_boots"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:durability": 130.0f
 								"tconstruct:armor": 1.0f
 							}
 							tic_broken: 0b
-							tic_modifiers: [ ]
 							Damage: 0
+							tic_modifiers: [ ]
 							tic_persistent_data: {
 								abilities: 1
 								defense: 2
@@ -1116,14 +1115,13 @@
 						id: "tconstruct:travelers_leggings"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:durability": 150.0f
 								"tconstruct:armor": 4.0f
 							}
 							tic_broken: 0b
-							tic_modifiers: [ ]
 							Damage: 0
+							tic_modifiers: [ ]
 							tic_persistent_data: {
 								abilities: 1
 								defense: 2
@@ -1139,8 +1137,11 @@
 						id: "tconstruct:travelers_chestplate"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.55f
+							}
 							tic_stats: {
+								"tconstruct:attack_damage": 0.0f
 								"tconstruct:durability": 160.0f
 								"tconstruct:armor": 5.0f
 							}
@@ -1162,14 +1163,13 @@
 						id: "tconstruct:travelers_helmet"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:durability": 110.0f
 								"tconstruct:armor": 1.0f
 							}
 							tic_broken: 0b
-							tic_modifiers: [ ]
 							Damage: 0
+							tic_modifiers: [ ]
 							tic_persistent_data: {
 								abilities: 1
 								defense: 2
@@ -1492,10 +1492,13 @@
 						id: "tconstruct:plate_chestplate"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.4f
+							}
 							tic_stats: {
 								"tconstruct:armor_toughness": 2.0f
 								"tconstruct:knockback_resistance": 0.1f
+								"tconstruct:attack_damage": 0.0f
 								"tconstruct:durability": 480.0f
 								"tconstruct:armor": 7.0f
 							}
@@ -1517,7 +1520,6 @@
 						id: "tconstruct:plate_helmet"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor_toughness": 2.0f
 								"tconstruct:knockback_resistance": 0.1f
@@ -1525,8 +1527,8 @@
 								"tconstruct:armor": 2.0f
 							}
 							tic_broken: 0b
-							tic_modifiers: [ ]
 							Damage: 0
+							tic_modifiers: [ ]
 							tic_persistent_data: {
 								abilities: 1
 								defense: 4
@@ -1542,7 +1544,6 @@
 						id: "tconstruct:plate_leggings"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor_toughness": 2.0f
 								"tconstruct:knockback_resistance": 0.1f
@@ -1550,8 +1551,8 @@
 								"tconstruct:armor": 5.0f
 							}
 							tic_broken: 0b
-							tic_modifiers: [ ]
 							Damage: 0
+							tic_modifiers: [ ]
 							tic_persistent_data: {
 								abilities: 1
 								defense: 4
@@ -1567,7 +1568,6 @@
 						id: "tconstruct:plate_boots"
 						Count: 1b
 						tag: {
-							tic_multipliers: { }
 							tic_stats: {
 								"tconstruct:armor_toughness": 2.0f
 								"tconstruct:knockback_resistance": 0.1f
@@ -1575,8 +1575,8 @@
 								"tconstruct:armor": 2.0f
 							}
 							tic_broken: 0b
-							tic_modifiers: [ ]
 							Damage: 0
+							tic_modifiers: [ ]
 							tic_persistent_data: {
 								abilities: 1
 								defense: 4
