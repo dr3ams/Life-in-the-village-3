@@ -8,7 +8,7 @@
 	// Don't send backup status at all
 	"do_not_notify": false,
 	// Maximum number of backups to keep
-	"max_backups": 5,
+	"max_backups": 3,
 	/* This is done with Javas implementation of cron, More info here 
 	    (https://www.cronmaker.com)
 	*/

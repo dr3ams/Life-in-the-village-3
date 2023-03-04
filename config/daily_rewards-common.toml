@@ -20,6 +20,8 @@
 	#The chance to use a loot bag item instead of a regular one. e.g. 15 means every 15th items could be a loot bag item. (0 = disabled)
 	#Range: 0 ~ 100
 	lootBagFillItemsChance = 15
+	#Use fill items if there are not enough valid items for a month. (e.g. if there are only 2 items for a month and the player claims 3 rewards, the 3rd reward will be a fill item)
+	useFillItems = true
 
 ["Rewards Items"]
 	#List of rewards items for January.
@@ -46,4 +48,6 @@
 	rewardsNovemberItems = []
 	#List of rewards items for December.
 	rewardsDecemberItems = []
+	#Shuffle the rewards items instead of using the defined order.
+	shuffleRewardsItems = true
 

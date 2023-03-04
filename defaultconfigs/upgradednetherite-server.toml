@@ -74,25 +74,25 @@
 
 ["Tool&Weapon"]
 	#Enable Gold Upgraded Tool&Weapon ?
-	EnableGoldTool = false
+	EnableGoldTool = true
 	#Enable Fire Upgraded Tool&Weapon ?
-	EnableFireTool = false
+	EnableFireTool = true
 	#Enable Ender Upgraded Tool&Weapon ?
-	EnableEnderTool = false
+	EnableEnderTool = true
 	#Enable Water Upgraded Tool&Weapon ?
-	EnableWaterTool = false
+	EnableWaterTool = true
 	#Enable Wither Upgraded Tool&Weapon ?
-	EnableWitherTool = false
+	EnableWitherTool = true
 	#Enable Poison Upgraded Tool&Weapon ?
-	EnablePoisonTool = false
+	EnablePoisonTool = true
 	#Enable Phantom Upgraded Tool&Weapon ?
-	EnablePhantomTool = false
+	EnablePhantomTool = true
 	#Enable Feather Upgraded Tool&Weapon ?
-	EnableFeatherTool = false
+	EnableFeatherTool = true
 	#Enable Corrupt Upgraded Tool&Weapon ?
-	EnableCorruptTool = false
+	EnableCorruptTool = true
 	#Enable Echo Upgraded Tool&Weapon ?
-	EnableEchoTool = false
+	EnableEchoTool = true
 
 [Shield]
 	#Enable Gold Upgraded Shield ? (Unused)
