@@ -1098,8 +1098,14 @@
 								"tconstruct:armor": 1.0f
 							}
 							tic_broken: 0b
+							tic_modifiers: [{
+								name: "tconstruct:snow_boots"
+								level: 1s
+							}]
 							Damage: 0
-							tic_modifiers: [ ]
+							tic_volatile_data: {
+								"tconstruct:snow_boots": 1b
+							}
 							tic_persistent_data: {
 								abilities: 1
 								defense: 2

@@ -401,7 +401,7 @@
 	Emotes = true
 	"Dragon Scales" = true
 	"Double Door Opening" = true
-	"Compasses Work Everywhere" = true
+	"Compasses Work Everywhere" = false
 	"Campfires Boost Elytra" = true
 	"Better Elytra Rocket" = true
 	"Automatic Recipe Unlock" = true
@@ -519,10 +519,10 @@
 		"Custom Emote Debug" = false
 
 	[tweaks.compasses_work_everywhere]
-		"Enable Compass Nerf" = true
-		"Enable Clock Nerf" = true
-		"Enable Nether" = true
-		"Enable End" = true
+		"Enable Compass Nerf" = false
+		"Enable Clock Nerf" = false
+		"Enable Nether" = false
+		"Enable End" = false
 
 	[tweaks.campfires_boost_elytra]
 		"Boost Strength" = 0.5

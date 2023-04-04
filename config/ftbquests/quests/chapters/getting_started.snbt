@@ -128,7 +128,6 @@
 				"You can search in JEI by mod:"
 				"- @Macaw"
 				"- @Builder"
-				"- @furniture"
 				"- @lights"
 			]
 			dependencies: ["0000000000000011"]
@@ -1653,14 +1652,26 @@
 			]
 		}
 		{
+			title: "Benefits for eating variety of foods"
+			icon: "minecraft:carrot"
 			x: 0.5d
 			y: 3.0d
+			description: [
+				"Eating a variety of nutrients, with the right balance, will grant you buffs, while having a bad diet will give you debuffs."
+				""
+				"Food now has tooltips that show which nutrients they provide, along with the total number of Nutritional Units (NUs)."
+				""
+				"To see Nutritional Balance, press the Nutrient Gui keybind (Default: N) or click the bread icon in your inventory."
+				""
+				"- Blue indicates your current NUs for each category"
+				"- Green lines show the range for buffs"
+				"- Red lines indicate malnourishment and engorgement, which gives you debuffs"
+			]
 			dependencies: ["0000000000000171"]
 			id: "60CA9F96BF323848"
 			tasks: [{
-				id: "732E1C9630BC8A13"
-				type: "item"
-				item: "solcarrot:food_book"
+				id: "1115E48B7255C7AF"
+				type: "checkmark"
 			}]
 			rewards: [{
 				id: "02B9E5ECD42DDD19"

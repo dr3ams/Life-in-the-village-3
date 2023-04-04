@@ -7,31 +7,31 @@
 		# Allows admins to toggle flying status using a command, without having to use Creative Mode
 		fly: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to toggle invincibility using a command, without having to use Creative Mode
 		god: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to heal themselves using a command
 		heal: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to view other users' inventories using a command
 		invsee: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows admins to restrict players from chatting by using a command to mute (or unmute) them
 		mute: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 	}
 	
@@ -40,25 +40,25 @@
 		# Allows users to access their ender chest, as well as admins to manage other players' ender chests.
 		enderchest: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to set a custom hat as their head item by using a command
 		hat: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to kick themselves from the server, for example if they are stuck or desynced
 		kickme: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to change their display name, as well as admins to change nicknames for other users
 		nick: {
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows users to announce their recording or streaming status to the server by using commands
@@ -85,7 +85,7 @@
 			cooldown: 30
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Max size of the teleport history. This limits how many times you can use /back
 			# You can override this with FTB Ranks using ftbessentials.back.max
@@ -122,7 +122,7 @@
 			cooldown: 600
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# /rtp max distance from spawn point
 			# Default: 100000
@@ -147,7 +147,7 @@
 			cooldown: 10
 			
 			# Default: true
-			enabled: true
+			enabled: false
 		}
 		
 		# Allows players to create requests to teleport to other users on the server,

@@ -1,7 +1,7 @@
 {
 	id: "000000000000062C"
 	group: ""
-	order_index: 4
+	order_index: 3
 	filename: "a_reliable_friend"
 	title: "A Reliable Friend"
 	icon: "doggytalents:doggy_charm"
@@ -607,6 +607,141 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
+		}
+		{
+			title: "Wander, Stay, Follow"
+			x: -7.5d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"Wolves, Cats, Parrots, Axolotls, Rabbits, and Foxes now have 3 possible states when tamed: Wander, Stay and Follow."
+				""
+				"These can be cycled through by right clicking on the mob. Now its finally possible to have your cats and dogs wander around your house instead of being frozen in place or randomly teleport to you."
+			]
+			size: 1.5d
+			id: "3DBFEED316353408"
+			tasks: [{
+				id: "29A42725BE08F0B5"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "simplehats:foxhat"
+			x: -6.0d
+			y: -3.0d
+			shape: "square"
+			description: [
+				"- Axolotls: Simply feed a wild axolotl a few tropical fish to tame them. They can be made to sit, wander and follow like all the other tameable mobs. Note that axolotls are by default very slow on land, dry out and have low health"
+				""
+				"- Foxes: To get a tame fox, you need to breed two wild foxes with sweet berries and wait for it to grow up. Note that no matter how tame foxes are, they'll still want to kill any chickens and (untamed) rabbits they can see."
+				""
+				"- Rabbits: To tame a rabbit, feed it several Hay Bales. Rabbits only have 3 health by default and usually (see: Sinister Carrot) cannot attack. However, to make them useful we have reintroduced another removed feature: rabbits scare off ravagers."
+				""
+				"- Frogs: you can tame them with a few spider eyes. Frogs can be made to stay, follow or wander like the other pets, and will come to their owner's defense."
+			]
+			size: 1.5d
+			id: "345ABAA111A42756"
+			tasks: [{
+				id: "1CD1B06F1831F643"
+				type: "checkmark"
+				title: "Tameable Axolotls, Foxes, Rabbits and Frogs"
+			}]
+		}
+		{
+			title: "Animal Tamer Villager"
+			icon: "artifacts:villager_hat"
+			x: -7.5d
+			y: -1.5d
+			shape: "square"
+			description: [
+				"Animal Tamers can be found in villages in their own unique houses (spawn rate configurable) or can be created with a unemployed villager using a pet bed as a workstation. They trade a variety of items related to animals from both vanilla minecraft and this mod, including unique pet enchants(charisma)."
+				""
+				"Their houses also contain some untamed mobs and sometimes fish tanks."
+			]
+			size: 1.5d
+			id: "266C0AB38112B333"
+			tasks: [{
+				id: "11E661372DDE5F95"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			shape: "square"
+			description: ["The Deed of Ownership is an item that can be purchased from the Animal Tamer villager. By right clicking on a tamed pet that you are the owner of, you bind it to the deed. If you give the deed to any other player, and they use it on the bounded animal, then the ownership of the pet will pass onto them, making it effectively as if they were the ones who tamed the animal."]
+			dependencies: ["266C0AB38112B333"]
+			size: 1.5d
+			id: "2C1FA53EDCCA95B8"
+			tasks: [{
+				id: "172609C8BC2C30C7"
+				type: "item"
+				item: "domesticationinnovation:deed_of_ownership"
+			}]
+		}
+		{
+			title: "Collar Tag and Enchanting"
+			x: -6.75d
+			y: 1.5d
+			shape: "square"
+			description: [
+				"Collar Tags are the conduit for pet enchantments."
+				""
+				"Like a nametag, these collar tags can be renamed in an anvil and used on a mob to rename it (unlike a nametag, this is only for animals that are your pets). However, their real use is that they can be enchanted"
+				""
+				"These collars can then be placed on a tamed pet of yours by interacting with it. To get the enchanted collar back, you can simply swap it with any other collar, including an unenchanted one. You can view a pet's enchants by sneaking and looking at them."
+			]
+			size: 1.5d
+			id: "4D56A1A3E3A1202E"
+			tasks: [{
+				id: "76C757EA96D318F4"
+				type: "item"
+				item: "domesticationinnovation:collar_tag"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			shape: "square"
+			description: ["When used, this will send out a feather on a string in front of you. The closest pet of yours will then try to move onto the feather to play with it. This tool is useful for getting your mob out of places it shouldn't be, like if it's stuck in a doorway or on top of a chest. It's also useful for moving a pet onto its bed so you can set its respawn point."]
+			size: 1.5d
+			id: "58C315F45BB5ACBA"
+			tasks: [{
+				id: "61980D10443AB1F5"
+				type: "item"
+				item: {
+					id: "domesticationinnovation:feather_on_a_stick"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Rotten Apple and Sinister Carrot"
+			x: -6.0d
+			y: 0.0d
+			shape: "square"
+			description: [
+				"Rotten Apples have a chance to form if an apple item despawns on the ground (configurable). These green, wormy apples can be fed to a horse in order to turn it into a zombie horse. Note that you'll want to make sure the horse is tamed and saddled prior to this action. This zombification process will also preserve the speed and other aspects of the horse. Zombie horses cannot wear armor."
+				""
+				"Sinister Carrots are rarely found as loot in Woodland Mansions (configurable). They can be fed to a zombie horse in order to turn it into a skeleton horse. They can also be fed to a tamed rabbit to transform it into a Killer Rabbit, which can attack and is much stronger than a normal rabbit."
+			]
+			size: 1.5d
+			id: "10836519F612623F"
+			tasks: [
+				{
+					id: "2F555B1A191EC87C"
+					type: "item"
+					item: "domesticationinnovation:sinister_carrot"
+				}
+				{
+					id: "02307C4D186C7E89"
+					type: "item"
+					item: "domesticationinnovation:rotten_apple"
+				}
+			]
 		}
 	]
 	quest_links: [ ]
