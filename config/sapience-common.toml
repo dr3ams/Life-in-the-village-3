@@ -3,7 +3,8 @@
 [general_configuration]
 	#Determines whether or not Piglins can only give bartering loot if the received bartering item came from a living being [true/false, default:true]
 	requireLivingForBarter = true
-	#The chance of for a piglin to dance after a successful hunt [0.0-1.0, default:0.1]
+	#The chance for a piglin to dance after a successful hunt [0.0-1.0, default:0.1]
+	#Range: 0.0 ~ 1.0
 	danceChance = 0.1
 
 #Ageable Configuration

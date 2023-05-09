@@ -128,7 +128,7 @@
 	maxColonySize = 20
 	#The minimum distance (in chunks) between colonies. [Default: 8, min: 1, max: 200]
 	#Range: 1 ~ 200
-	minColonyDistance = 100
+	minColonyDistance = 50
 	#Initial claim size for a colony. This is the radius, measured in chunks. [Default: 4, min: 1, max: 15]
 	#Range: 1 ~ 15
 	initialColonySize = 4

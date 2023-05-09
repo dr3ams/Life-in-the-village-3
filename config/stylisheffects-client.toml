@@ -31,7 +31,7 @@
 		#Print menu type to game chat whenever a new menu screen is opened. Only intended to find menu types to be added to "menu_blacklist".
 		debug_container_types = false
 		#Render active status effects in every menu screen, not just in the player inventory.
-		effects_everywhere = true
+		effects_everywhere = false
 		#Allow effect renderer to fall back to a more compact version (when available) if not enough screen space exists. Otherwise effect widgets might run off-screen.
 		allow_fallback = true
 		#Screen side to render status effects on.
