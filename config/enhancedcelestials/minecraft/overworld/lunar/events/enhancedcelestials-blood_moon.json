@@ -50,8 +50,8 @@
     "soundTrack": "enhancedcelestials:blood_moon",
     "type": "enhancedcelestials:default"
   },
-  "minNumberOfNightsBetween": 4,
-  "chance": 0.07,
+  "minNumberOfNightsBetween": 60,
+  "chance": 0.001,
   "validMoonPhases": [
     0,
     1,

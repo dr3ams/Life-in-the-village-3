@@ -1,3 +1,5 @@
 #Set to false to disable title fragments from generating as loot.
 fragmentLoot = true
+#Set to false to disable players from setting nicknames.
+nickname = true
 
