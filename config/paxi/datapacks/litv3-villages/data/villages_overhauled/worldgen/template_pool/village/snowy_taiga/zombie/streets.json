@@ -1,0 +1,150 @@
+{
+  "name": "villages_overhauled:village/snowy_taiga/zombie/streets",
+  "fallback": "minecraft:village/snowy/terminators",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/corner_01",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/corner_02",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/corner_03",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/straight_01",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/straight_02",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/straight_03",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/straight_04",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/straight_05",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/straight_06",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/crossroad_01",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/crossroad_02",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/crossroad_03",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/crossroad_04",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/crossroad_05",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/crossroad_06",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "villages_overhauled:village/snowy_taiga/zombie/streets/turn_01",
+        "processors": "villages_overhauled:snowy_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+	icon: "minecraft:dirt"
+	id: "738E382631EA6C99"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "filler_blocks"
+	}
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:dirt"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:sand"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:red_sand"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:gravel"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:clay_ball"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:grass_block"
+			}
+		}
+		{ count: 64, item: "minecraft:stone" }
+		{ count: 64, item: "minecraft:stone_bricks" }
+		{ count: 64, item: "minecraft:sandstone" }
+	]
+	title: "Filler Blocks"
+	use_title: true
+}

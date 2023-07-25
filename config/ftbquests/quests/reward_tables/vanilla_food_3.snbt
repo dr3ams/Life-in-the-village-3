@@ -1,0 +1,134 @@
+{
+	icon: "minecraft:enchanted_golden_apple"
+	id: "2D3CF7CE85753D90"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Food 3"
+		string_id: "vanilla_food_3"
+	}
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:golden_apple"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_golden_apple"
+			}
+			weight: 3.0f
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:cooked_beef"
+			}
+			weight: 15.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "simplefarming:lasagna"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "simplefarming:hamburger"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:honey_glazed_ham"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "fins:golden_river_ray_wing_fillet"
+			}
+			weight: 5.0f
+		}
+		{
+			count: 7
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "berry_nice:goldenberrysack"
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:melon"
+			}
+			weight: 5.0f
+		}
+	]
+	title: "Food 3"
+	use_title: true
+}

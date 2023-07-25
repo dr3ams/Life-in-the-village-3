@@ -33,7 +33,7 @@
 	angel = 2
 	#Wand destruction block limit (0 to disable destruction core)
 	#Range: > 0
-	destruction = 9
+	destruction = 0
 	#Allow wand upgrading by putting the wand together with a wand core in a crafting grid.
 	upgradeable = true
 
@@ -49,7 +49,7 @@
 	angel = 8
 	#Wand destruction block limit (0 to disable destruction core)
 	#Range: > 0
-	destruction = 25
+	destruction = 0
 	#Allow wand upgrading by putting the wand together with a wand core in a crafting grid.
 	upgradeable = true
 
@@ -62,7 +62,7 @@
 	angel = 16
 	#Wand destruction block limit (0 to disable destruction core)
 	#Range: > 0
-	destruction = 81
+	destruction = 0
 	#Allow wand upgrading by putting the wand together with a wand core in a crafting grid.
 	upgradeable = true
 

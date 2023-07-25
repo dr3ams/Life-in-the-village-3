@@ -1,0 +1,29 @@
+
+#Server Settings
+[server]
+
+	#Server Settings
+	[server.Server]
+		#The amount of money a new player starts with when first joining the world.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		starting_funds = 100.0
+		#the character(s) to precede money values when displayed
+		"currency symbol" = "$"
+		#if true the symbol appears to the left of the value, if false, it will appear to the right.
+		"Currency Symbol Left Oriented" = true
+		#the op level permitted to use admin commands
+		#Range: 0 ~ 4
+		"admin level" = 2
+		#The minimum permission level to create basic shops.  default= 0 = all players
+		#Range: 0 ~ 4
+		"shop level" = 0
+		#a percentage of the player's account that is lost on death, in decimal form. default = 0%. 0.5 = 50%
+		#Range: 0.0 ~ 1.0
+		"loss on death" = 0.0
+		#The number of players to be displayed when the top command is used.  set to zero to disable
+		"top size" = 3
+		#This setting turns enables transactions to be recorded using the H2 embedded database system.
+		#leaving this disabled will prevent the creation of the database.  It is recommended that
+		#you use an application like DBeaver to view and query your data.
+		enable_history = false
+

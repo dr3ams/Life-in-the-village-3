@@ -1,0 +1,51 @@
+{
+	icon: "minecraft:axolotl_spawn_egg"
+	id: "4402BA7FC530C3B1"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Spawn eggs 3"
+		string_id: "spawn_eggs_3"
+	}
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:villager_spawn_egg"
+			}
+			weight: 100.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:wandering_trader_spawn_egg"
+			}
+			random_bonus: 2
+			weight: 90.0f
+		}
+		{ item: "minecraft:axolotl_spawn_egg" }
+		{ item: "minecraft:zombie_horse_spawn_egg" }
+		{ count: 4, item: "minecraft:zombie_villager_spawn_egg" }
+		{ item: "minecraft:witch_spawn_egg" }
+	]
+	title: "Spawn Eggs 3"
+	use_title: true
+}

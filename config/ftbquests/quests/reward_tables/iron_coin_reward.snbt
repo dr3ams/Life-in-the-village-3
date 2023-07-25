@@ -1,64 +1,129 @@
 {
 	id: "32F9A93C0635A760"
-	order_index: 16
-	title: "Iron coin reward"
 	loot_size: 1
+	order_index: 16
 	rewards: [
-		{ item: "aquaculture:lockbox", count: 4 }
+		{ count: 4, item: "aquaculture:lockbox" }
 		{
 			item: {
+				Count: 1
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "uncommon_loot_crate"
 				}
 			}
 		}
-		{ item: "kubejs:copper_coin", count: 3 }
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "passive_spawn_eggs"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_materials_2"
+				}
+			}
+		}
 		{ item: "minecraft:iron_ore", random_bonus: 5 }
 		{
+			count: 2
 			item: {
+				Count: 1
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
-					type: "random_mob_drops"
+					type: "common_loot_crate"
+				}
+			}
+			random_bonus: 2
+		}
+		{ count: 8, item: "minecraft:iron_ingot" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:bone" }
+		{ count: 8, item: "minecraft:gold_ore" }
+		{ count: 16, item: "minecraft:cooked_beef" }
+		{ item: "minecraft:golden_apple" }
+		{ item: "minecraft:cake" }
+		{ count: 3, item: "minecraft:phantom_membrane" }
+		{ item: "minecraft:saddle" }
+		{ item: "croptopia:cinnamon_sapling" }
+		{ item: "minecraft:creeper_head" }
+		{ item: "supplementaries:notice_board" }
+		{ count: 16, item: "minecraft:cooked_chicken" }
+		{ count: 16, item: "minecraft:redstone" }
+		{ count: 8, item: "minecraft:lapis_lazuli" }
+		{ count: 8, item: "minecraft:leather" }
+		{ count: 16, item: "minecraft:golden_carrot" }
+		{ count: 64, item: "minecraft:torch" }
+		{ item: "aquaculture:lockbox" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "alexsmobs:speed_iii"
 				}
 			}
 		}
 		{
 			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
+				Count: 1
+				id: "minecraft:potion"
 				tag: {
-					type: "random_materials"
+					Potion: "alexsmobs:lava_vision"
 				}
 			}
 		}
-		{ item: "minecraft:gunpowder", count: 16 }
-		{ item: "minecraft:clay_ball", count: 32 }
-		{ item: "minecraft:ink_sac", count: 16 }
-		{ item: "minecraft:book", count: 16 }
-		{ item: "minecraft:slime_ball", count: 16 }
-		{ item: "minecraft:llama_spawn_egg" }
-		{ item: "minecraft:goat_spawn_egg" }
-		{ item: "minecraft:donkey_spawn_egg" }
-		{ item: "minecraft:cow_spawn_egg" }
-		{ item: "minecraft:chicken_spawn_egg" }
-		{ item: "minecraft:bee_spawn_egg" }
-		{ item: "minecraft:sheep_spawn_egg" }
-		{ item: "minecraft:wolf_spawn_egg" }
-		{ item: "minecraft:sand", count: 64 }
-		{ item: "randomite:randomite_ore", count: 3 }
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "hat_loot_crate"
-				}
-			}
-		}
-		{ item: "kubejs:diamond_nugget", count: 3 }
-		{ item: "kubejs:emerald_nugget", count: 3 }
+		{ count: 8, item: "minecraft:gunpowder" }
+		{ count: 32, item: "minecraft:clay_ball" }
+		{ count: 16, item: "minecraft:ink_sac" }
+		{ count: 8, item: "minecraft:book" }
+		{ count: 8, item: "minecraft:slime_ball" }
+		{ count: 32, item: "minecraft:sand" }
+		{ count: 2, item: "randomite:randomite_ore" }
+		{ item: "kubejs:diamond_nugget" }
+		{ item: "kubejs:emerald_nugget" }
+		{ count: 4, item: "minecraft:bookshelf" }
+		{ count: 8, item: "minecraft:lantern" }
+		{ item: "simplehats:hatbag_uncommon" }
+		{ item: "minecraft:tnt" }
+		{ item: "minecraft:lead" }
+		{ count: 32, item: "minecraft:rail" }
+		{ item: "minecraft:redstone_lamp" }
+		{ count: 6, item: "supplementaries:bomb" }
+		{ count: 5, item: "supplementaries:candle_holder" }
+		{ item: "supplementaries:jar" }
+		{ item: "supplementaries:pedestal" }
+		{ item: "buildersaddition:arcade_oak" }
+		{ count: 64, item: "buildersaddition:hedge_dark_oak" }
+		{ count: 64, item: "buildersaddition:hedge_spruce" }
+		{ count: 16, item: "farmersdelight:mixed_salad" }
+		{ item: "waystones:bound_scroll" }
 	]
+	title: "Iron coin reward"
 }

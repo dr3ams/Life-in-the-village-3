@@ -1,0 +1,38 @@
+{
+  // The chance that the karma enchantment will take effect
+  // Range: 0.0 - 1.0
+  "karmaChance": 0.2,
+  
+  // The chance that the kindness enchantment will take effect
+  // Range: 0.0 - 1.0
+  "kindnessChance": 0.4,
+  
+  // The maximum time to wait after an item will be checked for getting cursed
+  // Minimum: 0
+  "maxCurseDelay": 12000,
+  
+  // The minimum time to wait after an item will be checked for getting cursed
+  // Minimum: 0
+  "minCurseDelay": 6000,
+  
+  // Settings can only be transferred, not 'getting lost'
+  "onlyTransferCurses": false,
+  
+  // If set to true, the lightnings for the Maledictus Aufero will only be visible
+  // This will protect your item from getting burnt
+  "safeLightnings": true,
+  
+  "NegativeEnergy": {
+  
+    // Should negative energy even be enabled
+    "enabled": true,
+    
+    // The negative energy the item you hurt an undead mob with - 0.01 = 1%
+    // Range: 0.0 - 1.0
+    "hurtAddition": 0.0001,
+    
+    // The negative energy each item in hand will receive each second while in nether - 0.01 = 1%
+    // Range: 0.0 - 1.0
+    "netherAddition": 0.00001
+  }
+}

@@ -1,0 +1,6 @@
+
+#All changes made here require a game restart.
+[mixins]
+	#If enabled, this tweak prevents cactus from destroying items that run into it
+	enableCactusItemProtection = true
+

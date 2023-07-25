@@ -1,0 +1,304 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:podzol",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:coarse_dirt",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:dirt_path",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:packed_mud",
+            "probability": 0.4
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_slab",
+            "Properties": {
+                "type": "top",
+                "waterlogged": "true"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:grass_block",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "north",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:podzol",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "north",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:coarse_dirt",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "north",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:dirt_path",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "north",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block":  "minecraft:packed_mud",
+            "probability": 0.5
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "north",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:grass_block"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "east",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block":  "minecraft:podzol"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "east",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block":  "minecraft:coarse_dirt"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "east",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block":  "minecraft:dirt_path"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "east",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:water"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block":  "minecraft:packed_mud"
+          },
+          "output_state": {
+            "Name": "minecraft:spruce_trapdoor",
+            "Properties": {
+                "waterlogged": "true",
+                "facing": "east",
+                "half": "top",
+                "open": "false",
+                "powered": "false"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

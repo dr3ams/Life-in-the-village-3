@@ -2,7 +2,7 @@
 #Inventory sorter blacklists
 [blacklists]
 	#Container blacklist
-	containerBlacklist = []
+	containerBlacklist = ["deeppouches:alpha_pouch", "deeppouches:beta_pouch"]
 	#Slot type blacklist
 	slotBlacklist = []
 

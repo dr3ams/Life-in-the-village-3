@@ -13,11 +13,24 @@
 	#How much of a bonus (in percentage) should each level of Fortune grant to Cutting Board chances? Set it to 0.0 to disable this.
 	#Range: 0.0 ~ 1.0
 	cuttingBoardFortuneBonus = 0.1
+	#Should players be able to reel back rope, bottom to top, when sneak-using with an empty hand on them?
+	enableRopeReeling = true
 	#A list of dye colors that, when used as the background of a Canvas Sign, should default to white text when placed.
 	#Dyes: ["white", "orange", "magenta", "light_blue", "yellow", "lime", "pink", "gray", "light_gray", "cyan", "purple", "blue", "brown", "green", "red", "black"]
 	canvasSignDarkBackgroundList = ["gray", "purple", "blue", "brown", "green", "red", "black"]
-	#Should players be able to reel back rope, bottom to top, when sneak-using with an empty hand on them?
-	enableRopeReeling = true
+
+#Farming
+[farming]
+	#Which rope should Tomato Vines leave behind when mined by hand?
+	defaultTomatoVineRope = "farmersdelight:rope"
+	#Should tomato vines be able to climb any rope tagged as farmersdelight:ropes?
+	#Beware: this will convert these blocks into the block specified in defaultTomatoVineRope.
+	enableTomatoVineClimbingTaggedRopes = true
+
+#Recipe book
+[recipe_book]
+	#Should the Cooking Pot have a Recipe Book available on its interface?
+	enableRecipeBookCookingPot = true
 
 #Vanilla item overrides
 [overrides]
@@ -46,56 +59,42 @@
 
 	#Wild Cabbage generation
 	[world.wild_cabbages]
-		#Generate wild cabbages on beaches
-		genWildCabbages = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
 
 	#Sea Beet generation
 	[world.wild_beetroots]
-		#Generate sea beets on beaches
-		genWildBeetroots = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 30
 
 	#Wild Potato generation
 	[world.wild_potatoes]
-		#Generate wild potatoes on cold biomes (temperature between 0.0 and 0.3)
-		genWildPotatoes = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
 
 	#Wild Carrot generation
 	[world.wild_carrots]
-		#Generate wild carrots on temperate biomes (temperature between 0.4 and 0.9)
-		genWildCarrots = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
 
 	#Wild Onion generation
 	[world.wild_onions]
-		#Generate wild onions on temperate biomes (temperature between 0.4 and 0.9)
-		genWildOnions = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 120
 
 	#Tomato Vines generation
 	[world.wild_tomatoes]
-		#Generate tomato vines on arid biomes (temperature 1.0 or higher)
-		genWildTomatoes = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 100
 
 	#Wild Rice generation
 	[world.wild_rice]
-		#Generate wild rice on swamps and jungles
-		genWildRice = true
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 20
@@ -115,17 +114,4 @@
 		#Chance of generating clusters. Smaller value = more frequent.
 		#Range: > 0
 		chance = 15
-
-#Farming
-[farming]
-	#Which rope should Tomato Vines leave behind when mined by hand?
-	defaultTomatoVineRope = "farmersdelight:rope"
-	#Should tomato vines be able to climb any rope tagged as farmersdelight:ropes?
-	#Beware: this will convert these blocks into the block specified in defaultTomatoVineRope.
-	enableTomatoVineClimbingTaggedRopes = true
-
-#Recipe book
-[recipe_book]
-	#Should the Cooking Pot have a Recipe Book available on its interface?
-	enableRecipeBookCookingPot = true
 

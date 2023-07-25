@@ -50,8 +50,8 @@ secondChanceActivationHealth = 13.5
 secondChanceHealthRemainder = 1.0
 #Determines what percent of health the player must start with for 'Second Chance' to activate.
 #Range: 0.01 ~ 1.7976931348623157E308
-secondChanceActivationPercent = 65.0
+secondChanceActivationPercent = 0.65
 #Determines what percent health the player should be left with after 'Second Chance' activates.
 #Range: 0.01 ~ 1.7976931348623157E308
-secondChanceHealthPercent = 5.0
+secondChanceHealthPercent = 0.05
 

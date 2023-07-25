@@ -1,0 +1,60 @@
+{
+    "name": "minecraft:village/snowy_taiga/town_centers",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 10,
+        "element": {
+          "location": "villages_overhauled:village/snowy_taiga/town_centers/taiga_meeting_point_1",
+          "processors": "villages_overhauled:taiga_statue",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "villages_overhauled:village/snowy_taiga/town_centers/taiga_meeting_point_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "location": "villages_overhauled:village/snowy_taiga/town_centers/taiga_meeting_point_3",
+          "processors": "villages_overhauled:snowy_taiga_roof",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/snowy_taiga/zombie/town_centers/taiga_meeting_point_1",
+          "processors": "villages_overhauled:taiga_statue",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "villages_overhauled:village/snowy_taiga/zombie/town_centers/taiga_meeting_point_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 2,
+        "element": {
+          "location": "villages_overhauled:village/snowy_taiga/zombie/town_centers/taiga_meeting_point_3",
+          "processors": "villages_overhauled:snowy_taiga_roof",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

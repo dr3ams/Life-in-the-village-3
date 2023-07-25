@@ -1,0 +1,91 @@
+{
+    "processors": [
+      {
+        "processor_type": "minecraft:rule",
+        "rules": [
+          {
+            "position_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:campfire"
+            },
+            "output_state": {
+              "Name": "minecraft:campfire",
+              "Properties": {
+                "lit": "false"
+              }
+            }
+          },
+          {
+            "position_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:lantern"
+            },
+            "output_state": {
+              "Name": "minecraft:chain",
+              "Properties": {
+                "axis": "y"
+              }
+            }
+          },
+          {
+            "position_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_block_match",
+              "block": "minecraft:hay_block",
+              "probability": 0.3
+            },
+            "output_state": {
+              "Name": "minecraft:cobweb"
+            }
+          },
+          {
+            "position_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:hay_block"
+            },
+            "output_state": {
+              "Name": "minecraft:air"
+            }
+          },
+          {
+            "position_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:block_match",
+              "block": "minecraft:stripped_mangrove_log"
+            },
+            "output_state": {
+              "Name": "minecraft:coal_block"
+            }
+          }
+        ]
+      }
+    ]
+  }

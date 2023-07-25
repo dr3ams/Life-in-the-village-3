@@ -1,5 +1,5 @@
 /*
-This config file makes it possible to change the spacing, separation, salt of Towns and Towers' structure sets. Big thanks to Cristelknight for making this all possible.
+This config file makes it possible to change the spacing, separation, salt (and frequency) of Towns and Towers' structure sets. Big thanks to Cristelknight for making this all possible.
 	SPACING ---  controls how far a structure can be from others of its kind
 	SEPARATION --- controls how close to each other two structures of the same type can be.
 By default, the values should be 48/24 for villages and outposts (spacing/separation respectively) - a hypothetical village is going to appear not further than 48 chunks away (ca. 760 blocks), but not closer than 24 chunks (ca. 380 blocks).
@@ -18,9 +18,9 @@ GitHub Repository: [NEED TO MAKE ONE]
 	// Here you can find all villages.
 	"villages": {
 		// DEFAULT 48
-		"spacing": 78,
+		"spacing": 48,
 		// DEFAULT 24
-		"separation": 48,
+		"separation": 24,
 		"salt": 10587309
 	},
 	// Here you can find all outposts.
@@ -29,6 +29,8 @@ GitHub Repository: [NEED TO MAKE ONE]
 		"spacing": 48,
 		// DEFAULT 24
 		"separation": 24,
+		// DEFAULT 0.2
+		"frequency": 0.20000000298023224,
 		"salt": 205745294
 	},
 	// Here you can find all structures that aren't villages or outposts.

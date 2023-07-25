@@ -4,5 +4,4 @@ This directory contains subdirectories for supported versions. The first time yo
 For example, the first time you use YUNG's Extras for MC 1.16 on Forge, the 'forge-1_16' subdirectory will be created in this folder.
 If no subdirectory for your version is created, then that version probably does not support the additional options.
 
-NOTE -- MOST OPTIONS CAN BE FOUND IN A CONFIG FILE OUTSIDE THIS FOLDER!
-For example, on Forge 1.16 the file is 'YungsExtras-forge-1_16.toml'.
+NOTE -- AS OF 1.19, ALL SPAWN RATE RELATED OPTIONS MUST NOW BE MODIFIED VIA DATA PACK.

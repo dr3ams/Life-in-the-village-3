@@ -1,0 +1,51 @@
+{
+  "name": "minecraft:village/plains/terminators",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/plains/terminators/terminator_01",
+        "processors": "villages_overhauled:cobble_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/plains/terminators/terminator_02",
+        "processors": "villages_overhauled:cobble_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/plains/terminators/terminator_03",
+        "processors": "villages_overhauled:cobble_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/plains/terminators/terminator_04",
+        "processors": "villages_overhauled:cobble_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/plains/terminators/terminator_05",
+        "processors": "villages_overhauled:cobble_streets",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

@@ -3,6 +3,8 @@
 [client]
 
 	[client.visual_options]
+		# If markers above villagers should always show.  If false, they will only show when the configured keybind is held.
+		always_show = true
 		# If markers should be visible through walls and other obstructions.
 		show_through_walls = true
 		# If markers should include an arrow under the profession-specific icon.
@@ -38,8 +40,6 @@
 		marker_type = "custom"
 		# A list of professions to ignore when displaying markers. Use "none" for villagers with no profession.
 		profession_blacklist = ["none", "nitwit"]
-		# If markers above villagers should always show. If false, they will only show when the configured keybind is held.
-		always_show = true
 
 		# The items associated with each villager profession.  Only used when marker type is set to "items".
 		[client.visual_options.associated_items]

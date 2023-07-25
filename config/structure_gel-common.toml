@@ -1,14 +1,15 @@
 
-[biome_dictionary]
+[building_tool]
 	#
-	# A list of mod IDs that will be ignored when the biome dictionary attempts to register unregistered biomes.
-	# Example: ["biomesoplenty", "byg", "autumnity"]
-	# Default: []
-	ignored_mods = []
+	# The required permission level of a player needed to use the Building Tool.
+	# Default: 4
+	#Range: 0 ~ 4
+	required_permission = 4
 	#
-	# Determines if the biome dictionary should make assumptions for unregistered biomes. Setting this to false can fix issues where a structure generates weird biomes.
-	# Default: true
-	make_best_guess = true
+	# The amount of undo operations saved by the Building Tool.
+	# Default: 32
+	#Range: 8 ~ 256
+	max_undos = 32
 
 [vanilla_enhancements]
 	#
@@ -28,16 +29,4 @@
 	# - Gel blocks automatically replace destroyed neighboring blocks.
 	# Default: true
 	advanced_gel_behavior = true
-
-[building_tool]
-	#
-	# The required permission level of a player needed to use the Building Tool.
-	# Default: 4
-	#Range: 0 ~ 4
-	required_permission = 4
-	#
-	# The amount of undo operations saved by the Building Tool.
-	# Default: 32
-	#Range: 8 ~ 256
-	max_undos = 32
 

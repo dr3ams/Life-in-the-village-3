@@ -13,6 +13,10 @@
     "salt": 169480676,
     "spacing": 60,
     "separation": 30,
-    "type": "minecraft:random_spread"
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 9,
+      "other_set": "#idas:labyrinth_avoid"
+    }
   }
 }

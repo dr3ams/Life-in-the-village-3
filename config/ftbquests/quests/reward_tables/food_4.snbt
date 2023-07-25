@@ -1,0 +1,115 @@
+{
+	icon: "pickletweaks:diamond_apple"
+	id: "0B940E9B450494C0"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Food 4"
+		string_id: "food_4"
+	}
+	loot_size: 1
+	order_index: 48
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:golden_apple"
+			}
+			random_bonus: 16
+			weight: 100.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:enchanted_golden_apple"
+			}
+			random_bonus: 2
+			weight: 90.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:honey_glazed_ham_block"
+			}
+			weight: 14.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:shepherds_pie_block"
+			}
+			weight: 14.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "artifacts:eternal_steak"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "uniqueutil:ambrosia"
+						lvl: 4s
+					}]
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:roast_chicken_block"
+			}
+			weight: 14.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "farmersdelight:stuffed_pumpkin_block"
+			}
+			weight: 14.0f
+		}
+	]
+	title: "Food 4"
+	use_title: true
+}

@@ -1,0 +1,98 @@
+
+#Configure Collector's Reap
+[Items]
+	baked_portobello_cap = true
+	berry_limeade = true
+	candied_lime = true
+	cod_ceviche = true
+	crimson_carrot_roast = true
+	deluxe_salad = true
+	glazed_strider = true
+	honey_lime_chicken = true
+	lime = true
+	lime_cake = true
+	lime_cake_slice = true
+	lime_cookie = true
+	lime_crate = true
+	lime_ice_cream = true
+	lime_ice_cream_block = true
+	lime_milkshake = true
+	lime_pie = true
+	lime_pie_slice = true
+	lime_popsicle = true
+	lime_seeds = true
+	lime_slice = true
+	limeade = true
+	mediterranean_salmon = true
+	pink_limeade = true
+	pomegranate = true
+	pomegranate_cake = true
+	pomegranate_cake_slice = true
+	pomegranate_chicken = true
+	pomegranate_crate = true
+	pomegranate_custard = true
+	pomegranate_ice_cream = true
+	pomegranate_ice_cream_block = true
+	pomegranate_milkshake = true
+	pomegranate_mutton = true
+	pomegranate_pork = true
+	pomegranate_seeds = true
+	pomegranate_slice = true
+	portobello = true
+	portobello_burger = true
+	portobello_colony = true
+	portobello_pasta = true
+	portobello_quiche = true
+	portobello_quiche_slice = true
+	portobello_rice_soup = true
+	portobello_risotto = true
+	portobello_wrap = true
+	potato_fritters = true
+	salmon_tartare = true
+	spicy_grenadine_jelly = true
+	stuffed_portobello_cap = true
+	adzuki_gummy = true
+	aloe_gummy = true
+	apple_gummy = true
+	banana_gummy = true
+	black_tea_gummy = true
+	chocolate_arils = true
+	chocolate_gummy = true
+	coffee_gummy = true
+	green_tea_gummy = true
+	lime_green_tea = true
+	lime_gummy = true
+	melon_gummy = true
+	mint_gummy = true
+	mint_limeade = true
+	passionfruit_gummy = true
+	pomegranate_bean_salad = true
+	pomegranate_black_tea = true
+	pomegranate_gummy = true
+	pomegranate_smoothie = true
+	pumpkin_gummy = true
+	strawberry_gummy = true
+	strawberry_jam_bun = true
+	vanilla_gummy = true
+	yellow_tea_gummy = true
+	yucca_gummy = true
+
+[Generation]
+	#Chance of generating clusters. Smaller value = more frequent (once every ...). To disable, set the item Portobello to false above.
+	#Range: > 0
+	chance_portobello = 30
+	#Chance of generating bushes. Smaller value = more frequent (once every ...). To disable, set the item Lime to false above.
+	#Range: > 0
+	chance_lime_bush = 22
+	#Chance of generating bushes. Smaller value = more frequent (once every ...). To disable, set the item Pomegranate to false above.
+	#Range: > 0
+	chance_pomegranate_bush = 15
+
+[Behavior]
+	#Whether Lime Bushes require Bee pollination to reach final growth stage.
+	lime_pollination = true
+	#Whether Pomegranate Bushes require Bee pollination to reach final growth stage in overworld.
+	pomegranate_pollination = true
+	#Whether bee pollination of bushes should occur much quicker (when Bee collides with it) rather than on Bee's AI scheduled timing. Use this if having issues with pollination.
+	fast_pollinate = false
+

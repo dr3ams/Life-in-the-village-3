@@ -69,6 +69,10 @@
       "weight": 1
     },
     {
+      "structure": "idas:sunken_ship/sunken_ship_ruins",
+      "weight": 1
+    },
+    {
       "structure": "idas:ancient_statue/ancient_statue_plains",
       "weight": 1
     },
@@ -103,8 +107,12 @@
   ],
   "placement": {
     "salt": 169480673,
-    "spacing": 20,
-    "separation": 12,
-    "type": "minecraft:random_spread"
+    "spacing": 15,
+    "separation": 10,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 5,
+      "other_set": "#idas:idas_small_avoid"
+    }
   }
 }

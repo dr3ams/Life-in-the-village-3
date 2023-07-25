@@ -1,9 +1,17 @@
 {
 	id: "0242E24DC202746F"
-	order_index: 0
-	title: "Random Materials"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "random_materials"
+	}
 	loot_size: 1
-	use_title: true
+	order_index: 0
 	rewards: [
 		{ item: "minecraft:iron_nugget" }
 		{ item: "minecraft:gold_nugget" }
@@ -18,14 +26,6 @@
 		{ item: "minecraft:clay_ball" }
 		{ item: "minecraft:emerald" }
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		glow: 1b
-		string_id: "random_materials"
-	}
+	title: "Random Materials"
+	use_title: true
 }

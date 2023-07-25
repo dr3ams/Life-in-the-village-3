@@ -1,0 +1,85 @@
+{
+	id: "667BC3654C37731A"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Junk 4"
+		string_id: "junk_4"
+	}
+	loot_size: 1
+	order_index: 46
+	rewards: [
+		{
+			count: 256
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:diamond_nugget"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:blank_rune"
+			}
+			random_bonus: 4
+			weight: 20.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:diamond_coin"
+			}
+			weight: 2.0f
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:treasure_chest"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}
+			weight: 5.0f
+		}
+		{ count: 32, item: "minecraft:coal_block" }
+		{ count: 64, item: "minecraft:lantern" }
+	]
+	title: "Junk 4"
+	use_title: true
+}

@@ -2,19 +2,19 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
+        "type": "BIOME_TAG",
+        "negate": true,
+        "value": "minecraft:is_end"
       },
       {
-        "type": "BIOME_CATEGORY",
+        "type": "BIOME_TAG",
         "negate": true,
-        "value": "ocean"
+        "value": "minecraft:is_nether"
       },
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_TAG",
         "negate": true,
-        "value": "ocean"
+        "value": "minecraft:is_ocean"
       }
     ]
   ]

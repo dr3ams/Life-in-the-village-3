@@ -45,10 +45,6 @@
       "weight": 2
     },
     {
-      "structure": "idas:hauntedhouse",
-      "weight": 2
-    },
-    {
       "structure": "idas:witches_treestump",
       "weight": 1
     },
@@ -59,8 +55,12 @@
   ],
   "placement": {
     "salt": 169480670,
-    "spacing": 35,
-    "separation": 20,
-    "type": "minecraft:random_spread"
+    "spacing": 55,
+    "separation": 30,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 10,
+      "other_set": "#idas:idas_common_avoid"
+    }
   }
 }

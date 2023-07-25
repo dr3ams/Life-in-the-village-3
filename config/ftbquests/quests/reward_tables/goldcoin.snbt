@@ -1,11 +1,11 @@
 {
 	id: "4A6B5F21959DEDA5"
-	order_index: 24
-	title: "Gold-coin"
 	loot_size: 1
+	order_index: 23
 	rewards: [
-		{ item: "kubejs:copper_coin", count: 2 }
+		{ count: 2, item: "kubejs:copper_coin" }
 		{ item: "kubejs:iron_coin" }
 		{ item: "kubejs:gold_coin" }
 	]
+	title: "Gold-coin"
 }

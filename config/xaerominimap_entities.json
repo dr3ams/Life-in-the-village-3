@@ -1,7 +1,9 @@
 {
   "hardInclude": "anything",
-  "includeList": [],
-  "includeListInSuperCategory": false,
+  "includeList": [
+    "minecolonies:citizen"
+  ],
+  "includeListInSuperCategory": true,
   "excludeMode": "ONLY",
   "excludeList": [
     "minecraft:glow_item_frame",
@@ -10,49 +12,27 @@
   "name": "gui.xaero_entity_category_root",
   "protection": true,
   "settingOverrides": {
-    "displayed": false,
     "displayHeight": 0.0,
+    "displayed": true,
     "heightBasedFade": true,
     "renderOrder": 0.0,
-    "color": 14.0,
+    "color": 13.0,
     "displayNameWhenIconFails": true,
     "entityNumber": 1000.0,
     "alwaysDisplayNametags": false,
     "dotSize": 2.0,
     "startFadingAt": 0.0,
     "renderOverMinimapFrame": 1.0,
-    "icons": 0.0,
-    "heightLimit": 20.0,
+    "icons": 2.0,
     "names": 0.0,
+    "heightLimit": 20.0,
     "iconScale": 1.0
   },
   "subCategories": [
     {
-      "hardInclude": "nothing",
-      "includeList": [
-        "minecolonies:citizen",
-        "minecolonies:visitor"
-      ],
-      "includeListInSuperCategory": false,
-      "excludeMode": "ONLY",
-      "excludeList": [],
-      "name": "Minecolonies",
-      "protection": false,
-      "settingOverrides": {
-        "displayed": true,
-        "heightBasedFade": true,
-        "names": 2.0,
-        "color": 6.0,
-        "entityNumber": 1000.0,
-        "dotSize": 2.0,
-        "iconScale": 1.0
-      },
-      "subCategories": []
-    },
-    {
       "hardInclude": "living",
       "includeList": [],
-      "includeListInSuperCategory": false,
+      "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [
         "minecraft:armor_stand"
@@ -60,51 +40,31 @@
       "name": "gui.xaero_entity_category_living",
       "protection": true,
       "settingOverrides": {
-        "displayed": true,
         "renderOrder": 2.0,
-        "color": 2.0
+        "color": 14.0
       },
       "subCategories": [
         {
-          "hardInclude": "nothing",
-          "includeList": [
-            "minecolonies:citizen",
-            "minecolonies:visitor"
-          ],
-          "includeListInSuperCategory": false,
-          "excludeMode": "ONLY",
-          "excludeList": [],
-          "name": "Minecolonies",
-          "protection": false,
-          "settingOverrides": {
-            "displayed": true,
-            "heightBasedFade": true,
-            "names": 2.0,
-            "color": 5.0,
-            "dotSize": 2.0,
-            "icons": 2.0,
-            "iconScale": 1.0
-          },
-          "subCategories": []
-        },
-        {
           "hardInclude": "players",
           "includeList": [],
-          "includeListInSuperCategory": false,
+          "includeListInSuperCategory": true,
           "excludeMode": "ONLY",
           "excludeList": [],
           "name": "gui.xaero_entity_category_players",
           "protection": true,
           "settingOverrides": {
+            "displayed": true,
             "renderOrder": 6.0,
+            "names": 2.0,
             "heightLimit": 2050.0,
-            "color": 15.0
+            "color": 15.0,
+            "icons": 2.0
           },
           "subCategories": [
             {
               "hardInclude": "same-team",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_same_team",
@@ -115,7 +75,7 @@
             {
               "hardInclude": "anything",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_other_teams",
@@ -130,25 +90,29 @@
         {
           "hardInclude": "hostile",
           "includeList": [],
-          "includeListInSuperCategory": false,
+          "includeListInSuperCategory": true,
           "excludeMode": "ONLY",
           "excludeList": [],
           "name": "gui.xaero_entity_category_hostile",
           "protection": true,
           "settingOverrides": {
-            "displayed": false,
-            "renderOrder": 3.0
+            "displayed": true,
+            "renderOrder": 3.0,
+            "names": 2.0,
+            "color": 4.0,
+            "icons": 2.0
           },
           "subCategories": [
             {
               "hardInclude": "tamed",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_hostile_tamed",
               "protection": true,
               "settingOverrides": {
+                "displayed": true,
                 "renderOrder": 5.0
               },
               "subCategories": []
@@ -157,18 +121,23 @@
         },
         {
           "hardInclude": "anything",
-          "includeList": [],
-          "includeListInSuperCategory": false,
+          "includeList": [
+            "minecolonies:citizen",
+            "minecraft:villager"
+          ],
+          "includeListInSuperCategory": true,
           "excludeMode": "ONLY",
           "excludeList": [],
           "name": "gui.xaero_entity_category_friendly",
           "protection": true,
-          "settingOverrides": {},
+          "settingOverrides": {
+            "displayed": false
+          },
           "subCategories": [
             {
               "hardInclude": "tamed",
               "includeList": [],
-              "includeListInSuperCategory": false,
+              "includeListInSuperCategory": true,
               "excludeMode": "ONLY",
               "excludeList": [],
               "name": "gui.xaero_entity_category_friendly_tamed",
@@ -185,12 +154,13 @@
     {
       "hardInclude": "items",
       "includeList": [],
-      "includeListInSuperCategory": false,
+      "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [],
       "name": "gui.xaero_entity_category_items",
       "protection": true,
       "settingOverrides": {
+        "displayed": false,
         "renderOrder": 1.0,
         "color": 12.0
       },
@@ -198,21 +168,15 @@
     },
     {
       "hardInclude": "anything",
-      "includeList": [
-        "minecolonies:citizen",
-        "minecolonies:visitor"
-      ],
-      "includeListInSuperCategory": false,
+      "includeList": [],
+      "includeListInSuperCategory": true,
       "excludeMode": "ONLY",
       "excludeList": [],
       "name": "gui.xaero_entity_category_other_entities",
       "protection": true,
       "settingOverrides": {
-        "heightBasedFade": true,
-        "entityNumber": 400.0,
-        "alwaysDisplayNametags": true,
-        "dotSize": 2.0,
-        "iconScale": 1.0
+        "displayed": false,
+        "color": 5.0
       },
       "subCategories": []
     }

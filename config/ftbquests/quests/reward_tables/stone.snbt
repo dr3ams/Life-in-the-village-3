@@ -1,11 +1,22 @@
 {
 	id: "7009BCE9EB258656"
-	order_index: 14
-	title: "Stone"
 	loot_size: 1
+	order_index: 13
 	rewards: [
-		{ item: "minecraft:granite", count: 64 }
-		{ item: "minecraft:diorite", count: 64 }
-		{ item: "minecraft:andesite", count: 64 }
+		{ count: 64, item: "minecraft:granite" }
+		{ count: 64, item: "minecraft:diorite" }
+		{ count: 64, item: "minecraft:andesite" }
+		{ count: 64, item: "create:cut_crimsite" }
+		{ count: 64, item: "create:cut_asurine" }
+		{ count: 64, item: "create:cut_tuff" }
+		{ count: 64, item: "create:cut_deepslate" }
+		{ count: 64, item: "create:cut_dripstone" }
+		{ count: 64, item: "create:cut_scorchia" }
+		{ count: 64, item: "create:cut_veridium" }
+		{ count: 64, item: "create:cut_calcite" }
+		{ count: 64, item: "create:cut_scoria" }
+		{ count: 64, item: "create:cut_ochrum" }
+		{ count: 64, item: "create:cut_limestone" }
 	]
+	title: "Stone"
 }

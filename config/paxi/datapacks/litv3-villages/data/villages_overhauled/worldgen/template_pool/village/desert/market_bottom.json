@@ -1,0 +1,15 @@
+{
+    "name": "villages_overhauled:village/desert/market_bottom",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 50,
+        "element": {
+          "location": "villages_overhauled:village/desert/market/market_bottom_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

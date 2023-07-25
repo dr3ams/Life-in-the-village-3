@@ -1,9 +1,9 @@
-ignoreUpdate:137
-updateNotification:false
+ignoreUpdate:0
+updateNotification:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
 debug:false
-lighting:true
+lighting:false
 colours:0
 loadChunks:true
 updateChunks:true
@@ -19,8 +19,8 @@ renderArrow:true
 displayZoom:true
 worldmapWaypointsScale:1.0
 openMapAnimation:true
-reloadVersion:0
-reloadEverything:false
+reloadVersion:1
+reloadEverything:true
 zoomButtons:true
 waypointBackgrounds:true
 detectAmbiguousY:true
@@ -30,7 +30,7 @@ adjustHeightForCarpetLikeBlocks:true
 onlyCurrentMapWaypoints:false
 minZoomForLocalWaypoints:0.0
 arrowColour:-2
-minimapRadar:true
+minimapRadar:false
 renderWaypoints:true
 partialYTeleportation:true
 displayStainedGlass:true

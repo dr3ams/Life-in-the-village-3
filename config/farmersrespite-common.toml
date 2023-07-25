@@ -5,10 +5,10 @@
 	enableBoneMealTeaBush = false
 	#Are coffee bushes bonemealable?
 	enableBoneMealCoffeeBush = false
-	#Chance of generating wild tea bushes. Bigger value = more frequent.
-	#Range: 0 ~ 20
-	teaBushChance = 10
-	#Chance of generating coffee bushes. Bigger value = more frequent.
-	#Range: 0 ~ 20
-	coffeeBushChance = 10
+	#Chance of generating clusters. Smaller value = more frequent.
+	#Range: > 0
+	teaBushChance = 1
+	#Chance of generating clusters. Smaller value = more frequent.
+	#Range: > 0
+	coffeeBushChance = 1
 

@@ -10,6 +10,8 @@
 	tameable_fox = true
 	#true if rabbits are fully tameable (rabbit must be tamed with carrots)
 	tameable_rabbit = true
+	#true if frogs are fully tameable (rabbit must be tamed with spider eyes)
+	tameable_frog = true
 	#true if attacks do not register on pets from their owners and go through them to attack a mob behind them
 	swing_through_pets = true
 	#true if apples can turn into rotten apples if they despawn
@@ -27,21 +29,29 @@
 	petstore_village_weight = 17
 
 [loot]
+	#true if pet curse enchantments should only appear in loot, and not the enchanting table.
+	pet_curse_enchantments_loot_only = true
 	#percent chance of woodland mansion loot table containing sinister carrot:
 	#Range: 0.0 ~ 1.0
-	sinister_carrot_loot_chance = 0.11
+	sinister_carrot_loot_chance = 0.3
 	#percent chance of burried treasure loot table containing Bubbling book:
 	#Range: 0.0 ~ 1.0
 	bubbling_loot_chance = 0.65
 	#percent chance of woodland mansion loot table containing Vampire book:
 	#Range: 0.0 ~ 1.0
-	vampirism_loot_chance = 0.13
+	vampirism_loot_chance = 0.22
 	#percent chance of end city loot table containing Void Cloud book:
 	#Range: 0.0 ~ 1.0
-	void_cloud_loot_chance = 0.13
+	void_cloud_loot_chance = 0.19
 	#percent chance of mineshaft loot table containing Ore Scenting book:
 	#Range: 0.0 ~ 1.0
-	ore_scenting_loot_chance = 0.1
+	ore_scenting_loot_chance = 0.15
+	#percent chance of ancient city loot table containing Muffled book:
+	#Range: 0.0 ~ 1.0
+	muffled_loot_chance = 0.19
+	#percent chance of nether fortress loot table containing Blazing Protection book:
+	#Range: 0.0 ~ 1.0
+	blazing_protection_loot_chance = 0.2
 
 [enchantments]
 	#true if health boost enchant is enabled, false if disabled
@@ -98,6 +108,14 @@
 	intimidation_enabled = true
 	#true if tethered teleport enchant is enabled, false if disabled
 	tethered_teleport_enabled = true
+	#true if muffled enchant is enabled, false if disabled
+	muffled_enabled = true
+	#true if blazing protection enchant is enabled, false if disabled
+	blazing_protection_enabled = true
+	#true if healing aura enchant is enabled, false if disabled
+	healing_aura_enabled = true
+	#true if rejuvenation enchant is enabled, false if disabled
+	rejuvenation_enabled = true
 	#true if undead curse enchant is enabled, false if disabled
 	undead_curse_enabled = true
 	#true if infamy curse enchant is enabled, false if disabled

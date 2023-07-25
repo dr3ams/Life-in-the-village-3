@@ -53,11 +53,9 @@
 	netherite_trapdoor = true
 	lock_block = true
 	flax = true
-	rope = true
 	pulley_block = true
 	fodder = true
 	crimson_lantern = true
-	magma_cream_block = true
 	daub = true
 	wattle_and_daub = true
 	timber_frame = true
@@ -77,15 +75,16 @@
 	blackstone_tile = true
 	globe_sepia = true
 	present = true
+	sugar_cube = true
+	crystal_display = true
+	lapis_bricks = true
+	relayer = true
+	candle_holder = true
+	enderman_head = true
 	silver_trapdoor = true
 	silver_door = true
 	lead_trapdoor = true
 	lead_door = true
-	sugar_cube = true
-	lapis_bricks = true
-	relayer = true
-	crystal_display = true
-	candle_holder = true
 
 [items]
 	flute = true
@@ -97,9 +96,9 @@
 	shulker_shell = true
 	candy = true
 	wrench = true
+	quiver = true
 	slingshot = true
 	rope_arrow = true
 	bomb = true
 	pancake = true
-	quiver = true
 

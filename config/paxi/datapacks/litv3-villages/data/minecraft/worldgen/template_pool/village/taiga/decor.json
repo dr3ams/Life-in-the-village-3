@@ -1,0 +1,94 @@
+{
+    "name": "minecraft:village/taiga/decor",
+    "fallback": "villages_overhauled:village/taiga/lamp_maybe",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_lamp_post_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_decoration_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_decoration_1",
+          "processors": "villages_overhauled:pumpkin_cart",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_decoration_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_decoration_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_decoration_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_decoration_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_decoration_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "feature": "minecraft:pile_pumpkin",
+          "projection": "rigid",
+          "element_type": "minecraft:feature_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "feature": "minecraft:patch_taiga_grass",
+          "projection": "rigid",
+          "element_type": "minecraft:feature_pool_element"
+        }
+      }
+    ]
+  }

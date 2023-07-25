@@ -1,3 +1,32 @@
-#List of curio slot type settings
-curiosSettings = []
 
+#List of curio slot type settings
+[[curiosSettings]]
+	identifier = "artifact"
+	size = 2
+[[curiosSettings]]
+	identifier = "body"
+	size = 1
+[[curiosSettings]]
+	identifier = "medal"
+	size = 1	
+[[curiosSettings]]
+	identifier = "scroll"
+	size = 1
+[[curiosSettings]]
+	identifier = "bracelet"
+	size = 1
+[[curiosSettings]]
+	identifier = "ring"
+	size = 2
+[[curiosSettings]]
+	identifier = "belt"
+	size = 1
+[[curiosSettings]]
+	identifier = "charm"
+	size = 1
+[[curiosSettings]]
+	identifier = "feet"
+	size = 1
+[[curiosSettings]]
+	identifier = "pocket"
+	size = 2

@@ -1,22 +1,15 @@
 {
-	id: "0000000000000056"
-	group: ""
-	order_index: 2
-	filename: "somedecorationrequired"
-	title: "Deco madness"
-	icon: "extlights:light_lantern_fancy_iron"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "somedecorationrequired"
+	group: "46433AE7955AB640"
+	icon: "quark:trowel"
+	id: "0000000000000056"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			x: 5.0d
-			y: -2.5d
 			id: "0000000000000057"
-			tasks: [{
-				id: "6B53CDDE859988DE"
-				type: "item"
-				item: "supplementaries:sconce"
-			}]
 			rewards: [
 				{
 					id: "2083F3249C2E2E2F"
@@ -25,30 +18,30 @@
 				}
 				{
 					id: "00000000000003E3"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "000000000000041F"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "000000000000045B"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "6B53CDDE859988DE"
+				item: "supplementaries:sconce"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
 		}
 		{
-			x: 4.0d
-			y: -3.5d
 			id: "000000000000005D"
-			tasks: [{
-				id: "000000000000005E"
-				type: "item"
-				item: "quark:paper_lantern"
-			}]
 			rewards: [
 				{
 					id: "3656F5B371691B7B"
@@ -57,113 +50,31 @@
 				}
 				{
 					id: "00000000000003E6"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "0000000000000422"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "000000000000045E"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 4.0d
-			y: -2.5d
-			dependencies: ["000000000000005D"]
-			id: "000000000000005F"
 			tasks: [{
-				id: "0000000000000060"
+				id: "000000000000005E"
+				item: "quark:paper_lantern"
 				type: "item"
-				item: "quark:paper_lantern_sakura"
 			}]
-			rewards: [
-				{
-					id: "4C0CABE511859421"
-					type: "item"
-					item: "minecraft:sea_pickle"
-				}
-				{
-					id: "04E9B099FA7C8A10"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "00000000000003E7"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-				}
-				{
-					id: "0000000000000423"
-					type: "item"
-					item: "minecraft:gold_nugget"
-				}
-				{
-					id: "000000000000045F"
-					type: "item"
-					item: "minecraft:iron_nugget"
-				}
-			]
+			x: 1.5d
+			y: -8.0d
 		}
 		{
-			x: 6.0d
-			y: -3.5d
-			id: "000000000000009A"
-			tasks: [{
-				id: "000000000000009B"
-				type: "item"
-				item: "minecraft:lantern"
-			}]
-			rewards: [
-				{
-					id: "00000000000003BF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "13475E239EF85EDC"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-				}
-				{
-					id: "436E6411AF52D8F7"
-					type: "item"
-					item: "minecraft:gold_nugget"
-				}
-				{
-					id: "0000000000000473"
-					type: "item"
-					item: "minecraft:iron_nugget"
-				}
-			]
-		}
-		{
-			x: 5.0d
-			y: 4.5d
 			dependencies: ["00000000000000A9"]
 			id: "000000000000009E"
-			tasks: [
-				{
-					id: "000000000000009F"
-					type: "item"
-					item: "mcwbridges:stone_brick_bridge"
-				}
-				{
-					id: "2669B725C0D2A6C0"
-					type: "item"
-					item: "mcwbridges:stone_brick_bridge_stair"
-				}
-				{
-					id: "3CFB5840B7C07E19"
-					type: "item"
-					item: "mcwbridges:stone_bridge_pier"
-				}
-			]
 			rewards: [
 				{
 					id: "00000000000003C1"
@@ -172,38 +83,43 @@
 				}
 				{
 					id: "00000000000003FD"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "09CC9E428CD79235"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "0000000000000475"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 4.0d
-			y: 3.5d
-			dependencies: ["00000000000000A9"]
-			id: "00000000000000A1"
 			tasks: [
 				{
-					id: "222F7A2606543BEC"
+					id: "000000000000009F"
+					item: "mcwbridges:stone_brick_bridge"
 					type: "item"
-					item: "mcwbridges:rope_birch_bridge"
 				}
 				{
-					id: "36B60ACB6039A50C"
+					id: "2669B725C0D2A6C0"
+					item: "mcwbridges:stone_brick_bridge_stair"
 					type: "item"
-					item: "mcwbridges:birch_rope_bridge_stair"
+				}
+				{
+					id: "3CFB5840B7C07E19"
+					item: "mcwbridges:stone_bridge_pier"
+					type: "item"
 				}
 			]
+			x: 5.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00000000000000A9"]
+			id: "00000000000000A1"
 			rewards: [
 				{
 					id: "00000000000003C2"
@@ -212,43 +128,38 @@
 				}
 				{
 					id: "00000000000003FE"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "599CEDA3BD951FC4"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "0000000000000476"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 5.0d
-			y: 2.5d
-			dependencies: ["00000000000000A9"]
-			id: "0A4955409B6E6166"
 			tasks: [
 				{
-					id: "1E43CBF32F0DE752"
+					id: "222F7A2606543BEC"
+					item: "mcwbridges:rope_birch_bridge"
 					type: "item"
-					item: "mcwbridges:jungle_bridge_pier"
 				}
 				{
-					id: "590B9B09C3FCBEC9"
+					id: "36B60ACB6039A50C"
+					item: "mcwbridges:birch_rope_bridge_stair"
 					type: "item"
-					item: "mcwbridges:jungle_log_bridge_middle"
-				}
-				{
-					id: "0180DB979C88D4A5"
-					type: "item"
-					item: "mcwbridges:jungle_log_bridge_stair"
 				}
 			]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["00000000000000A9"]
+			id: "0A4955409B6E6166"
 			rewards: [
 				{
 					id: "00000000000003C3"
@@ -257,31 +168,43 @@
 				}
 				{
 					id: "00000000000003FF"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "10454CD7F3682A70"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "0000000000000477"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "1E43CBF32F0DE752"
+					item: "mcwbridges:jungle_bridge_pier"
+					type: "item"
+				}
+				{
+					id: "590B9B09C3FCBEC9"
+					item: "mcwbridges:jungle_log_bridge_middle"
+					type: "item"
+				}
+				{
+					id: "0180DB979C88D4A5"
+					item: "mcwbridges:jungle_log_bridge_stair"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 5.5d
 		}
 		{
-			x: 6.0d
-			y: 3.5d
 			dependencies: ["00000000000000A9"]
 			id: "00000000000000A6"
-			tasks: [{
-				id: "00000000000000A7"
-				type: "item"
-				item: "mcwbridges:spruce_rail_bridge"
-			}]
 			rewards: [
 				{
 					id: "00000000000003C4"
@@ -290,52 +213,40 @@
 				}
 				{
 					id: "0000000000000400"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "21A83FA0ED18E9C3"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "0000000000000478"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "00000000000000A7"
+				item: "mcwbridges:spruce_rail_bridge"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 6.5d
 		}
 		{
-			x: 5.0d
-			y: 3.5d
 			id: "00000000000000A9"
 			tasks: [{
 				id: "00000000000000AA"
-				type: "checkmark"
 				title: "Bridges!"
+				type: "checkmark"
 			}]
+			x: 5.5d
+			y: 6.5d
 		}
 		{
-			x: -5.0d
-			y: -1.5d
 			id: "2557FC64FA17C74E"
-			tasks: [
-				{
-					id: "32783636AA3836CD"
-					type: "item"
-					item: "mcwroofs:rain_gutter"
-				}
-				{
-					id: "09C1FC67657B34A2"
-					type: "item"
-					item: "mcwroofs:gutter_base"
-				}
-				{
-					id: "0F943EA299AE248B"
-					type: "item"
-					item: "mcwroofs:gutter_middle"
-				}
-			]
 			rewards: [
 				{
 					id: "43AD53FF891E3A1F"
@@ -344,42 +255,42 @@
 				}
 				{
 					id: "0000000000000402"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "6ECA6CCA53689227"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "000000000000047A"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: -5.0d
-			y: -3.5d
-			id: "0000000000000291"
 			tasks: [
 				{
-					id: "0000000000000292"
+					id: "32783636AA3836CD"
+					item: "mcwroofs:rain_gutter"
 					type: "item"
-					item: "mcwroofs:oak_roof"
 				}
 				{
-					id: "0000000000000293"
+					id: "09C1FC67657B34A2"
+					item: "mcwroofs:gutter_base"
 					type: "item"
-					item: "mcwroofs:oak_attic_roof"
 				}
 				{
-					id: "330771D6E23C4CD3"
+					id: "0F943EA299AE248B"
+					item: "mcwroofs:gutter_middle"
 					type: "item"
-					item: "mcwroofs:roofing_hammer"
 				}
 			]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "0000000000000291"
 			rewards: [
 				{
 					id: "00000000000003CE"
@@ -388,31 +299,43 @@
 				}
 				{
 					id: "52C4C0F4B115443B"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "4FF2530325D6756F"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "0000000000000482"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "0000000000000292"
+					item: "mcwroofs:oak_roof"
+					type: "item"
+				}
+				{
+					id: "0000000000000293"
+					item: "mcwroofs:oak_attic_roof"
+					type: "item"
+				}
+				{
+					id: "330771D6E23C4CD3"
+					item: "mcwroofs:roofing_hammer"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: -3.5d
 		}
 		{
-			x: -5.0d
-			y: -2.5d
 			dependencies: ["2557FC64FA17C74E"]
 			id: "0000000000000294"
-			tasks: [{
-				id: "0000000000000295"
-				type: "item"
-				item: "mcwroofs:red_striped_awning"
-			}]
 			rewards: [
 				{
 					id: "00000000000003CF"
@@ -421,541 +344,264 @@
 				}
 				{
 					id: "6DE1BFB29BBAF36A"
-					type: "item"
 					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
 					id: "3E914F31C0F93BD0"
-					type: "item"
 					item: "minecraft:gold_nugget"
+					type: "item"
 				}
 				{
 					id: "0000000000000483"
-					type: "item"
 					item: "minecraft:iron_nugget"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 5.0d
-			y: -6.0d
-			id: "0000000000000296"
 			tasks: [{
-				id: "0000000000000297"
+				id: "0000000000000295"
+				item: "mcwroofs:red_striped_awning"
 				type: "item"
-				item: "extlights:blaze_tube"
 			}]
-			rewards: [
-				{
-					id: "00000000000003D0"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "45460CDEE2B635A0"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-				}
-				{
-					id: "69DC2FB26886E029"
-					type: "item"
-					item: "minecraft:gold_nugget"
-				}
-				{
-					id: "0000000000000484"
-					type: "item"
-					item: "minecraft:iron_nugget"
-				}
-				{
-					id: "2FF6A894BBE9BE93"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-				{
-					id: "5EAFAD345FA7C9D1"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-			]
-		}
-		{
 			x: -5.0d
-			y: -6.0d
-			id: "000000000000029E"
-			tasks: [{
-				id: "000000000000029F"
-				type: "item"
-				item: "extlights:glowstone_bulb"
-			}]
-			rewards: [
-				{
-					id: "00000000000003D4"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "0000000000000410"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-				}
-				{
-					id: "000000000000044C"
-					type: "item"
-					item: "minecraft:gold_nugget"
-				}
-				{
-					id: "0000000000000488"
-					type: "item"
-					item: "minecraft:iron_nugget"
-				}
-				{
-					id: "1E107158E2F268DD"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-				{
-					id: "04C7C78D7568921D"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-			]
+			y: -2.5d
 		}
 		{
-			x: -3.5d
-			y: 6.5d
 			id: "289133175EA692FE"
-			tasks: [{
-				id: "59C06D747319DD1C"
-				type: "item"
-				item: "blockcarpentry:frameblock"
-			}]
 			rewards: [{
 				id: "290BDC3817CC2ABA"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "59C06D747319DD1C"
+				item: "blockcarpentry:frameblock"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 3.0d
 		}
 		{
-			x: -2.0d
-			y: 6.5d
 			dependencies: ["289133175EA692FE"]
 			id: "3ABED164FB5F10A7"
-			tasks: [{
-				id: "18E5A67EBB2F9F77"
-				type: "item"
-				item: "blockcarpentry:frame_slab"
-			}]
 			rewards: [{
 				id: "125612A76167AEDA"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "18E5A67EBB2F9F77"
+				item: "blockcarpentry:frame_slab"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
 		}
 		{
-			x: -0.5d
-			y: 6.5d
 			dependencies: ["3ABED164FB5F10A7"]
 			id: "740840E49E2980F9"
-			tasks: [{
-				id: "31D507926B49CBD0"
-				type: "item"
-				item: "blockcarpentry:frame_stairs"
-			}]
 			rewards: [{
 				id: "008D1DD9669C1473"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "31D507926B49CBD0"
+				item: "blockcarpentry:frame_stairs"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.0d
 		}
 		{
-			x: 1.0d
-			y: 6.5d
 			dependencies: ["740840E49E2980F9"]
 			id: "0C3BE5BF82B61343"
-			tasks: [{
-				id: "25F8523E0E344F49"
-				type: "item"
-				item: "blockcarpentry:frame_door"
-			}]
 			rewards: [{
 				id: "1A592A825C17DCD1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "25F8523E0E344F49"
+				item: "blockcarpentry:frame_door"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 		{
-			x: 2.5d
-			y: 6.5d
 			dependencies: ["0C3BE5BF82B61343"]
 			id: "794B1ABA2BB7B28D"
-			tasks: [{
-				id: "60423CC2D4B7F5BA"
-				type: "item"
-				item: "blockcarpentry:frame_fence"
-			}]
 			rewards: [{
 				id: "4720B6D06CA79594"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "60423CC2D4B7F5BA"
+				item: "blockcarpentry:frame_fence"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.0d
 		}
 		{
-			x: 4.0d
-			y: 6.5d
 			dependencies: ["794B1ABA2BB7B28D"]
 			id: "7C14B09E107AD7DF"
-			tasks: [{
-				id: "7FFEBCB0AF15B9E0"
-				type: "item"
-				item: "blockcarpentry:frame_chest"
-			}]
 			rewards: [{
 				id: "5306BBA54820891B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "7FFEBCB0AF15B9E0"
+				item: "blockcarpentry:frame_chest"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
 		}
 		{
-			x: 3.5d
-			y: -0.5d
 			id: "15028D7F77DB219B"
-			tasks: [{
-				id: "396EBC0B2885C443"
-				type: "item"
-				item: "mcwfences:dark_oak_stockade_fence"
-			}]
 			rewards: [{
 				id: "682FA6CDD657A92A"
-				type: "item"
 				item: {
+					Count: 1
 					id: "ftbquests:lootcrate"
-					Count: 1b
 					tag: {
 						type: "random_dyes"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "396EBC0B2885C443"
+				item: "mcwfences:dark_oak_stockade_fence"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
 		}
 		{
-			x: 4.5d
-			y: -1.0d
 			id: "2E8894DB9D40CF1A"
-			tasks: [{
-				id: "77403A5996D632A9"
-				type: "item"
-				item: "mcwfences:spruce_highley_gate"
-			}]
 			rewards: [{
 				id: "3DA9193E5F093379"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "77403A5996D632A9"
+				item: "mcwfences:spruce_highley_gate"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.0d
 		}
 		{
-			x: 3.5d
-			y: 0.5d
 			id: "375BB2A834D94DC3"
-			tasks: [{
-				id: "7A82F2CEC3AA8014"
-				type: "item"
-				item: "mcwfences:railing_stone_brick_wall"
-			}]
 			rewards: [{
 				id: "7D262DCEA7899D6F"
-				type: "item"
 				item: {
+					Count: 1
 					id: "ftbquests:lootcrate"
-					Count: 1b
 					tag: {
 						type: "random_mob_drops"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "7A82F2CEC3AA8014"
+				item: "mcwfences:railing_stone_brick_wall"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
 		}
 		{
-			x: 4.5d
-			y: 0.0d
 			id: "622A77A6C9176CD8"
-			tasks: [{
-				id: "55518C8039EF22EB"
-				type: "item"
-				item: "mcwfences:oak_picket_fence"
-			}]
 			rewards: [{
 				id: "73CEFFFDCEAEC94A"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "55518C8039EF22EB"
+				item: "mcwfences:oak_picket_fence"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			x: 5.5d
-			y: 0.0d
 			id: "7925466C5B89D746"
-			tasks: [{
-				id: "75DD1F250EAEFBFB"
-				type: "item"
-				item: "mcwfences:modern_stone_brick_wall"
-			}]
 			rewards: [{
 				id: "7AA0B38A7053B4F9"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "75DD1F250EAEFBFB"
+				item: "mcwfences:modern_stone_brick_wall"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
 		}
 		{
-			x: 5.5d
-			y: -1.0d
 			id: "40A43121641395FF"
-			tasks: [{
-				id: "0ED41127AEB256BD"
-				type: "item"
-				item: "mcwfences:oak_wired_fence"
-			}]
 			rewards: [{
 				id: "20D5AE5B3BDE1CCD"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "0ED41127AEB256BD"
+				item: "mcwfences:oak_wired_fence"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
 		}
 		{
-			x: -5.0d
-			y: 2.5d
 			id: "15FD95F301E3FAA2"
-			tasks: [{
-				id: "71AE0C1AF4A0F74F"
-				type: "item"
-				item: "supplementaries:hanging_sign_jungle"
-			}]
 			rewards: [{
 				id: "72B466802C559EAE"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
-		}
-		{
-			x: -4.0d
-			y: -5.0d
-			dependencies: ["000000000000029E"]
-			id: "17E45C342AC98268"
 			tasks: [{
-				id: "42F4659032477585"
+				id: "71AE0C1AF4A0F74F"
+				item: "supplementaries:hanging_sign_jungle"
 				type: "item"
-				item: "extlights:light_lamp_bulb_iron"
 			}]
-			rewards: [{
-				id: "569C2D490366BED5"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
+			x: -4.5d
+			y: 5.5d
 		}
 		{
-			x: -6.5d
-			y: -6.0d
-			dependencies: ["000000000000029E"]
-			id: "7A31001FBF210D32"
-			tasks: [{
-				id: "394C93D785EF53AC"
-				type: "item"
-				item: "extlights:light_lantern_fancy_gold"
-			}]
-			rewards: [{
-				id: "37BAE183A6A656CE"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: -6.0d
-			y: -7.0d
-			dependencies: ["000000000000029E"]
-			id: "090A105C34B3978A"
-			tasks: [{
-				id: "0F475A043C0AB518"
-				type: "item"
-				item: "extlights:light_lantern_fancy_iron"
-			}]
-			rewards: [{
-				id: "21A38EDDBF83C286"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: -4.0d
-			y: -7.0d
-			dependencies: ["000000000000029E"]
-			id: "7A9914FF72F623DA"
-			tasks: [{
-				id: "3D3967082B99F62B"
-				type: "item"
-				item: "extlights:light_lantern_square_iron"
-			}]
-			rewards: [{
-				id: "41173289CB0FFA06"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: -3.5d
-			y: -6.0d
-			dependencies: ["000000000000029E"]
-			id: "07EE2DF5BA496880"
-			tasks: [{
-				id: "15C49C01C5A25AB4"
-				type: "item"
-				item: "extlights:light_lantern_caged_iron"
-			}]
-			rewards: [{
-				id: "22C25A4CC39912CD"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: -6.0d
-			y: -5.0d
-			dependencies: ["000000000000029E"]
-			id: "6587F3DEEB32B12C"
-			tasks: [{
-				id: "434EAE474979174A"
-				type: "item"
-				item: "extlights:light_lantern_bulb_iron"
-			}]
-			rewards: [{
-				id: "1FF27C07D0579386"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 4.0d
-			y: -7.0d
-			dependencies: ["0000000000000296"]
-			id: "4BC7CAD971D6F357"
-			tasks: [{
-				id: "0CD535D1E673C0A2"
-				type: "item"
-				item: "extlights:light_modern_ground_tower_black"
-			}]
-			rewards: [{
-				id: "5365374D2978E1B3"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 3.5d
-			y: -6.0d
-			dependencies: ["0000000000000296"]
-			id: "4AEBAD2341F16BC9"
-			tasks: [{
-				id: "5B4319F52A962FF0"
-				type: "item"
-				item: "extlights:light_modern_wall_square_white"
-			}]
-			rewards: [{
-				id: "09715FAFF2E9597D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 6.0d
-			y: -7.0d
-			dependencies: ["0000000000000296"]
-			id: "494F6F0EBC39BCEF"
-			tasks: [{
-				id: "750F1DF8F692BEB5"
-				type: "item"
-				item: "extlights:light_modern_ceil_square_black"
-			}]
-			rewards: [{
-				id: "4F0626ACFC2F308D"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 4.0d
-			y: -5.0d
-			dependencies: ["0000000000000296"]
-			id: "5CC471F41377E4DB"
-			tasks: [{
-				id: "258791C8D76A8630"
-				type: "item"
-				item: "extlights:light_modern_wall_torch_white"
-			}]
-			rewards: [{
-				id: "13E4CB2672491E90"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 6.0d
-			y: -5.0d
-			dependencies: ["0000000000000296"]
-			id: "12F7694DF2E0C40E"
-			tasks: [{
-				id: "2E3802B71DC74FCB"
-				type: "item"
-				item: "extlights:light_modern_ground_torch_white"
-			}]
-			rewards: [{
-				id: "15C3C53244DBB483"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 6.5d
-			y: -6.0d
-			dependencies: ["0000000000000296"]
-			id: "1AD16809D0F2A163"
-			tasks: [{
-				id: "286D93C5CE9EDDFF"
-				type: "item"
-				item: "extlights:light_modern_ceil_tube_white"
-			}]
-			rewards: [{
-				id: "238095C722B03F24"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-		}
-		{
-			x: 0.0d
-			y: -4.0d
 			id: "4A9B67D783AB3EFC"
-			tasks: [{
-				id: "5B1A639914924C9C"
-				type: "item"
-				item: "buildersdelight:iron_chisel"
-			}]
 			rewards: [{
 				id: "2506C19976D1C0D1"
-				type: "item"
 				item: {
+					Count: 1
 					id: "ftbquests:lootcrate"
-					Count: 1b
 					tag: {
 						type: "common_loot_crate"
 					}
 				}
+				type: "item"
 			}]
+			tasks: [{
+				id: "5B1A639914924C9C"
+				item: "buildersdelight:iron_chisel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
 		}
 		{
-			x: 0.0d
-			y: -5.5d
-			subtitle: "Try them all!"
 			dependencies: ["4A9B67D783AB3EFC"]
 			id: "5A4A965D2EF1F4D8"
-			tasks: [{
-				id: "47EC66AB89E7F6BD"
-				type: "item"
-				item: "minecraft:lantern"
-			}]
 			rewards: [
 				{
 					id: "3797D5835C0437A5"
@@ -964,248 +610,249 @@
 				}
 				{
 					id: "3C593AD42C75807D"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "2B0633E1D286C4B9"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			subtitle: "Try them all!"
+			tasks: [{
+				id: "47EC66AB89E7F6BD"
+				item: "minecraft:lantern"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
 		}
 		{
-			x: -2.0d
-			y: -5.0d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "379D8DC5BC226FF9"
-			tasks: [{
-				id: "1098D9EA97B7CB85"
-				type: "item"
-				item: "buildersdelight:lantern_4"
-			}]
 			rewards: [{
 				id: "3596BD7A0D374E77"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "1098D9EA97B7CB85"
+				item: "buildersdelight:lantern_4"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
 		}
 		{
-			x: -2.0d
-			y: -6.0d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "6145EA4E2D5700AA"
-			tasks: [{
-				id: "1CFDDF708EEBDCEC"
-				type: "item"
-				item: "supplementaries:crimson_lantern"
-			}]
 			rewards: [{
 				id: "6DB22F155060B9A5"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "1CFDDF708EEBDCEC"
+				item: "supplementaries:crimson_lantern"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
 		}
 		{
-			x: 2.0d
-			y: -6.0d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "22C1AB902F1BBE4A"
-			tasks: [{
-				id: "6A69569D4FCB27C1"
-				type: "item"
-				item: "supplementaries:copper_lantern"
-			}]
 			rewards: [{
 				id: "4DFE4A9ABF5B57ED"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "6A69569D4FCB27C1"
+				item: "supplementaries:copper_lantern"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
 		}
 		{
-			x: -0.5d
-			y: -7.5d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "4B8B54BA60543672"
-			tasks: [{
-				id: "1AD07365D401AA64"
-				type: "item"
-				item: "buildersdelight:lantern_1"
-			}]
 			rewards: [{
 				id: "5F2EC97BE68F19E3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "1AD07365D401AA64"
+				item: "buildersdelight:lantern_1"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
 		}
 		{
-			x: 0.5d
-			y: -7.5d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "5A9EF8A317E94240"
-			tasks: [{
-				id: "5C69BABA165FBACA"
-				type: "item"
-				item: "buildersdelight:lantern_2"
-			}]
 			rewards: [{
 				id: "1FBE5EAC68480672"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "5C69BABA165FBACA"
+				item: "buildersdelight:lantern_2"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
 		}
 		{
-			x: 1.5d
-			y: -7.0d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "6D39F5114EBE6BE8"
-			tasks: [{
-				id: "2897609CAED77949"
-				type: "item"
-				item: "buildersdelight:lantern_6"
-			}]
 			rewards: [{
 				id: "11098EED89F4B2A1"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "2897609CAED77949"
+				item: "buildersdelight:lantern_6"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.0d
 		}
 		{
-			x: -1.5d
-			y: -7.0d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "3E9DAF3A83D570ED"
-			tasks: [{
-				id: "4335ACEE78B1F15C"
-				type: "item"
-				item: "buildersdelight:lantern_3"
-			}]
 			rewards: [{
 				id: "75A01EA6457B616B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "4335ACEE78B1F15C"
+				item: "buildersdelight:lantern_3"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
 		}
 		{
-			x: 2.0d
-			y: -5.0d
 			dependencies: ["5A4A965D2EF1F4D8"]
 			id: "5895524C823C3F09"
-			tasks: [{
-				id: "0256165E62A3706A"
-				type: "item"
-				item: "buildersdelight:lantern_5"
-			}]
 			rewards: [{
 				id: "19C80F6B57DB1B00"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "0256165E62A3706A"
+				item: "buildersdelight:lantern_5"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
 		}
 		{
-			x: 0.0d
-			y: -1.0d
 			id: "2C050EBBD3FD2335"
-			tasks: [{
-				id: "155AB4F38277A606"
-				type: "item"
-				item: "buildersdelight:oak_furniture_kit"
-			}]
 			rewards: [
 				{
 					id: "428D8EEC4FB453AD"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
-					id: "707562CD847400F2"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "707562CD847400F2"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "155AB4F38277A606"
+				item: "buildersdelight:oak_furniture_kit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
 		}
 		{
-			x: 0.0d
-			y: -2.5d
 			dependencies: [
 				"2C050EBBD3FD2335"
 				"4A9B67D783AB3EFC"
 			]
 			id: "395FFE10F299FCF9"
-			tasks: [{
-				id: "543188C90FA50F3A"
-				type: "item"
-				item: "buildersdelight:oak_chair_1"
-			}]
 			rewards: [{
 				id: "7E83CC42819B57D3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "543188C90FA50F3A"
+				item: "buildersdelight:oak_chair_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.5d
 		}
 		{
-			x: 1.0d
-			y: -2.5d
 			dependencies: [
 				"2C050EBBD3FD2335"
 				"4A9B67D783AB3EFC"
 			]
 			id: "6D03EE7CAFF2BCDC"
-			tasks: [{
-				id: "41891454BC7A0B4B"
-				type: "item"
-				item: "buildersdelight:oak_chair_2"
-			}]
 			rewards: [{
 				id: "441C49624B455882"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "41891454BC7A0B4B"
+				item: "buildersdelight:oak_chair_2"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
 		}
 		{
-			x: -1.0d
-			y: -2.5d
 			dependencies: [
 				"2C050EBBD3FD2335"
 				"4A9B67D783AB3EFC"
 			]
 			id: "343224CDD46DA5D6"
-			tasks: [{
-				id: "6D1C970DE755320C"
-				type: "item"
-				item: "buildersdelight:oak_table_1"
-			}]
 			rewards: [{
 				id: "094B089F75E55F43"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "6D1C970DE755320C"
+				item: "buildersdelight:oak_table_1"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
 		}
 		{
-			x: 6.5d
-			y: -0.5d
 			id: "12A9F90FEB2F022D"
-			tasks: [{
-				id: "377C40611D274201"
-				type: "item"
-				item: "mcwfences:oak_horse_fence"
-			}]
 			rewards: [{
 				id: "73F9C44AB68AFD48"
-				type: "item"
 				item: "aquaculture:lockbox"
+				type: "item"
 			}]
+			tasks: [{
+				id: "377C40611D274201"
+				item: "mcwfences:oak_horse_fence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -0.5d
 		}
 		{
-			x: 6.5d
-			y: 0.5d
 			id: "05E53657AF1643B7"
-			tasks: [{
-				id: "5A4E64E86168275B"
-				type: "item"
-				item: "mcwfences:jungle_pyramid_gate"
-			}]
 			rewards: [
 				{
 					id: "7C3562CFFB264106"
@@ -1214,26 +861,26 @@
 				}
 				{
 					id: "306DD687822EA72B"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "5A4E64E86168275B"
+				item: "mcwfences:jungle_pyramid_gate"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.5d
 		}
 		{
-			x: -6.0d
-			y: -1.5d
 			dependencies: ["0E0FDAC81E09B88B"]
 			id: "47C04CFC3CDBA889"
-			tasks: [{
-				id: "0636459FDB65D818"
-				type: "item"
-				item: "mcwwindows:oak_window"
-			}]
 			rewards: [
 				{
 					id: "76EA5E6808903E4E"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "30A12A0AC5D1CED9"
@@ -1241,22 +888,22 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [{
+				id: "0636459FDB65D818"
+				item: "mcwwindows:oak_window"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			x: -4.0d
-			y: -1.5d
 			dependencies: ["31F48826DBE62CFC"]
 			id: "46C0D638E613AB00"
-			tasks: [{
-				id: "51B5164016272EAA"
-				type: "item"
-				item: "mcwwindows:oak_window2"
-			}]
 			rewards: [
 				{
 					id: "68A694DD89942F3B"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "0CAA3AF564D5CF5F"
@@ -1264,35 +911,22 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [{
+				id: "51B5164016272EAA"
+				item: "mcwwindows:oak_window2"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.5d
 		}
 		{
-			title: "Window additions edition"
-			x: -5.0d
-			y: 0.0d
 			dependencies: ["0E0FDAC81E09B88B"]
 			id: "054BD75953B64676"
-			tasks: [
-				{
-					id: "2AE272A7C1EA35B9"
-					type: "item"
-					item: "mcwwindows:spruce_plank_parapet"
-				}
-				{
-					id: "3488AE3DB42E6FCF"
-					type: "item"
-					item: "mcwwindows:spruce_blinds"
-				}
-				{
-					id: "099299289AC17BD6"
-					type: "item"
-					item: "mcwwindows:andesite_parapet"
-				}
-			]
 			rewards: [
 				{
 					id: "28DB27459B1BC3F8"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "0FB6A7F294414313"
@@ -1300,21 +934,34 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [
+				{
+					id: "2AE272A7C1EA35B9"
+					item: "mcwwindows:spruce_plank_parapet"
+					type: "item"
+				}
+				{
+					id: "3488AE3DB42E6FCF"
+					item: "mcwwindows:spruce_blinds"
+					type: "item"
+				}
+				{
+					id: "099299289AC17BD6"
+					item: "mcwwindows:andesite_parapet"
+					type: "item"
+				}
+			]
+			title: "Window additions edition"
+			x: -5.0d
+			y: 0.0d
 		}
 		{
-			x: -6.0d
-			y: 0.0d
 			id: "0E0FDAC81E09B88B"
-			tasks: [{
-				id: "0680C0D3AF2E31FF"
-				type: "item"
-				item: "mcwwindows:window_base"
-			}]
 			rewards: [
 				{
 					id: "4C4080E8A14F12AA"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "72F6BCBE6505276D"
@@ -1322,21 +969,21 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [{
+				id: "0680C0D3AF2E31FF"
+				item: "mcwwindows:window_base"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
 		}
 		{
-			x: -4.0d
-			y: 0.0d
 			id: "31F48826DBE62CFC"
-			tasks: [{
-				id: "3EA7BA96DB32D8BC"
-				type: "item"
-				item: "mcwwindows:window_centre_bar_base"
-			}]
 			rewards: [
 				{
 					id: "23342EFAD9EA5FD9"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "696C33B4099FE451"
@@ -1344,16 +991,16 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [{
+				id: "3EA7BA96DB32D8BC"
+				item: "mcwwindows:window_centre_bar_base"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
 		}
 		{
-			x: -4.0d
-			y: 1.5d
 			id: "3BC14999575C25B8"
-			tasks: [{
-				id: "52CDA9C5C7CB25A7"
-				type: "item"
-				item: "mcwwindows:stone_brick_gothic"
-			}]
 			rewards: [
 				{
 					id: "3500321ACA1F6DC1"
@@ -1362,20 +1009,20 @@
 				}
 				{
 					id: "6CDDC3B5ABD89367"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "52CDA9C5C7CB25A7"
+				item: "mcwwindows:stone_brick_gothic"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
 		}
 		{
-			x: -6.0d
-			y: 1.5d
 			id: "6AC5EA299A3F2397"
-			tasks: [{
-				id: "5EF6C08B64665CFD"
-				type: "item"
-				item: "mcwwindows:stone_brick_arrow_slit"
-			}]
 			rewards: [
 				{
 					id: "6A9E0E103AF02E7C"
@@ -1384,21 +1031,21 @@
 				}
 				{
 					id: "1AF971351914AB83"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "5EF6C08B64665CFD"
+				item: "mcwwindows:stone_brick_arrow_slit"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
 		}
 		{
-			x: 3.0d
-			y: 5.5d
 			dependencies: ["794B1ABA2BB7B28D"]
 			id: "776F023D5D6EB3BA"
-			tasks: [{
-				id: "0154D50D89A8E037"
-				type: "item"
-				item: "blockcarpentry:frame_wall"
-			}]
 			rewards: [
 				{
 					id: "4C82D446D89EB82F"
@@ -1407,21 +1054,21 @@
 				}
 				{
 					id: "3DB43358E4E0E8D3"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0154D50D89A8E037"
+				item: "blockcarpentry:frame_wall"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			x: 3.0d
-			y: 7.5d
 			dependencies: ["794B1ABA2BB7B28D"]
 			id: "3163CAF215ED9B75"
-			tasks: [{
-				id: "2943653084D70EEF"
-				type: "item"
-				item: "blockcarpentry:frame_fence_gate"
-			}]
 			rewards: [
 				{
 					id: "1366D62D6F71E2C4"
@@ -1430,21 +1077,21 @@
 				}
 				{
 					id: "5BC8A0B50ED89641"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "2943653084D70EEF"
+				item: "blockcarpentry:frame_fence_gate"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
 		}
 		{
-			x: 0.0d
-			y: 5.5d
 			dependencies: ["740840E49E2980F9"]
 			id: "1FB568F87CE151F2"
-			tasks: [{
-				id: "3AA6A48AE615F810"
-				type: "item"
-				item: "blockcarpentry:frame_slope"
-			}]
 			rewards: [
 				{
 					id: "703FE62DBDFA0237"
@@ -1453,21 +1100,21 @@
 				}
 				{
 					id: "269F34E4FCD2AE9A"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3AA6A48AE615F810"
+				item: "blockcarpentry:frame_slope"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 		{
-			x: 0.0d
-			y: 7.5d
 			dependencies: ["740840E49E2980F9"]
 			id: "6FB3D411B4C574BC"
-			tasks: [{
-				id: "37BF58424BEDA474"
-				type: "item"
-				item: "blockcarpentry:frame_edged_slope"
-			}]
 			rewards: [
 				{
 					id: "29A5076BBC4BDB80"
@@ -1476,21 +1123,21 @@
 				}
 				{
 					id: "0CFD14BA23DC4493"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "37BF58424BEDA474"
+				item: "blockcarpentry:frame_edged_slope"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
 		}
 		{
-			x: -2.5d
-			y: 7.5d
 			dependencies: ["289133175EA692FE"]
 			id: "7F598F4B7F1A5CCA"
-			tasks: [{
-				id: "345751057A03D5C0"
-				type: "item"
-				item: "blockcarpentry:frame_trapdoor"
-			}]
 			rewards: [
 				{
 					id: "733B946182CFED7F"
@@ -1499,21 +1146,21 @@
 				}
 				{
 					id: "02496B5F610D87CB"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "345751057A03D5C0"
+				item: "blockcarpentry:frame_trapdoor"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 4.0d
 		}
 		{
-			x: -2.5d
-			y: 5.5d
 			dependencies: ["289133175EA692FE"]
 			id: "2B4B0DD0B2CB11FE"
-			tasks: [{
-				id: "7E1337078CEB7C20"
-				type: "item"
-				item: "blockcarpentry:frame_ladder"
-			}]
 			rewards: [
 				{
 					id: "5D405A23C99325EF"
@@ -1522,20 +1169,20 @@
 				}
 				{
 					id: "7178865522B50491"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "7E1337078CEB7C20"
+				item: "blockcarpentry:frame_ladder"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.0d
 		}
 		{
-			x: 4.5d
-			y: 1.0d
 			id: "4DF96CD512DB7BD8"
-			tasks: [{
-				id: "6EB96DB3B176ACCA"
-				type: "item"
-				item: "buildersaddition:hedge_oak"
-			}]
 			rewards: [
 				{
 					id: "6AB361142AA76AFF"
@@ -1544,20 +1191,20 @@
 				}
 				{
 					id: "36221829267E0CA4"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "6EB96DB3B176ACCA"
+				item: "buildersaddition:hedge_oak"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
 		}
 		{
-			x: 2.0d
-			y: 4.0d
 			id: "454AAA13559D3D57"
-			tasks: [{
-				id: "11C993228CF0DA4F"
-				type: "item"
-				item: "buildersaddition:sofa_green"
-			}]
 			rewards: [
 				{
 					id: "41FE13508CE40996"
@@ -1565,28 +1212,28 @@
 					xp_levels: 1
 				}
 				{
-					id: "4637C25A05CD5F78"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "4637C25A05CD5F78"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "2FCB3E6190F491EB"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "2FCB3E6190F491EB"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "11C993228CF0DA4F"
+				item: "buildersaddition:sofa_green"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 7.0d
 		}
 		{
-			x: -3.0d
-			y: 4.0d
 			id: "25B8295046FE77CC"
-			tasks: [{
-				id: "79445EF2B41C1BD7"
-				type: "item"
-				item: "buildersaddition:arcade_spruce"
-			}]
 			rewards: [
 				{
 					id: "4B36C0AA209D5974"
@@ -1594,28 +1241,28 @@
 					xp_levels: 1
 				}
 				{
-					id: "0D3E93006622E1D5"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "0D3E93006622E1D5"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "3FD7BAA4C8E756FA"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "3FD7BAA4C8E756FA"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "79445EF2B41C1BD7"
+				item: "buildersaddition:arcade_spruce"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.0d
 		}
 		{
-			x: 5.5d
-			y: 1.0d
 			id: "63DB1A272ECD2834"
-			tasks: [{
-				id: "16A41AC695EC07F1"
-				type: "item"
-				item: "quark:dark_oak_hedge"
-			}]
 			rewards: [
 				{
 					id: "0457D1A51C367EFD"
@@ -1624,20 +1271,20 @@
 				}
 				{
 					id: "3DFAC6F6402442FB"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "16A41AC695EC07F1"
+				item: "quark:dark_oak_hedge"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
 		}
 		{
-			x: -2.0d
-			y: 3.0d
 			id: "285F2A3FC7D0A89A"
-			tasks: [{
-				id: "3C6880D16445E6FC"
-				type: "item"
-				item: "buildersaddition:stool_oak"
-			}]
 			rewards: [
 				{
 					id: "68267DF95E54D90E"
@@ -1645,74 +1292,74 @@
 					xp_levels: 1
 				}
 				{
-					id: "15BA5011BFB9D55A"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "15BA5011BFB9D55A"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "2A0DA1F3484A56B9"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "2A0DA1F3484A56B9"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3C6880D16445E6FC"
+				item: "buildersaddition:stool_oak"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
 		}
 		{
-			x: 0.0d
-			y: 3.0d
 			id: "759611EF4C630500"
-			tasks: [{
-				id: "3B1EE974271F65A2"
-				type: "item"
-				item: "buildersaddition:table_spruce"
-			}]
 			rewards: [
 				{
-					id: "72F5A494E6DA6AB3"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "72F5A494E6DA6AB3"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 				{
 					id: "263DCB7C90BCDA94"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3B1EE974271F65A2"
+				item: "buildersaddition:table_spruce"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.0d
 		}
 		{
-			x: 2.0d
-			y: 3.0d
 			id: "51ACAA08E63A5513"
-			tasks: [{
-				id: "42E7C67EA2297D8E"
-				type: "item"
-				item: "buildersaddition:chair_dark_oak"
-			}]
 			rewards: [
 				{
-					id: "1A7AD939FE84E1B2"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "1A7AD939FE84E1B2"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 				{
 					id: "24DEFC2273CB3BF3"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "42E7C67EA2297D8E"
+				item: "buildersaddition:chair_dark_oak"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.0d
 		}
 		{
-			x: -4.0d
-			y: 3.5d
 			id: "0248667600229372"
-			tasks: [{
-				id: "65AE0BFF2ACA3D00"
-				type: "item"
-				item: "supplementaries:wind_vane"
-			}]
 			rewards: [
 				{
 					id: "2F974D6E4F2BE983"
@@ -1721,56 +1368,56 @@
 				}
 				{
 					id: "6E32424A47DD7E55"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
-					id: "080289AFE0A39796"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "080289AFE0A39796"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "65AE0BFF2ACA3D00"
+				item: "supplementaries:wind_vane"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.5d
 		}
 		{
-			x: -1.5d
-			y: 0.5d
 			id: "68768467E406286B"
-			tasks: [{
-				id: "1D94091E9FA35308"
-				type: "item"
-				item: "quark:paper_wall_big"
-			}]
 			rewards: [{
 				id: "664F1113B50FE2A7"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "1D94091E9FA35308"
+				item: "quark:paper_wall_big"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
 		}
 		{
-			x: -0.5d
-			y: 0.5d
 			id: "28C3E9352B809B9B"
-			tasks: [{
-				id: "33581A73A62BDBAE"
-				type: "item"
-				item: "quark:paper_wall"
-			}]
 			rewards: [{
 				id: "038DFB0310B68F91"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "33581A73A62BDBAE"
+				item: "quark:paper_wall"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
 		}
 		{
-			x: -5.0d
-			y: 4.5d
 			id: "410ED8F699FDFFB2"
-			tasks: [{
-				id: "18E71796FAEFC0C4"
-				type: "item"
-				item: "supplementaries:flower_box"
-			}]
 			rewards: [
 				{
 					id: "0D9ECBC0F0AC699E"
@@ -1779,54 +1426,54 @@
 				}
 				{
 					id: "4B570A1F5A23ACFF"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
-					id: "3E8BE187151537EC"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "3E8BE187151537EC"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 				{
 					id: "5B1AABB252113BC0"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "18E71796FAEFC0C4"
+				item: "supplementaries:flower_box"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.5d
 		}
 		{
-			x: -2.0d
-			y: 4.0d
 			id: "237AD0C760F68452"
-			tasks: [{
-				id: "2332382F4950DF88"
-				type: "item"
-				item: "buildersaddition:counter_oak_andesite"
-			}]
 			rewards: [
 				{
-					id: "0AC5BD9F3A2183E4"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "0AC5BD9F3A2183E4"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 				{
 					id: "7FE3161ACF6943A5"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "2332382F4950DF88"
+				item: "buildersaddition:counter_oak_andesite"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
 		}
 		{
-			x: -1.0d
-			y: 4.0d
 			id: "4B71EED4C8CED6A7"
-			tasks: [{
-				id: "0C4C4079266BD201"
-				type: "item"
-				item: "buildersaddition:bookshelf_spruce"
-			}]
 			rewards: [
 				{
 					id: "531062AC61957B59"
@@ -1834,28 +1481,28 @@
 					xp_levels: 1
 				}
 				{
-					id: "0B95508951C790F8"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "0B95508951C790F8"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "44572A44560E7B22"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "44572A44560E7B22"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0C4C4079266BD201"
+				item: "buildersaddition:bookshelf_spruce"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
 		}
 		{
-			x: -1.0d
-			y: 3.0d
 			id: "0CFF70CBB9B07036"
-			tasks: [{
-				id: "0527A5F9A35EC87C"
-				type: "item"
-				item: "buildersaddition:shelf_oak"
-			}]
 			rewards: [
 				{
 					id: "24E0DBC23DB54F41"
@@ -1863,28 +1510,28 @@
 					xp_levels: 1
 				}
 				{
-					id: "1EDB70197AB8E87B"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "1EDB70197AB8E87B"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "0277E7F87193B56C"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "0277E7F87193B56C"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0527A5F9A35EC87C"
+				item: "buildersaddition:shelf_oak"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.0d
 		}
 		{
-			x: 0.0d
-			y: 4.0d
 			id: "5CC35B58702E6D7C"
-			tasks: [{
-				id: "54D4BC5E5BC4C544"
-				type: "item"
-				item: "buildersaddition:cupboard_dark_oak"
-			}]
 			rewards: [
 				{
 					id: "05F2C55F947B8469"
@@ -1892,28 +1539,28 @@
 					xp_levels: 1
 				}
 				{
-					id: "30AA6487B44DFCED"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "30AA6487B44DFCED"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "1B3A761D8B749210"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "1B3A761D8B749210"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "54D4BC5E5BC4C544"
+				item: "buildersaddition:cupboard_dark_oak"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
 		}
 		{
-			x: 1.0d
-			y: 3.0d
 			id: "557A1A0C8ACA0F84"
-			tasks: [{
-				id: "78934568BF87E33D"
-				type: "item"
-				item: "buildersaddition:bench_oak"
-			}]
 			rewards: [
 				{
 					id: "4A888414B760B06D"
@@ -1921,104 +1568,104 @@
 					xp_levels: 1
 				}
 				{
-					id: "77906AC2F1CBFFC6"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "77906AC2F1CBFFC6"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "7ACC26C03249F929"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "7ACC26C03249F929"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "78934568BF87E33D"
+				item: "buildersaddition:bench_oak"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.0d
 		}
 		{
-			x: 1.0d
-			y: 4.0d
 			id: "471DEA28C5611763"
-			tasks: [{
-				id: "1EFF7A0A85EAD225"
-				type: "item"
-				item: "buildersaddition:bedside_table_oak"
-			}]
 			rewards: [
 				{
-					id: "7232416F08457CA6"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "7232416F08457CA6"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 				{
 					id: "6B393694C4DCBC31"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1EFF7A0A85EAD225"
+				item: "buildersaddition:bedside_table_oak"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 7.0d
 		}
 		{
-			x: 1.5d
-			y: 0.5d
 			id: "63E52B03C479A110"
-			tasks: [{
-				id: "33EE0E45AB58AC63"
-				type: "item"
-				item: "supplementaries:doormat"
-			}]
 			rewards: [{
 				id: "7EE08DC7BB336DC3"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "33EE0E45AB58AC63"
+				item: "supplementaries:doormat"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
 		}
 		{
-			x: 0.5d
-			y: 0.5d
 			id: "6F515BD5C28A50FD"
-			tasks: [{
-				id: "581007400ECF05A6"
-				type: "item"
-				item: "quark:bamboo_mat_carpet"
-			}]
 			rewards: [{
 				id: "6B58E30FEDA81AFA"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "581007400ECF05A6"
+				item: "quark:bamboo_mat_carpet"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.5d
 		}
 		{
-			x: -3.0d
-			y: 3.0d
 			id: "5161B94AE70DB4E7"
-			tasks: [{
-				id: "2D0F51BF2C2F8153"
-				type: "item"
-				item: "farmersdelight:yellow_canvas_sign"
-			}]
 			rewards: [
 				{
-					id: "473D34CE4FEC0ED9"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "473D34CE4FEC0ED9"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 				{
 					id: "30D468F5DC831389"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "2D0F51BF2C2F8153"
+				item: "farmersdelight:yellow_canvas_sign"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 6.0d
 		}
 		{
-			x: -6.0d
-			y: 3.5d
 			id: "27FC12A44AAE5AD0"
-			tasks: [{
-				id: "6CCABFC08E611042"
-				type: "item"
-				item: "supplementaries:sign_post_spruce"
-			}]
 			rewards: [
 				{
 					id: "7D01E691969C87E7"
@@ -2027,43 +1674,43 @@
 				}
 				{
 					id: "2095BC2066DC4230"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "6CCABFC08E611042"
+				item: "supplementaries:sign_post_spruce"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
 		}
 		{
-			x: 3.0d
-			y: 4.0d
 			id: "4643E42DF7BF1F9C"
-			tasks: [{
-				id: "312D7C19962B3121"
-				type: "item"
-				item: "supplementaries:pedestal"
-			}]
 			rewards: [
 				{
-					id: "44114897E20D7EB2"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "44114897E20D7EB2"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 				{
 					id: "46DF7353CE3CEFF6"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "312D7C19962B3121"
+				item: "supplementaries:pedestal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
 		}
 		{
-			x: 3.0d
-			y: 3.0d
 			id: "00C2CC2F688A51FD"
-			tasks: [{
-				id: "54F3EA0D627C0200"
-				type: "item"
-				item: "supplementaries:notice_board"
-			}]
 			rewards: [
 				{
 					id: "6C52E107C6002266"
@@ -2071,19 +1718,341 @@
 					xp_levels: 1
 				}
 				{
-					id: "3868EC84BAB5C902"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 3
+					id: "3868EC84BAB5C902"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 				{
-					id: "228849B9EB153A90"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 2
+					id: "228849B9EB153A90"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "54F3EA0D627C0200"
+				item: "supplementaries:notice_board"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			id: "4C14E37EE844102B"
+			rewards: [{
+				id: "5C0B4D1E84090ECE"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "295471300BD8275F"
+				item: "fantasyfurniture:furniture_station"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			id: "5D0A780AEA30195F"
+			rewards: [{
+				id: "6DD6866C91A190DD"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "248EC278262ED5EE"
+				item: "supplementaries:candle_holder"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			id: "24ECAE84753C074E"
+			rewards: [{
+				id: "79C632C2CF2EE47A"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "38D8EC63C895CC1E"
+				item: "quark:purple_stool"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			id: "180B282D563A927A"
+			rewards: [{
+				id: "72A5ADB753E315DB"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "44FD98688D7DB945"
+				item: "supplementaries:item_shelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.0d
+		}
+		{
+			id: "73080AC81D721CC1"
+			rewards: [{
+				id: "562E0B999BAB7902"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "423097164031310E"
+				item: "supplementaries:blackboard"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 8.0d
+		}
+		{
+			id: "27D91462FF4B45D6"
+			rewards: [{
+				id: "31597B7D792875C6"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4777CF79EF429A96"
+				item: "mcwlights:lava_lamp"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "232C203A001D86AE"
+			rewards: [{
+				id: "5C2324E68124D238"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1361571F43144CC7"
+				item: "mcwlights:classic_street_lamp"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -8.0d
+		}
+		{
+			id: "35A0EC774B945869"
+			rewards: [{
+				id: "745FB09B6C7542DC"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "596232EF904170FC"
+				item: "mcwlights:double_street_lamp"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.5d
+		}
+		{
+			id: "0C2842A9B015FDAE"
+			rewards: [{
+				id: "0EA386F2153EAAEC"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7884EF8579E688AC"
+				item: "mcwlights:oak_tiki_torch"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			id: "7AE0BAEA8D9EC3C4"
+			rewards: [{
+				id: "2518032908DDC7F8"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FA345023773BCC1"
+				item: "mcwlights:white_lamp"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.0d
+		}
+		{
+			id: "05507ADF7C1596BE"
+			rewards: [{
+				id: "45B7969F7E019FDD"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "71B7BEF89E00F54A"
+				item: "sootychimneys:brick_chimney"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "41296C82DBFF1955"
+			rewards: [{
+				id: "05FD2D47F42FE98F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29CE555F3C591CD6"
+				item: "sootychimneys:stone_brick_chimney"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "50F920BFBB762764"
+			rewards: [{
+				id: "407C83BA43B70849"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "384FA211DBA9EBA8"
+				item: "sootychimneys:terracotta_chimney"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 3.5d
+		}
+		{
+			id: "01B798386B1762CD"
+			rewards: [{
+				id: "1A15FF85291E01A1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "42DAA964B1070FB8"
+				item: "sootychimneys:copper_chimney"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			id: "568C50D1A8C95EFE"
+			rewards: [{
+				id: "605703F9CBCF76A0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11F2EF3B330582B3"
+				item: "handcrafted:stackable_book"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 9.0d
+		}
+		{
+			id: "7A83336A3271C547"
+			rewards: [{
+				id: "4895E59DE22740CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "0CE425E4390D80BF"
+				item: "handcrafted:yellow_cup"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+		{
+			id: "694D9F5C2A3DCA8D"
+			rewards: [{
+				id: "50ED63DB568AA185"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "283156E938AFF52E"
+				item: "handcrafted:white_bowl"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			id: "7BC92004037536AF"
+			rewards: [{
+				id: "1CADC59C1F5BBD1F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7BD5C6D8B4FC3772"
+				item: "handcrafted:white_plate"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			id: "399B53E66C4D3391"
+			rewards: [{
+				id: "0876FE4C4DBEACC7"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6D02DFE29C1DD4D9"
+				item: "handcrafted:terracotta_crockery_combo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 9.0d
+		}
+		{
+			id: "26FAB06A5F9EAC28"
+			rewards: [{
+				id: "2D0BAD5C004AA9CA"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09CCED6365A9B99D"
+				item: "handcrafted:salmon_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			id: "3DDF741478499C1F"
+			rewards: [{
+				id: "55A2EE64CF792DB1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "06451C21126B8BFC"
+				item: "handcrafted:terracotta_thin_pot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Deco madness"
 }

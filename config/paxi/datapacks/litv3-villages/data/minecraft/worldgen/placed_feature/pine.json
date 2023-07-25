@@ -1,0 +1,94 @@
+{
+    "feature": "minecraft:spruce",
+    "placement": [
+      {
+        "type": "minecraft:block_predicate_filter",
+        "predicate": {
+          "type": "all_of",
+          "predicates": [
+            {
+              "type": "minecraft:would_survive",
+              "state": {
+                "Name": "minecraft:spruce_sapling",
+                "Properties": {
+                  "stage": "0"
+                }
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:moss_block",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:farmland",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:mud",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:muddy_mangrove_roots",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:coarse_dirt",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            },
+            {
+              "type": "minecraft:not",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:podzol",
+                "offset": [
+                  0,
+                  -1,
+                  0
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }

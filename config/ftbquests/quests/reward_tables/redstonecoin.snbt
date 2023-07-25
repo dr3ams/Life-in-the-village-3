@@ -1,10 +1,31 @@
 {
 	id: "4154CA41BC809899"
-	order_index: 23
-	title: "Redstone-coin"
 	loot_size: 1
+	order_index: 22
 	rewards: [
-		{ item: "kubejs:copper_coin" }
-		{ item: "kubejs:iron_coin" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:copper_coin"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:iron_coin"
+			}
+		}
 	]
+	title: "Redstone-coin"
 }

@@ -1,0 +1,91 @@
+{
+	icon: "minecraft:oak_planks"
+	id: "2D4B0C0133FDFDD7"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "planks"
+	}
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:oak_planks"
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:spruce_planks"
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:birch_planks"
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:jungle_planks"
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:acacia_planks"
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:dark_oak_planks"
+			}
+		}
+	]
+	title: "Planks"
+	use_title: true
+}

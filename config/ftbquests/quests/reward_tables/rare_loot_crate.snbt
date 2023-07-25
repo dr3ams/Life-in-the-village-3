@@ -1,56 +1,112 @@
 {
 	id: "13D32E1B91340CA1"
-	order_index: 8
-	title: "Rare loot crate"
-	loot_size: 1
-	rewards: [
-		{ item: "minecraft:gold_ingot", count: 32 }
-		{ item: "minecraft:lapis_ore", count: 8 }
-		{ item: "minecraft:emerald_ore", count: 4 }
-		{ item: "minecraft:redstone_ore", count: 16 }
-		{ item: "minecraft:slime_ball", count: 64 }
-		{ item: "minecraft:lapis_lazuli", count: 32 }
-		{ item: "minecraft:emerald", count: 3 }
-		{ item: "minecraft:diamond", count: 3 }
-		{ item: "minecraft:netherite_scrap", count: 3 }
-		{ item: "minecraft:egg", count: 16 }
-		{ item: "minecraft:ink_sac", count: 64 }
-		{ item: "minecraft:ender_pearl", count: 16 }
-		{ item: "randomite:randomite_ore", count: 8 }
-		{ item: "minecraft:golden_apple", count: 3 }
-		{ item: "aquaculture:lockbox" }
-		{ item: "create:brass_ingot", count: 16 }
-		{ item: "aquaculture:treasure_chest" }
-		{ item: "waystones:return_scroll" }
-		{ item: "waystones:bound_scroll" }
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "hat_loot_crate"
-				}
-			}
-		}
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "hat_loot_crate"
-				}
-			}
-		}
-		{ item: "kubejs:diamond_nugget", count: 9 }
-		{ item: "kubejs:emerald_nugget", count: 9 }
-	]
 	loot_crate: {
+		color: 3048191
 		drops: {
 			boss: 0
-			passive: 0
 			monster: 0
+			passive: 0
 		}
-		color: 3048191
+		item_name: "Rare loot crate"
 		string_id: "rare_loot_crate"
 	}
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:lockbox"
+			}
+			weight: 2.0f
+		}
+		{ count: 4, item: "aquaculture:treasure_chest", weight: 5.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_3"
+				}
+			}
+			title: "Ores 3"
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "materials_3"
+				}
+			}
+			title: "Materials 3"
+			weight: 15.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "junk_3"
+				}
+			}
+			title: "Junk 3"
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food_3"
+				}
+			}
+			title: "Food 3"
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "spawn_eggs_2"
+				}
+			}
+			title: "Spawn Eggs 2"
+			weight: 15.0f
+		}
+	]
+	title: "Rare loot crate"
+	use_title: true
 }

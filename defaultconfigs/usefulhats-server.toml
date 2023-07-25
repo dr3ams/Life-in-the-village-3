@@ -1,8 +1,6 @@
 
 #Some configs in relation to other mods.
 [CompatibilityOptions]
-	#Whether or not hats from this mod should be placeable in Baubles head slot if Baubles is installed.
-	baublesEnabled = true
 	#Whether or not hats from this mod should be placeable in Curios head slots if Curios is installed.
 	curiosEnabled = true
 
@@ -75,9 +73,6 @@
 		#Halo durability.
 		#Range: 1 ~ 10000
 		haloDurability = 600
-		#Detecting range of Halo for damage calculation. (in blocks)
-		#Range: 1 ~ 100
-		haloDetectingRange = 16
 
 	[BalanceOptions.LuckyHat]
 		#Whether or not damaging of Lucky Hat should be enabled.

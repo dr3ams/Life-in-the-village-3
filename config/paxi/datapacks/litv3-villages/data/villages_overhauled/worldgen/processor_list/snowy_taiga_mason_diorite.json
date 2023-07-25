@@ -1,0 +1,203 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:moss_carpet"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "2"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:grass"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "2"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:fern"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "2"
+            }
+          }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:large_fern",
+              "Properties": {
+                "half": "lower"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "2"
+            }
+          }
+        },
+        {
+            "input_predicate": {
+              "predicate_type": "minecraft:blockstate_match",
+              "block_state": {
+                "Name": "minecraft:tall_grass",
+                "Properties": {
+                  "half": "lower"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:snow",
+              "Properties": {
+                "layers": "2"
+              }
+            }
+        },
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block_state": {
+              "Name": "minecraft:large_fern",
+              "Properties": {
+                "half": "upper"
+              }
+            }
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+            "input_predicate": {
+              "predicate_type": "minecraft:blockstate_match",
+              "block_state": {
+                "Name": "minecraft:tall_grass",
+                "Properties": {
+                  "half": "upper"
+                }
+              }
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+              "Name": "minecraft:air"
+            }
+        },
+        {
+            "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:moss_block"
+            },
+            "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+            "Name": "minecraft:snow_block"
+            }
+        },
+        {
+            "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:grass_block"
+            },
+            "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+            },
+            "output_state": {
+            "Name": "minecraft:snow_block"
+            }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:cyan_carpet"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:snow",
+            "Properties": {
+              "layers": "2"
+            }
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:granite"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:diorite"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:polished_granite"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_diorite"
+          }
+        },
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:polished_granite_slab"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:polished_diorite_slab"
+          }
+        }
+      ]
+    }
+  ]
+}

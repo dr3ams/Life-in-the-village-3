@@ -1,0 +1,28 @@
+{
+    "name": "minecraft:village/desert/decor",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 6,
+        "element": {
+          "feature": "minecraft:patch_cactus",
+          "projection": "rigid",
+          "element_type": "minecraft:feature_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "feature": "minecraft:pile_hay",
+          "projection": "rigid",
+          "element_type": "minecraft:feature_pool_element"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+          "element_type": "minecraft:empty_pool_element"
+        }
+      }
+    ]
+  }

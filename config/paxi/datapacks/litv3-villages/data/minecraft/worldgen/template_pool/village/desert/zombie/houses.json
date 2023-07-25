@@ -1,0 +1,258 @@
+{
+  "name": "minecraft:village/desert/zombie/houses",
+  "fallback": "villages_overhauled:village/desert/zombie/small_houses",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_2",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_3",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_4",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_5",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_6",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_7",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_small_house_2",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_medium_house_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_medium_house_2",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_big_house_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_animal_pen_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_animal_pen_2",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_animal_pen_3",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_farm_1",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_farm_2",
+        "processors": "minecraft:empty",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_armorer_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_butcher_shop_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_cartographer_house_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_library_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_shepherd_house_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_weaponsmith_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_fletcher_house_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_mason_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_tannery_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_temple_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_temple_2",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "minecraft:village/desert/zombie/houses/desert_toolsmith_1",
+        "processors": "villages_overhauled:desert_dinge",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

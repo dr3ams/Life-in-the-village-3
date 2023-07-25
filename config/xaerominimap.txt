@@ -1,5 +1,5 @@
 #CONFIG ONLY OPTIONS
-ignoreUpdate:1
+ignoreUpdate:0
 settingsButton:false
 allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
@@ -7,7 +7,7 @@ debugEntityIcons:false
 debugEntityVariantIds:false
 radarHideInvisibleEntities:true
 #INGAME SETTINGS (DO NOT EDIT!)
-updateNotification:false
+updateNotification:true
 minimap:true
 caveMaps:2
 caveZoom:1
@@ -18,7 +18,7 @@ deathpoints:true
 oldDeathpoints:true
 distance:1
 lockNorth:false
-zoom:1
+zoom:0
 minimapSize:0
 chunkGrid:-1
 slimeChunks:false
@@ -62,7 +62,7 @@ zoomOnEnlarged:0
 minimapTextAlign:0
 waypointsMutualEdit:true
 compassLocation:1
-compassScale:1
+compassDirectionScale:0
 caveMapsDepth:30
 hideWaypointCoordinates:false
 renderAllSets:false
@@ -76,12 +76,12 @@ lightOverlayColor:13
 uiScale:0
 bossHealthPushBox:1
 potionEffectPushBox:1
-minimapFrame:0
+minimapFrame:2
 minimapFrameColor:9
 compassColor:9
 northCompassColor:-1
 displayMultipleWaypointInfo:1
-entityRadar:true
+entityRadar:false
 adjustHeightForCarpetLikeBlocks:true
 autoConvertWaypointDistanceToKmThreshold:10000
 waypointDistancePrecision:1
@@ -115,7 +115,7 @@ infoDisplay:chunk_coords:false:15:-1
 infoDisplay:angles:false:15:-1
 infoDisplay:dimension:false:15:-1
 infoDisplay:biome:true:15:-1
-infoDisplay:weather:false:15:-1
+infoDisplay:weather:true:15:-1
 infoDisplay:light_level:0:15:-1
 infoDisplay:time:1:15:-1
 infoDisplay:real_time:0:15:-1
@@ -127,5 +127,5 @@ interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false
 interface:dummy:0:36:true:false:false:false
-interface:gui.xaero_minimap:0:0:false:false:true:false
+interface:gui.xaero_minimap:80:-37:false:false:true:false
 #WAYPOINTS HAVE BEEN MOVED TO /XaeroWaypoints

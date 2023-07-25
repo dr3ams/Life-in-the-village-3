@@ -1,7 +1,0 @@
-type = excludedmenus
-
-some.example.menu.identifier.to.exclude {
-  mode = soft
-  startswith = false
-}
-

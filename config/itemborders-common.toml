@@ -17,4 +17,44 @@
 		extra_glow = false
 		# If automatic borders (based on item rarity) should be enabled.
 		auto_borders = true
+		# If enabled and Legendary Tooltips is installed, borders will sync with tooltip border colors.
+		legendary_tooltips_sync = false
+
+		# Custom border colors for specific items. Format: { <color> = ["list of selectors"] }.
+		# Color formats supported:
+		#   Hex color code - A hex color code is preceded by # or 0x and must be quoted.  Supports 3, 4, 6, or 8 digit codes in the formats RGB, ARGB, RRGGBB, or AARRGGBB.  Examples: "#F4C", "0xFEE0", "#40FF2E", "#CC00E2EE"
+		#   Decimal color code - A decimal color code, which is just a hex color code converted to decimal.  May or may not be quoted.  Examples: 15614720, "4278251143"
+		#   Minecraft color name - One of the standard 16 Minecraft color names.  May or may not be quoted.  Examples: "red", "dark_purple", "gold"
+		#   Web color name - One of the standard 140 web/HTML color names or "transparent".  May or may not be quoted.  Examples: "chartreuse", "darkorange", "deeppink", "deepskyblue"
+		#   Modifiers - Colors specified in any of the above formats can be modified by using modifiers.
+		#     Modifiers are specified after any color in the format "<+, -, or =><h, s, v, r, g, b, or a><amount>".
+		#     The letters represent h - hue, s - saturation, v - value, r - red, g - green, b - blue, a - alpha.
+		#     Valid amounts are 0 to 255 for all types except hue, which accepts 0 to 359.
+		#     Using any modifiers will REQUIRE the key to be quoted.
+		#       Examples: "red+h15", "#saddlebrown-v20+s5", "10_aqua_aqua+v15-h5", "#F4C-r15-v10=a40"
+		#   Animated color - An animated color that fades from one to another in sequence.
+		#     A string in the format "<duration in seconds>_<list of color definitions separated by underscores>".  May or may not be quoted.  Examples: "10_black_#7FFF00", "5.5_gold_orange_orangered", "20_red_orange_yellow_green_blue_purple"
+		# Selectors supported:
+		#   Match all - Specifying just an asterisk (*) will match all items.  Examples: "*"
+		#   Item ID - Use item ID to match single items.  Must include mod name for modded items.  Examples: "minecraft:stick", "iron_ore", "spoiledeggs:spoiled_egg"
+		#   Tag - $ followed by tag name to match all items with that tag.  Examples: "$forge:stone", "$planks"
+		#   Mod name - @ followed by mod identifier to match all items from that mod.  Examples: "@spoiledeggs"
+		#   Rarity - ! followed by item's rarity to match all items with that rarity.  This is ONLY vanilla rarities.  Examples: "!uncommon", "!rare", "!epic"
+		#   Item name color - # followed by color hex code, to match all items with that exact color item name.  Examples: "#23F632"
+		#   Display name - % followed by any text.  Will match any item with this text (case-sensitive) in its tooltip display name.  Examples: "%Netherite", "%Uncommon"
+		#   Tooltip text - ^ followed by any text.  Will match any item with this text (case-sensitive) anywhere in the tooltip text (besides the name).  Examples: "^Legendary"
+		#   NBT tag - & followed by tag name and optional comparator (=, >, <, or !=) and value, in the format <tag><comparator><value> or just <tag>.  Examples: "&Damage=0", "&Tier>1", "&map!=128", "&Enchantments"
+		#   Negation - ~ followed by any selector above.  This selector will be negated, matching every item that does NOT match the selector.  Examples: "~minecraft:stick", "~!uncommon", "~@minecraft"
+		#   Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
+		[client.options.manual_borders]
+			# green (uncommon)
+			green = ["kubejs:copper_coin", "minecraft:stone_sword", "stone_axe", "stone_pickaxe", "stone_shovel", "stone_hoe", "leather_helmet", "leather_chestplate", "leather_leggings", "leather_boots", "bow", "shield", "conpass", "flint_and_steel", "fishing_rod", "anvil", "chipped_anvil", "damaged_anvil", "shears", "hunterillager:boomerang", "nethers_exoticism:kiwano", "immersive_armors:wooden_helmet", "immersive_armors:wooden_chestplate", "immersive_armors:wooden_leggings", "immersive_armors:wooden_boots", "immersive_armors:bone_helmet", "immersive_armors:bone_chestplate", "immersive_armors:bone_leggings", "immersive_armors:bone_boots"]
+			# blue (rare)
+			54FCFC = ["kubejs:iron_coin", "minecraft:iron_sword", "iron_pickaxe", "iron_axe", "iron_shovel", "iron_hoe", "iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots", "iron_ingot", "raw_iron", "iron_block", "copper_block", "copper_ingot", "raw_copper", "emerald", "crossbow", "trident", "copperequipment:copper_sword", "copperequipment:copper_pickaxe", "copperequipment:copper_axe", "copperequipment:copper_shovel", "copperequipment:copper_hoe", "copperequipment:copper_helmet", "copperequipment:copper_chestplate", "copperequipment:copper_leggings", "copperequipment:copper_boots", "name_tag", "blaze_rod", "ender_eye", "amethyst_shard", "amethyst_block", "ghast_tear", "lapis_lazuli", "slime_ball", "iron_horse_armor", "saddle", "firework_rocket", "spectral_arrow", "turtle_helmet", "spyglass", "lead", "chainmail_helmet", "chainmail_chestplate", "chainmail_leggings", "ender_pearl", "blaze_powder", "Spectral_arrow", "chainmail_boots", "nethers_exoticism:kiwano_bag", "supplementaries:rope_arrow", "immersive_armors:wither_helmet", "immersive_armors:wither_chestplate", "immersive_armors:wither_leggings", "immersive_armors:wither_boots", "immersive_armors:warrior_helmet", "immersive_armors:warrior_chestplate", "immersive_armors:warrior_leggings", "immersive_armors:warrior_boots", "immersive_armors:slime_helmet", "immersive_armors:slime_chestplate", "immersive_armors:slime_leggings", "immersive_armors:slime_boots", "immersive_armors:robe_helmet", "immersive_armors:robe_chestplate", "immersive_armors:robe_leggings", "immersive_armors:robe_boots"]
+			# purple (epic)
+			FC54FC = ["kubejs:diamond_coin", "minecraft:diamond_sword", "diamond_pickaxe", "diamond_axe", "diamond_shovel", "diamond_hoe", "diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots", "diamond", "diamond_block", "axolotl_bucket", "diamond_horse_armor", "golden_carrot", "enchanting_table", "ender_chest", "artifacts:running_shoes", "artifacts:crystal_heart", "artifacts:golden_hook", "artifacts:villager_hat", "immersive_armors:heavy_helmet", "immersive_armors:heavy_chestplate", "immersive_armors:heavy_leggings", "immersive_armors:heavy_boots", "immersive_armors:prismarine_helmet", "immersive_armors:prismarine_chestplate", "immersive_armors:prismarine_leggings", "immersive_armors:prismarine_boots"]
+			# gold (legendary)
+			F7F759 = ["kubejs:gold_coin", "minecraft:golden_sword", "golden_pickaxe", "golden_axe", "golden_shovel", "golden_hoe", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots", "gold_ingot", "raw_gold", "gold_block", "golden_horse_armor", "nethers_exoticism:kiwano_sword", "nethers_exoticism:kiwano_pickaxe", "nethers_exoticism:kiwano_axe", "nethers_exoticism:kiwano_shovel", "nethers_exoticism:kiwano_hoe", "nethers_exoticism:kiwano_helmet", "nethers_exoticism:kiwano_chestplate", "nethers_exoticism:kiwano_leggings", "nethers_exoticism:kiwano_boots", "nethers_exoticism:moloch_in_a_bucket", "nethers_exoticism:ramboutan_helmet", "nethers_exoticism:rambutan_shield", "artifacts:everlasting_beef", "rottencreatures:treasure_chest", "immersive_armors:divine_helmet", "immersive_armors:divine_chestplate", "immersive_armors:divine_leggings", "immersive_armors:divine_boots", "immersive_armors:steampunk_helmet", "immersive_armors:steampunk_chestplate", "immersive_armors:steampunk_leggings", "immersive_armors:steampunk_boots", "paradise_lost:vampire_blade"]
+			# red (mythic / heirloom)
+			red = ["kubejs:nether_coin", "minecraft:netherite_sword", "netherite_pickaxe", "netherite_axe", "netherite_shovel", "netherite_hoe", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots", "netherite_ingot", "netherite_scrap", "netherite_block", "nethers_exoticism:curious_fruits_salad", "artifacts:eternal_steak", "byg:pendorite_sword", "byg:pendorite_axe", "byg:pendorite_pickaxe", "byg:pendorite_battleaxe", "byg:pendorite_shovel", "byg:pendorite_hoe", "byg:pendorite_horse_armor", "byg:pendorite_ingot", "raw_pendorite", "minecraft:recovery_compass", "paradise_lost:flaming_sword", "paradise_lost:lightning_sword", "paradise_lost:holy_sword", "paradise_lost:valkyrie_lance"]
 

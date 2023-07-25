@@ -2,9 +2,9 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "BIOME_TAG",
         "negate": false,
-        "value": "nether"
+        "value": "minecraft:is_nether"
       }
     ]
   ]

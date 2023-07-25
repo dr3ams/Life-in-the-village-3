@@ -1,0 +1,294 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 19, 2023, 12:02:35 PM
+
+#tectonic:trees/birch_fancy
+- tectonic:forest/trees/old_growth_birch/variant_1_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/old_growth_birch/variant_2_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_birch/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_birch/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_birch/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/special/birch_autumn
+- tectonic:forest/trees/standard_birch/variant_1_acacia_leaves_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_birch/variant_2_acacia_leaves_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_badlands
+- tectonic:forest/trees/standard_oak/branching_adjacent (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/branching_diagonal (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/straight (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/conifer (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/special/baobab
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/baobab/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/baobab/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/baobab/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/birch_standard_evergreen
+- tectonic:forest/trees/standard_evergreen/variant_1_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_standard_more_bees
+- tectonic:forest/trees/standard_oak/branching_adjacent (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/branching_diagonal (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/straight (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/conifer (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/more_bees/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/more_bees/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/more_bees/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/more_bees/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/more_bees/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/more_bees/11? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/dark_oak_dead
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dark_oak/dead? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/dark_oak_standard
+- minecraft:dark_oak_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dark_oak/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dark_oak/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/birch_standard
+- tectonic:forest/trees/standard_birch/variant_1_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_birch/variant_2_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/9? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/10? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/11? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/12? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/13? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_snowy_standard
+- tectonic:taiga/trees/standard_spruce/spruce_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:taiga/trees/standard_spruce/spruce_tall_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:taiga/trees/standard_spruce/pine_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_spruce/9? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_standard
+- tectonic:forest/trees/standard_oak/branching_adjacent (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/branching_diagonal (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/straight (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:forest/trees/standard_oak/conifer (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/9? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/10? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/forest_oak/11? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/jungle_fancy
+- minecraft:mega_jungle_tree_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_jungle_tree/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_jungle_tree/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_jungle_tree/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_jungle_tree/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_fancy
+- tectonic:forest/trees/fancy_oak/variant_1_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_oak/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_oak/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_oak/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_oak/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/birch_bush
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch_bush/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch_bush/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch_bush/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/birch_standard_more_bees
+- tectonic:forest/trees/standard_birch/variant_1_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/more_bees/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/more_bees/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/more_bees/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/more_bees/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/more_bees/12? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/birch/more_bees/13? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/special/swamp_standard
+- tectonic:forest/trees/fancy_oak/variant_2_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- minecraft:tall_mangrove_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- minecraft:mangrove_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/swamp_oak/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/swamp_oak/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/swamp_oak/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/swamp_oak/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/swamp_oak/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/jungle_oak
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_oak/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_oak/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_oak/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/birch_dead
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_birch/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_birch/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_birch/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_dead
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_spruce/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_spruce/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_spruce/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_snowy_dead
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_dead_spruce/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_dead_spruce/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/snowy_dead_spruce/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_fancy_pine
+- minecraft:mega_pine_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_spruce/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_spruce/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_spruce/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_pine
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_pine/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/special/sequoia
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/9? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/10? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/sequoia/dead? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/acacia_standard
+- minecraft:acacia_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/acacia/9? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_fancy_spruce
+- minecraft:mega_spruce_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_spruce/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_spruce/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/big_spruce/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/birch_fancy_evergreen
+- tectonic:forest/trees/old_growth_evergreen/variant_1_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_dead
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_oak/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_oak/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_oak/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_oak/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_oak/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/dead_oak/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_standard
+- tectonic:taiga/trees/standard_spruce/spruce_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:taiga/trees/standard_spruce/spruce_tall_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:taiga/trees/standard_spruce/pine_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce/9? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_bush
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_bush/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_bush/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_bush/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_bush/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_bush/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_bush/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/oak_bush/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/jungle_bush
+- minecraft:jungle_bush (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_bush/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_bush/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_bush/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_bush/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_bush/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_bush/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_bush
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce_bush/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce_bush/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce_bush/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce_bush/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/spruce_bush/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/oak_shrub_tall
+- tectonic:nothing (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/tall_oak_shrub/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/tall_oak_shrub/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/tall_oak_shrub/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/tall_oak_shrub/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/tall_oak_shrub/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/spruce_grove
+- tectonic:taiga/trees/standard_spruce/spruce_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:taiga/trees/standard_spruce/spruce_tall_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- tectonic:taiga/trees/standard_spruce/pine_checked (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/grove_spruce/1_snowy? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/grove_spruce/2_snowy? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/grove_spruce/3_snowy? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/grove_spruce/4_snowy? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+
+#tectonic:trees/jungle_standard
+- minecraft:jungle_tree (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/1? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/2? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/3? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/4? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/5? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/6? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/7? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/8? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)
+- arboria:_placer/jungle_tree/9? (from tectonic-mod-mc1.19.2-v1.1.9.jar:resourcepacks/tectonic)

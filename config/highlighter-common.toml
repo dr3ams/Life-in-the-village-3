@@ -9,4 +9,6 @@
 		clear_on_hover = true
 		# If icons should match the color of items names (as shown in tooltips).  Otherwise icons will all be gold.
 		item_name_color = false
+		# If new item markers should show on the hotbar.
+		show_on_hotbar = true
 

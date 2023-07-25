@@ -5,7 +5,7 @@
       "weight": 1
     },
     {
-      "structure": "idas:animal_den/foxhound_den",
+      "structure": "idas:necromancers_spire",
       "weight": 1
     }
   ],
@@ -13,6 +13,10 @@
     "salt": 169481692,
     "spacing": 55,
     "separation": 30,
-    "type": "minecraft:random_spread"
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 9,
+      "other_set": "#idas:idas_nether_avoid"
+    }
   }
 }

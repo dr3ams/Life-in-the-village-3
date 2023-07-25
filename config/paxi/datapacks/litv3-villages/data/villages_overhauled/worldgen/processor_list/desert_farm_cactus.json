@@ -1,0 +1,40 @@
+{
+  "processors": [
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:sugar_cane",
+            "probability": 0.6
+          },
+          "output_state": {
+            "Name": "minecraft:air"
+          }
+        },
+        {
+          "position_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:sugar_cane"
+          },
+          "output_state": {
+            "Name": "minecraft:cactus",
+            "Properties": {
+              "age": "1"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

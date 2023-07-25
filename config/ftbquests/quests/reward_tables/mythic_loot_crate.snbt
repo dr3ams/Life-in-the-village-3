@@ -1,16 +1,16 @@
 {
 	id: "3D548FB82AF8A38A"
-	order_index: 11
-	title: "Mythic loot crate"
-	loot_size: 1
-	rewards: [ ]
 	loot_crate: {
+		color: 16729271
 		drops: {
 			boss: 0
-			passive: 0
 			monster: 0
+			passive: 0
 		}
-		color: 16729271
 		string_id: "mythic_loot_crate"
 	}
+	loot_size: 1
+	order_index: 12
+	rewards: [ ]
+	title: "Mythic loot crate"
 }

@@ -1,0 +1,112 @@
+{
+	icon: "kubejs:emerald_nugget"
+	id: "3AB88D93F3A690BF"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "duds1"
+	}
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:emerald_nugget"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:diamond_nugget"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:box"
+			}
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "random_dyes"
+				}
+			}
+			title: "Random Dyes"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:clear_shard"
+			}
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:copper_coin"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:coarse_dirt"
+			}
+			weight: 5.0f
+		}
+		{ item: "minecraft:amethyst_cluster" }
+		{ item: "minecraft:glow_lichen" }
+		{ item: "minecraft:sea_pickle" }
+		{ item: "minecraft:lily_of_the_valley" }
+		{ item: "minecraft:iron_bars" }
+		{ item: "waterstrainer:worm" }
+	]
+	title: "Junk 1"
+	use_title: true
+}

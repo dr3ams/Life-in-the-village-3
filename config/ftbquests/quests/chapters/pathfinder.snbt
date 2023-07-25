@@ -1,59 +1,50 @@
 {
-	id: "66690CB79DA211EF"
-	group: "2280ECB310C79FE3"
-	order_index: 2
-	filename: "pathfinder"
-	title: "Pathfinder"
-	icon: "supplementaries:globe"
-	default_quest_shape: "rsquare"
 	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "pathfinder"
+	group: "2280ECB310C79FE3"
+	icon: "supplementaries:globe"
+	id: "66690CB79DA211EF"
 	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 8.0d
+		hover: [ ]
+		image: "litv3:textures/misc/earth.png"
+		rotation: 0.0d
+		width: 8.0d
 		x: 0.0d
 		y: -0.5d
-		width: 8.0d
-		height: 8.0d
-		rotation: 0.0d
-		image: "litv3:textures/misc/earth.png"
-		hover: [ ]
-		click: ""
-		dev: false
-		corner: false
 	}]
+	order_index: 2
+	quest_links: [ ]
 	quests: [
 		{
-			icon: "supplementaries:key"
-			x: 0.0d
-			y: -0.5d
-			shape: "octagon"
-			subtitle: "New dungeons and challenges"
 			description: [
 				"There are dozens of new dungeons, some of them are guarded with Bosses."
 				"What are you waiting for? Go conquer them all!"
 			]
-			size: 2.0d
+			icon: "supplementaries:key"
 			id: "2DADDB2315AB67D6"
-			tasks: [{
-				id: "3F1DED87066891FA"
-				type: "checkmark"
-				title: "Dungeon Diving"
-			}]
 			rewards: [{
 				id: "213653105613DC54"
 				type: "xp"
 				xp: 1
 			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "New dungeons and challenges"
+			tasks: [{
+				id: "3F1DED87066891FA"
+				title: "Dungeon Diving"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
 		}
 		{
-			x: 2.0d
-			y: -5.5d
-			subtitle: "Discover a Battle Tower"
 			id: "4F20540765A93D77"
-			tasks: [{
-				id: "7B81785A915B6A7F"
-				type: "advancement"
-				advancement: "idas:ancient_mines"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "217C6419541FDBB9"
@@ -62,32 +53,33 @@
 				}
 				{
 					id: "0E004A7DDD593DE6"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "2C7F6589644B55CA"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Battle Tower"
+			tasks: [{
+				advancement: "idas:ancient_mines"
+				criterion: ""
+				id: "7B81785A915B6A7F"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -5.5d
 		}
 		{
-			x: 1.0d
-			y: -4.5d
 			id: "24975F8795218934"
-			tasks: [{
-				id: "2D54AE47A2678D34"
-				type: "advancement"
-				advancement: "idas:enchantingtower"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "72CC37E960A91B7F"
@@ -96,32 +88,32 @@
 				}
 				{
 					id: "1106BCE25CE8F564"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "13CAECC2E461426B"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "idas:enchantingtower"
+				criterion: ""
+				id: "2D54AE47A2678D34"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -4.5d
 		}
 		{
-			x: 3.0d
-			y: -3.0d
 			id: "58BFD3C77C4D1AC6"
-			tasks: [{
-				id: "1FD6AFD394AEB398"
-				type: "advancement"
-				advancement: "idas:bearclaw_inn"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "53373862F4FB41DC"
@@ -130,33 +122,32 @@
 				}
 				{
 					id: "44E52017DBF9B7ED"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "3DB5BE55D5726842"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "idas:bearclaw_inn"
+				criterion: ""
+				id: "1FD6AFD394AEB398"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 		{
-			x: 4.5d
-			y: -3.5d
-			subtitle: "Discover a Spider Cave"
 			id: "5954871D011EA31B"
-			tasks: [{
-				id: "1D501E3BD17DD079"
-				type: "advancement"
-				advancement: "betterdungeons:spider_dungeon"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "2A1742850A3FB63B"
@@ -165,33 +156,33 @@
 				}
 				{
 					id: "2FF099DE7A877C7D"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "11B1A14541218B40"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Spider Cave"
+			tasks: [{
+				advancement: "betterdungeons:spider_dungeon"
+				criterion: ""
+				id: "1D501E3BD17DD079"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: -3.5d
 		}
 		{
-			x: 4.0d
-			y: -1.0d
-			subtitle: "Discover a Catacomb"
 			id: "028BAD294AD040AF"
-			tasks: [{
-				id: "35AD77BC9FF9119A"
-				type: "advancement"
-				advancement: "betterdungeons:zombie_dungeon"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "38CDB8A3C2D7C0B8"
@@ -200,33 +191,33 @@
 				}
 				{
 					id: "289267781D81F804"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "78179F57FE2BE1C0"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Catacomb"
+			tasks: [{
+				advancement: "betterdungeons:zombie_dungeon"
+				criterion: ""
+				id: "35AD77BC9FF9119A"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.0d
 		}
 		{
-			x: 4.0d
-			y: 0.0d
-			subtitle: "Discover a Fortress of the Undead"
 			id: "2FF97DE5D1B0F727"
-			tasks: [{
-				id: "19375711FD111567"
-				type: "advancement"
-				advancement: "betterdungeons:skeleton_dungeon"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "7B721698CF021DF2"
@@ -235,33 +226,33 @@
 				}
 				{
 					id: "6A6DB74DE59F0580"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "082B77DC121151AD"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Fortress of the Undead"
+			tasks: [{
+				advancement: "betterdungeons:skeleton_dungeon"
+				criterion: ""
+				id: "19375711FD111567"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 0.0d
 		}
 		{
-			x: 0.0d
-			y: 2.0d
-			subtitle: "Discover a Monster Room"
 			id: "3C6CA584F934B8B9"
-			tasks: [{
-				id: "1F0BFB0430425384"
-				type: "advancement"
-				advancement: "betterdungeons:small_dungeon"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "22C9765AF1C14A31"
@@ -270,32 +261,33 @@
 				}
 				{
 					id: "069044A06C605DA9"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "45B656A21D9B75E0"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Monster Room"
+			tasks: [{
+				advancement: "betterdungeons:small_dungeon"
+				criterion: ""
+				id: "1F0BFB0430425384"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.5d
 		}
 		{
-			x: 0.0d
-			y: -3.5d
 			id: "1C6EB956684D3209"
-			tasks: [{
-				id: "3533A980E4933C2D"
-				type: "advancement"
-				advancement: "idas:witches_treestump"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "7B28C0122611DCBE"
@@ -304,32 +296,32 @@
 				}
 				{
 					id: "305A222C0288C6E2"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "5317525AD75B45AB"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "idas:witches_treestump"
+				criterion: ""
+				id: "3533A980E4933C2D"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -3.5d
 		}
 		{
-			x: 4.5d
-			y: 2.5d
 			id: "40822E5624735C13"
-			tasks: [{
-				id: "68D52A350D5DB36D"
-				type: "advancement"
-				advancement: "idas:wizardtower"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "6C9358C5967C30DE"
@@ -338,32 +330,32 @@
 				}
 				{
 					id: "34895188FCFE3BD6"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "3F90EFFE254BD441"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "idas:wizardtower"
+				criterion: ""
+				id: "68D52A350D5DB36D"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 2.5d
 		}
 		{
-			x: 3.0d
-			y: -6.5d
 			id: "134BE651109B1400"
-			tasks: [{
-				id: "1714231BC1DD7644"
-				type: "advancement"
-				advancement: "idas:sunken_ship"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "1E632A5DD5DBD137"
@@ -372,33 +364,32 @@
 				}
 				{
 					id: "752CE3D1F632D6F6"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "219E7C93F565CBB5"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "idas:sunken_ship"
+				criterion: ""
+				id: "1714231BC1DD7644"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -6.5d
 		}
 		{
-			x: 6.0d
-			y: 2.5d
-			subtitle: "Enter an overworld city"
 			id: "290A2645FBD90100"
-			tasks: [{
-				id: "1974F6593F122F0A"
-				type: "advancement"
-				advancement: "repurposed_structures:city_overworld"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "637657F2480AC8AE"
@@ -407,67 +398,33 @@
 				}
 				{
 					id: "13A351CF46AE8B49"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "4EBE74A89F6E0C71"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 7.0d
-			y: -1.5d
-			subtitle: "Obtain an Ancient Oak Sapling"
-			id: "61FCBA9A8F1A7A5C"
+			subtitle: "Enter an overworld city"
 			tasks: [{
-				id: "4EDC0626E98B5E73"
-				type: "advancement"
-				advancement: "biomemakeover:biomemakeover/ancient_oak_sapling"
+				advancement: "repurposed_structures:city_overworld"
 				criterion: ""
+				id: "1974F6593F122F0A"
+				type: "advancement"
 			}]
-			rewards: [
-				{
-					id: "616C38437C1664A9"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "1FE8149525A78781"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "6F29CFED935CCBA9"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
-			]
+			x: 6.0d
+			y: 2.5d
 		}
 		{
-			x: 5.5d
-			y: -0.5d
 			id: "174122AEDDBE021E"
-			tasks: [{
-				id: "4A068189A168ED81"
-				type: "advancement"
-				advancement: "idas:labyrinth"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "3E82695E10FB6BD1"
@@ -476,33 +433,32 @@
 				}
 				{
 					id: "020A096057CA5A0C"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "375A7A55232D6E2F"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "idas:labyrinth"
+				criterion: ""
+				id: "4A068189A168ED81"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -0.5d
 		}
 		{
-			x: 1.0d
-			y: 3.5d
-			subtitle: "Discover a Small Prairie House"
 			id: "7853F4333CEA424A"
-			tasks: [{
-				id: "37F30C1A60C5BC67"
-				type: "advancement"
-				advancement: "idas:castle"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "6732B2BE0127F2D5"
@@ -511,67 +467,33 @@
 				}
 				{
 					id: "6296921EC78C1AE6"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "3374322ED3AE7CBB"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 7.0d
-			y: -0.5d
-			subtitle: "Obtain a Blighted Balsa Sapling"
-			id: "7B1123035B215BED"
+			subtitle: "Discover a Small Prairie House"
 			tasks: [{
-				id: "62C6F6B702B1B5F9"
-				type: "advancement"
-				advancement: "biomemakeover:biomemakeover/blighted_balsa_sapling"
+				advancement: "idas:castle"
 				criterion: ""
+				id: "37F30C1A60C5BC67"
+				type: "advancement"
 			}]
-			rewards: [
-				{
-					id: "39978EEA20528D82"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "2011EC12C4792F3A"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "094022320BFDB609"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
-			]
+			x: 1.0d
+			y: 3.5d
 		}
 		{
-			x: 6.0d
-			y: -3.5d
 			id: "2CD398B43AEFF428"
-			tasks: [{
-				id: "1D4C58E79B9D6404"
-				type: "advancement"
-				advancement: "idas:hunters_cabin"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "69443C42DDA1FEE2"
@@ -580,33 +502,32 @@
 				}
 				{
 					id: "785F90644C60568D"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "1F8D7814CA330C6D"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				advancement: "idas:hunters_cabin"
+				criterion: ""
+				id: "1D4C58E79B9D6404"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -3.5d
 		}
 		{
-			x: 7.0d
-			y: 0.5d
-			subtitle: "Find all the new Mineshafts(14)"
 			id: "689E731ECC22F152"
-			tasks: [{
-				id: "20768D8E6F19533A"
-				type: "advancement"
-				advancement: "repurposed_structures:mineshafts"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "2459F0A2B5AAC13D"
@@ -615,33 +536,33 @@
 				}
 				{
 					id: "123FDA2BC5564F97"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "6BE43584E404EFE1"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Find all the new Mineshafts(14)"
+			tasks: [{
+				advancement: "repurposed_structures:mineshafts"
+				criterion: ""
+				id: "20768D8E6F19533A"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: 0.5d
 		}
 		{
-			x: 3.0d
-			y: -0.5d
-			subtitle: "Discover an Illager Corsair or an Illager Galley"
 			id: "5DD1A32CAD544DCC"
-			tasks: [{
-				id: "4A1BDAEFF8AC3CF8"
-				type: "advancement"
-				advancement: "idas:pillager_fortress"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "3CBCE1269010266B"
@@ -650,33 +571,33 @@
 				}
 				{
 					id: "7AA99964597A2CD6"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "3FF252C391887B74"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover an Illager Corsair or an Illager Galley"
+			tasks: [{
+				advancement: "idas:pillager_fortress"
+				criterion: ""
+				id: "4A1BDAEFF8AC3CF8"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -0.5d
 		}
 		{
-			x: 3.0d
-			y: 5.5d
-			subtitle: "Find all the new Villages(11)"
 			id: "337BABA052DA1E0E"
-			tasks: [{
-				id: "1EF98D4A90EA9BB5"
-				type: "advancement"
-				advancement: "repurposed_structures:villages"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "4705F68BF77C6CBA"
@@ -685,33 +606,33 @@
 				}
 				{
 					id: "472830A1EBC3592D"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "476BB742A901D839"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Find all the new Villages(11)"
+			tasks: [{
+				advancement: "repurposed_structures:villages"
+				criterion: ""
+				id: "1EF98D4A90EA9BB5"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 5.5d
 		}
 		{
-			x: 5.5d
-			y: 3.5d
-			subtitle: "Find all new outposts(14)"
 			id: "145F74705341F30E"
-			tasks: [{
-				id: "0358569F8DCB2703"
-				type: "advancement"
-				advancement: "repurposed_structures:outposts"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "5B2F71216B31DAE5"
@@ -720,33 +641,33 @@
 				}
 				{
 					id: "59BB6257FADC9182"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "047E74B6C234003F"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Find all new outposts(14)"
+			tasks: [{
+				advancement: "repurposed_structures:outposts"
+				criterion: ""
+				id: "0358569F8DCB2703"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 3.5d
 		}
 		{
-			x: 2.0d
-			y: 4.5d
-			subtitle: "Discover a Nether City"
 			id: "674C4F6C629090C7"
-			tasks: [{
-				id: "5556E908ECF2D79A"
-				type: "advancement"
-				advancement: "repurposed_structures:city_nether"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "75D12F150E85BB3F"
@@ -755,33 +676,33 @@
 				}
 				{
 					id: "45464F4FE949AD74"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "34000BBF598A8E5E"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Nether City"
+			tasks: [{
+				advancement: "repurposed_structures:city_nether"
+				criterion: ""
+				id: "5556E908ECF2D79A"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.5d
 		}
 		{
-			x: 3.0d
-			y: 2.0d
-			subtitle: "Discover a Jungle Fortress"
 			id: "0E132FABA501393B"
-			tasks: [{
-				id: "3C1E0553A3F0F7C6"
-				type: "advancement"
-				advancement: "repurposed_structures:fortress_jungle"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "6382634AB46B01D0"
@@ -790,33 +711,33 @@
 				}
 				{
 					id: "5290AAA5B6234B31"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "14760A5D7352CC64"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Jungle Fortress"
+			tasks: [{
+				advancement: "repurposed_structures:fortress_jungle"
+				criterion: ""
+				id: "3C1E0553A3F0F7C6"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 2.0d
 		}
 		{
-			x: 5.5d
-			y: -4.5d
-			subtitle: "Discover a Underground Bastion"
 			id: "7DE3544787B49D46"
-			tasks: [{
-				id: "0CCE25B115509756"
-				type: "advancement"
-				advancement: "repurposed_structures:bastion_underground"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "59B486060019D995"
@@ -825,267 +746,298 @@
 				}
 				{
 					id: "3272F61D5ECBC68D"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "0EF86D0632411757"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Discover a Underground Bastion"
+			tasks: [{
+				advancement: "repurposed_structures:bastion_underground"
+				criterion: ""
+				id: "0CCE25B115509756"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: -4.5d
 		}
 		{
-			x: 0.5d
-			y: -6.5d
-			subtitle: "Find an Ice Pit"
-			id: "11B012F060DFF2F3"
-			tasks: [{
-				id: "5BA16AB06E385F21"
-				type: "advancement"
-				advancement: "dungeons_enhanced:chilled_halls"
-				criterion: ""
-			}]
+			id: "6848C93746CC1FC0"
 			rewards: [
 				{
-					id: "78491A77B1DF6B54"
+					id: "2768BD5FF43A5CCA"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "22B8E980B43AE487"
 					type: "xp_levels"
 					xp_levels: 1
 				}
-				{
-					id: "7210DC9717F9389E"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "34BB980C3B3FDC2A"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
 			]
+			subtitle: "Locate a Pillager Camp"
+			tasks: [{
+				advancement: "takesapillage:pillager_camp"
+				criterion: ""
+				id: "6543D27A26C0B9EB"
+				type: "advancement"
+			}]
+			x: 7.0d
+			y: -1.5d
 		}
 		{
-			x: 4.0d
-			y: -6.5d
-			subtitle: "Find a Castle"
-			id: "5CBB111DF657D689"
-			tasks: [{
-				id: "39B08C30E8378D82"
-				type: "advancement"
-				advancement: "dungeons_enhanced:wars_and_kingdoms"
-				criterion: ""
-			}]
+			id: "4BCA960017B0992C"
 			rewards: [
 				{
-					id: "615B3FC3B9DB6F14"
+					id: "4E01993DAFC4C371"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "582457F027FF9D53"
 					type: "xp_levels"
 					xp_levels: 1
 				}
-				{
-					id: "70697E74531F1A33"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "3018D678376FBFE9"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
 			]
+			subtitle: "Locate a Bastille"
+			tasks: [{
+				advancement: "takesapillage:bastille"
+				criterion: ""
+				id: "2B9E2AC9EDA5E69A"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: -0.5d
 		}
 		{
-			x: 0.5d
-			y: 5.5d
-			subtitle: "Find a Desert Temple"
-			id: "059C3889FEEB8688"
-			tasks: [{
-				id: "6DBEACB4B01E6701"
-				type: "advancement"
-				advancement: "dungeons_enhanced:traps_and_curses"
-				criterion: ""
-			}]
+			id: "360A14ED6EBA64D4"
 			rewards: [
 				{
-					id: "1DE4F6DBAD0C7B22"
+					id: "3D3BC43C1AF0E0D9"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "590733C07B00AD6D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "547D134A5B6E5577"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "rare_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Discover every biome(49)"
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				id: "0D817B9D696B05AA"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			id: "6E0F6DFA958172F8"
+			rewards: [
+				{
+					id: "5CF21A7ADA8D576F"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "314012A1F1608FDC"
 					type: "xp_levels"
 					xp_levels: 1
 				}
-				{
-					id: "7D7C5F70E41A3B5F"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "43A44CA2C7178483"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
 			]
-		}
-		{
-			x: 3.0d
-			y: -7.5d
-			subtitle: "Find a Monster Maze"
-			id: "7D9B765A3367AA22"
 			tasks: [{
-				id: "0CFDC47AF1C3D9F0"
-				type: "advancement"
-				advancement: "dungeons_enhanced:hidden_under_the_roots"
+				advancement: "idas:nexus"
 				criterion: ""
+				id: "1D2F17ACB664AFC7"
+				type: "advancement"
 			}]
-			rewards: [
-				{
-					id: "4F3F90CCCFC4BF05"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "41D3F0A1DA9B0052"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "45C7A57883F6BF91"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 3.0d
+			x: 2.5d
 			y: 6.5d
-			subtitle: "Find a Mushroom House"
-			id: "6295F936F893D27B"
-			tasks: [{
-				id: "406C8DCD54A9B285"
-				type: "advancement"
-				advancement: "dungeons_enhanced:rarest_structure"
-				criterion: ""
-			}]
+		}
+		{
+			id: "2BFF62DE2B1CE10C"
 			rewards: [
 				{
-					id: "2450881DB41C7CB7"
+					id: "29F0D455A6BA12D8"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "29BFFFF1F6FEAD60"
 					type: "xp_levels"
 					xp_levels: 1
 				}
-				{
-					id: "1A762C293C6CD061"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "39A20F664E4EC825"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
 			]
-		}
-		{
+			tasks: [{
+				advancement: "idas:apothecary_abode"
+				criterion: ""
+				id: "1A78566257294BB7"
+				type: "advancement"
+			}]
 			x: 4.0d
-			y: 5.5d
-			subtitle: "Find a Jungle Monument"
-			id: "39C49F2F329A1CC3"
-			tasks: [{
-				id: "11A8863BB271D3A5"
-				type: "advancement"
-				advancement: "dungeons_enhanced:ancient_civilizations"
-				criterion: ""
-			}]
-			rewards: [
-				{
-					id: "40646DF3FC387577"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "35EE49C182DF20F1"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "6B8AB38271915F0D"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
-			]
+			y: 5.0d
 		}
 		{
-			x: 1.0d
-			y: 7.0d
-			subtitle: "Find a Large Dungeon"
-			id: "58E0DDDAEB7E6186"
-			tasks: [{
-				id: "2DB5096D969C8F84"
-				type: "advancement"
-				advancement: "dungeons_enhanced:thats_a_dungeon"
-				criterion: ""
-			}]
+			id: "392C1055DFA53518"
 			rewards: [
 				{
-					id: "4FE2743A32D6CAA9"
+					id: "321F528EE1254797"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "1125551AD7A9F45F"
 					type: "xp_levels"
 					xp_levels: 1
 				}
+			]
+			tasks: [{
+				advancement: "idas:redhorn_guild"
+				criterion: ""
+				id: "67AF29C1C7F509F5"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "0292B5904A252DC8"
+			rewards: [
 				{
-					id: "5D2F2AB4078B2A5E"
+					id: "0C0927802BD3DAE5"
+					item: "kubejs:copper_coin"
 					type: "item"
-					item: "kubejs:iron_coin"
 				}
 				{
-					id: "62CDFA75850F0324"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
+					id: "2C971478FE9D7688"
+					type: "xp_levels"
+					xp_levels: 1
 				}
 			]
+			tasks: [{
+				advancement: "idas:ruins_of_the_deep"
+				criterion: ""
+				id: "64ECB5471837B045"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			id: "3E13C8F0EE2ECCA2"
+			rewards: [
+				{
+					id: "68799541023FD079"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "27C72E74292C5F15"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:necromancers_spire"
+				criterion: ""
+				id: "369F0A82DECEBBE8"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			id: "1A19338C58738423"
+			rewards: [
+				{
+					id: "050EC6648BCFBD4D"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "0758F0CEC48DA064"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:winter_wagon"
+				criterion: ""
+				id: "7F580B20F36EF103"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			id: "725867AD010248A6"
+			rewards: [
+				{
+					id: "254539A5C822CC61"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "2C3C446828BDDF64"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:fishermans_lodge"
+				criterion: ""
+				id: "1C1E8952D30A0DBB"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			id: "6D7846F53919A4D9"
+			rewards: [
+				{
+					id: "700EC19389C4CEAD"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "23F0CA85D98CF337"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			tasks: [{
+				advancement: "idas:tinkers_workshop"
+				criterion: ""
+				id: "40B9D329DA3A4E7C"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 6.5d
 		}
 	]
-	quest_links: [ ]
+	title: "Pathfinder"
 }

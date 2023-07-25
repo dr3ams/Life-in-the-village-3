@@ -1,0 +1,1160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "contraptions"
+	group: "4BB8DCEF290E19CA"
+	icon: {
+		Count: 1
+		ForgeCaps: {
+			"dungeons_libraries:built_in_enchantments": {
+				BuiltInEnchantments: [ ]
+			}
+		}
+		id: "supplementaries:wrench"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "3F370436B7164439"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The Wrench is used to rotate blocks already placed in the world."]
+			id: "685B1BCA8B0F49D2"
+			rewards: [{
+				id: "4F5AB49EECB0F03C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "213C1AB0435A3564"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:wrench"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			description: ["Rotation lock is enabled by pressing K by default on your keyboard. You will see a cube to the right of your crosshair. This makes all blocks you place face in the direction you were facing in when the lock was enabled. Press it again to change direction and again to turn it off."]
+			icon: "ftbquests:barrier"
+			id: "0FFBD03D30C69566"
+			rewards: [{
+				id: "215E1D0034E9F6B6"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0262BB5E11609CFF"
+				title: "Press K"
+				type: "checkmark"
+			}]
+			title: "Rotation Lock"
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			description: ["Ropes can be climbed like ladders. The ones from supplementaries can also be passed through."]
+			id: "0A9964481C4795E6"
+			rewards: [{
+				id: "75607CA062D99E83"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5238B45455B4BD8E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "supplementaries:ropes"
+					}
+				}
+				title: "Any #supplementaries:ropes"
+				type: "item"
+			}]
+			title: "Ropes"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: ["Places random blocks from your hotbar. Useful for making natural looking walls and paths."]
+			id: "165C637A0F04D7FD"
+			rewards: [{
+				id: "0963D37FD297F54B"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "07DE7D1D0FE1B031"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:trowel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "4E24F97ADF4E366C"
+			rewards: [{
+				id: "68425FB64B66CB2E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "442FF74A70064D63"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:gravisand"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: ["Emits a redstone signal when looked at."]
+			id: "6CE12F9EBD63ABFA"
+			rewards: [{
+				id: "135E872BF0DE734E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "43FE095BB5721DF2"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:ender_watcher"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			description: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
+			id: "53C3ED6F7249424E"
+			rewards: [{
+				id: "35446C88D8F85997"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "08F5A815500B0372"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bamboo_spikes"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			description: ["Used to measure the amount blocks between two points."]
+			id: "70D23E7FD975D726"
+			rewards: [{
+				id: "542C4CE912BBB60F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3870A8EF35D5DE3E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:abacus"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			description: ["Used to find slime chunks; the areas where slimes can spawn in"]
+			id: "7F50F903FEF3FDFD"
+			rewards: [{
+				id: "1FD2D4E1AC5B4226"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "5D3048957969E9EB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:slime_in_a_bucket"
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			description: ["An invisible item frame for showing your items!"]
+			id: "3D795EA23FA1D86E"
+			rewards: [{
+				id: "1C6145A671E52254"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2B62B2311326308F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:glass_item_frame"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			description: ["Put a hopper above it and it will drop all items below it."]
+			id: "1A1032A815E0BEE0"
+			rewards: [{
+				id: "42E218A018552864"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "38FD22CD2976D23C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:chute"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			description: ["Cranks are used to give the exact redstone signal you want"]
+			id: "576E37A04D699593"
+			rewards: [{
+				id: "2EDF39D144F94C4F"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0A1A3F181EBDA173"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:crank"
+				}
+				type: "item"
+			}]
+			title: "The Crankonator"
+			x: -1.0d
+			y: -5.5d
+		}
+		{
+			description: ["The Cog Block can transmit redstone vertically!"]
+			id: "57114F4515F106CE"
+			rewards: [{
+				id: "71366EEBB0E93959"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "63A9040490A4F42D"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cog_block"
+				}
+				type: "item"
+			}]
+			title: "VERTICAL REDSTONE?!"
+			x: -3.5d
+			y: -4.0d
+		}
+		{
+			description: ["stores liquids and captures tiny mobs"]
+			id: "7EFBB9A760690892"
+			rewards: [{
+				id: "69C71AF63827C24E"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "672CD462B12A618E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:jar"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EFBB9A760690892"]
+			description: ["captures small mobs like chickens"]
+			id: "5A2297A4C2BB4A7B"
+			rewards: [{
+				id: "61FAD3ABBFCF981D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "310209E691066890"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:cage"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			description: ["Teleports your nearby pets to you. Useful for getting them out of sticky situations"]
+			id: "74256E8E141D9EF7"
+			rewards: [{
+				id: "1730574C6E60C56B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "4FF1F19B6821D661"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["emits redstone signal when a key is used on it. The key can be renamed so only that key can be used."]
+			id: "5174D7892CC4EC9C"
+			rewards: [{
+				id: "1365FFA3F057FF77"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "6A1B1FBCFAC41FE6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:lock_block"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: ["used to unlock lock blocks. You can put it in any curios slot."]
+			id: "656E18F286DDF200"
+			rewards: [{
+				id: "55F548794253D2B4"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4249B6E1C43FD2C6"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:key"
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: ["You can set it to speak a message or show it in chat. Perfect for annoying your friends (or enemies!)"]
+			id: "2FC282739157D6DB"
+			rewards: [{
+				id: "35BEA6FA2FDEB575"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "1A7E7AE3DDCC6D56"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:speaker_block"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["can place blocks from a distance!"]
+			id: "44018815222E8CA9"
+			rewards: [
+				{
+					id: "36A359779ED19C3F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:feather"
+					}
+					type: "item"
+				}
+				{
+					id: "726568AA20A12772"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:porkchop"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6179061DE2FEE6BC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_gear:bow": {
+							crossbowChargeTime: 0
+							fuseShotCounter: 0
+							lastFiredTime: 0L
+						}
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:slingshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: ["rotates blocks and mobs standing on it"]
+			id: "6C27B8ECBE98B97A"
+			rewards: [{
+				id: "67F82B8D2133F3AE"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "797AE75BADF88032"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:turn_table"
+				}
+				type: "item"
+			}]
+			title: "How the tables have turned..."
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			description: ["Launches you into the air when powered, or if you land on it from a high place"]
+			id: "33871879DC31D806"
+			rewards: [{
+				id: "0F73A73059B4B4C1"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "66E7DA28B84ED6F9"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:spring_launcher"
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["656E18F286DDF200"]
+			description: ["These strong doors can be locked with a key and can be opened with your hand."]
+			id: "1A01E6EA78F32D04"
+			rewards: [{
+				id: "58E932BE5399C7C7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "6F7ABF88AF32ECD6"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_door"
+					}
+					type: "item"
+				}
+				{
+					id: "4B6B668B60B39E45"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:netherite_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: ["These doors can be opened with hand but NOT redstone signals."]
+			id: "68339B382A047B89"
+			rewards: [{
+				id: "5790A19923689BC2"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "36DC7505AA92B3D8"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_door"
+					}
+					type: "item"
+				}
+				{
+					id: "570D99BDE6FDF0C5"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:gold_trapdoor"
+					}
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			description: ["Emits light based on its redstone signal."]
+			id: "589AAF1FD992CE82"
+			rewards: [{
+				id: "4E11751046A385EF"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0112A5D6B124D755"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:redstone_illuminator"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["04FC98FCA731C4A9"]
+			description: ["Can be placed on top of sticks to create a flagpole. Right-click a flagpole to raise the flag, hold sneak to lower it."]
+			id: "2031C7013AC15F55"
+			rewards: [{
+				id: "0A6FD84AC48E99DB"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:copper_coin"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2490DAF5ACB32916"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:flag_white"
+				}
+				type: "item"
+			}]
+			title: "Flags"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			description: ["Some Rod and Book Items like Sticks, Blaze Rods, and Prismarine Rods can be placed as blocks into the world. Search \"Placeable\" in JEI to see which items can be placed as blocks."]
+			id: "04FC98FCA731C4A9"
+			rewards: [{
+				id: "799ED07892834F72"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [
+				{
+					id: "7CD771875A88A91A"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:stick"
+					}
+					type: "item"
+				}
+				{
+					id: "7475B3400A33F530"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:book"
+					}
+					type: "item"
+				}
+			]
+			title: "Placeable Items"
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			description: ["Created by using a hoe on gravel."]
+			id: "10756B8268EF9D31"
+			rewards: [{
+				id: "408F78F77F4F7B87"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "784291CBD06E6041"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:raked_gravel"
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["347C4ABF9BCB62A2"]
+			description: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
+			id: "77BE21B5DAA11294"
+			rewards: [{
+				id: "6068AA7A93D0A55C"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0398D2D60687CD25"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:safe"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: ["A small early-game shulker box that can only hold 5 items. Carry too many in your inventory and you get slowed down"]
+			id: "347C4ABF9BCB62A2"
+			rewards: [{
+				id: "504AA50E8C2BBD8D"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "66388320D6EF886E"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:sack"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			description: ["Throwable Explosive that only breaks grass, torches and other weak blocks. Aim at a mob's feet to send them flying!"]
+			id: "1B166861840A1636"
+			rewards: [{
+				id: "0EADF3111CCB3DBF"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "7360B900F1ABD942"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1B166861840A1636"]
+			description: [
+				"Rarer version of bomb that can only be found as loot and from a special trader..."
+				"More Powerful than bomb and sets mobs on fire!"
+			]
+			id: "6945746FAEFCA3CE"
+			rewards: [{
+				id: "7B93489E72441F76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5D76A5D34E9B507A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bomb_blue"
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			description: ["The \"fan\" of this modpack, bellows blow mobs in the direction they are facing when powered."]
+			id: "5EE6C136B7D19495"
+			rewards: [{
+				id: "1190489DC5261120"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2DA5B1A64D98FDA0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:bellows"
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -6.5d
+		}
+		{
+			description: ["Craft with a dye to create a colored rune. Runes change the enchantment glint color on your equipment when combined in an anvil with the enchanted item of your choice. The blank rune removes other rune colors."]
+			id: "628078793DF96DF5"
+			rewards: [{
+				id: "42C79D947575E3A7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "0CB9A0F9B4FE995F"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:blank_rune"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["628078793DF96DF5"]
+			description: ["Combine runes to craft the Rainbow Rune"]
+			id: "02E1C18734A64F61"
+			rewards: [{
+				id: "6470B8B7A790C62D"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "206C57846B13C62C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:rainbow_rune"
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			description: ["Only drops from Respawned Dragons. Used to create a copy of an elytra"]
+			id: "5C054B01A4C3BBE6"
+			rewards: [{
+				id: "146D9232186F2AF9"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "4561D807AD64FEF0"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:dragon_scale"
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			description: ["This ladder can be hanging and does not have to be attached to a block if the top ladder is."]
+			id: "60F00B764C6CE1F3"
+			rewards: [{
+				id: "146E0B9101D81C05"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "2FEBA351D131FF28"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:iron_ladder"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			description: ["Place an animal's food in it and it will automatically breed animals for you"]
+			id: "0E4585C54A3E8C31"
+			rewards: [{
+				id: "27F131E3B99FAFA7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "3B76F3A33283FC58"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:feeding_trough"
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: ["Can only be activated by players."]
+			id: "4D7997F821600BF2"
+			rewards: [{
+				id: "1E3991C4DBD728D7"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "61EAEF93379F49F1"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "quark:obsidian_pressure_plate"
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			description: ["The Brass Lantern can only be obtained from Librarian Villagers. You cannot find it anywhere else, not even in JEI!"]
+			id: "60A8B8712FF18A56"
+			rewards: [{
+				id: "77D822B55C022793"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52E5BB0E259EFA4A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "supplementaries:brass_lantern"
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.0d
+		}
+		{
+			description: ["This guy is really hard to find, don't bother looking for him"]
+			id: "3DC8CBEB83275A0B"
+			optional: true
+			rewards: [
+				{
+					id: "2EF02A260441E094"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "alexsmobs:fish_oil"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Lamp Oil\",\"italic\":\"false\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "173D306F672D8E1F"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:rope"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1A45B627BF4171A4"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "supplementaries:bomb"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:tab_icon"
+					tag: {
+						DisplayEntityType: "supplementaries:red_merchant"
+					}
+				}
+				id: "38C3277823F3A519"
+				observe_type: 5
+				timer: 0L
+				title: "Find the Red Merchant"
+				to_observe: "supplementaries:red_merchant"
+				type: "observation"
+			}]
+			title: "The Rarest Trader"
+			x: -3.0d
+			y: -7.0d
+		}
+	]
+	title: "Mini Contraptions"
+}

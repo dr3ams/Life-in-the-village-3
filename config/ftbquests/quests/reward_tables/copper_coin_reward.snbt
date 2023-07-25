@@ -1,36 +1,77 @@
 {
 	id: "5F9723EEDCAA90F3"
-	order_index: 15
-	title: "Copper coin reward"
 	loot_size: 1
+	order_index: 14
 	rewards: [
-		{ item: "aquaculture:box", count: 10 }
+		{ count: 5, item: "aquaculture:box" }
 		{
 			item: {
+				Count: 1
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "common_loot_crate"
 				}
 			}
 		}
-		{ item: "minecraft:copper_ore", random_bonus: 5 }
-		{ item: "minecraft:coal", count: 16 }
-		{ item: "minecraft:clay_ball", count: 16 }
-		{ item: "minecraft:leather", count: 8 }
-		{ item: "minecraft:paper", count: 8 }
-		{ item: "minecraft:ink_sac", count: 8 }
-		{ item: "minecraft:bone", count: 8 }
+		{ count: 8, item: "minecraft:coal" }
+		{ count: 16, item: "minecraft:clay_ball" }
+		{ count: 4, item: "minecraft:leather" }
+		{ count: 4, item: "minecraft:paper" }
+		{ count: 4, item: "minecraft:ink_sac" }
+		{ count: 4, item: "minecraft:bone" }
 		{
 			item: {
+				Count: 1
 				id: "ftbquests:lootcrate"
-				Count: 1b
 				tag: {
 					type: "random_dyes"
 				}
 			}
 		}
-		{ item: "minecraft:sand", count: 32 }
+		{ count: 16, item: "minecraft:sand" }
 		{ item: "randomite:randomite_ore" }
+		{ item: "minecraft:bamboo" }
+		{ count: 5, item: "minecraft:lily_pad" }
+		{ item: "minecraft:kelp" }
+		{ item: "simplehats:hatbag_common" }
+		{ count: 2, item: "minecraft:bookshelf" }
+		{ count: 4, item: "minecraft:sponge" }
+		{ count: 8, item: "minecraft:feather" }
+		{ count: 8, item: "farmersdelight:fruit_salad" }
+		{ item: "minecraft:dark_oak_sapling" }
+		{ item: "minecraft:acacia_sapling" }
+		{ item: "minecraft:jungle_sapling" }
+		{ item: "minecraft:painting" }
+		{ item: "minecraft:lead" }
+		{ item: "supplementaries:item_shelf" }
+		{ count: 32, item: "minecraft:scaffolding" }
+		{ item: "minecraft:flower_pot" }
+		{ item: "buildersaddition:bookshelf_birch" }
+		{ item: "minecraft:item_frame" }
+		{ item: "buildersaddition:shelf_birch" }
+		{ item: "buildersaddition:bookshelf_dark_oak" }
+		{ item: "buildersaddition:shelf_dark_oak" }
+		{ item: "buildersaddition:bookshelf_oak" }
+		{ item: "buildersaddition:shelf_jungle" }
+		{ item: "buildersaddition:shelf_spruce" }
+		{ item: "buildersaddition:bookshelf_spruce" }
+		{ item: "buildersaddition:shelf_oak" }
+		{ item: "buildersaddition:shelf_acacia" }
+		{ item: "buildersaddition:bookshelf_acacia" }
+		{ item: "buildersaddition:bookshelf_jungle" }
+		{ item: "minecraft:moss_block" }
+		{ count: 5, item: "minecraft:cactus" }
+		{ item: "minecraft:flowering_azalea" }
+		{ item: "minecraft:sea_pickle" }
+		{ item: "minecraft:mangrove_propagule" }
+		{ count: 5, item: "quark:moss_paste" }
+		{ item: "supplementaries:bomb" }
+		{ item: "minecraft:lantern" }
+		{ item: "upgrade_aquatic:river_sapling" }
+		{ item: "minecraft:amethyst_cluster" }
+		{ item: "minecraft:glow_lichen" }
+		{ item: "minecraft:vine" }
+		{ item: "waystones:warp_scroll" }
 	]
+	title: "Copper coin reward"
 }

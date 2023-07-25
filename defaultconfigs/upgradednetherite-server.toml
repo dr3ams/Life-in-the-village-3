@@ -1,25 +1,5 @@
 
 [Armor]
-	#Enable Gold Upgraded Armor ?
-	EnableGoldArmor = true
-	#Enable Fire Upgraded Armor ?
-	EnableFireArmor = true
-	#Enable Ender Upgraded Armor ?
-	EnableEnderArmor = true
-	#Enable Water Upgraded Armor ?
-	EnableWaterArmor = true
-	#Enable Wither Upgraded Armor ?
-	EnableWitherArmor = true
-	#Enable Poison Upgraded Armor ?
-	EnablePoisonArmor = true
-	#Enable Phantom Upgraded Armor ?
-	EnablePhantomArmor = true
-	#Enable Feather Upgraded Armor ?
-	EnableFeatherArmor = true
-	#Enable Corrupt Upgraded Armor ?
-	EnableCorruptArmor = true
-	#Enable Echo Upgraded Armor ?
-	EnableEchoArmor = true
 
 	[Armor."Set Option"]
 		#How many pieces of Gold Upgraded armor are needed to activate the effects?
@@ -50,72 +30,6 @@
 		#Range: 1 ~ 4
 		UpgradedPlayerEchoArmorRequireSet = 4
 
-["Horse Armor"]
-	#Enable Gold Upgraded Armor Horse ?
-	EnableGoldArmorHorse = true
-	#Enable Fire Upgraded Armor Horse ?
-	EnableFireArmorHorse = true
-	#Enable Ender Upgraded Armor Horse ?
-	EnableEnderArmorHorse = true
-	#Enable Water Upgraded Armor Horse ?
-	EnableWaterArmorHorse = true
-	#Enable Wither Upgraded Armor Horse ?
-	EnableWitherArmorHorse = true
-	#Enable Poison Upgraded Armor Horse ?
-	EnablePoisonArmorHorse = true
-	#Enable Phantom Upgraded Armor Horse ?
-	EnablePhantomArmorHorse = true
-	#Enable Feather Upgraded Armor Horse ?
-	EnableFeatherArmorHorse = true
-	#Enable Corrupt Upgraded Armor Horse ?
-	EnableCorruptArmorHorse = true
-	#Enable Echo Upgraded Armor Horse ?
-	EnableEchoArmorHorse = true
-
-["Tool&Weapon"]
-	#Enable Gold Upgraded Tool&Weapon ?
-	EnableGoldTool = true
-	#Enable Fire Upgraded Tool&Weapon ?
-	EnableFireTool = true
-	#Enable Ender Upgraded Tool&Weapon ?
-	EnableEnderTool = true
-	#Enable Water Upgraded Tool&Weapon ?
-	EnableWaterTool = true
-	#Enable Wither Upgraded Tool&Weapon ?
-	EnableWitherTool = true
-	#Enable Poison Upgraded Tool&Weapon ?
-	EnablePoisonTool = true
-	#Enable Phantom Upgraded Tool&Weapon ?
-	EnablePhantomTool = true
-	#Enable Feather Upgraded Tool&Weapon ?
-	EnableFeatherTool = true
-	#Enable Corrupt Upgraded Tool&Weapon ?
-	EnableCorruptTool = true
-	#Enable Echo Upgraded Tool&Weapon ?
-	EnableEchoTool = true
-
-[Shield]
-	#Enable Gold Upgraded Shield ? (Unused)
-	EnableGoldTool = true
-	#Enable Fire Upgraded Shield ? (Unused)
-	EnableFireTool = true
-	#Enable Ender Upgraded Shield ? (Unused)
-	EnableEnderTool = true
-	#Enable Water Upgraded Shield ? (Unused)
-	EnableWaterTool = true
-	#Enable Wither Upgraded Shield ? (Unused)
-	EnableWitherTool = true
-	#Enable Poison Upgraded Shield ? (Unused)
-	EnablePoisonTool = true
-	#Enable Phantom Upgraded Shield ? (Unused)
-	EnablePhantomTool = true
-	#Enable Feather Upgraded Shield ? (Unused)
-	EnableFeatherTool = true
-	#Enable Corrupt Upgraded Shield ? (Unused)
-	EnableCorruptTool = true
-	#Enable Echo Upgraded Shield ? (Unused)
-	EnableEchoTool = true
-
 [Effect]
 
 	[Effect.Gold]
@@ -127,7 +41,7 @@
 			EnableLuckBonus = true
 			#How much is the luck bonus increased ?
 			#Range: 1 ~ 99
-			LuckBonus = 2
+			LuckBonus = 1
 
 		[Effect.Gold."Tool&Weapon"]
 			#Enable Gold Upgraded Weapon Effect : Increase Damage ?
@@ -158,21 +72,21 @@
 			#Enable Fire Upgraded Armor Effect : Fire damage immune ?
 			EnableFireImmune = true
 			#Enable Fire Upgraded Armor Effect : Lava Speed ?
-			EnableLavaSpeed = true
+			EnableLavaSpeed = false
 
 			[Effect.Fire.Armor.Durability]
 				#Fire Upgraded Armor loose durability when protect the player ? (Require EnableFireImmune = True)
-				EnableDamageDurabilityFireArmor = false
+				EnableDamageDurabilityFireArmor = true
 				#How many tick between durability damage for the Fire Upgraded Armor when it protect the player ? (20ticks = 1sec)
 				#Range: 1 ~ 1000
-				DelayDamageDurabilityFireArmor = 20
+				DelayDamageDurabilityFireArmor = 40
 				#How many durability damage take the Fire Upgraded Armor when protect the player ? 
 				#Range: 1 ~ 100
 				DamageDurabilityFireArmor = 1
 
 		[Effect.Fire."Tool&Weapon"]
 			#Enable Fire Upgraded Tool&Weapon Effect : Auto-Smelt ?
-			EnableAutoSmelt = true
+			EnableAutoSmelt = false
 			#Auto-Smelt is affected by Fortune ? (Only Ingot & Charcoal)
 			EnableAutoSmeltFortune = false
 			#Enable Fire Upgraded Weapon Effect : Increase Damage ?
@@ -190,7 +104,7 @@
 			#Enable Ender Upgraded Armor Effect : Saves from the void ?
 			EnableVoidSave = true
 			#Enable Ender Upgraded Armor Effect : Prevent Enderman Anger ?
-			EnablePreventAnger = true
+			EnablePreventAnger = false
 
 			[Effect.Ender.Armor.Durability]
 				#Ender Upgraded Armor Break when save the player ? 
@@ -205,7 +119,7 @@
 			#Enable Ender Upgraded Weapon Effect : Prevent Teleport ?
 			EnablePreventTeleport = true
 			#Enable Ender Upgraded Weapon Effect : Double Looting against Enderman ?
-			EnableDoubleLootingBonusEnderWeapon = true
+			EnableDoubleLootingBonusEnderWeapon = false
 			#Enable Ender Upgraded Weapon Effect : Teleports Loot ?
 			EnableTeleportChest = true
 
@@ -217,14 +131,14 @@
 			#Enable Water Upgraded Armor Effect : Water Speed ?
 			EnableWaterSpeed = true
 			#Enable Water Upgraded Armor Effect : Mining Fatigue Immune ?(Only from the Elder Guardian and does not remove the effects already present)
-			EnableElderGuardianDebuffImmune = true
+			EnableElderGuardianDebuffImmune = false
 
 			[Effect.Water.Armor.Durability]
 				#Water Upgraded Armor loose durability when protect the player ? 
-				EnableDamageDurabilityWaterArmor = false
+				EnableDamageDurabilityWaterArmor = true
 				#How many tick between durability damage for the Water Upgraded Armor when it protect the player ? (20ticks = 1sec)
 				#Range: 1 ~ 1000
-				DelayDamageDurabilityWaterArmor = 20
+				DelayDamageDurabilityWaterArmor = 40
 				#How many durability damage take the Water Upgraded Armor when protect the player ? 
 				#Range: 1 ~ 100
 				DamageDurabilityWaterArmor = 1
@@ -239,7 +153,7 @@
 			EnableDamageBonusWaterEndermanWeapon = true
 			#By how much are the damages against increased Enderman in percentage ?
 			#Range: 1 ~ 999
-			DamageBonusWaterEndermanWeapon = 10
+			DamageBonusWaterEndermanWeapon = 5
 			#Enable Water Upgraded Tool Effect : Increase Mining Speed underwater ?
 			EnableMiningSpeedUnderwater = true
 
@@ -251,13 +165,13 @@
 
 			[Effect.Wither.Armor.Durability]
 				#Wither Upgraded Armor loose durability when protect the player ? 
-				EnableDamageDurabilityWitherArmor = false
+				EnableDamageDurabilityWitherArmor = true
 				#How many tick between durability damage for the Wither Upgraded Armor when it protect the player ? (20ticks = 1sec)
 				#Range: 1 ~ 1000
-				DelayDamageDurabilityWitherArmor = 20
+				DelayDamageDurabilityWitherArmor = 40
 				#How many durability damage take the Wither Upgraded Armor when protect the player ? 
 				#Range: 1 ~ 100
-				DamageDurabilityWitherArmor = 5
+				DamageDurabilityWitherArmor = 3
 
 		[Effect.Wither."Tool&Weapon"]
 			#Enable Wither Upgraded Weapon Effect : Increase Damage ?
@@ -278,7 +192,7 @@
 
 			[Effect.Poison.Armor.Durability]
 				#Poison Upgraded Armor loose durability when protect the player ? 
-				EnableDamageDurabilityPoisonArmor = false
+				EnableDamageDurabilityPoisonArmor = true
 				#How many tick between durability damage for the Poison Upgraded Armor when it protect the player ? (20ticks = 1sec)
 				#Range: 1 ~ 1000
 				DelayDamageDurabilityPoisonArmor = 20
@@ -301,11 +215,11 @@
 			#Enable Phantom Upgraded Armor Effect : Fall damage Immune ?
 			EnableFallImmune = true
 			#Enable Phantom Upgraded Armor Effect : Step Height ?
-			EnableStepHeight = true
+			EnableStepHeight = false
 
 			[Effect.Phantom.Armor.Durability]
 				#Phantom Upgraded Armor loose durability when protect the player ? (Depend on fall distance)
-				EnableDamageDurabilityPhantomArmor = false
+				EnableDamageDurabilityPhantomArmor = true
 				#How many durability damage take the Phantom Upgraded Armor when protect the player ? (Fall distance * Value)
 				#Range: 1 ~ 100
 				MultiplierDamageDurabilityPhantomArmor = 1
@@ -317,9 +231,9 @@
 			#Range: 1 ~ 999
 			DamageBonusPhantomWeapon = 10
 			#Enable Phantom Upgraded Tool Effect : Glowing Effect ?
-			EnableGlowingEffect = true
+			EnableGlowingEffect = false
 			#Enable Phantom Upgraded Tool Effect : Reach ?
-			EnableReachEffect = true
+			EnableReachEffect = false
 			#By how much are the reach increased ?
 			#Range: 1 ~ 99
 			BonusReachTool = 2
@@ -330,9 +244,9 @@
 
 		[Effect.Feather.Armor]
 			#Enable Feather Upgraded Armor Effect : Water & Lava Walking ?
-			EnableWaterLavaWalking = true
+			EnableWaterLavaWalking = false
 			#Enable Feather Upgraded Armor Effect : Multi Jump ?
-			EnableMultiJump = true
+			EnableMultiJump = false
 			#How many Multi Jump ?
 			#Range: 1 ~ 99
 			MultiJump = 2
@@ -347,7 +261,7 @@
 				#Feather Upgraded Armor loose durability when the player walk on lava ? 
 				EnableLavaDamageDurabilityFeatherArmor = false
 				#Feather Upgraded Armor loose durability when reducing fall damage ? 
-				EnableFallDamageDurabilityFeatherArmor = false
+				EnableFallDamageDurabilityFeatherArmor = true
 				#How many tick between durability damage for the Feather Upgraded Armor when the player walk on water/lava or slow falling ? (20ticks = 1sec)
 				#Range: 1 ~ 1000
 				DelayDamageDurabilityFeatherArmor = 20
@@ -374,19 +288,46 @@
 			EnableLootingBonusCorruptWeapon = true
 			#How much is the looting bonus increased ?
 			#Range: 1 ~ 99
-			LootingBonusCorruptWeapon = 2
+			LootingBonusCorruptWeapon = 1
 			#Enable Gold Upgraded Weapon Effect : Increase Fortune ?
 			EnableFortuneBonusCorruptTool = true
 			#How much is the fortune bonus increased ?
 			#Range: 1 ~ 99
-			FortuneBonusCorruptTool = 2
+			FortuneBonusCorruptTool = 1
 
 	[Effect.Echo]
 
 		[Effect.Echo.Armor]
+			#Enable Echo Upgraded Armor Effect : Soulbound
+			EnableSoulbound = true
 			#Enable Echo Upgraded Armor Effect : Possibility that items remain in the inventory upon death ?
 			EnableKeepItemsChance = true
 			#What are the chances that your items will remain in your inventory when you die?
 			#Range: 1 ~ 100
 			KeepItemsChance = 50
+			#Enable Echo Upgraded Armor Effect : Reduce Damage ?
+			EnableDamageBonusEchoArmor = true
+			#By how much is the damage reduced in percentage ?
+			#Range: 1 ~ 100
+			DamageBonusEchoArmor = 50
+			#Enable Echo Upgraded Armor Effect : Heals ?
+			EnableHealEchoArmor = true
+			#Delay between heals in seconds ?
+			#Range: 1 ~ 999
+			HealEchoArmorDelay = 30
+
+		[Effect.Echo."Tool&Weapon"]
+			#Enable Echo Upgraded Weapon Effect : Increase Damage ?
+			EnableDamageBonusEchoWeapon = true
+			#By how much are the damages increased in percentage ?
+			#Range: 1 ~ 999
+			DamageBonusEchoWeapon = 20
+			#Enable Echo Upgraded Tool Effect : Exp Bonus ?
+			EnableBonusExpEcho = true
+			#How many exp minimum?
+			#Range: 0 ~ 999
+			MinExpEcho = 2
+			#How many exp maximum?
+			#Range: 0 ~ 999
+			MaxExpEcho = 5
 

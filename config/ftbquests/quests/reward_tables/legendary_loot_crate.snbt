@@ -1,8 +1,16 @@
 {
 	id: "049119B020563230"
-	order_index: 10
-	title: "Legendary loot crate"
+	loot_crate: {
+		color: 16299838
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "legendary_loot_crate"
+	}
 	loot_size: 1
+	order_index: 6
 	rewards: [
 		{ item: "oreberriesreplanted:essence_berry_bush" }
 		{ item: "oreberriesreplanted:zinc_oreberry_bush" }
@@ -15,52 +23,30 @@
 		{ item: "oreberriesreplanted:nickel_oreberry_bush" }
 		{ item: "oreberriesreplanted:uranium_oreberry_bush" }
 		{ item: "oreberriesreplanted:silver_oreberry_bush" }
-		{
-			item: {
-				id: "tconstruct:creative_slot"
-				Count: 1b
-				tag: {
-					slot: "defense"
-				}
-			}
-		}
-		{
-			item: {
-				id: "tconstruct:creative_slot"
-				Count: 1b
-				tag: {
-					slot: "abilities"
-				}
-			}
-		}
-		{
-			item: {
-				id: "tconstruct:creative_slot"
-				Count: 1b
-				tag: {
-					slot: "souls"
-				}
-			}
-		}
-		{
-			item: {
-				id: "tconstruct:creative_slot"
-				Count: 1b
-				tag: {
-					slot: "upgrades"
-				}
-			}
-		}
 		{ item: "minecraft:nether_star" }
-		{ item: "randomite:randomite_ore", count: 64 }
-	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
+		{ count: 64, item: "randomite:randomite_ore" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "upgradednetherite_items:netherite_apple"
+			}
 		}
-		color: 16299838
-		string_id: "legendary_loot_crate"
-	}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "upgradednetherite_items:netherite_apple"
+			}
+		}
+	]
+	title: "Legendary loot crate"
 }

@@ -1,18 +1,6 @@
-storagenetwork = true
-tconstruct = true
-sophisticatedbackpacks = true
+# Please be aware that enabling any third-party mod integration introduces instability and performance overheads, caution is strongly advised.
+# If crashes or issues arise, disable the related modules as the first step in troubleshooting and report the issue to Polymorph.
 fastfurnace = true
-ironfurnaces = true
-occultism = true
-jei = true
-ae2 = true
-extendedcrafting = true
-refinedstorageaddons = true
-craftingcraft = true
-toms_storage = true
-sophisticatedcore = true
-refinedstorage = true
-prettypipes = true
+fastsuite = true
 fastbench = true
-cyclic = true
 

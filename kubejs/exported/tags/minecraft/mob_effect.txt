@@ -1,0 +1,21 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 19, 2023, 12:02:35 PM
+
+#neapolitan:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.2.58.jar)
+- minecraft:darkness (from neapolitan-1.19.2-4.0.2.jar)
+- neapolitan:vanilla_scent (from neapolitan-1.19.2-4.0.2.jar)
+- autumnity:foul_taste? (from neapolitan-1.19.2-4.0.2.jar)
+
+#artifacts:antidote_vessel_cancellable
+- minecraft:blindness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:nausea (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:mining_fatigue (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:hunger (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:levitation (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:slowness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:poison (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:weakness (from artifacts-1.19.2-5.0.2.jar)
+- minecraft:wither (from artifacts-1.19.2-5.0.2.jar)
+
+#supplementaries:unaffected_by_vanilla_scent
+- supplementaries:overencumbered? (from supplementaries-1.19.2-2.2.58.jar)

@@ -1,0 +1,70 @@
+{
+	icon: "minecraft:villager_spawn_egg"
+	id: "3CEEE922E7373466"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Spawn eggs 2"
+		string_id: "spawn_eggs_2"
+	}
+	loot_size: 1
+	order_index: 44
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:wandering_trader_spawn_egg"
+			}
+			weight: 10.0f
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:villager_spawn_egg"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:mooshroom_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:forgotten_spawn_egg"
+			}
+			weight: 2.0f
+		}
+		{ item: "minecraft:cat_spawn_egg" }
+		{ item: "minecraft:horse_spawn_egg" }
+	]
+	title: "Spawn Eggs 2"
+	use_title: true
+}

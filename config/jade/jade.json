@@ -2,75 +2,72 @@
   "general": {
     "displayTooltip": true,
     "displayBlocks": true,
-    "displayEntities": false,
+    "displayEntities": true,
     "displayMode": "TOGGLE",
     "hideFromDebug": true,
-    "iconMode": "TOP",
+    "hideFromTabList": true,
     "enableTextToSpeech": false,
     "ttsMode": "PRESS",
-    "maxHealthForRender": 40,
-    "maxHeartsPerLine": 10,
-    "fluidMode": "NONE",
+    "fluidMode": "ANY",
     "reachDistance": 0.0,
     "debug": false,
+    "itemModNameTooltip": true,
+    "bossBarOverlapMode": "PUSH_DOWN",
     "hintOverlayToggle": true
   },
   "overlay": {
     "overlayPosX": 0.5,
-    "overlayPosY": 0.96014494,
+    "overlayPosY": 1.0,
     "overlayScale": 1.0,
     "overlayAnchorX": 0.5,
     "overlayAnchorY": 0.0,
     "overlaySquare": false,
     "flipMainHand": false,
-    "color": {
-      "alpha": 0.0,
-      "themes": {
-        "jade:waila": {
-          "id": "jade:waila",
-          "backgroundColor": 1048592,
-          "gradientStart": 5243135,
-          "gradientEnd": 2621567,
-          "titleColor": 16777215,
-          "textColor": 10526880,
-          "textShadow": true
-        },
-        "jade:dark": {
-          "id": "jade:dark",
-          "backgroundColor": 1250067,
-          "gradientStart": 3684408,
-          "gradientEnd": 2368548,
-          "titleColor": 16777215,
-          "textColor": 10526880,
-          "textShadow": true
-        },
-        "jade:create": {
-          "id": "jade:create",
-          "backgroundColor": 0,
-          "gradientStart": 2762278,
-          "gradientEnd": 1709847,
-          "titleColor": 16777215,
-          "textColor": 10526880,
-          "textShadow": true
-        },
-        "jade:top": {
-          "id": "jade:top",
-          "backgroundColor": 1426089625,
-          "gradientStart": -6710887,
-          "gradientEnd": -6710887,
-          "titleColor": 16777215,
-          "textColor": 10526880,
-          "textShadow": true
-        }
+    "autoScaleThreshold": 0.5,
+    "alpha": 0.0,
+    "themes": {
+      "jade:waila": {
+        "id": "jade:waila",
+        "backgroundColor": "#100010",
+        "gradientStart": "#5000ff",
+        "gradientEnd": "#28007f",
+        "titleColor": "#fff",
+        "textColor": "#a0a0a0",
+        "textShadow": true
       },
-      "activeTheme": "jade:create"
+      "jade:dark": {
+        "id": "jade:dark",
+        "backgroundColor": "#131313",
+        "gradientStart": "#383838",
+        "gradientEnd": "#242424",
+        "titleColor": "#fff",
+        "textColor": "#a0a0a0",
+        "textShadow": true
+      },
+      "jade:create": {
+        "id": "jade:create",
+        "backgroundColor": "#000",
+        "gradientStart": "#2a2626",
+        "gradientEnd": "#1a1717",
+        "titleColor": "#fff",
+        "textColor": "#a0a0a0",
+        "textShadow": true
+      },
+      "jade:top": {
+        "id": "jade:top",
+        "backgroundColor": "#0695",
+        "gradientStart": "#999f",
+        "gradientEnd": "#999f",
+        "titleColor": "#fff",
+        "textColor": "#a0a0a0",
+        "textShadow": true
+      }
     },
-    "autoScaleThreshold": 0.5
+    "activeTheme": "jade:dark",
+    "iconMode": "TOP",
+    "animation": true
   },
   "formatting": {
-    "modName": "§9§o%s",
-    "blockName": "%s",
-    "entityName": "%s",
-    "registryName": "§7[%s]"
+    "modName": "§9§o%s"
   }
 }

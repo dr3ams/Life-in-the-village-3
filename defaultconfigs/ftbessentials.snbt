@@ -7,31 +7,31 @@
 		# Allows admins to toggle flying status using a command, without having to use Creative Mode
 		fly: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows admins to toggle invincibility using a command, without having to use Creative Mode
 		god: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows admins to heal themselves using a command
 		heal: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows admins to view other users' inventories using a command
 		invsee: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows admins to restrict players from chatting by using a command to mute (or unmute) them
 		mute: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 	}
 	
@@ -52,7 +52,7 @@
 		# Allows users to kick themselves from the server, for example if they are stuck or desynced
 		kickme: {
 			# Default: true
-			enabled: false
+			enabled: true
 		}
 		
 		# Allows users to change their display name, as well as admins to change nicknames for other users
@@ -100,10 +100,10 @@
 			# You can override this with FTB Ranks using ftbessentials.home.cooldown
 			# Default: 10
 			# Range: 0 ~ 604800
-			cooldown: 10
+			cooldown: 30
 			
 			# Default: true
-			enabled: true
+			enabled: false
 			
 			# Max amount of homes a user can have.
 			# You can override this with FTB Ranks using ftbessentials.home.max
@@ -125,9 +125,9 @@
 			enabled: false
 			
 			# /rtp max distance from spawn point
-			# Default: 100000
+			# Default: 25000
 			# Range: 0 ~ 30000000
-			max_distance: 100000
+			max_distance: 1500
 			
 			# Number of tries before /rtp gives up
 			# Default: 100
@@ -135,9 +135,9 @@
 			max_tries: 100
 			
 			# /rtp min distance from spawn point
-			# Default: 1000
+			# Default: 500
 			# Range: 0 ~ 30000000
-			min_distance: 1000
+			min_distance: 500
 		}
 		spawn: {
 			# Cooldown between /spawn commands (in seconds)

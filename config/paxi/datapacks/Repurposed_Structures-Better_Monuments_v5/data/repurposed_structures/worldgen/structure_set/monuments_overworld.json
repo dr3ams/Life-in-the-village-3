@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "repurposed_structures:monument_jungle",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:monument_icy",
+      "weight": 1
+    },
+    {
+      "structure": "repurposed_structures:monument_desert",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "repurposed_structures:advanced_random_spread",
+    "salt": 412325774,
+    "spacing": 128,
+    "separation": 61,
+    "super_exclusion_zone": {
+      "chunk_count": 5,
+      "other_set": "#repurposed_structures:overworld_monument_avoid"
+    }
+  }
+}

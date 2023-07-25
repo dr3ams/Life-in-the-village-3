@@ -1,0 +1,5 @@
+To refresh this file, delete it and run /reload command again! Last updated: Mar 19, 2023, 12:02:35 PM
+
+#vtweaks:peaceful_surface_blacklist_dims
+- minecraft:the_nether (from VTweaks-1.19.2-4.0.5.jar)
+- minecraft:the_end (from VTweaks-1.19.2-4.0.5.jar)

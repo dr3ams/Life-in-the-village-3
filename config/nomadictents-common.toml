@@ -2,6 +2,9 @@
 [dimension]
 	#The dimension in which players will respawn from the tent dimension as needed
 	overworld = "minecraft:overworld"
+	#The number of ticks before an entity can use a tent door again
+	#Range: 1 ~ 300
+	portal_cooldown = 60
 	#When true, players can not teleport inside a tent
 	restrict_teleport = true
 	#When true, players in a tent can only sleep through the night if overworld players are sleeping too
@@ -34,10 +37,10 @@
 	#When true, tents have decorations when upgraded
 	tent_decor_upgrade = false
 	#When true, the tent item will not be destroyed if it is burned
-	tent_fireproof = true
+	tent_fireproof = false
 	#Percentage chance that a plain tepee block will randomly have a design
 	#Range: 0 ~ 100
-	tepee_design_chance = 50
+	tepee_design_chance = 35
 	#Block used for harvestable layer of all tent floors
 	tent_floor = "minecraft:dirt"
 	#When true, tents will be the same size on the outside and inside

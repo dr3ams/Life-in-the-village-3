@@ -7,12 +7,20 @@
     {
       "structure": "idas:sunken_ship/sunken_ship_coral",
       "weight": 1
+    },
+    {
+      "structure": "idas:sunken_ship/sunken_ship_ruins",
+      "weight": 1
     }
   ],
   "placement": {
     "salt": 169480681,
     "spacing": 35,
     "separation": 20,
-    "type": "minecraft:random_spread"
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 9,
+      "other_set": "#idas:sunken_ship_avoid"
+    }
   }
 }

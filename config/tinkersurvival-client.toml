@@ -1,3 +1,0 @@
-#Enables the fail sound if using the wrong tool.
-ENABLE_FAIL_SOUND = true
-

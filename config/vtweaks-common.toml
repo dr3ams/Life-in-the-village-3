@@ -1,34 +1,56 @@
 
-#Enchantments
-[enchantments]
-	#Enable the Lumbering enchantment for Axes
-	enableLumbering = false
-	#The maximum amount of logs lumbering can destroy
+[block]
+	#Allows the player to re-light certain blocks like Candles and Campfires (defined by the block using the `lit` blockstate) using torches or other items in the tag `vtweaks:ignition_item`
+	enableTorchLighting = true
+	enableCropTweaks = false
+	#Trees fall down (like, actually not just like lumbering). Credit to Ternsip's impl (https://www.curseforge.com/minecraft/mc-mods/chopdown)
+	enableTreeChopDown = false
+	#The number of logs above the one broken to trigger the chopdown effect
 	#Range: > 1
-	maxLumberCount = 1024
-	#Enable the Imperishable enchantment for any breakable item
-	enableImperishable = false
-	#Feather Falling IV or above directs 100% of fall damage to boots
-	enableFeatherFallTweak = true
-	#Number of levels Imperishable costs to create in an anvil
-	#Range: 1 ~ 40
-	imperishableCost = 30
-	#Number of levels Lumbering costs to create in an anvil
-	#Range: 1 ~ 40
-	lumberingCost = 16
-	#Should the lumbering enchantment also prune the leaves of a tree?
-	lumberingCutsLeaves = true
-	#Should the lumbering enchantment be strict about wood types?
-	#e.g. if you're in a forest with mixed woods touching, should lumbering only break the same type of wood that was initially broken?
-	lumberingIsStrictAboutWood = true
+	chopDownLogRequirement = 3
+	#The radius that this tweak will use to attempt to find leaves. Set this to a large number to detect larger trees (may cause lag)
+	#Range: > 1
+	chopdownSearchRadius = 64
+	#Allows for uneaten cake to drop on break
+	enableCakeDrop = false
 
-#Mob Tweaks
-["mob tweaks"]
-	#Allows you to gear up tamed pets any armor and/or weapon. Doesn't render, but DOES work!
-	enablePetArmory = false
+[item]
+	#Show food hunger & saturation on item hover
+	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+	foodTooltipSetting = "NEVER"
+	#Show tool durability on item hover
+	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
+	durabilityTooltipSetting = "ALWAYS"
+	#Modifies the number of hunger & saturation points rendered (specifically for Hunger Strike).
+	#The original hunger value is multiplied by this value, so 42x means 2 times as much hunger/saturation will render, and 0.5 means half as much hunger/saturation will render.
+	#Range: 0.0 ~ 3.4028234663852886E38
+	foodTooltipMultiplier = 1.0
+	#Modifies the color of a tooltip for a food that gives no effects on consumption.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipColor = "#00AA00"
+	#Modifies the color of a tooltip for a food that gives buffs on consumption.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipPositiveColor = "#AA00AA"
+	#Modifies the color of a tooltip for a food that gives debuffs on consumption.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipNegativeColor = "#AA0000"
+	#Modifies the color of the saturation tooltip.
+	#Uses HEX Web Colors which you can pick from here: https://dv2ls.com/colpic
+	foodTooltipSaturationColor = "#AA0000"
+	#If a food has a custom color, use that color instead of the defined color regardless of the buffs/debuffs the food gives
+	useOriginalFoodTooltipColor = true
+
+[entity]
 	#If set to "OWNER", this will prevent owners of pets from attacking their own pet. If set to "ALL", this prevents all players from attacking anyone's pet
 	#Allowed Values: DISABLED, OWNER, ALL
 	enablePetFriendlyFireTweak = "OWNER"
+	#Prevents mobs from spawning above sea level unless it's a new moon
+	enablePeacefulSurface = false
+	#The lowest Y-level which mobs will be prevented from spawning
+	#Range: > -2147483648
+	peacefulSurfaceMinY = 60
+	#When any Creeper (or entity with EntityType tag #forge:creepers) explodes, all blocks destroyed will plop back into place after a few seconds!
+	ungriefCreepers = true
 	#Allows chicken feathers to be plucked w/ shears
 	enableFeatherPlucking = true
 	#The amount of time (in Milliseconds) between plucks. Defaults to 10 minutes.
@@ -39,61 +61,30 @@
 	#This controls the overall chance for V-Tweaks to attempt converting a monster to a Challenger.
 	#This chance is applied before any Challenger Mob weights or entity filters.
 	#Range: 0.0 ~ 1.0
-	challengerMobGlobalChance = 0.1
-	#Prevents mobs from spawning above sea level unless it's a new moon
-	enablePeacefulSurface = false
-	#The lowest Y-level which mobs will be prevented from spawning
-	#Range: > -2147483648
-	peacefulSurfaceMinY = 60
-	#A list of dimensions (of form <modid:type>) to ignore when prevent surface mob spawns.
-	peacefulSurfaceDimBlacklist = ["minecraft:the_nether", "minecraft:the_end"]
-	#When any Creeper (or entity with EntityType tag #forge:creepers) explodes, all blocks destroyed will plop back into place after a few seconds!
-	ungriefCreepers = true
+	challengerMobGlobalChance = 0.15
+	#Allows any vtweaks:clear_glass, or glow ink sac, to be activated on an item frame while sneaking to make the item frame transparent or glowing respectively.
+	enableItemFrameTweak = true
 
-#Block Tweaks
-["block tweaks"]
-	#Allows for r-clicking to harvest most any (including mod) crops
-	enableCropTweaks = true
-	#A list of blocks to ignore, of form <modid:block>
-	cropTweaksBlacklist = []
-	#Allows more plants to be bonemealed
-	enableBonemealTweak = true
-	#Allows for uneaten cake to drop on break
-	enableCakeDrop = true
-	#Allows the player to re-light certain blocks like Candles and Campfires (defined by the block using the `lit` blockstate) using torches or other items in the tag `vtweaks:ignition_item`
-	enableTorchLighting = true
-	#Trees fall down (like, actually not just like lumbering). Credit to Ternsip's impl (https://www.curseforge.com/minecraft/mc-mods/chopdown)
-	enableTreeChopDown = false
-	#The number of logs above the one broken to trigger the chopdown effect
-	#Range: > 1
-	chopDownLogRequirement = 3
+[player]
+	#Feather Falling IV or above directs 100% of fall damage to boots
+	enableFeatherFallTweak = true
+	#Prevents any drops dropped by the player on death from despawning
+	enablePlayerDeathDropSafety = true
 
-#Item Tweaks
-["item tweaks"]
-	#Instead of de-spawning, saplings will attempt to plant themselves
-	enableSaplingPlanting = false
-	#Allow for modifications to item despawn timers
-	enableDespawnTimeAdjustments = false
-	#Adjust Item Despawn Time (in ticks: 20 ticks in a second - default despawn delay is 6000 ticks)
-	#-1 prevents items from despawning at all.
-	#If other "do x on despawn" configs are enabled, then those items **will still despawn**
-	#Range: > -1
-	despawnTimeAdjustments = 6000
-	#Convert Concrete Powder to Concrete when the item is thrown into water
-	enableConreteTweaks = true
-
-#Miscellaneous
-[miscellaneous]
-	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
-	enableStormTweak = false
-	#Prints your death point in chat
-	enableDeathPoint = false
-	#Show food hunger & saturation on item hover
-	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
-	foodTooltipSetting = "NEVER"
-	#Show tool durability on item hover
-	#Allowed Values: NEVER, WITH_SHIFT, ALWAYS
-	durabilityTooltipSetting = "WITH_SHIFT"
+[recipes]
 	#Makes all anvil tool repairs always cost 1 level of XP
-	enableCheapAnvilRepair = false
+	enableCheapAnvilRepair = true
+	#Allows you to throw things into specific fluids to convert them - by default this is just Concrete Powder this feature can be extended using Data Packs.
+	enableFluidConversionRecipes = true
+
+[world]
+	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
+	enableStormTweak = true
+
+#All changes made here require a game restart.
+[mixins]
+	#If enabled, this tweak prevents cactus from destroying items that run into it
+	enableCactusItemProtection = true
+	#If enabled, allows splash potions of water to behave the same as throwing an item in water via V-Tweaks' Fluid Conversion Recipes
+	enableSplashPotionTweak = true
 

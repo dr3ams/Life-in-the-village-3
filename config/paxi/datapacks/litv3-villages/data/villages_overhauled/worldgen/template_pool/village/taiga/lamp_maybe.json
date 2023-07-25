@@ -1,0 +1,21 @@
+{
+    "name": "villages_overhauled:village/plains/lamp_maybe",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 2,
+        "element": {
+          "location": "minecraft:village/taiga/taiga_lamp_post_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:empty_pool_element"
+        }
+      }
+    ]
+  }

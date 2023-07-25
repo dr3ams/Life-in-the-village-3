@@ -1,0 +1,96 @@
+{
+    "name": "villages_overhauled:village/desert/zombie/market_stalls",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_1",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_2",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_3",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_4",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_5",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_6",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_7",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_8",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_9",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "location": "villages_overhauled:village/desert/zombie/market/desert_market_stall_10",
+          "processors": "villages_overhauled:desert_dinge",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+  }

@@ -1,295 +1,295 @@
 {
 	id: "4D636401A6C2C42C"
-	order_index: 5
-	title: "Random Enchant"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "random_enchant"
+	}
 	loot_size: 1
-	use_title: true
+	order_index: 5
 	rewards: [
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s
 						id: "charm:acquisition"
+						lvl: 1s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s
 						id: "charm:tinted"
+						lvl: 1s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "minecraft:lure"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "minecraft:luck_of_the_sea"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "minecraft:fortune"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "minecraft:unbreaking"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 5s
 						id: "minecraft:efficiency"
+						lvl: 5s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 5s
 						id: "minecraft:sharpness"
+						lvl: 5s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 4s
 						id: "minecraft:piercing"
+						lvl: 4s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 1s
 						id: "minecraft:channeling"
+						lvl: 1s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 5s
 						id: "minecraft:power"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 3s
-						id: "minecraft:sweeping"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 3s
-						id: "minecraft:depth_strider"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 3s
-						id: "minecraft:thorns"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 1s
-						id: "minecraft:aqua_affinity"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 3s
-						id: "minecraft:respiration"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 4s
-						id: "minecraft:projectile_protection"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 4s
-						id: "minecraft:feather_falling"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 1s
-						id: "apotheosis:stable_footing"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
-						lvl: 2s
-						id: "minecolonies:raider_damage_enchant"
-					}]
-				}
-			}
-		}
-		{
-			item: {
-				id: "minecraft:enchanted_book"
-				Count: 1b
-				tag: {
-					StoredEnchantments: [{
 						lvl: 5s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:depth_strider"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:thorns"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:aqua_affinity"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:respiration"
+						lvl: 3s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:projectile_protection"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:feather_falling"
+						lvl: 4s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "apotheosis:stable_footing"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecolonies:raider_damage_enchant"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
 						id: "apotheosis:sea_infusion"
+						lvl: 5s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "apotheosis:rebounding"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 		{
 			item: {
+				Count: 1
 				id: "minecraft:enchanted_book"
-				Count: 1b
 				tag: {
 					StoredEnchantments: [{
-						lvl: 3s
 						id: "apotheosis:knowledge"
+						lvl: 3s
 					}]
 				}
 			}
 		}
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		glow: 1b
-		string_id: "random_enchant"
-	}
+	title: "Random Enchant"
+	use_title: true
 }

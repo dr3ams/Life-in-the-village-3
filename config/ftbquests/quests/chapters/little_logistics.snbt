@@ -1,33 +1,20 @@
 {
-	id: "7B137D6B80D3BB81"
-	group: "4BB8DCEF290E19CA"
-	order_index: 3
-	filename: "little_logistics"
-	title: "Little Logistics"
-	icon: "littlelogistics:steam_locomotive"
-	default_quest_shape: ""
 	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "little_logistics"
+	group: "4BB8DCEF290E19CA"
+	icon: "littlelogistics:steam_locomotive"
+	id: "7B137D6B80D3BB81"
+	order_index: 3
+	quest_links: [ ]
 	quests: [
 		{
-			x: -2.5d
-			y: -0.5d
 			id: "019D858D15FE3AC6"
-			tasks: [{
-				id: "148BD3424966FEA6"
-				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "littlelogistics:guide"
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "258D0620BA15815E"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "4D0FD9D94796981D"
@@ -35,46 +22,50 @@
 					xp: 100
 				}
 			]
+			tasks: [{
+				id: "148BD3424966FEA6"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "littlelogistics:guide"
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
 		}
 		{
-			icon: "littlelogistics:tug"
-			x: -5.5d
-			y: -0.5d
-			shape: "octagon"
-			description: ["There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."]
 			dependencies: ["019D858D15FE3AC6"]
-			size: 2.0d
+			description: ["There are two types of vessels in this mod: tugs and barges. Tugs can move the barges when chained, and barges and do all sort of stuff. Tugs can also be moved manually using leads."]
+			icon: "littlelogistics:tug"
 			id: "51ECC8F4210B4A55"
-			tasks: [{
-				id: "5CD6A0AC27E788FB"
-				type: "checkmark"
-				title: "Vessels"
-			}]
 			rewards: [{
 				id: "2216F04342C8A237"
 				type: "xp"
 				xp: 100
 			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "5CD6A0AC27E788FB"
+				title: "Vessels"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -0.5d
 		}
 		{
-			icon: "littlelogistics:steam_locomotive"
-			x: 0.5d
-			y: -0.5d
-			shape: "octagon"
-			description: ["Little logistics trains operate on vanilla rails, but use custom train car entities instead of minecarts."]
 			dependencies: ["019D858D15FE3AC6"]
-			size: 2.0d
+			description: ["Little logistics trains operate on vanilla rails, but use custom train car entities instead of minecarts."]
+			icon: "littlelogistics:steam_locomotive"
 			id: "595BD3E85F2C6557"
-			tasks: [{
-				id: "79E8198431F59D0A"
-				type: "checkmark"
-				title: "Trains"
-			}]
 			rewards: [
 				{
 					id: "019C419C94ECE6E6"
-					type: "item"
 					item: "littlelogistics:conductors_wrench"
+					type: "item"
 				}
 				{
 					id: "7DE886A7C7DDBCDD"
@@ -82,18 +73,20 @@
 					xp: 100
 				}
 			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				id: "79E8198431F59D0A"
+				title: "Trains"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: -0.5d
 		}
 		{
-			x: -7.5d
-			y: 1.5d
-			description: ["A basic tugboat that can operate on any furnace fuel. Fuel can be loaded with hoppers placed on top of tug docks."]
 			dependencies: ["51ECC8F4210B4A55"]
+			description: ["A basic tugboat that can operate on any furnace fuel. Fuel can be loaded with hoppers placed on top of tug docks."]
 			id: "4444311DC1D8C1C7"
-			tasks: [{
-				id: "678C063D257057C3"
-				type: "item"
-				item: "littlelogistics:tug"
-			}]
 			rewards: [
 				{
 					id: "4CBB006F7057EEEF"
@@ -102,28 +95,28 @@
 				}
 				{
 					id: "7234E2FDB7C7A0C4"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "678C063D257057C3"
+				item: "littlelogistics:tug"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
 		}
 		{
-			x: -7.5d
-			y: 2.5d
-			description: ["This item stores a route for the tug. When the item is placed in the tug’s route slot, the tug will follow the route in order from node 0. Right click at any coordinate to add a node to the back of the tug route (cannot add to the middle). Right click at the location of any existing node to remove it. Shift right click to bring up the menu that lets you modify the order of nodes or rename them. The route can be copied by placing it together with an empty one in a crafting grid."]
 			dependencies: ["4444311DC1D8C1C7"]
+			description: ["This item stores a route for the tug. When the item is placed in the tug’s route slot, the tug will follow the route in order from node 0. Right click at any coordinate to add a node to the back of the tug route (cannot add to the middle). Right click at the location of any existing node to remove it. Shift right click to bring up the menu that lets you modify the order of nodes or rename them. The route can be copied by placing it together with an empty one in a crafting grid."]
 			id: "0D272484F4DFDBB4"
-			tasks: [{
-				id: "5AC281D8E63307C2"
-				type: "item"
-				item: "littlelogistics:tug_route"
-			}]
 			rewards: [
 				{
 					id: "7DA9C8EDEB968D9B"
@@ -131,37 +124,23 @@
 					xp: 500
 				}
 				{
-					id: "17F77A1D14389595"
+					id: "7549444B9036A7D9"
+					item: "kubejs:copper_coin"
 					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "rare_loot_crate"
-						}
-					}
 				}
 			]
+			tasks: [{
+				id: "5AC281D8E63307C2"
+				item: "littlelogistics:tug_route"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
 		}
 		{
-			title: "Docking Vessels"
-			x: -6.5d
-			y: -3.0d
-			description: ["There are two dock blocks: barge and tug. The tug block must always be present for the barge docks to work. The top texture of the tug dock must be aligned with the barge docks, you can shift right-click the tug dock to flip the dock direction. The barge docks must form a straight line from the tug dock, there shouldn’t be any gaps in the line. The tug dock can only insert into the tug (orange/output mode), place a hopper on top of the dock to extract. The barge docks can both insert (orange/output mode) and extract (blue/input mode) into/from the barges, shift-right click to switch the mode. Place a hopper below the waterblock next to the barge dock to extract. The dock line should be next to a 1 block wide canal, wider canals can prevent the vessels from docking properly."]
 			dependencies: ["51ECC8F4210B4A55"]
+			description: ["There are two dock blocks: barge and tug. The tug block must always be present for the barge docks to work. The top texture of the tug dock must be aligned with the barge docks, you can shift right-click the tug dock to flip the dock direction. The barge docks must form a straight line from the tug dock, there shouldn’t be any gaps in the line. The tug dock can only insert into the tug (orange/output mode), place a hopper on top of the dock to extract. The barge docks can both insert (orange/output mode) and extract (blue/input mode) into/from the barges, shift-right click to switch the mode. Place a hopper below the waterblock next to the barge dock to extract. The dock line should be next to a 1 block wide canal, wider canals can prevent the vessels from docking properly."]
 			id: "47982FDB1F2D1E7B"
-			tasks: [
-				{
-					id: "4D6ECF61D9E6049E"
-					type: "item"
-					item: "littlelogistics:tug_dock"
-				}
-				{
-					id: "562FBDF399AB95B0"
-					type: "item"
-					item: "littlelogistics:barge_dock"
-				}
-			]
 			rewards: [
 				{
 					id: "1D6DB69D8E60721B"
@@ -170,183 +149,155 @@
 				}
 				{
 					id: "5889FD5AFD260CA8"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "4D6ECF61D9E6049E"
+					item: "littlelogistics:tug_dock"
+					type: "item"
+				}
+				{
+					id: "562FBDF399AB95B0"
+					item: "littlelogistics:barge_dock"
+					type: "item"
+				}
+			]
+			title: "Docking Vessels"
+			x: -6.5d
+			y: -3.0d
 		}
 		{
-			x: -5.5d
-			y: 2.5d
-			description: ["A simple barge that holds items, very similar to vanilla minecart. Must be docked and part of a tug-train to interface with hoppers."]
 			dependencies: ["51ECC8F4210B4A55"]
+			description: ["A simple barge that holds items, very similar to vanilla minecart. Must be docked and part of a tug-train to interface with hoppers."]
 			id: "4C1664B165FF2E83"
-			tasks: [{
-				id: "6380680EF4C552AC"
-				type: "item"
-				item: "littlelogistics:barge"
-			}]
 			rewards: [{
 				id: "12451FBB9CBA9D9B"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "6380680EF4C552AC"
+				item: "littlelogistics:barge"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 2.5d
 		}
 		{
-			x: -6.5d
-			y: 2.0d
-			description: ["A simple barge that seats one player."]
 			dependencies: ["51ECC8F4210B4A55"]
+			description: ["A simple barge that seats one player."]
 			id: "0C695CA08B66082E"
-			tasks: [{
-				id: "16777059DE242129"
-				type: "item"
-				item: "littlelogistics:seater_barge"
-			}]
 			rewards: [{
 				id: "7A3D9793D275A95F"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "16777059DE242129"
+				item: "littlelogistics:seater_barge"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.5d
 		}
 		{
-			x: -4.5d
-			y: 2.0d
-			description: ["Performs fishing passively, uses vanilla fishing rod loot table. Needs to be in open water for nets to be deployed. Can be unloaded with hoppers and barge docks. Must be docked and part of a tug-train to interface with hoppers. The barge has shallow water and “overfishing” penalties, so it’s best to use this barge on long routes into oceans. The yield is maximised when the water is 20 or more blocks deep. Overfishing is tracked per barge and per block, routes 200 or more blocks long should be sufficient to avoid overfishing."]
 			dependencies: ["51ECC8F4210B4A55"]
+			description: ["Performs fishing passively, uses vanilla fishing rod loot table. Needs to be in open water for nets to be deployed. Can be unloaded with hoppers and barge docks. Must be docked and part of a tug-train to interface with hoppers. The barge has shallow water and “overfishing” penalties, so it’s best to use this barge on long routes into oceans. The yield is maximised when the water is 20 or more blocks deep. Overfishing is tracked per barge and per block, routes 200 or more blocks long should be sufficient to avoid overfishing."]
 			id: "2ECCE94672462271"
-			tasks: [{
-				id: "3BB4FA8FED412BE6"
-				type: "item"
-				item: "littlelogistics:fishing_barge"
-			}]
 			rewards: [{
 				id: "0B9A66559C49B4AC"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "3BB4FA8FED412BE6"
+				item: "littlelogistics:fishing_barge"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.5d
 		}
 		{
-			x: -8.0d
-			y: -0.5d
-			description: ["Used to link vessels together. Right click vessels with a vehicle chain in order to create a “vessel train”. A train can only have one tugboat and cannot have loops."]
 			dependencies: ["51ECC8F4210B4A55"]
+			description: ["Used to link vessels together. Right click vessels with a vehicle chain in order to create a “vessel train”. A train can only have one tugboat and cannot have loops."]
 			id: "4E857D616C6D33F4"
-			tasks: [{
-				id: "506ED7EABFAF2E72"
-				type: "item"
-				item: "littlelogistics:spring"
-			}]
 			rewards: [{
 				id: "7199990213DF7787"
 				type: "xp"
 				xp: 500
 			}]
-		}
-		{
-			x: -3.5d
-			y: 1.5d
-			dependencies: ["51ECC8F4210B4A55"]
-			id: "7517818C1ECB981E"
 			tasks: [{
-				id: "40A22379209B0A88"
+				id: "506ED7EABFAF2E72"
+				item: "littlelogistics:spring"
 				type: "item"
-				item: "littlelogistics:chunk_loader_barge"
 			}]
-			rewards: [
-				{
-					id: "64B2C13AE00549D0"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "31E040CA82187734"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-			]
+			x: -8.0d
+			y: -0.5d
 		}
 		{
-			x: -4.5d
-			y: -3.0d
+			dependencies: ["51ECC8F4210B4A55"]
 			description: ["Place under a block of water, works similar to vanilla powered rail. Can be used to force the tug to take a specific route. Does not affect barges. Shift-right-click to rotate."]
-			dependencies: ["51ECC8F4210B4A55"]
 			id: "0CE836DB7606CAAB"
-			tasks: [{
-				id: "633F93D60D653FAC"
-				type: "item"
-				item: "littlelogistics:guide_rail_tug"
-			}]
 			rewards: [{
 				id: "4B8F9B494A0DD976"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "633F93D60D653FAC"
+				item: "littlelogistics:guide_rail_tug"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
 		}
 		{
-			x: -5.5d
-			y: -4.0d
-			description: ["Assists vessels around sharp corners, should always be used on sharp corners or near entrances to narrow waterways (such as those for docks). Affects both tugs and barges. Shift-right-click to flip direction. Must not have a full solid block directly on top (i.e. no stone, planks etc. fence posts, signs etc. OK)."]
 			dependencies: ["51ECC8F4210B4A55"]
+			description: ["Assists vessels around sharp corners, should always be used on sharp corners or near entrances to narrow waterways (such as those for docks). Affects both tugs and barges. Shift-right-click to flip direction. Must not have a full solid block directly on top (i.e. no stone, planks etc. fence posts, signs etc. OK)."]
 			id: "76FA97442E6EE708"
-			tasks: [{
-				id: "70AC01F1AB8929BC"
-				type: "item"
-				item: "littlelogistics:guide_rail_corner"
-			}]
 			rewards: [{
 				id: "468349CD8063DEC5"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "70AC01F1AB8929BC"
+				item: "littlelogistics:guide_rail_corner"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.0d
 		}
 		{
-			x: -0.5d
-			y: 1.5d
-			description: ["Operates on any furnace fuel, can be loaded with hoppers."]
 			dependencies: ["595BD3E85F2C6557"]
+			description: ["Operates on any furnace fuel, can be loaded with hoppers."]
 			id: "6721BCE4803094B0"
+			rewards: [{
+				id: "783F931C818C750E"
+				type: "xp"
+				xp: 500
+			}]
 			tasks: [{
 				id: "23B664A7EC43994C"
-				type: "item"
 				item: "littlelogistics:steam_locomotive"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "783F931C818C750E"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "38311F88D6D1DA51"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "common_loot_crate"
-						}
-					}
-				}
-			]
+			x: -0.5d
+			y: 1.5d
 		}
 		{
-			x: 0.5d
-			y: 3.0d
-			description: ["Same as vanilla chest minecart, can be loaded or unloaded using vanilla hoppers or rapid hoppers from this mod."]
 			dependencies: ["09F1146561FD65FE"]
+			description: ["Same as vanilla chest minecart, can be loaded or unloaded using vanilla hoppers or rapid hoppers from this mod."]
 			id: "714AECABC37851B5"
-			tasks: [{
-				id: "0D1022F8F6EE745B"
-				type: "item"
-				item: "littlelogistics:chest_car"
-			}]
 			rewards: [
 				{
 					id: "58CBE867D7277D3D"
@@ -355,22 +306,22 @@
 				}
 				{
 					id: "067D81BFC3FD6D2F"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0D1022F8F6EE745B"
+				item: "littlelogistics:chest_car"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 		{
-			x: 1.5d
-			y: 3.0d
-			description: ["Can transport fluids, can be loaded or unloaded using fluid hoppers."]
 			dependencies: ["09F1146561FD65FE"]
+			description: ["Can transport fluids, can be loaded or unloaded using fluid hoppers."]
 			id: "2AA26327FAA0F67C"
-			tasks: [{
-				id: "06AB676A558E0132"
-				type: "item"
-				item: "littlelogistics:fluid_car"
-			}]
 			rewards: [
 				{
 					id: "02C9216716DD241C"
@@ -379,132 +330,94 @@
 				}
 				{
 					id: "3C3258BF19953E30"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 2.5d
+			tasks: [{
+				id: "06AB676A558E0132"
+				item: "littlelogistics:fluid_car"
+				type: "item"
+			}]
+			x: 2.0d
 			y: 3.0d
-			description: ["Loads a 3x3 chunk area on the go, speed limits are enforced to avoid server lag."]
-			dependencies: ["09F1146561FD65FE"]
-			id: "4B65F416DD56516D"
-			tasks: [{
-				id: "05594BEC06524D22"
-				type: "item"
-				item: "littlelogistics:chunk_loader_car"
-			}]
-			rewards: [
-				{
-					id: "6F815F0C25E003BC"
-					type: "xp"
-					xp: 500
-				}
-				{
-					id: "5B4062711CFFE20A"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-			]
 		}
 		{
-			x: 1.5d
-			y: 1.5d
-			subtitle: "Train cars are similar to vanilla minecarts, but can be linked to a locomotive and docked."
-			description: ["Same as vanilla minecarts, can seat one player or a mob"]
 			dependencies: ["595BD3E85F2C6557"]
+			description: ["Same as vanilla minecarts, can seat one player or a mob"]
 			id: "09F1146561FD65FE"
-			tasks: [{
-				id: "6B06FD7994F63F20"
-				type: "item"
-				item: "littlelogistics:seater_car"
-			}]
 			rewards: [{
 				id: "564A0AED274D17F4"
 				type: "xp"
 				xp: 500
 			}]
+			subtitle: "Train cars are similar to vanilla minecarts, but can be linked to a locomotive and docked."
+			tasks: [{
+				id: "6B06FD7994F63F20"
+				item: "littlelogistics:seater_car"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
 		}
 		{
-			x: 0.5d
-			y: 1.5d
-			description: ["Trains can be linked using “vehicle chains”. Train orientation will be updated automatically."]
 			dependencies: [
 				"6721BCE4803094B0"
 				"09F1146561FD65FE"
 			]
+			description: ["Trains can be linked using “vehicle chains”. Train orientation will be updated automatically."]
 			id: "68E28BBABC979334"
-			tasks: [{
-				id: "7D5BD0B93BFA724A"
-				type: "item"
-				item: "littlelogistics:spring"
-			}]
 			rewards: [{
 				id: "418DEFFBF5254503"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "7D5BD0B93BFA724A"
+				item: "littlelogistics:spring"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
 		}
 		{
-			x: -3.5d
-			y: -1.5d
-			description: ["A hopper but for fluids, can import from the top and export from the sides. Can be loaded by right-clicking with buckets. Can be used to load/unload vessels using Docks."]
-			hide_dependency_lines: true
 			dependencies: ["019D858D15FE3AC6"]
+			description: ["A hopper but for fluids, can import from the top and export from the sides. Can be loaded by right-clicking with buckets. Can be used to load/unload vessels using Docks."]
 			id: "3EBACD250B948D9F"
+			rewards: [{
+				id: "3879D7457D914F97"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5280C40A0974DB78"
-				type: "item"
 				item: "littlelogistics:fluid_hopper"
-			}]
-			rewards: [{
-				id: "6723383E82239320"
 				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "common_loot_crate"
-					}
-				}
 			}]
+			x: -2.5d
+			y: 1.0d
 		}
 		{
-			x: -2.5d
-			y: -1.5d
-			subtitle: "Same as vanilla hopper, but 8 times as fast!"
-			hide_dependency_lines: true
 			dependencies: ["019D858D15FE3AC6"]
 			id: "70A79490C6F76D9F"
+			rewards: [{
+				id: "7BA6A71C23C1738B"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			subtitle: "Same as vanilla hopper, but 8 times as fast!"
 			tasks: [{
 				id: "32F4B4C1119B8FB4"
-				type: "item"
 				item: "littlelogistics:rapid_hopper"
-			}]
-			rewards: [{
-				id: "1C443799A209D81D"
 				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "common_loot_crate"
-					}
-				}
 			}]
+			x: -2.5d
+			y: -2.0d
 		}
 		{
-			x: 0.5d
-			y: -2.5d
-			description: ["Standard Switch and T-junction tracks can be switched using redstone. Powered rails work great when trying to make loops."]
 			dependencies: ["595BD3E85F2C6557"]
+			description: ["Standard Switch and T-junction tracks can be switched using redstone. Powered rails work great when trying to make loops."]
 			id: "5812EDA58F9B18DB"
-			tasks: [{
-				id: "1F8064E5E7B34D02"
-				type: "item"
-				item: "littlelogistics:switch_rail"
-			}]
 			rewards: [
 				{
 					id: "4D3089B4B95EA97D"
@@ -513,93 +426,86 @@
 				}
 				{
 					id: "1A3E4DCA5717CA13"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "1F8064E5E7B34D02"
+				item: "littlelogistics:switch_rail"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
 		}
 		{
-			x: -1.0d
-			y: -4.0d
 			dependencies: ["5EDCC3D0D4EF8CC9"]
 			id: "7511054B07A67F77"
-			tasks: [{
-				id: "154AB089787AAEE4"
-				type: "item"
-				item: "littlelogistics:automatic_switch_rail"
-			}]
 			rewards: [{
 				id: "31D4D4C06CCD29EC"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "154AB089787AAEE4"
+				item: "littlelogistics:automatic_switch_rail"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -4.0d
 		}
 		{
-			x: 2.0d
-			y: -2.5d
 			dependencies: ["5812EDA58F9B18DB"]
 			id: "1B5747CE4B823707"
-			tasks: [{
-				id: "375C0FA2D561B1C4"
-				type: "item"
-				item: "littlelogistics:tee_junction_rail"
-			}]
 			rewards: [{
 				id: "06E6C3E23721FD37"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "375C0FA2D561B1C4"
+				item: "littlelogistics:tee_junction_rail"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
 		}
 		{
-			x: 2.0d
-			y: -4.0d
 			dependencies: ["5EDCC3D0D4EF8CC9"]
 			id: "78DFA233E189B32E"
-			tasks: [{
-				id: "0C75099E78693227"
-				type: "item"
-				item: "littlelogistics:automatic_tee_junction_rail"
-			}]
 			rewards: [{
 				id: "7E2510AB66BDED76"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "0C75099E78693227"
+				item: "littlelogistics:automatic_tee_junction_rail"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
 		}
 		{
-			x: -1.0d
-			y: -2.5d
 			dependencies: ["5812EDA58F9B18DB"]
 			id: "70D4E975DC651F6B"
-			tasks: [{
-				id: "0A8D80E1B6290F59"
-				type: "item"
-				item: "littlelogistics:junction_rail"
-			}]
 			rewards: [{
 				id: "65697D334B128823"
 				type: "xp"
 				xp: 500
 			}]
+			tasks: [{
+				id: "0A8D80E1B6290F59"
+				item: "littlelogistics:junction_rail"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.5d
 		}
 		{
-			x: 3.0d
-			y: -0.5d
-			description: ["Trains can be docked using a combination of “locomotive docking rails” and “train car docking rails”. Line the docking rails up, place unloaders below the rails and loaders on either side. Blue mode is used to unload and orange to load. The rails will automatically tell the locomotive to wait as long as there’s anything to be moved, if a redstone signal is applied to the locomotive rail, the locomotive will keep waiting regardless."]
 			dependencies: ["595BD3E85F2C6557"]
+			description: ["Trains can be docked using a combination of “locomotive docking rails” and “train car docking rails”. Line the docking rails up, place unloaders below the rails and loaders on either side. Blue mode is used to unload and orange to load. The rails will automatically tell the locomotive to wait as long as there’s anything to be moved, if a redstone signal is applied to the locomotive rail, the locomotive will keep waiting regardless."]
 			id: "0D9ED8A0AEA03507"
-			tasks: [
-				{
-					id: "3A062AFC864302D1"
-					type: "item"
-					item: "littlelogistics:car_dock_rail"
-				}
-				{
-					id: "5FFA7A648153BA90"
-					type: "item"
-					item: "littlelogistics:locomotive_dock_rail"
-				}
-			]
 			rewards: [
 				{
 					id: "497895DB48169016"
@@ -607,30 +513,30 @@
 					xp: 500
 				}
 				{
-					id: "4FAFB08A07A38B11"
+					id: "6AE7465A105365F1"
+					item: "kubejs:copper_coin"
 					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "uncommon_loot_crate"
-						}
-					}
 				}
 			]
+			tasks: [
+				{
+					id: "3A062AFC864302D1"
+					item: "littlelogistics:car_dock_rail"
+					type: "item"
+				}
+				{
+					id: "5FFA7A648153BA90"
+					item: "littlelogistics:locomotive_dock_rail"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: -0.5d
 		}
 		{
-			x: 0.5d
-			y: -4.0d
-			subtitle: "Automatic junction rails and routing"
-			description: ["Automatic switch tracks will be switched by a locomotive with a route. Every time a locomotive approaches an automatic junction, it will look for the closest waypoint it is yet to visit, and switch the track accordingly. Waypoint can be configured using the “locomotive route” item, they are not ordered."]
 			dependencies: ["5812EDA58F9B18DB"]
+			description: ["Automatic switch tracks will be switched by a locomotive with a route. Every time a locomotive approaches an automatic junction, it will look for the closest waypoint it is yet to visit, and switch the track accordingly. Waypoint can be configured using the “locomotive route” item, they are not ordered."]
 			id: "5EDCC3D0D4EF8CC9"
-			tasks: [{
-				id: "05B171235EAE9EC1"
-				type: "item"
-				item: "littlelogistics:locomotive_route"
-			}]
 			rewards: [
 				{
 					id: "468B5CB1FB85B28A"
@@ -639,11 +545,19 @@
 				}
 				{
 					id: "369301687A394500"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 			]
+			subtitle: "Automatic junction rails and routing"
+			tasks: [{
+				id: "05B171235EAE9EC1"
+				item: "littlelogistics:locomotive_route"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Little Logistics"
 }

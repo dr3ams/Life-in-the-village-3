@@ -1,0 +1,436 @@
+{
+    "processors": [
+      {
+        "rules": [
+          {
+            "output_state": {
+              "Name": "minecraft:light_gray_carpet"
+            },
+            "input_predicate": {
+              "block": "minecraft:white_carpet",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          {
+            "output_state": {
+              "Name": "minecraft:light_gray_wool"
+            },
+            "input_predicate": {
+              "block": "minecraft:white_wool",
+              "predicate_type": "minecraft:block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          {
+            "output_state": {
+              "Name": "minecraft:sand"
+            },
+            "input_predicate": {
+              "block": "minecraft:smooth_sandstone",
+              "probability": 0.3,
+              "predicate_type": "minecraft:random_block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          {
+            "output_state": {
+              "Name": "minecraft:acacia_planks"
+            },
+            "input_predicate": {
+              "block": "minecraft:smooth_red_sandstone",
+              "probability": 0.2,
+              "predicate_type": "minecraft:random_block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          {
+            "output_state": {
+              "Name": "minecraft:stripped_acacia_wood",
+              "Properties": {
+                "axis": "z"
+              }
+            },
+            "input_predicate": {
+              "block": "minecraft:smooth_red_sandstone",
+              "probability": 0.1,
+              "predicate_type": "minecraft:random_block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          {
+            "output_state": {
+              "Name": "minecraft:stripped_acacia_wood",
+              "Properties": {
+                "axis": "x"
+              }
+            },
+            "input_predicate": {
+              "block": "minecraft:smooth_red_sandstone",
+              "probability": 0.1,
+              "predicate_type": "minecraft:random_block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          {
+            "output_state": {
+              "Name": "minecraft:acacia_slab",
+              "Properties": {
+                "type": "bottom",
+                "waterlogged": "false"
+              }
+            },
+            "input_predicate": {
+              "block": "minecraft:smooth_red_sandstone_slab",
+              "probability": 0.2,
+              "predicate_type": "minecraft:random_block_match"
+            },
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            }
+          },
+          
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "north",
+                  "half": "bottom",
+                  "shape": "straight",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "north",
+                  "half": "bottom",
+                  "shape": "outer_left",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "north",
+                  "half": "bottom",
+                  "shape": "outer_right",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "north",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "east",
+                  "half": "bottom",
+                  "shape": "straight",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "east",
+                  "half": "bottom",
+                  "shape": "outer_left",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "east",
+                  "half": "bottom",
+                  "shape": "outer_right",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "east",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "south",
+                  "half": "bottom",
+                  "shape": "straight",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "south",
+                  "half": "bottom",
+                  "shape": "outer_left",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "south",
+                  "half": "bottom",
+                  "shape": "outer_right",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "south",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          },
+          
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "west",
+                  "half": "bottom",
+                  "shape": "straight",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "straight",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "west",
+                  "half": "bottom",
+                  "shape": "outer_left",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_left",
+                "waterlogged": "false"
+              }
+            }
+          },
+          {
+            "location_predicate": {
+              "predicate_type": "minecraft:always_true"
+            },
+            "input_predicate": {
+              "predicate_type": "minecraft:random_blockstate_match",
+              "block_state": {
+                "Name": "minecraft:smooth_red_sandstone_stairs",
+                "Properties": {
+                  "facing": "west",
+                  "half": "bottom",
+                  "shape": "outer_right",
+                  "waterlogged": "false"
+                }
+              },
+              "probability": 0.2
+            },
+            "output_state": {
+              "Name": "minecraft:acacia_stairs",
+              "Properties": {
+                "facing": "west",
+                "half": "bottom",
+                "shape": "outer_right",
+                "waterlogged": "false"
+              }
+            }
+          }
+        ],
+        "processor_type": "minecraft:rule"
+      }
+    ]
+  }

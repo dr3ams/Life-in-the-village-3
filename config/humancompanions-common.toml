@@ -3,9 +3,13 @@
 ["World Gen"]
 	#Average chunk separation between companion houses
 	#Range: > 11
-	averageHouseSeparation = 40
+	averageHouseSeparation = 20
 
 ["Companion config"]
+	#Toggles friendly fire between companions
+	friendlyFireCompanions = false
+	#Toggles friendly fire between player and companion
+	friendlyFirePlayer = true
 	#Toggles fall damage for companions
 	fallDamage = true
 	#Toggles whether companions spawn with armor
@@ -19,8 +23,4 @@
 	lowHealthFood = true
 	#Toggles whether companions alert you if a creeper is nearby.
 	creeperWarning = true
-	#Toggles friendly fire between companions
-	friendlyFireCompanions = false
-	#Toggles friendly fire between player and companion
-	friendlyFirePlayer = true
 

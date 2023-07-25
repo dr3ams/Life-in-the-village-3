@@ -5,7 +5,7 @@
 	#Enable generation of twigs
 	enableTwigs = true
 	#Enable generation of fallen leaves
-	enableFallenLeaves = false
+	enableFallenLeaves = true
 	#Enable generation of bones
 	enableBones = true
 	#Enable generation of charred bones
@@ -17,7 +17,7 @@
 	#Enable generation of seashells
 	enableSeashells = true
 	#Enable generation of fallen trees
-	enableFallenTrees = false
+	enableFallenTrees = true
 	#Enable generation of sea oats
 	enableSeaOats = true
 	#Enable generation of cattails
@@ -38,6 +38,12 @@
 	enableNaturalCobwebs = true
 	#Enable generation of small cacti
 	enableSmallCacti = true
+	#Enable generation of prickly bushes
+	enablePricklyBush = true
+	#Enable generation of reeds
+	enableReeds = true
+	#Enable generation of icicles
+	"enableIcicles " = true
 	#Enable generation of extra lilypads in lakes
 	enableExtraLilypads = true
 	#Enable generation of extra seagrass in lakes
@@ -46,11 +52,7 @@
 	enableExtraRiverGrass = true
 	#Enable moss carpets in old growth taiga biomes
 	enableMossCarpets = true
-	#Enable generation of prickly bushes
-	enablePricklyBush = true
-	#Enable generation of reeds
-	enableReeds = true
-	#Enable tide pools in stony shores
+	#Enable of tide pools in stony shores
 	enableTidePools = true
 	#Enable cave roots
 	enableCaveRoots = true

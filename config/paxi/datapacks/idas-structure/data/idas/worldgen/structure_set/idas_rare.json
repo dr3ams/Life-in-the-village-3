@@ -11,8 +11,12 @@
   ],
   "placement": {
     "salt": 169480678,
-    "spacing": 65,
-    "separation": 35,
-    "type": "minecraft:random_spread"
+    "spacing": 80,
+    "separation": 40,
+    "type": "integrated_api:advanced_random_spread",
+    "super_exclusion_zone": {
+      "chunk_count": 9,
+      "other_set": "#idas:idas_rare_avoid"
+    }
   }
 }

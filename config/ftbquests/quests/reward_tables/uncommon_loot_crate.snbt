@@ -1,72 +1,127 @@
 {
 	id: "4F98A2D03CE849CC"
-	order_index: 7
-	title: "Uncommon loot crate"
-	loot_size: 1
-	rewards: [
-		{ item: "minecraft:amethyst_shard", count: 16 }
-		{ item: "minecraft:iron_ingot", count: 16 }
-		{ item: "minecraft:copper_ingot", count: 32 }
-		{ item: "minecraft:gold_ingot", count: 16 }
-		{ item: "minecraft:ender_pearl", count: 8 }
-		{ item: "minecraft:bone", count: 32 }
-		{ item: "minecraft:ink_sac", count: 32 }
-		{ item: "minecraft:gold_ore", count: 16 }
-		{ item: "minecraft:cooked_beef", count: 32 }
-		{ item: "minecraft:golden_apple" }
-		{ item: "minecraft:cake" }
-		{ item: "minecraft:cooked_chicken", count: 64 }
-		{ item: "randomite:randomite_ore", count: 4 }
-		{ item: "minecraft:redstone", count: 32 }
-		{ item: "minecraft:lapis_lazuli", count: 16 }
-		{ item: "minecraft:slime_ball", count: 16 }
-		{ item: "minecraft:leather", count: 16 }
-		{ item: "minecraft:golden_carrot", count: 16 }
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "random_mob_drops"
-				}
-			}
-		}
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "random_materials"
-				}
-			}
-		}
-		{ item: "minecraft:sheep_spawn_egg" }
-		{ item: "minecraft:pig_spawn_egg" }
-		{ item: "minecraft:cow_spawn_egg" }
-		{ item: "minecraft:chicken_spawn_egg" }
-		{ item: "minecraft:torch", count: 64 }
-		{ item: "aquaculture:lockbox" }
-		{ item: "create:experience_nugget" }
-		{ item: "create:zinc_ingot", count: 16 }
-		{
-			item: {
-				id: "ftbquests:lootcrate"
-				Count: 1b
-				tag: {
-					type: "hat_loot_crate"
-				}
-			}
-		}
-		{ item: "kubejs:diamond_nugget", count: 3 }
-		{ item: "kubejs:emerald_nugget", count: 3 }
-	]
 	loot_crate: {
+		color: 56450
 		drops: {
 			boss: 0
-			passive: 0
 			monster: 0
+			passive: 0
 		}
-		color: 56450
+		item_name: "Uncommon Loot Crate"
 		string_id: "uncommon_loot_crate"
 	}
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "duds2"
+				}
+			}
+			title: "Junk 2"
+			weight: 2.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "passive_spawn_eggs"
+				}
+			}
+			title: "Spawn Eggs"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_materials_2"
+				}
+			}
+			title: "Materials 2"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "vanilla_food_2"
+				}
+			}
+			title: "Food 2"
+			weight: 8.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "ores_2"
+				}
+			}
+			title: "Ores 2"
+			weight: 10.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "hat_crate"
+				}
+			}
+			title: "Hat Crate"
+			weight: 5.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:treasure_chest"
+			}
+			weight: 5.0f
+		}
+	]
+	title: "Uncommon loot crate"
+	use_title: true
 }

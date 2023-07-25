@@ -73,7 +73,7 @@
 #Miscellaneous options
 [general]
 	#Allows teleportation to other dimensions [false/true|default:true]
-	teleport_dim = true
+	teleport_dim = false
 	#Increases the minimum time without sleeping for phantom spawn around player based on their level in Knowledge of Death [false/true|default:true]
 	knowledge_reduce_phantom_spawn = true
 	#Allows players to be hurt by special damages related to some items [false/true|default:true]
@@ -83,13 +83,13 @@
 	time_for_phantom_spawn = 72000
 	#Cooldown in minutes to use the command tbrequestteleport [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_request_teleport = 5
+	cooldown_request_teleport = 3
 	#Cooldown in minutes to use the command tbteleportdeath [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_death = 5
+	cooldown_teleport_death = 3
 	#Cooldown in minutes to use the command tbbind [-1..1440|default:-1]
 	#Range: -1 ~ 1440
-	cooldown_teleport_bind = 5
+	cooldown_teleport_bind = 2
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
 	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
@@ -116,10 +116,28 @@
 	siege_chance = 10
 	#Maximum of creatures appearing in a siege [0..100|default:20]
 	#Range: 0 ~ 100
-	siege_max_creature = 15
+	siege_max_creature = 20
 	#Delay in seconds for a second test of siege when the first failed [0..1200|default:200]
 	#Range: 0 ~ 1200
 	delay_siege_test = 200
+
+#For settings related to magic items
+[magic_item]
+	#Damaged items can be recycled with the Book of Recycling
+	can_recycle_damaged_item = true
+	#The items that can't be recycled by the Book of Recycling
+	denied_item_to_recycle = []
+	#Allows lost tablets to find locations outside the current world [false/true|default:true]
+	lost_tablet_search_outside_world = true
+	#Allows lost tablets to find modded structures [false/true|default:true]
+	lost_tablet_modded_structure = true
+	#The structures that can't be discovered by lost tablets
+	lost_tablet_denied_structures = []
+	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
+	#Range: 5 ~ 60000
+	duration_voodoo_poppet_effects = 60
+	#Allows to disenchant enchanted books with the Book of Disenchantment
+	can_disenchant_enchanted_book = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]
@@ -127,31 +145,29 @@
 	can_replace_grave_plate = true
 	#Allows the merchant grave gardian [false/true|default:true]
 	allow_grave_gardian = true
-	#Time in minutes to check if a soul appears on a grave [1..10000|default:30]
-	#Range: 1 ~ 10000
-	time_soul = 30
-	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
-	#Range: 0 ~ 1000
-	chance_soul = 80
-	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:40]
-	#Range: 0 ~ 100
-	chance_pray_reward = 30
 	#Minimum distance between Grave Gardians to spawn [10..200|default:100]
 	#Range: 10 ~ 200
 	distance_between_grave_guardian = 100
 	#Time in minutes for a Grave Guardian to restock its offers [1..1000|default:60]
 	#Range: 1 ~ 1000
 	restock_time_grave_guardian = 60
+	#Time in minutes to check if a soul appears on a grave [1..10000|default:30]
+	#Range: 1 ~ 10000
+	time_soul = 30
+	#Chance on 1000 that a soul appears on a grave [0..1000|default:100]
+	#Range: 0 ~ 1000
+	chance_soul = 100
+	#Chance to receive a random beneficial spell effect when praying near a grave [0..100|default:30]
+	#Range: 0 ~ 100
+	chance_pray_reward = 10
 
 #Allows to customize or disable the enchantments
 [enchantments]
-	#Shadow Step is disabled for 10 seconds by opening a chest [false/true|default:true]
-	nerf_shadow_step_open_chest = true
 	#The wearer is also affected by the effect if his alignment is not bad [false/true|default:true]
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
 	#Range: > 1
-	max_duration_magic_siphon = 10
+	max_duration_magic_siphon = 60
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10
@@ -176,12 +192,9 @@
 
 #Options related to looted items
 [loot]
-	#Minimum life for an undead to be considered as a boss for drop [200..MAX|default:200]
-	#Range: > 200
-	undead_boss_life_for_drop = 200
-	#Maximum xp rewarded with a Lost Page of ErdÃ¶s [1..200000|default:2000]
+	#Maximum xp rewarded with a Lost Page of Erdös [1..200000|default:2000]
 	#Range: 1 ~ 200000
-	max_xp_lost_page = 1000
+	max_xp_lost_page = 2000
 	#Entities that can't found as loot in a Familiar Receptacle
 	unhandled_tameable_entities = []
 
@@ -197,22 +210,4 @@
 	preserve_effects_on_return_end_conquered = true
 	#Allows to provide a magic book slot in Curio mod used to enchant with a soul [false/true|default:true]
 	curio_magic_book_support = true
-
-#For settings related to magic items
-[magic_item]
-	#Damaged items can be recycled with the Book of Recycling
-	can_recycle_damaged_item = true
-	#The items that can't be recycled by the Book of Recycling
-	denied_item_to_recycle = []
-	#Allows lost tablets to find locations outside the current world [false/true|default:true]
-	lost_tablet_search_outside_world = true
-	#Allows lost tablets to find modded structures [false/true|default:true]
-	lost_tablet_modded_structure = true
-	#The structures that can't be discovered by lost tablets
-	lost_tablet_denied_structures = []
-	#Duration of voodoo poppet's effects in seconds when preventing death [5..60000|default:60]
-	#Range: 5 ~ 60000
-	duration_voodoo_poppet_effects = 60
-	#Allows to disenchant enchanted books with the Book of Disenchantment
-	can_disenchant_enchanted_book = false
 

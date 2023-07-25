@@ -1,0 +1,212 @@
+{
+	id: "74D5534F12831B4E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Hat Crate"
+		string_id: "hat_crate"
+	}
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:aquanaut_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:bunny_ears"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:chopping_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:ender_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:lucky_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:mining_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:mushroom_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:postman_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:shulker_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:stocking_cap"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:straw_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "usefulhats:wing_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:novelty_drinking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:plastic_drinking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:villager_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:christmas_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 4.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "quark:forgotten_hat"
+				tag: {
+					Damage: 0
+					display: {
+						Name: "[{\"text\":\"Strange \",\"color\":\"gold\",\"italic\":\"false\"},{\"translate\":\"item.quark.forgotten_hat\"}]"
+					}
+				}
+			}
+			weight: 4.0f
+		}
+	]
+	title: "Hat crate"
+	use_title: true
+}

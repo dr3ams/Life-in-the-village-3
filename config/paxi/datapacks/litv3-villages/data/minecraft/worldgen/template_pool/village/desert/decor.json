@@ -1,0 +1,102 @@
+{
+    "name": "minecraft:village/desert/decor",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_8",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_9",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 5,
+        "element": {
+          "location": "minecraft:village/desert/desert_lamp_10",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:legacy_single_pool_element"
+        }
+      },
+      {
+        "weight": 4,
+        "element": {
+          "element_type": "minecraft:empty_pool_element"
+        }
+      }
+    ]
+  }

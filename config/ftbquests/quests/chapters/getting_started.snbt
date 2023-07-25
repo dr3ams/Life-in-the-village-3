@@ -1,82 +1,69 @@
 {
-	id: "01AFC9AD8A70B108"
-	group: ""
-	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
 	filename: "getting_started"
-	title: "Getting Started"
+	group: ""
 	icon: {
+		Count: 1
 		id: "minecraft:stone_pickaxe"
-		Count: 1b
 		tag: {
 			Damage: 0
 		}
 	}
-	default_quest_shape: ""
-	default_hide_dependency_lines: false
+	id: "01AFC9AD8A70B108"
+	order_index: 0
+	quest_links: [ ]
 	quests: [
 		{
-			x: -7.0d
-			y: 0.0d
 			dependencies: ["0000000000000008"]
 			id: "0000000000000006"
+			rewards: [{
+				count: 5
+				id: "000000000000021E"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000007"
-				type: "item"
 				item: "minecraft:crafting_table"
-			}]
-			rewards: [{
-				id: "000000000000021E"
 				type: "item"
-				item: "minecraft:cookie"
-				count: 5
 			}]
+			x: -7.0d
+			y: 0.0d
 		}
 		{
-			title: "Punching Trees"
-			x: -9.0d
-			y: 0.0d
 			id: "0000000000000008"
+			rewards: [{
+				count: 3
+				id: "000000000000021D"
+				item: "minecraft:apple"
+				type: "item"
+			}]
 			tasks: [{
 				id: "0000000000000009"
-				type: "item"
-				title: "Any minecraft:logs"
 				item: {
+					Count: 1
 					id: "itemfilters:tag"
-					Count: 1b
 					tag: {
 						value: "minecraft:logs"
 					}
 				}
-			}]
-			rewards: [{
-				id: "000000000000021D"
+				title: "Any minecraft:logs"
 				type: "item"
-				item: "minecraft:apple"
-				count: 3
 			}]
+			title: "Punching Trees"
+			x: -9.0d
+			y: 0.0d
 		}
 		{
-			x: -5.5d
-			y: 0.0d
 			dependencies: ["0000000000000006"]
 			id: "000000000000000A"
-			tasks: [{
-				id: "000000000000000B"
-				type: "item"
-				item: {
-					id: "minecraft:wooden_pickaxe"
-					Count: 1b
-					tag: {
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
-					id: "000000000000021F"
-					type: "item"
-					item: "minecraft:stick"
 					count: 6
+					id: "000000000000021F"
+					item: "minecraft:stick"
+					type: "item"
 				}
 				{
 					id: "00000000000002C2"
@@ -84,130 +71,129 @@
 					xp: 100
 				}
 				{
-					id: "6776FD80D0297B0A"
-					type: "item"
-					item: "minecraft:oak_planks"
 					count: 4
+					id: "6776FD80D0297B0A"
+					item: "minecraft:oak_planks"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "000000000000000B"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["54A2FF358B113724"]
+			id: "0000000000000011"
+			rewards: [
+				{
+					count: 8
+					id: "0000000000000221"
+					item: "minecraft:charcoal"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2AC7BC99BC19B1E7"
+					item: "minecraft:cod"
+					type: "item"
+				}
+			]
+			subtitle: "Make yourself at home!"
+			tasks: [{
+				id: "0000000000000012"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
 			title: "Craft basic infrastructure"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Make yourself at home!"
-			dependencies: ["6CC45B856CF1EC09"]
-			id: "0000000000000011"
-			tasks: [{
-				id: "0000000000000012"
-				type: "item"
-				item: "minecraft:furnace"
-			}]
-			rewards: [
-				{
-					id: "0000000000000221"
-					type: "item"
-					item: "minecraft:charcoal"
-					count: 8
-				}
-				{
-					id: "2AC7BC99BC19B1E7"
-					type: "item"
-					item: "minecraft:cod"
-					count: 5
-				}
-			]
 		}
 		{
-			title: "It's a box!"
-			x: 1.5d
-			y: -2.0d
+			dependencies: ["0000000000000011"]
 			description: [
 				"There are a lot of decorations available to decorate your humble home."
 				""
 				"You can search in JEI by mod:"
 				"- @Macaw"
 				"- @Builder"
+				"- @furniture"
 				"- @lights"
 			]
-			dependencies: ["0000000000000011"]
 			id: "0000000000000013"
+			rewards: [
+				{
+					count: 16
+					id: "00000000000002D1"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					id: "2D7AFF50D1B370CF"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0000000000000014"
-				type: "item"
-				title: "Any forge:chests"
 				item: {
+					Count: 1
 					id: "itemfilters:tag"
-					Count: 1b
 					tag: {
 						value: "forge:chests"
 					}
 				}
+				title: "Any forge:chests"
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "00000000000002D1"
-					type: "item"
-					item: "minecraft:oak_log"
-					count: 16
-				}
-				{
-					id: "2D7AFF50D1B370CF"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-			]
+			title: "It's a box!"
+			x: 1.5d
+			y: -2.0d
 		}
 		{
-			x: -9.0d
-			y: 1.5d
+			dependencies: ["0000000000000008"]
 			description: [
 				"You can craft a new quest book with a book and stone."
 				""
 				"But, better to just not lose it :)"
 			]
-			dependencies: ["0000000000000008"]
 			id: "0000000000000015"
-			tasks: [{
-				id: "0000000000000016"
-				type: "item"
-				item: "ftbquests:book"
-			}]
 			rewards: [{
 				id: "000000000000021B"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			tasks: [{
+				id: "0000000000000016"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
 		}
 		{
-			title: "Bed Time"
-			x: 0.5d
-			y: 1.0d
 			dependencies: ["0000000000000011"]
 			id: "0000000000000017"
-			tasks: [{
-				id: "0000000000000018"
-				type: "item"
-				title: "Any minecraft:beds"
-				item: {
-					id: "itemfilters:tag"
-					Count: 1b
-					tag: {
-						value: "minecraft:beds"
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "77D7A2ED18656D97"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "139BCB2FF48E6A6C"
@@ -215,22 +201,30 @@
 					xp: 100
 				}
 			]
+			tasks: [{
+				id: "0000000000000018"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:beds"
+					}
+				}
+				title: "Any minecraft:beds"
+				type: "item"
+			}]
+			title: "Bed Time"
+			x: 0.5d
+			y: -1.0d
 		}
 		{
-			x: -0.5d
-			y: 1.5d
 			dependencies: ["0000000000000017"]
 			id: "0000000000000019"
-			tasks: [{
-				id: "000000000000001A"
-				type: "item"
-				item: "comforts:sleeping_bag_white"
-			}]
 			rewards: [
 				{
 					id: "2BE60659152CE25A"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "22622B8F0A8873D3"
@@ -238,11 +232,16 @@
 					xp: 100
 				}
 			]
+			tasks: [{
+				id: "000000000000001A"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
 		}
 		{
-			x: -6.0d
-			y: -1.5d
-			subtitle: "How to use JEI(that thing with items on the RIGHT)"
+			dependencies: ["33886A5EFC27C3B4"]
 			description: [
 				"• Hovering over an item and pressing the \"R\" key (for Recipe) will display that items recipe."
 				"• Pressing the \"U\" key (for Use) shows what that item can be used to create through crafting grids. "
@@ -251,32 +250,25 @@
 				"• To bookmark a recipe (for easier crafting later, will also save in a menu on the left side of the inventory screen): Hover over the item + A."
 				""
 			]
-			dependencies: ["33886A5EFC27C3B4"]
 			id: "0000000000000039"
-			tasks: [{
-				id: "000000000000003A"
-				type: "checkmark"
-				title: "JEI"
-				icon: "itemfilters:not"
-			}]
 			rewards: [{
 				id: "000000000000021C"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "How to use JEI(that thing with items on the RIGHT)"
+			tasks: [{
+				icon: "itemfilters:not"
+				id: "000000000000003A"
+				title: "JEI"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -1.5d
 		}
 		{
-			x: 6.0d
-			y: 0.0d
-			shape: "hexagon"
 			dependencies: ["0000000000000011"]
-			size: 2.0d
 			id: "000000000000003F"
-			tasks: [{
-				id: "0000000000000040"
-				type: "item"
-				item: "minecraft:iron_ingot"
-			}]
 			rewards: [
 				{
 					id: "00000000000002DF"
@@ -284,79 +276,81 @@
 					xp_levels: 3
 				}
 				{
+					count: 4
 					id: "05F9F5CD41884492"
-					type: "item"
 					item: "minecraft:iron_ingot"
-					count: 4
+					type: "item"
 				}
 				{
+					count: 4
 					id: "17147DFE00A2801A"
-					type: "item"
 					item: "minecraft:gold_ingot"
-					count: 4
+					type: "item"
 				}
 				{
-					id: "0D4F685DB7864B77"
-					type: "item"
-					item: "minecraft:copper_ingot"
 					count: 2
+					id: "0D4F685DB7864B77"
+					item: "minecraft:copper_ingot"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000040"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
 		}
 		{
-			x: 10.5d
-			y: 0.0d
-			shape: "hexagon"
 			dependencies: ["000000000000003F"]
-			size: 2.0d
 			id: "0000000000000045"
-			tasks: [{
-				id: "0000000000000046"
-				type: "item"
-				item: "minecraft:diamond"
-			}]
 			rewards: [
 				{
 					id: "6316EB239B4F3539"
-					type: "item"
 					item: "quark:blue_blossom_sapling"
+					type: "item"
 				}
 				{
-					id: "2B21F479F53C8A9E"
-					type: "item"
-					item: "minecraft:golden_carrot"
 					count: 3
+					id: "2B21F479F53C8A9E"
+					item: "minecraft:golden_carrot"
+					type: "item"
 				}
 				{
-					id: "6562ED91C47FCB95"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
 					count: 5
+					id: "6562ED91C47FCB95"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
 				}
 				{
-					id: "1E6BCB5BBAEE22D8"
-					type: "item"
-					item: "minecraft:redstone"
 					count: 2
+					id: "1E6BCB5BBAEE22D8"
+					item: "minecraft:redstone"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0000000000000046"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
 		}
 		{
-			x: 14.0d
-			y: 1.5d
-			dependencies: ["00000000000000B9"]
+			dependencies: ["00000000000000C8"]
 			id: "0000000000000047"
-			tasks: [{
-				id: "0000000000000048"
-				type: "item"
-				item: "minecraft:enchanting_table"
-			}]
 			rewards: [
 				{
-					id: "0000000000000279"
-					type: "item"
-					item: "minecraft:book"
 					count: 5
+					id: "0000000000000279"
+					item: "minecraft:book"
+					type: "item"
 				}
 				{
 					id: "00000000000002DC"
@@ -364,82 +358,80 @@
 					xp_levels: 5
 				}
 			]
+			tasks: [{
+				id: "0000000000000048"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.5d
 		}
 		{
-			title: "Time to hunt"
-			x: -3.0d
-			y: -2.0d
 			dependencies: ["54A2FF358B113724"]
 			id: "0000000000000049"
-			tasks: [
-				{
-					id: "30219BCD97414B98"
-					type: "kill"
-					entity: "minecraft:zombie"
-					value: 1L
-				}
-				{
-					id: "1DF95E27CE5F6233"
-					type: "kill"
-					entity: "minecraft:skeleton"
-					value: 1L
-				}
-				{
-					id: "70AEEAA855170987"
-					type: "kill"
-					entity: "minecraft:creeper"
-					value: 1L
-				}
-			]
 			rewards: [
 				{
 					id: "0000000000000220"
-					type: "item"
 					item: {
+						Count: 1
 						id: "minecraft:potion"
-						Count: 1b
 						tag: {
 							Potion: "minecraft:strength"
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "7C74CF8ACAD45104"
-					type: "item"
-					item: "minecraft:slime_ball"
 					count: 3
+					id: "7C74CF8ACAD45104"
+					item: "minecraft:slime_ball"
+					type: "item"
 				}
 				{
-					id: "00000000000004B2"
-					type: "item"
-					item: "minecraft:ink_sac"
 					count: 16
+					id: "00000000000004B2"
+					item: "minecraft:ink_sac"
+					type: "item"
 				}
 				{
 					id: "1FBFEF927311401D"
-					type: "item"
 					item: "alexsmobs:animal_dictionary"
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					entity: "minecraft:zombie"
+					id: "30219BCD97414B98"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:skeleton"
+					id: "1DF95E27CE5F6233"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:creeper"
+					id: "70AEEAA855170987"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "Time to hunt"
+			x: -3.0d
+			y: -2.0d
 		}
 		{
-			x: 8.25d
-			y: 2.25d
-			shape: "hexagon"
 			dependencies: ["000000000000003F"]
-			size: 1.5d
 			id: "000000000000004C"
-			tasks: [{
-				id: "000000000000004D"
-				type: "item"
-				item: "minecraft:emerald"
-			}]
 			rewards: [
 				{
-					id: "00000000000002C8"
-					type: "item"
-					item: "minecraft:emerald"
 					count: 3
+					id: "00000000000002C8"
+					item: "minecraft:emerald"
+					type: "item"
 				}
 				{
 					id: "00000000000002CB"
@@ -448,51 +440,53 @@
 				}
 				{
 					id: "1A551696B251268E"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "000000000000004D"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.75d
 		}
 		{
-			x: 1.5d
-			y: 5.0d
 			dependencies: ["0000000000000054"]
 			id: "0000000000000052"
-			tasks: [{
-				id: "0000000000000053"
-				type: "item"
-				item: "minecraft:map"
-			}]
 			rewards: [
 				{
-					id: "48DAA383BC03B02C"
-					type: "item"
-					item: "minecraft:gold_ingot"
 					count: 4
+					id: "48DAA383BC03B02C"
+					item: "minecraft:gold_ingot"
+					type: "item"
 				}
 				{
-					id: "371695051C4A8EF4"
-					type: "item"
-					item: "minecraft:ender_pearl"
 					count: 3
+					id: "371695051C4A8EF4"
+					item: "minecraft:ender_pearl"
+					type: "item"
 				}
 				{
 					id: "791033E8303D6790"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0000000000000053"
+				item: "minecraft:map"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
 		}
 		{
-			x: 1.5d
-			y: 3.5d
 			dependencies: ["0000000000000171"]
 			id: "0000000000000054"
-			tasks: [{
-				id: "0000000000000055"
-				type: "item"
-				item: "minecraft:book"
-			}]
 			rewards: [
 				{
 					id: "00000000000002C3"
@@ -500,93 +494,93 @@
 					xp_levels: 2
 				}
 				{
-					id: "0AD283FBFA9997C2"
-					type: "item"
-					item: "minecraft:paper"
 					count: 3
+					id: "0AD283FBFA9997C2"
+					item: "minecraft:paper"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0000000000000055"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
 		}
 		{
-			x: 7.0d
-			y: 2.5d
+			dependencies: ["000000000000003F"]
 			description: [
 				"A Trowel tool can be crafted with Iron and Sticks. The Trowel, when right clicked, will place a random block from your hotbar, making it useful for ruins or paths."
 				""
 				"A Trowel will break after placing 256 blocks, or four stacks."
 			]
-			dependencies: ["000000000000003F"]
 			id: "0000000000000063"
+			rewards: [
+				{
+					id: "0E84BA708EA1528E"
+					item: "minecraft:stone"
+					type: "item"
+				}
+				{
+					id: "425A86AFBEE6853B"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "4CED59A43E0EFAFC"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "1841BB98D96DBB16"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+				{
+					id: "72C71CD14970E896"
+					item: "minecraft:mossy_cobblestone"
+					type: "item"
+				}
+				{
+					id: "00969CBA88A0F7FF"
+					item: "minecraft:stone_bricks"
+					type: "item"
+				}
+				{
+					id: "21728F6F8B07D288"
+					item: "minecraft:cracked_stone_bricks"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "0000000000000064"
-				type: "item"
 				item: {
+					Count: 1
 					id: "quark:trowel"
-					Count: 1b
 					tag: {
 						Damage: 0
 						last_stack: {
-							id: "minecraft:polished_andesite"
 							Count: 1
+							id: "minecraft:polished_andesite"
 						}
 						placing_seed: -1712070416600608528L
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "0E84BA708EA1528E"
-					type: "item"
-					item: "minecraft:stone"
-				}
-				{
-					id: "425A86AFBEE6853B"
-					type: "item"
-					item: "minecraft:andesite"
-				}
-				{
-					id: "4CED59A43E0EFAFC"
-					type: "item"
-					item: "minecraft:cobblestone"
-				}
-				{
-					id: "1841BB98D96DBB16"
-					type: "item"
-					item: "minecraft:gravel"
-				}
-				{
-					id: "72C71CD14970E896"
-					type: "item"
-					item: "minecraft:mossy_cobblestone"
-				}
-				{
-					id: "00969CBA88A0F7FF"
-					type: "item"
-					item: "minecraft:stone_bricks"
-				}
-				{
-					id: "21728F6F8B07D288"
-					type: "item"
-					item: "minecraft:cracked_stone_bricks"
-				}
-			]
+			x: 7.0d
+			y: 2.5d
 		}
 		{
-			x: 2.5d
-			y: -3.0d
 			dependencies: ["0000000000000013"]
 			id: "0000000000000065"
-			tasks: [{
-				id: "0000000000000066"
-				type: "item"
-				item: "quark:chute"
-			}]
 			rewards: [
 				{
-					id: "5B250341C89405D8"
-					type: "item"
-					item: "minecraft:paper"
 					count: 3
+					id: "5B250341C89405D8"
+					item: "minecraft:paper"
+					type: "item"
 				}
 				{
 					id: "4411730270783908"
@@ -594,42 +588,42 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [{
+				id: "0000000000000066"
+				item: "quark:chute"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -3.0d
 		}
 		{
-			x: 7.0d
-			y: -3.0d
 			dependencies: ["000000000000003F"]
 			id: "00000000000000B5"
-			tasks: [{
-				id: "00000000000000B6"
-				type: "item"
-				item: "uppers:upper"
-			}]
 			rewards: [
 				{
-					id: "4B52BFA2A59F6B15"
-					type: "item"
-					item: "minecraft:string"
 					count: 3
+					id: "4B52BFA2A59F6B15"
+					item: "minecraft:string"
+					type: "item"
 				}
 				{
-					id: "2D00C9095673CB84"
-					type: "item"
-					item: "minecraft:black_dye"
 					count: 3
+					id: "2D00C9095673CB84"
+					item: "minecraft:black_dye"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "00000000000000B6"
+				item: "uppers:upper"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
 		}
 		{
-			x: 2.5d
-			y: 4.0d
 			dependencies: ["0000000000000054"]
 			id: "00000000000000B7"
-			tasks: [{
-				id: "00000000000000B8"
-				type: "item"
-				item: "minecraft:bookshelf"
-			}]
 			rewards: [
 				{
 					id: "00000000000002C6"
@@ -637,356 +631,99 @@
 					xp_levels: 2
 				}
 				{
+					count: 3
 					id: "4AE0B702FB898EA7"
-					type: "item"
 					item: "minecraft:ender_pearl"
-					count: 3
+					type: "item"
 				}
 				{
+					count: 3
 					id: "427CA4BB18A7EF91"
-					type: "item"
 					item: "minecraft:paper"
-					count: 3
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "00000000000000B8"
+				item: "minecraft:bookshelf"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 4.0d
 		}
 		{
-			title: "Portal Time!"
-			x: 14.0d
-			y: 0.0d
 			dependencies: ["0000000000000045"]
-			dependency_requirement: "one_completed"
-			id: "00000000000000B9"
-			tasks: [
-				{
-					id: "00000000000000BA"
-					type: "item"
-					item: "minecraft:obsidian"
-				}
-				{
-					id: "00000000000000BD"
-					type: "item"
-					item: {
-						id: "minecraft:flint_and_steel"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "000000000000027A"
-				type: "item"
-				item: "minecraft:water_bucket"
-			}]
-		}
-		{
-			x: 17.5d
-			y: 2.0d
-			dependencies: ["155E4E7BC087647A"]
-			id: "00000000000000BB"
-			tasks: [{
-				id: "00000000000000BC"
-				type: "item"
-				item: "minecraft:ender_eye"
-			}]
-			rewards: [{
-				id: "6A687A7DB06BE41D"
-				type: "item"
-				item: "minecraft:paper"
-				count: 3
-			}]
-		}
-		{
-			x: 17.5d
-			y: -2.0d
-			dependencies: ["00000000000000C8"]
-			id: "00000000000000BE"
-			tasks: [{
-				id: "00000000000000BF"
-				type: "item"
-				item: "minecraft:wither_skeleton_skull"
-				count: 3L
-			}]
-			rewards: [
-				{
-					id: "38F5B34E9BFF8ACC"
-					type: "item"
-					item: "minecraft:enchanted_golden_apple"
-				}
-				{
-					id: "51D3B4AD826BAEF1"
-					type: "item"
-					item: "kubejs:nether_coin"
-				}
-			]
-		}
-		{
-			x: 21.0d
-			y: -2.0d
-			shape: "hexagon"
-			dependencies: ["00000000000000C4"]
-			size: 2.0d
-			id: "00000000000000C0"
-			tasks: [{
-				id: "00000000000000C1"
-				type: "item"
-				item: "minecraft:nether_star"
-			}]
-			rewards: [
-				{
-					id: "1B63729398FBDCB9"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "2CD58BCD0CD733F0"
-					type: "item"
-					item: "minecraft:golden_carrot"
-					count: 3
-				}
-				{
-					id: "0000000000000498"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 3
-				}
-				{
-					id: "000000000000049E"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 10
-				}
-				{
-					id: "00000000000004A4"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 5
-				}
-				{
-					id: "00000000000004AA"
-					type: "item"
-					item: "minecraft:emerald"
-					count: 5
-				}
-				{
-					id: "0F2170E48B11E918"
-					type: "item"
-					item: "kubejs:netherite_coin"
-				}
-				{
-					id: "1E75963DDA2DE483"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "rare_loot_crate"
-						}
-					}
-				}
-			]
-		}
-		{
-			x: 22.5d
-			y: -2.0d
-			dependencies: ["00000000000000C0"]
-			id: "75F630520D632862"
-			tasks: [{
-				id: "00000000000000C3"
-				type: "item"
-				item: "minecraft:beacon"
-			}]
-			rewards: [
-				{
-					id: "481966AB751CF4E8"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "0000000000000499"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 3
-				}
-				{
-					id: "000000000000049F"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 10
-				}
-				{
-					id: "00000000000004A5"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 5
-				}
-				{
-					id: "00000000000004AB"
-					type: "item"
-					item: "minecraft:emerald"
-					count: 5
-				}
-			]
-		}
-		{
-			x: 19.5d
-			y: -2.0d
-			dependencies: ["00000000000000BE"]
-			id: "00000000000000C4"
-			tasks: [{
-				id: "4834851F1566671D"
-				type: "kill"
-				entity: "minecraft:wither"
-				value: 1L
-			}]
-			rewards: [
-				{
-					id: "3A2CC45FB5BF739C"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "0000000000000497"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 3
-				}
-				{
-					id: "000000000000049D"
-					type: "item"
-					item: "minecraft:iron_ingot"
-					count: 10
-				}
-				{
-					id: "00000000000004A3"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 5
-				}
-				{
-					id: "00000000000004A9"
-					type: "item"
-					item: "minecraft:emerald"
-					count: 5
-				}
-				{
-					id: "14D7A761313041D0"
-					type: "item"
-					item: "kubejs:nether_coin"
-					count: 2
-				}
-			]
-		}
-		{
-			title: "See you in Hell!"
-			x: 16.5d
-			y: 0.0d
-			shape: "octagon"
-			subtitle: "Build, light and enter the nether portal"
-			dependencies: ["00000000000000B9"]
 			id: "00000000000000C8"
+			rewards: [{
+				count: 2
+				id: "49BDAB5E7C72165D"
+				item: "quark:nether_brick_chest"
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Build, light and enter the nether portal"
 			tasks: [{
-				id: "2DE1C61F2D3234DB"
-				type: "advancement"
 				advancement: "minecraft:story/enter_the_nether"
 				criterion: ""
-			}]
-			rewards: [{
-				id: "49BDAB5E7C72165D"
-				type: "item"
-				item: "quark:nether_brick_chest"
-				count: 2
-			}]
-		}
-		{
-			title: "This is the End....."
-			x: 21.0d
-			y: 2.0d
-			shape: "hexagon"
-			subtitle: "Enter the End portal"
-			dependencies: ["00000000000000BB"]
-			size: 2.0d
-			id: "77F17C15B698F3CC"
-			tasks: [{
-				id: "128FAC40150681E1"
+				id: "2DE1C61F2D3234DB"
 				type: "advancement"
-				advancement: "minecraft:story/enter_the_end"
-				criterion: ""
 			}]
-			rewards: [
-				{
-					id: "0000000000000278"
-					type: "item"
-					item: "minecraft:diamond"
-					count: 3
-				}
-				{
-					id: "5F9788776D205820"
-					type: "item"
-					item: "minecraft:enchanted_golden_apple"
-				}
-			]
+			title: "See you in Hell (chapter)"
+			x: 14.0d
+			y: 0.0d
 		}
 		{
-			title: "Farming Bob"
-			x: 1.5d
-			y: 2.0d
 			dependencies: ["0000000000000011"]
 			id: "0000000000000171"
-			tasks: [
-				{
-					id: "0000000000000172"
-					type: "item"
-					item: "minecraft:sugar_cane"
-				}
-				{
-					id: "0000000000000173"
-					type: "item"
-					item: "minecraft:wheat_seeds"
-				}
-				{
-					id: "0000000000000174"
-					type: "item"
-					item: "minecraft:beetroot_seeds"
-				}
-			]
 			rewards: [
 				{
-					id: "2FB3C69A3E892062"
-					type: "item"
-					item: "minecraft:golden_carrot"
 					count: 3
+					id: "2FB3C69A3E892062"
+					item: "minecraft:golden_carrot"
+					type: "item"
 				}
 				{
 					id: "0EA721BF50CCE4D2"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [
+				{
+					id: "0000000000000172"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+				{
+					id: "0000000000000173"
+					item: "minecraft:wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "0000000000000174"
+					item: "minecraft:beetroot_seeds"
+					type: "item"
+				}
+			]
+			title: "Farming Bob"
+			x: 1.5d
+			y: 2.0d
 		}
 		{
-			x: 2.5d
-			y: 5.5d
 			dependencies: ["0000000000000052"]
 			id: "0000000000000175"
-			tasks: [{
-				id: "0000000000000176"
-				type: "item"
-				item: "minecraft:dark_oak_boat"
-			}]
 			rewards: [
 				{
 					id: "7FC1DD7303B55C33"
-					type: "item"
 					item: {
+						Count: 1
 						id: "minecraft:potion"
-						Count: 1b
 						tag: {
 							Potion: "minecraft:swiftness"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "00000000000002CE"
@@ -994,417 +731,282 @@
 					xp_levels: 1
 				}
 				{
-					id: "00000000000004B3"
-					type: "item"
-					item: "minecraft:ink_sac"
 					count: 16
+					id: "00000000000004B3"
+					item: "minecraft:ink_sac"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "0000000000000176"
+				item: "minecraft:dark_oak_boat"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
 		}
 		{
-			title: "Iron Armor"
-			x: 5.0d
-			y: -3.0d
 			dependencies: ["000000000000003F"]
 			id: "00000000000002AA"
-			tasks: [
-				{
-					id: "00000000000002AB"
-					type: "item"
-					item: {
-						id: "minecraft:iron_helmet"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "00000000000002AC"
-					type: "item"
-					item: {
-						id: "minecraft:iron_chestplate"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "00000000000002AD"
-					type: "item"
-					item: {
-						id: "minecraft:iron_leggings"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "00000000000002AE"
-					type: "item"
-					item: {
-						id: "minecraft:iron_boots"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "554729809ED5063C"
-					type: "item"
-					item: {
-						id: "minecraft:shield"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-			]
 			rewards: [
 				{
 					id: "00000000000002D9"
-					type: "item"
 					item: {
+						Count: 1
 						id: "minecraft:enchanted_book"
-						Count: 1b
 						tag: {
 							StoredEnchantments: [{
-								lvl: 3
 								id: "minecraft:protection"
+								lvl: 3
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "00000000000002DA"
-					type: "item"
 					item: {
+						Count: 1
 						id: "minecraft:enchanted_book"
-						Count: 1b
 						tag: {
 							StoredEnchantments: [{
-								lvl: 1
 								id: "minecraft:feather_falling"
+								lvl: 1
 							}]
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "4229240D9A9F4A3D"
-					type: "item"
 					item: {
+						Count: 1
 						id: "minecraft:potion"
-						Count: 1b
 						tag: {
 							Potion: "minecraft:strength"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "57B43ECDF08F48DC"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 0.5d
-			y: 2.0d
-			dependencies: ["0000000000000171"]
-			id: "00000000000002C0"
-			tasks: [{
-				id: "00000000000002C1"
-				type: "item"
-				item: "quark:feeding_trough"
-			}]
-			rewards: [{
-				id: "00000000000002DB"
-				type: "item"
-				item: "minecraft:wheat"
-				count: 16
-			}]
-		}
-		{
-			x: 0.5d
-			y: 5.5d
-			dependencies: ["0000000000000052"]
-			id: "0000000000000576"
-			tasks: [{
-				id: "0000000000000577"
-				type: "item"
-				item: {
-					id: "naturescompass:naturescompass"
-					Count: 1b
-					tag: { }
-				}
-			}]
-			rewards: [{
-				id: "0000000000000578"
-				type: "item"
-				item: "randomite:randomite_ore"
-				count: 5
-			}]
-		}
-		{
-			x: 20.0d
-			y: 0.0d
-			shape: "hexagon"
-			dependencies: ["3805D1BB400ED6FE"]
-			size: 2.0d
-			id: "2DF27127FDA87390"
-			tasks: [{
-				id: "57F32C8A974D4F2A"
-				type: "item"
-				item: "minecraft:netherite_ingot"
-			}]
-			rewards: [
-				{
-					id: "6AE763B0DD89CDF3"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "1D78FC4484F74D72"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					count: 2
-					random_bonus: 4
-				}
-				{
-					id: "57A25914513F7592"
-					type: "item"
-					item: "kubejs:gold_coin"
-				}
-				{
-					id: "2E61DBF1811BE8CF"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "rare_loot_crate"
-						}
-					}
-				}
-				{
-					id: "31AED7440B1622F0"
-					type: "item"
-					item: "kubejs:nether_coin"
-				}
-			]
-		}
-		{
-			x: 17.5d
-			y: 1.0d
-			dependencies: ["155E4E7BC087647A"]
-			id: "6668401BF4304212"
-			tasks: [{
-				id: "7D930A359922D5E7"
-				type: "item"
-				item: "minecraft:brewing_stand"
-			}]
-			rewards: [{
-				id: "57A26A8D0FD349C1"
-				type: "item"
-				item: {
-					id: "minecraft:potion"
-					Count: 1b
-					tag: {
-						Potion: "minecraft:water"
-					}
-				}
-				count: 5
-			}]
-		}
-		{
-			x: 16.5d
-			y: 1.0d
-			dependencies: ["00000000000000C8"]
-			id: "155E4E7BC087647A"
-			tasks: [{
-				id: "5043B99BF9B87153"
-				type: "item"
-				item: "minecraft:blaze_rod"
-			}]
-			rewards: [
-				{
-					id: "685BB37A3BAD7949"
-					type: "item"
-					item: {
-						id: "minecraft:potion"
-						Count: 1b
-						tag: {
-							Potion: "minecraft:long_fire_resistance"
-						}
-					}
-				}
-				{
-					id: "2353F6E9F1127871"
-					type: "item"
-					item: "kubejs:nether_coin"
-				}
-			]
-		}
-		{
-			x: 18.5d
-			y: 0.0d
-			dependencies: ["00000000000000C8"]
-			id: "3805D1BB400ED6FE"
-			tasks: [{
-				id: "169DFBA331053040"
-				type: "item"
-				item: "minecraft:ancient_debris"
-			}]
-			rewards: [
-				{
-					id: "55FF34C88CB0DC2D"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "4D63B5EABF812A8B"
-					type: "item"
-					item: "minecraft:gold_ingot"
-					random_bonus: 2
-				}
-			]
-		}
-		{
-			title: "Diamond Armor"
-			x: 9.5d
-			y: -1.5d
-			description: [""]
-			dependencies: ["0000000000000045"]
-			id: "50DF10155B7366FF"
 			tasks: [
 				{
-					id: "6BB131699E21FDB6"
-					type: "item"
+					id: "00000000000002AB"
 					item: {
-						id: "minecraft:diamond_helmet"
-						Count: 1b
+						Count: 1
+						id: "minecraft:iron_helmet"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "2D22FE1D7EB7149D"
-					type: "item"
+					id: "00000000000002AC"
 					item: {
-						id: "minecraft:diamond_chestplate"
-						Count: 1b
+						Count: 1
+						id: "minecraft:iron_chestplate"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "1640D7A699DEF0DA"
-					type: "item"
+					id: "00000000000002AD"
 					item: {
-						id: "minecraft:diamond_leggings"
-						Count: 1b
+						Count: 1
+						id: "minecraft:iron_leggings"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 				{
-					id: "6165A318A0C852C0"
-					type: "item"
+					id: "00000000000002AE"
 					item: {
-						id: "minecraft:diamond_boots"
-						Count: 1b
+						Count: 1
+						id: "minecraft:iron_boots"
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
+				}
+				{
+					id: "554729809ED5063C"
+					item: {
+						Count: 1
+						id: "minecraft:shield"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
 				}
 			]
+			title: "Iron Armor"
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000052"]
+			id: "0000000000000576"
+			rewards: [{
+				count: 5
+				id: "0000000000000578"
+				item: "randomite:randomite_ore"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0000000000000577"
+				item: {
+					Count: 1
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0000000000000045"]
+			description: [""]
+			id: "50DF10155B7366FF"
 			rewards: [{
 				id: "289A3343DB83D85F"
 				type: "xp_levels"
 				xp_levels: 10
 			}]
+			tasks: [
+				{
+					id: "6BB131699E21FDB6"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D22FE1D7EB7149D"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1640D7A699DEF0DA"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6165A318A0C852C0"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Diamond Armor"
+			x: 9.5d
+			y: -1.5d
 		}
 		{
-			x: 1.5d
-			y: 6.5d
 			dependencies: ["0000000000000175"]
 			id: "2547D23A71DEFCBC"
-			tasks: [{
-				id: "56A3B7D99C8D4AE2"
-				type: "item"
-				item: "minecraft:prismarine_crystals"
-			}]
 			rewards: [{
 				id: "1D75548CF5460C7B"
-				type: "item"
 				item: "aquaculture:box"
+				type: "item"
 			}]
+			tasks: [{
+				id: "56A3B7D99C8D4AE2"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.5d
 		}
 		{
-			x: 1.5d
-			y: 7.5d
 			dependencies: ["2547D23A71DEFCBC"]
 			id: "35C79FAAB30AAA94"
-			tasks: [{
-				id: "03D93F95AF4B7C27"
-				type: "item"
-				item: "minecraft:sea_lantern"
-			}]
 			rewards: [{
 				id: "69965FF1672CDEF5"
-				type: "item"
 				item: "aquaculture:lockbox"
+				type: "item"
 			}]
+			tasks: [{
+				id: "03D93F95AF4B7C27"
+				item: "minecraft:sea_lantern"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 8.5d
 		}
 		{
-			x: 3.5d
-			y: 6.5d
 			dependencies: ["0000000000000175"]
 			id: "47364855F06FE4C1"
-			tasks: [{
-				id: "528621BB05EA0814"
-				type: "item"
-				item: "minecraft:sea_pickle"
-			}]
 			rewards: [{
 				id: "6F19971D68A1224B"
-				type: "item"
 				item: "aquaculture:lockbox"
+				type: "item"
 			}]
+			tasks: [{
+				id: "528621BB05EA0814"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 6.5d
 		}
 		{
-			x: 2.5d
-			y: 6.5d
 			dependencies: ["0000000000000175"]
 			id: "5CBEE027F9B2BB6E"
+			rewards: [{
+				id: "6FB586E06579E685"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7638244305D2B4B3"
-				type: "item"
 				item: {
+					Count: 1
 					id: "minecraft:trident"
-					Count: 1b
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "6FB586E06579E685"
 				type: "item"
-				item: "aquaculture:lockbox"
 			}]
+			x: 1.5d
+			y: 7.5d
 		}
 		{
-			x: -7.5d
-			y: -1.5d
+			dependencies: ["0000000000000008"]
 			description: [
 				"Quests come in a number of different types in this pack."
 				""
@@ -1416,58 +1018,48 @@
 				""
 				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
 			]
-			dependencies: ["0000000000000008"]
 			id: "33886A5EFC27C3B4"
-			tasks: [{
-				id: "2A4D9ED1B278E912"
-				type: "checkmark"
-				title: "Quest Types and Rewards"
-				icon: "minecraft:writable_book"
-			}]
 			rewards: [{
 				id: "38E8BDCE36F9B06D"
 				type: "xp"
 				xp: 100
 			}]
+			tasks: [{
+				icon: "minecraft:writable_book"
+				id: "2A4D9ED1B278E912"
+				title: "Quest Types and Rewards"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -1.5d
 		}
 		{
-			x: -7.5d
-			y: 1.5d
+			dependencies: ["0000000000000008"]
 			description: [
 				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
 				"You can always come back here to read them again."
 				""
 				"- Gain variable benefits for eating a greater variety of foods."
 				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
-				"- additional enchanting mechanics that will allow you to level up your enchantments higher than the vanilla limit(with items)"
 				"- jobs with each unique feature;"
-				"- new Lunar Events: Blood, Blue, and Harvest Moons;"
 			]
-			dependencies: ["0000000000000008"]
 			id: "50AFC676130E87C4"
-			tasks: [{
-				id: "2E10385D8AB84F2F"
-				type: "checkmark"
-				title: "New Mechanics"
-				icon: "minecraft:barrier"
-			}]
 			rewards: [{
 				id: "5370B2C62673821E"
-				type: "item"
 				item: "aquaculture:box"
+				type: "item"
 			}]
+			tasks: [{
+				icon: "minecraft:barrier"
+				id: "2E10385D8AB84F2F"
+				title: "New Mechanics"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 1.5d
 		}
 		{
-			icon: {
-				id: "create_sa:experience_pickaxe"
-				Count: 1b
-				tag: {
-					Damage: 0
-				}
-			}
-			x: -6.0d
-			y: 1.5d
-			subtitle: "Ore Excavation/Veinminer Alternative"
+			dependencies: ["50AFC676130E87C4"]
 			description: [
 				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key)."
 				""
@@ -1484,178 +1076,37 @@
 				""
 				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
 			]
-			dependencies: ["50AFC676130E87C4"]
+			icon: {
+				Count: 1
+				id: "create_sa:experience_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
 			id: "72BFE0836C00EDB8"
+			rewards: [{
+				id: "16C68C828A31E4E2"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			subtitle: "Ore Excavation/Veinminer Alternative"
 			tasks: [{
-				id: "6CE4CBD49CC0573A"
-				type: "checkmark"
-				title: "FTB Ultimine"
 				icon: {
-					id: "gemsnjewels:solid_black_opal_pickaxe"
 					Count: 1b
+					id: "gemsnjewels:solid_black_opal_pickaxe"
 					tag: {
 						Damage: 0
 					}
 				}
-			}]
-			rewards: [{
-				id: "16C68C828A31E4E2"
-				type: "item"
-				item: "aquaculture:box"
-			}]
-		}
-		{
-			x: -6.5d
-			y: 2.5d
-			subtitle: "Benefis for eating different food!"
-			description: [
-				"Spice of Life: Potato Edition will give you benefits for eating a variety of foods."
-				""
-				"You will receive variable benefits depending on how diverse your current diet is, and has been in the recent past."
-				""
-				"You will have to maintain that level of diversity to keep those benefits. This should encourage automation of a variety of foods, rather than just encouraging you to eat each food once (SoL: Carrot Edition)."
-				""
-				"*Note: This means your diversity score is constantly and dynamically changing depending on what your current and past diet."
-				"Thus, you can have many benefits after eating a diverse set of foods for a time, but falling back to eating only bread will gradually result in a loss/weakening of gained benefits."
-				"To get a higher diversity score, you need to keep including more and more diverse types of foods in your diet."
-			]
-			dependencies: ["50AFC676130E87C4"]
-			id: "1D857C5D4DF99256"
-			tasks: [{
-				id: "63EF8646E409CD6E"
+				id: "6CE4CBD49CC0573A"
+				title: "FTB Ultimine"
 				type: "checkmark"
-				title: "Spice Of Life: Potato Edition"
-				icon: "minecraft:potato"
 			}]
-			rewards: [{
-				id: "4EB8ABFB53015486"
-				type: "item"
-				item: "minecraft:apple"
-			}]
+			x: -6.0d
+			y: 1.5d
 		}
 		{
-			x: -1.5d
-			y: -3.0d
-			dependencies: ["0000000000000049"]
-			id: "17DBC0D107E5A01C"
-			tasks: [{
-				id: "35BEECAB32FEB551"
-				type: "item"
-				item: "minecraft:bone"
-				count: 16L
-			}]
-			rewards: [
-				{
-					id: "42544D0438D8814E"
-					type: "item"
-					item: "minecraft:egg"
-					count: 2
-				}
-				{
-					id: "5F5CB85E6AC6B1AF"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-			]
-		}
-		{
-			x: -2.5d
-			y: -3.5d
-			dependencies: ["0000000000000049"]
-			id: "3ADC1C40C7380BC1"
-			tasks: [{
-				id: "5123598F7E061393"
-				type: "item"
-				item: "minecraft:slime_ball"
-				count: 16L
-			}]
-			rewards: [{
-				id: "704420EEE97C3390"
-				type: "item"
-				item: "minecraft:ink_sac"
-				count: 3
-			}]
-		}
-		{
-			x: -4.5d
-			y: -3.0d
-			dependencies: ["0000000000000049"]
-			id: "1B349F165C93F98E"
-			tasks: [{
-				id: "20C26E379203866F"
-				type: "item"
-				item: "minecraft:rotten_flesh"
-				count: 32L
-			}]
-			rewards: [
-				{
-					id: "4639B9AB972F0689"
-					type: "item"
-					item: "minecraft:clay_ball"
-					count: 3
-				}
-				{
-					id: "2752B116E1545A47"
-					type: "item"
-					item: "kubejs:copper_coin"
-				}
-			]
-		}
-		{
-			x: -3.5d
-			y: -3.5d
-			dependencies: ["0000000000000049"]
-			id: "637F10E7C1485B08"
-			tasks: [{
-				id: "1F5764EF7F0550B9"
-				type: "item"
-				item: "minecraft:gunpowder"
-				count: 16L
-			}]
-			rewards: [{
-				id: "17B63EF46A951D35"
-				type: "item"
-				item: "minecraft:feather"
-				count: 4
-			}]
-		}
-		{
-			x: 8.25d
-			y: -2.25d
-			shape: "gear"
-			subtitle: "Visit 'Not Enough Food' chapter to find more about cooking possibilities"
-			dependencies: ["000000000000003F"]
-			size: 1.5d
-			id: "09DCF997E89A3D37"
-			tasks: [{
-				id: "28174D5298762441"
-				type: "item"
-				item: "farmersdelight:cooking_pot"
-			}]
-			rewards: [
-				{
-					id: "5F87F2CCDEC39638"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "08D7A159DAB3AADB"
-					type: "item"
-					item: "minecraft:lapis_lazuli"
-					count: 5
-				}
-				{
-					id: "64366B477DF5155F"
-					type: "item"
-					item: "aquaculture:lockbox"
-				}
-			]
-		}
-		{
-			title: "Benefits for eating variety of foods"
-			icon: "minecraft:carrot"
-			x: 0.5d
-			y: 3.0d
+			dependencies: ["50AFC676130E87C4"]
 			description: [
 				"Eating a variety of nutrients, with the right balance, will grant you buffs, while having a bad diet will give you debuffs."
 				""
@@ -1667,52 +1118,161 @@
 				"- Green lines show the range for buffs"
 				"- Red lines indicate malnourishment and engorgement, which gives you debuffs"
 			]
-			dependencies: ["0000000000000171"]
-			id: "60CA9F96BF323848"
+			id: "1D857C5D4DF99256"
+			rewards: [{
+				id: "4EB8ABFB53015486"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			subtitle: "Benefis for eating different food!"
 			tasks: [{
-				id: "1115E48B7255C7AF"
+				icon: "minecraft:potato"
+				id: "63EF8646E409CD6E"
+				title: "Spice Of Life: Potato Edition"
 				type: "checkmark"
 			}]
-			rewards: [{
-				id: "02B9E5ECD42DDD19"
-				type: "item"
-				item: {
-					id: "ftbquests:lootcrate"
-					Count: 1b
-					tag: {
-						type: "random_dyes"
-					}
-				}
-			}]
+			title: "Benefits for eating variety of foods"
+			x: -6.5d
+			y: 2.5d
 		}
 		{
-			x: 7.0d
-			y: 4.0d
-			subtitle: "Unlock trades when a villager has them blocked (red X).  Also used as crafting material in many items"
+			dependencies: ["0000000000000049"]
+			id: "17DBC0D107E5A01C"
+			rewards: [
+				{
+					count: 2
+					id: "42544D0438D8814E"
+					item: "minecraft:egg"
+					type: "item"
+				}
+				{
+					id: "5F5CB85E6AC6B1AF"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "35BEECAB32FEB551"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000049"]
+			id: "3ADC1C40C7380BC1"
+			rewards: [{
+				count: 3
+				id: "704420EEE97C3390"
+				item: "minecraft:ink_sac"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "5123598F7E061393"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0000000000000049"]
+			id: "1B349F165C93F98E"
+			rewards: [
+				{
+					count: 3
+					id: "4639B9AB972F0689"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					id: "2752B116E1545A47"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "20C26E379203866F"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0000000000000049"]
+			id: "637F10E7C1485B08"
+			rewards: [{
+				count: 4
+				id: "17B63EF46A951D35"
+				item: "minecraft:feather"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1F5764EF7F0550B9"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["000000000000003F"]
+			id: "09DCF997E89A3D37"
+			rewards: [
+				{
+					id: "5F87F2CCDEC39638"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					count: 5
+					id: "08D7A159DAB3AADB"
+					item: "minecraft:lapis_lazuli"
+					type: "item"
+				}
+				{
+					id: "64366B477DF5155F"
+					item: "aquaculture:lockbox"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Visit 'Not Enough Food' chapter to find more about cooking possibilities"
+			tasks: [{
+				id: "28174D5298762441"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -2.25d
+		}
+		{
 			dependencies: ["000000000000004C"]
 			id: "37D53E78124BF341"
-			tasks: [{
-				id: "69C8072C88798346"
-				type: "item"
-				item: "villagertools:restock"
-			}]
 			rewards: [{
 				id: "7036642D8AC5C4C0"
 				type: "xp_levels"
 				xp_levels: 1
 			}]
+			subtitle: "Unlock trades when a villager has them blocked (red X).  Also used as crafting material in many items"
+			tasks: [{
+				id: "69C8072C88798346"
+				item: "villagertools:restock"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
 		}
 		{
-			x: 6.5d
-			y: 6.0d
-			subtitle: "Upgrade your Iron Golems.  New versions are upgraded and will never attack players even when hit"
 			dependencies: ["37D53E78124BF341"]
 			id: "53D5C55000A4B304"
-			tasks: [{
-				id: "2AE79AC7913CAC4F"
-				type: "item"
-				item: "villagertools:gears"
-			}]
 			rewards: [
 				{
 					id: "3B5263F42E2C00AC"
@@ -1721,39 +1281,39 @@
 				}
 				{
 					id: "5743FA3A1FE7A714"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "random_materials"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "3B8CD57064BDC4C0"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "07CE9F409D0B571E"
-					type: "item"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 2
+					type: "item"
 				}
 			]
+			subtitle: "Upgrade your Iron Golems.  New versions are upgraded and will never attack players even when hit"
+			tasks: [{
+				id: "2AE79AC7913CAC4F"
+				item: "villagertools:gears"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.5d
 		}
 		{
-			x: 5.5d
-			y: 6.0d
-			subtitle: "Convert pillagers into Town Guards to fight and defend against raids"
 			dependencies: ["37D53E78124BF341"]
 			id: "0F59F88E3816010E"
-			tasks: [{
-				id: "241FDC3F1B1901C9"
-				type: "item"
-				item: "villagertools:guard"
-			}]
 			rewards: [
 				{
 					id: "3B908718B5E58B2E"
@@ -1762,39 +1322,39 @@
 				}
 				{
 					id: "03AAE55F5968ED2A"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "random_dyes"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "0DCA05FB87960094"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "4BD36FA82D42F70D"
-					type: "item"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 2
+					type: "item"
 				}
 			]
+			subtitle: "Convert pillagers into Town Guards to fight and defend against raids"
+			tasks: [{
+				id: "241FDC3F1B1901C9"
+				item: "villagertools:guard"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.5d
 		}
 		{
-			x: 5.5d
-			y: 4.0d
-			subtitle: "Summons Pillagers on use"
 			dependencies: ["37D53E78124BF341"]
 			id: "570C60946BBFD8FA"
-			tasks: [{
-				id: "07DC603B6ACC3BAE"
-				type: "item"
-				item: "villagertools:badge"
-			}]
 			rewards: [
 				{
 					id: "5E7699AF90EAB517"
@@ -1802,40 +1362,29 @@
 					xp_levels: 5
 				}
 				{
-					id: "4D33A4478E9E98DE"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "random_mob_drops"
-						}
-					}
-				}
-				{
 					id: "15DED0123465C30C"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "21B9D2AC1E8A2B48"
-					type: "item"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 1
+					type: "item"
 				}
 			]
+			subtitle: "Summons Pillagers on use"
+			tasks: [{
+				id: "07DC603B6ACC3BAE"
+				item: "villagertools:badge"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.5d
 		}
 		{
-			x: 5.5d
-			y: 5.0d
-			subtitle: "Corrupt villagers and traders into Pillagers, and can make some illagers even more powerful"
 			dependencies: ["37D53E78124BF341"]
 			id: "10519DA5BB326464"
-			tasks: [{
-				id: "11E2DEA8813F2778"
-				type: "item"
-				item: "villagertools:darkness"
-			}]
 			rewards: [
 				{
 					id: "54CCA31419A7D6B1"
@@ -1844,39 +1393,39 @@
 				}
 				{
 					id: "499C028530B15983"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "random_enchant"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "557ABDE62D4FDC80"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "6255AA891D75FFFF"
-					type: "item"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 2
+					type: "item"
 				}
 			]
+			subtitle: "Corrupt villagers and traders into Pillagers, and can make some illagers even more powerful"
+			tasks: [{
+				id: "11E2DEA8813F2778"
+				item: "villagertools:darkness"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
 		}
 		{
-			x: 7.5d
-			y: 6.0d
-			subtitle: "Instantly levels up their profession level without doing any trades"
 			dependencies: ["37D53E78124BF341"]
 			id: "19DE307EB80ECBDD"
-			tasks: [{
-				id: "106832EF47C5F6B6"
-				type: "item"
-				item: "villagertools:knowledge"
-			}]
 			rewards: [
 				{
 					id: "2A56A5A3B9554DB3"
@@ -1884,40 +1433,29 @@
 					xp_levels: 5
 				}
 				{
-					id: "58A5E51C9A4BB21F"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "random_mob_drops"
-						}
-					}
-				}
-				{
 					id: "2D04CFB5F87D3797"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "7DFFE78B05A00D18"
-					type: "item"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 2
+					type: "item"
 				}
 			]
+			subtitle: "Instantly levels up their profession level without doing any trades"
+			tasks: [{
+				id: "106832EF47C5F6B6"
+				item: "villagertools:knowledge"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.5d
 		}
 		{
-			x: 8.25d
-			y: 4.0d
-			subtitle: "Convert a Wandering Trader into a villager"
 			dependencies: ["000000000000004C"]
 			id: "198CC8D9E11D3EE4"
-			tasks: [{
-				id: "4F7DB9AF38CB9A01"
-				type: "item"
-				item: "villagertools:contract"
-			}]
 			rewards: [
 				{
 					id: "12BA6141B7D6D948"
@@ -1926,28 +1464,28 @@
 				}
 				{
 					id: "0C362517CBF03A4B"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "random_dyes"
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "Convert a Wandering Trader into a villager"
+			tasks: [{
+				id: "4F7DB9AF38CB9A01"
+				item: "villagertools:contract"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.5d
 		}
 		{
-			x: 8.25d
-			y: 5.0d
-			subtitle: "Free Wandering Trader llamas from captivity, converting them to normal"
 			dependencies: ["198CC8D9E11D3EE4"]
 			id: "38B57EE3DE006632"
-			tasks: [{
-				id: "6363A8E87027A1B9"
-				type: "item"
-				item: "villagertools:key"
-			}]
 			rewards: [
 				{
 					id: "6E4A50D40C526D5D"
@@ -1956,50 +1494,44 @@
 				}
 				{
 					id: "621519DFFAB4C6EA"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "random_enchant"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "479850A21A83D694"
-					type: "item"
 					item: "kubejs:emerald_nugget"
+					type: "item"
 				}
 			]
+			subtitle: "Free Wandering Trader llamas from captivity, converting them to normal"
+			tasks: [{
+				id: "6363A8E87027A1B9"
+				item: "villagertools:key"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
 		}
 		{
-			x: 11.5d
-			y: -1.5d
 			dependencies: ["0000000000000045"]
 			id: "51AFB86130340DCC"
-			tasks: [{
-				id: "3839B784CE0DE249"
-				type: "item"
-				item: {
-					id: "constructionwand:diamond_wand"
-					Count: 1b
-					tag: {
-						wand_options: { }
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "3CC38F8DA0FEFF52"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "random_materials"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "01AA002F56A99F48"
@@ -2008,96 +1540,88 @@
 				}
 				{
 					id: "48D09AC0CAED461B"
-					type: "item"
 					item: "kubejs:diamond_nugget"
 					random_bonus: 3
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "3839B784CE0DE249"
+				item: {
+					Count: 1
+					id: "constructionwand:diamond_wand"
+					tag: {
+						Damage: 0
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
 		}
 		{
-			x: -3.0d
-			y: 3.0d
 			dependencies: ["394202A011E33493"]
 			id: "75FFF73C92168409"
+			rewards: [{
+				count: 2
+				id: "040F900F648F4DEE"
+				item: "aquaculture:box"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6EF3EBA783FDAD19"
-				type: "item"
 				item: {
+					Count: 1
 					id: "constructionwand:iron_wand"
-					Count: 1b
 					tag: {
-						wand_options: { }
 						Damage: 0
+						wand_options: { }
 					}
 				}
+				type: "item"
 			}]
-			rewards: [
-				{
-					id: "46958036BC104E36"
-					type: "item"
-					item: {
-						id: "ftbquests:lootcrate"
-						Count: 1b
-						tag: {
-							type: "random_materials"
-						}
-					}
-				}
-				{
-					id: "040F900F648F4DEE"
-					type: "item"
-					item: "aquaculture:box"
-					count: 2
-				}
-			]
+			x: -3.0d
+			y: 3.0d
 		}
 		{
-			x: 5.0d
-			y: 2.5d
 			dependencies: ["000000000000003F"]
 			id: "3D788072DF4A89FE"
-			tasks: [{
-				id: "4ED71EC26CF18DF5"
-				type: "item"
-				item: "supplementaries:faucet"
-			}]
 			rewards: [
 				{
-					id: "78279B3F9FFD9F29"
-					type: "item"
-					item: "aquaculture:box"
 					count: 2
+					id: "78279B3F9FFD9F29"
+					item: "aquaculture:box"
+					type: "item"
 				}
 				{
 					id: "58E48C82E5EF2CF0"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "random_mob_drops"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "4ED71EC26CF18DF5"
+				item: "supplementaries:faucet"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.5d
 		}
 		{
-			x: -9.0d
-			y: 2.5d
-			subtitle: "You can craft a new quest book with a book and stone."
 			description: ["But, better to just not lose it :)"]
 			id: "70EE00F2D166500E"
-			tasks: [{
-				id: "51A7BB84F95A8A07"
-				type: "stat"
-				stat: "minecraft:deaths"
-				value: 1
-			}]
 			rewards: [
 				{
 					id: "7B767CE1FCBF19F3"
-					type: "item"
 					item: "ftbquests:book"
+					type: "item"
 				}
 				{
 					id: "1667BF349FDD7E06"
@@ -2106,34 +1630,34 @@
 				}
 				{
 					id: "5DE10AA0D4257E31"
-					type: "item"
 					item: {
+						Count: 1
 						id: "minecraft:stone_sword"
-						Count: 1b
 						tag: {
 							Damage: 0
 						}
 					}
+					type: "item"
 				}
 			]
+			subtitle: "You can craft a new quest book with a book and stone."
+			tasks: [{
+				id: "51A7BB84F95A8A07"
+				stat: "minecraft:deaths"
+				type: "stat"
+				value: 1
+			}]
+			x: -9.0d
+			y: 2.5d
 		}
 		{
-			x: -3.0d
-			y: 0.0d
-			shape: "hexagon"
 			dependencies: ["000000000000000A"]
-			size: 2.0d
 			id: "54A2FF358B113724"
-			tasks: [{
-				id: "3B57DB1987B66C7B"
-				type: "item"
-				item: "minecraft:cobblestone"
-			}]
 			rewards: [
 				{
 					id: "063204E8B7834839"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "0AD07D26C36CB540"
@@ -2142,83 +1666,52 @@
 				}
 				{
 					id: "60F1BBB92629C19F"
-					type: "item"
 					item: "minecraft:oak_log"
+					type: "item"
 				}
 			]
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "3B57DB1987B66C7B"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
 		}
 		{
-			x: -3.0d
-			y: 2.0d
 			dependencies: ["54A2FF358B113724"]
 			id: "394202A011E33493"
-			tasks: [{
-				id: "027EBE349BC287BC"
-				type: "item"
-				item: {
-					id: "constructionwand:stone_wand"
-					Count: 1b
-					tag: {
-						wand_options: { }
-						Damage: 0
-					}
-				}
-			}]
 			rewards: [{
 				id: "0A13DC3141847F1C"
-				type: "item"
 				item: "kubejs:copper_coin"
-			}]
-		}
-		{
-			x: -0.5d
-			y: -2.0d
-			subtitle: "Head over to the Storage Solutions chapter to learn more!"
-			description: ["Full-size 1x1 storage drawers will store 32 stacks of an item."]
-			dependencies: ["0000000000000013"]
-			id: "0994B5C8D2761BEA"
-			tasks: [{
-				id: "0498B4CE87823DEF"
 				type: "item"
-				title: "Full Storage Drawer: Single Item"
+			}]
+			tasks: [{
+				id: "027EBE349BC287BC"
 				item: {
-					id: "itemfilters:or"
-					Count: 1b
+					Count: 1
+					id: "constructionwand:stone_wand"
 					tag: {
-						items: [
-							{
-								id: "storagedrawers:oak_full_drawers_1"
-								Count: 1b
-							}
-							{
-								id: "storagedrawers:spruce_full_drawers_1"
-								Count: 1b
-							}
-							{
-								id: "storagedrawers:birch_full_drawers_1"
-								Count: 1b
-							}
-							{
-								id: "storagedrawers:jungle_full_drawers_1"
-								Count: 1b
-							}
-							{
-								id: "storagedrawers:acacia_full_drawers_1"
-								Count: 1b
-							}
-							{
-								id: "storagedrawers:dark_oak_full_drawers_1"
-								Count: 1b
-							}
-						]
+						Damage: 0
+						wand_options: { }
 					}
 				}
+				type: "item"
 			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0000000000000013"]
+			description: ["Full-size 1x1 storage drawers will store 32 stacks of an item."]
+			id: "0994B5C8D2761BEA"
 			rewards: [
 				{
 					id: "606FA881459C0167"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "61A6685EAD8774C2"
@@ -2226,23 +1719,55 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Head over to the Storage Solutions chapter to learn more!"
+			tasks: [{
+				id: "0498B4CE87823DEF"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "storagedrawers:oak_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:spruce_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:birch_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:jungle_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:acacia_full_drawers_1"
+							}
+							{
+								Count: 1b
+								id: "storagedrawers:dark_oak_full_drawers_1"
+							}
+						]
+					}
+				}
+				title: "Full Storage Drawer: Single Item"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
 		}
 		{
-			x: 0.5d
-			y: -3.0d
-			subtitle: "Head over to Deco Madness chapter to find more about decorations!"
 			dependencies: ["0000000000000013"]
 			id: "548306049450AFD7"
-			tasks: [{
-				id: "3F31F19698C57CF0"
-				type: "item"
-				item: "mcwwindows:oak_window"
-			}]
 			rewards: [
 				{
 					id: "77B399E61A46C8FD"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "72F6C70FF4224F16"
@@ -2250,34 +1775,26 @@
 					xp_levels: 1
 				}
 			]
+			subtitle: "Head over to Deco Madness chapter to find more about decorations!"
+			tasks: [{
+				id: "3F31F19698C57CF0"
+				item: "mcwwindows:oak_window"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
 		}
 		{
-			x: 4.0d
-			y: -2.0d
-			shape: "gear"
-			subtitle: "Visit 'Storage Solutions' chapter to find more about storage possibilities"
 			dependencies: [
 				"0000000000000013"
 				"000000000000003F"
 			]
-			size: 1.5d
 			id: "5F8B9C6BD22D03AB"
-			tasks: [{
-				id: "5824CE59BA380036"
-				type: "item"
-				item: {
-					id: "sophisticatedstorage:iron_chest"
-					Count: 1b
-					tag: {
-						woodType: "oak"
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "4A31EA2880391F51"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "3EB9971D36C14070"
@@ -2285,94 +1802,60 @@
 					xp_levels: 1
 				}
 			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Visit 'Storage Solutions' chapter to find more about storage possibilities"
+			tasks: [{
+				id: "5824CE59BA380036"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:iron_chest"
+					tag: {
+						woodType: "oak"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
 		}
 		{
-			x: 14.0d
-			y: -1.5d
-			dependencies: ["00000000000000B9"]
+			dependencies: ["00000000000000C8"]
 			id: "15BA69671841A79B"
-			tasks: [{
-				id: "21D001863B88C48D"
-				type: "item"
-				item: "minecraft:ender_chest"
-			}]
 			rewards: [
 				{
 					id: "60624B9ED5985CA3"
-					type: "item"
 					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "4BDC97DAE1FBE0C0"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "21D001863B88C48D"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
 		}
 		{
-			title: "Humble adobe"
-			x: 1.5d
-			y: -4.0d
 			dependencies: ["0391CE59C81DC08E"]
 			id: "7343C10D6EEAA88B"
-			tasks: [
-				{
-					id: "79409487518DC9CE"
-					type: "item"
-					item: "minecraft:loom"
-				}
-				{
-					id: "6151D9DD55A70B2E"
-					type: "item"
-					item: "minecraft:composter"
-				}
-				{
-					id: "51109AAD95079A0D"
-					type: "item"
-					item: "minecraft:smoker"
-				}
-				{
-					id: "476C04AA541BF1CE"
-					type: "item"
-					item: "minecraft:blast_furnace"
-				}
-				{
-					id: "0060DD3C5D8B2927"
-					type: "item"
-					item: "minecraft:stonecutter"
-				}
-				{
-					id: "1719489DE4801E27"
-					type: "item"
-					item: "minecraft:cartography_table"
-				}
-				{
-					id: "559A19A999D7957D"
-					type: "item"
-					item: "minecraft:smithing_table"
-				}
-				{
-					id: "438C812E22453866"
-					type: "item"
-					item: "minecraft:grindstone"
-				}
-			]
 			rewards: [
 				{
-					id: "38E85C93D967BF45"
-					type: "item"
-					item: "kubejs:diamond_coin"
-				}
-				{
 					id: "57EFED8B0FDF975D"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "728D604B1B3DDA27"
@@ -2380,28 +1863,66 @@
 					xp_levels: 5
 				}
 			]
+			tasks: [
+				{
+					id: "79409487518DC9CE"
+					item: "minecraft:loom"
+					type: "item"
+				}
+				{
+					id: "6151D9DD55A70B2E"
+					item: "minecraft:composter"
+					type: "item"
+				}
+				{
+					id: "51109AAD95079A0D"
+					item: "minecraft:smoker"
+					type: "item"
+				}
+				{
+					id: "476C04AA541BF1CE"
+					item: "minecraft:blast_furnace"
+					type: "item"
+				}
+				{
+					id: "0060DD3C5D8B2927"
+					item: "minecraft:stonecutter"
+					type: "item"
+				}
+				{
+					id: "1719489DE4801E27"
+					item: "minecraft:cartography_table"
+					type: "item"
+				}
+				{
+					id: "559A19A999D7957D"
+					item: "minecraft:smithing_table"
+					type: "item"
+				}
+				{
+					id: "438C812E22453866"
+					item: "minecraft:grindstone"
+					type: "item"
+				}
+			]
+			title: "Humble adobe"
+			x: 1.5d
+			y: -4.0d
 		}
 		{
-			x: 1.5d
-			y: -3.0d
 			dependencies: ["0000000000000013"]
 			id: "0391CE59C81DC08E"
-			tasks: [{
-				id: "36A398636A6EDC85"
-				type: "item"
-				item: "minecraft:barrel"
-			}]
 			rewards: [
 				{
 					id: "1DC17B5DBF8F2B58"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "26721C2A27AC3F64"
@@ -2409,44 +1930,44 @@
 					xp_levels: 1
 				}
 			]
+			tasks: [{
+				id: "36A398636A6EDC85"
+				item: "minecraft:barrel"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
 		}
 		{
-			x: 2.5d
-			y: 1.0d
 			dependencies: ["0000000000000011"]
 			id: "049AE9C978D71ED0"
-			tasks: [{
-				id: "247744618D9354D7"
-				type: "item"
-				item: "minecraft:gold_ingot"
-			}]
 			rewards: [{
 				id: "475072293A855DE0"
-				type: "item"
 				item: "kubejs:gold_coin"
+				type: "item"
 			}]
+			tasks: [{
+				id: "247744618D9354D7"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.0d
 		}
 		{
-			x: 2.5d
-			y: 2.0d
 			dependencies: ["049AE9C978D71ED0"]
 			id: "1B9C56662359E335"
-			tasks: [{
-				id: "361BCEB678044F77"
-				type: "item"
-				item: "minecraft:golden_apple"
-			}]
 			rewards: [
 				{
 					id: "176F80BC2143D9BB"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 				{
 					id: "10B8AD377FD320CD"
@@ -2454,34 +1975,22 @@
 					xp: 100
 				}
 			]
+			tasks: [{
+				id: "361BCEB678044F77"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
 		}
 		{
-			x: 4.0d
-			y: 2.0d
-			shape: "gear"
-			subtitle: "Visit 'Deco madness' chapter to find more about decoration possibilities"
 			dependencies: ["000000000000003F"]
-			size: 1.5d
 			id: "4C2D0A5BC84EEDD2"
-			tasks: [{
-				id: "042C1BA4BA9C296A"
-				type: "item"
-				item: {
-					id: "buildersdelight:iron_chisel"
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Size: 29
-							Items: [ ]
-						}
-					}
-				}
-			}]
 			rewards: [
 				{
 					id: "1112C83F7DE63E29"
-					type: "item"
 					item: "kubejs:copper_coin"
+					type: "item"
 				}
 				{
 					id: "41CBB0C928C32092"
@@ -2489,91 +1998,86 @@
 					xp: 100
 				}
 			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Visit 'Deco madness' chapter to find more about decoration possibilities"
+			tasks: [{
+				id: "042C1BA4BA9C296A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 29
+						}
+					}
+					id: "buildersdelight:iron_chisel"
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: 2.25d
 		}
 		{
-			x: 2.5d
-			y: -1.0d
 			dependencies: ["0000000000000011"]
 			id: "557A2C73FED67C54"
-			tasks: [{
-				id: "2BCE32B0A866E660"
-				type: "item"
-				item: "minecraft:copper_ingot"
-			}]
 			rewards: [{
 				id: "59B289278E94B303"
-				type: "item"
 				item: "kubejs:copper_coin"
+				type: "item"
 			}]
+			tasks: [{
+				id: "2BCE32B0A866E660"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
 		}
 		{
-			title: "Tinkers Workshop"
+			dependencies: ["54A2FF358B113724"]
+			description: [
+				"Tetra is a minecraft mod that allows players to modify and improve tools, weapons and other types of equipment. Modified items can be improved over time through use. Powerful tool parts and schematics can be found in the world by scavenging ancient ruins or through trade and barter."
+				""
+				"Tetra has two advancement tabs which covers most of the available content, and the holosphere provides an overview of the stats of modules, improvements and materials."
+			]
 			icon: {
-				id: "tconstruct:part_builder"
-				Count: 1b
+				Count: 1
+				ForgeCaps: {
+					"maledicta:energy_collector": {
+						energy: 0.0d
+						processes: 0
+					}
+				}
+				id: "tetra:modular_double"
 				tag: {
-					texture: "minecraft:oak_planks"
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "0042c989-faa4-4cfe-865b-1c1b5ef3f706"
 				}
 			}
-			x: -0.75d
-			y: 0.0d
-			shape: "gear"
-			subtitle: "Head over to Tinkers Workshop chapter to learn more about tools creation!"
-			dependencies: ["54A2FF358B113724"]
-			size: 1.5d
 			id: "6CC45B856CF1EC09"
-			tasks: [
-				{
-					id: "38AB1D106E1A1027"
-					type: "item"
-					item: {
-						id: "tconstruct:part_builder"
-						Count: 1b
-						tag: {
-							texture: "minecraft:oak_planks"
-						}
-					}
-				}
-				{
-					id: "57466DB0837B8C68"
-					type: "item"
-					item: "tconstruct:pattern"
-				}
-			]
-			rewards: [
-				{
-					id: "5B78F93A06EBEB8D"
-					type: "item"
-					item: {
-						id: "tconstruct:materials_and_you"
-						Count: 1b
-						tag: {
-							mantle: {
-								book: {
-									current_page: "intro.partbuilder"
-								}
-							}
-						}
-					}
-				}
-				{
-					id: "36B2D29BE1DA6025"
-					type: "item"
-					item: "minecraft:apple"
-					count: 3
-				}
-			]
+			rewards: [{
+				count: 3
+				id: "36B2D29BE1DA6025"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Head over to Tetra chapter to learn more about tools creation!"
+			title: "Tinkers Workshop"
+			x: -0.75d
+			y: 1.5d
 		}
 		{
-			x: 6.0d
-			y: 3.0d
 			dependencies: ["000000000000003F"]
 			id: "0A28A61FE4F910B6"
-			tasks: [{
-				id: "074BA09060843BE3"
-				type: "item"
-				item: "waterstrainer:strainer_base"
-			}]
 			rewards: [
 				{
 					id: "145E555DD1B94C62"
@@ -2582,51 +2086,49 @@
 				}
 				{
 					id: "0371BB2AA5C2F654"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "5AF4D04A61C1C5D7"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "074BA09060843BE3"
+				item: "waterstrainer:strainer_base"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
 		}
 		{
-			x: 9.5d
-			y: 4.0d
-			subtitle: "Make your first villager trade"
 			dependencies: ["000000000000004C"]
 			id: "031D29EEE7B5A5A7"
-			tasks: [{
-				id: "114773E0AF9E547B"
-				type: "advancement"
-				advancement: "morevillagers:first_trade"
-				criterion: ""
-			}]
 			rewards: [{
 				id: "3F9B6F960665E737"
-				type: "item"
 				item: "minecraft:emerald"
+				type: "item"
 			}]
+			subtitle: "Make your first villager trade"
+			tasks: [{
+				advancement: "morevillagers:first_trade"
+				criterion: ""
+				id: "114773E0AF9E547B"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 5.5d
 		}
 		{
-			x: 11.0d
-			y: 4.0d
-			subtitle: "Trade with the Enderologist in the End dimension"
-			dependencies: ["031D29EEE7B5A5A7"]
+			dependencies: ["6DA54AD3576429BD"]
 			id: "5972F6732B417E5B"
-			tasks: [{
-				id: "6C6D7A81184FDD7D"
-				type: "advancement"
-				advancement: "morevillagers:end_trade"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "0512D2FACA5F7D45"
-					type: "item"
 					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "20BEF9A50B8C93F1"
@@ -2635,135 +2137,61 @@
 				}
 				{
 					id: "5CBF45690CB0CB01"
-					type: "item"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 3
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 11.0d
-			y: 5.0d
-			subtitle: "Trade with every villager profession"
-			dependencies: ["031D29EEE7B5A5A7"]
-			id: "316DC9354D3FD56C"
+			subtitle: "Trade with the Enderologist in the End dimension"
 			tasks: [{
-				id: "3D9ADE8C7BC059F5"
-				type: "advancement"
-				advancement: "morevillagers:all_professions_traded"
+				advancement: "morevillagers:end_trade"
 				criterion: ""
+				id: "6C6D7A81184FDD7D"
+				type: "advancement"
 			}]
-			rewards: [
-				{
-					id: "23FA94B5E2A03942"
-					type: "item"
-					item: "kubejs:gold_coin"
-				}
-				{
-					id: "36FB87336C0701C0"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					id: "55075B30087CB5DA"
-					type: "item"
-					item: "minecraft:diamond"
-				}
-				{
-					id: "35A7D24F4F6C2CC8"
-					type: "item"
-					item: "kubejs:emerald_nugget"
-					random_bonus: 2
-				}
-			]
+			x: 9.5d
+			y: 7.5d
 		}
 		{
-			x: 9.5d
-			y: 6.0d
-			subtitle: "Trade with the Netherologist in the Nether dimension"
 			dependencies: ["031D29EEE7B5A5A7"]
 			id: "6DA54AD3576429BD"
-			tasks: [{
-				id: "0BC58EE1695D4729"
-				type: "advancement"
-				advancement: "morevillagers:nether_trade"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "79D3A169D5B0A777"
-					type: "item"
 					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
-					id: "6B862E9C731FB62B"
-					type: "item"
-					item: "minecraft:slime_ball"
 					count: 3
+					id: "6B862E9C731FB62B"
+					item: "minecraft:slime_ball"
+					type: "item"
 				}
 				{
 					id: "2A28E51842126858"
-					type: "item"
 					item: "kubejs:emerald_nugget"
 					random_bonus: 3
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 10.5d
-			y: 6.0d
-			subtitle: "Buy an Explorer Map from a villager"
-			dependencies: ["031D29EEE7B5A5A7"]
-			id: "23603228F580DDEE"
+			subtitle: "Trade with the Netherologist in the Nether dimension"
 			tasks: [{
-				id: "51C8FE43FC33C8D8"
-				type: "advancement"
-				advancement: "morevillagers:buy_map"
+				advancement: "morevillagers:nether_trade"
 				criterion: ""
+				id: "0BC58EE1695D4729"
+				type: "advancement"
 			}]
-			rewards: [
-				{
-					id: "7A620726D21CA456"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-				{
-					id: "3D48C1B525F27936"
-					type: "item"
-					item: "minecraft:redstone"
-					count: 2
-				}
-				{
-					id: "0A6C687C1E9AB613"
-					type: "item"
-					item: "minecraft:slime_ball"
-					count: 3
-				}
-				{
-					id: "002343291226A6DE"
-					type: "item"
-					item: "kubejs:emerald_nugget"
-					random_bonus: 2
-				}
-			]
+			x: 9.5d
+			y: 6.5d
 		}
 		{
-			x: 3.0d
-			y: 3.0d
-			subtitle: "Weaken and then cure the zombie villager"
 			dependencies: ["1B9C56662359E335"]
 			id: "61B3C7722CE2E9F4"
-			tasks: [{
-				id: "00897EB3BEEE3685"
-				type: "advancement"
-				advancement: "minecraft:story/cure_zombie_villager"
-				criterion: ""
-			}]
 			rewards: [
 				{
 					id: "312B6801D782BA48"
-					type: "item"
 					item: "kubejs:diamond_coin"
+					type: "item"
 				}
 				{
 					id: "1D696396D27A8784"
@@ -2771,129 +2199,252 @@
 					xp_levels: 5
 				}
 			]
+			subtitle: "Weaken and then cure the zombie villager"
+			tasks: [{
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+				id: "00897EB3BEEE3685"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 3.0d
 		}
 		{
-			x: -2.0d
-			y: -1.0d
-			description: ["While progressing through the quest book you will gain coins which can be traded for different valuable items in dedicated chapter"]
 			dependencies: ["54A2FF358B113724"]
-			size: 0.7d
+			description: ["While progressing through the quest book you will gain coins which can be traded for different valuable items in dedicated chapter (\"Coin Shop\")"]
 			id: "1132350866F5AC7A"
+			rewards: [
+				{
+					id: "5A63AEDEF75C189C"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "67D19FFF347AC943"
+					item: {
+						Count: 1
+						id: "deeppouches:alpha_pouch"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			size: 0.7d
 			tasks: [{
 				id: "705F72C3A7D20EFB"
-				type: "item"
 				item: "kubejs:copper_coin"
+				type: "item"
 			}]
-			rewards: [{
-				id: "5A63AEDEF75C189C"
-				type: "xp"
-				xp: 100
-			}]
+			x: -2.0d
+			y: -1.0d
 		}
 		{
-			x: 9.5d
-			y: 1.5d
 			dependencies: ["0000000000000045"]
 			id: "2A127BA4F8FCBEF4"
-			tasks: [{
-				id: "2E3D069461EDC6B3"
-				type: "item"
-				item: "minecraft:diamond_block"
-			}]
 			rewards: [
 				{
 					id: "42A36AE040AF8BD2"
-					type: "item"
 					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "1528A1AAA7138657"
-					type: "item"
 					item: "aquaculture:treasure_chest"
+					type: "item"
 				}
 			]
-		}
-		{
-			x: 11.5d
-			y: 1.5d
-			dependencies: ["0000000000000045"]
-			id: "21A61D81B15F6C3B"
 			tasks: [{
-				id: "6E02C7ECB542343A"
+				id: "2E3D069461EDC6B3"
+				item: "minecraft:diamond_block"
 				type: "item"
-				item: "tconstruct:diamond_item_frame"
 			}]
-			rewards: [
-				{
-					id: "6CFD0161011D1C86"
-					type: "item"
-					item: "aquaculture:treasure_chest"
-				}
-				{
-					id: "38D5AED0C56BDB14"
-					type: "item"
-					item: "kubejs:iron_coin"
-				}
-			]
+			x: 10.5d
+			y: 2.0d
 		}
 		{
-			x: 15.0d
-			y: 2.0d
 			dependencies: ["0000000000000047"]
 			id: "6A7690669566A40B"
-			tasks: [{
-				id: "04D2B1B2297806E8"
-				type: "item"
-				item: "minecraft:experience_bottle"
-			}]
 			rewards: [
 				{
 					id: "722BD21FB5365CA7"
-					type: "item"
 					item: "kubejs:iron_coin"
+					type: "item"
 				}
 				{
 					id: "20857AE219963026"
-					type: "item"
 					item: {
+						Count: 1
 						id: "ftbquests:lootcrate"
-						Count: 1b
 						tag: {
 							type: "common_loot_crate"
 						}
 					}
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "04D2B1B2297806E8"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
 		}
 		{
-			x: 13.0d
-			y: 2.0d
 			dependencies: ["0000000000000047"]
 			id: "4B57CD2BB3FA6A45"
-			tasks: [{
-				id: "00DF4D3F5C2F305B"
-				type: "item"
-				item: "create_sa:heap_of_experience"
-			}]
 			rewards: [
 				{
 					id: "472613F435D1FC49"
-					type: "item"
 					item: "kubejs:gold_coin"
+					type: "item"
 				}
 				{
 					id: "779A4148B0EB68DD"
-					type: "item"
 					item: "aquaculture:lockbox"
+					type: "item"
 				}
 				{
 					id: "40CA80FDEA23DFC1"
-					type: "item"
 					item: "kubejs:diamond_nugget"
 					random_bonus: 2
+					type: "item"
 				}
 			]
+			tasks: [{
+				id: "00DF4D3F5C2F305B"
+				item: "create_sa:heap_of_experience"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6B22DE7F764EE649"
+			rewards: [{
+				id: "28122D72C203F76B"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			subtitle: "Visit all 5 village types"
+			tasks: [{
+				advancement: "morevillagers:all_villages"
+				criterion: ""
+				id: "752864CAF8E2E6AC"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5972F6732B417E5B"]
+			id: "0BF1E5F4FD13B804"
+			rewards: [
+				{
+					id: "4123C901B238E055"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "4E1BC620F85C50EA"
+					item: {
+						Count: 1
+						id: "ftbquests:lootcrate"
+						tag: {
+							type: "hat_loot_crate"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Trade with every (21) villager profession"
+			tasks: [{
+				advancement: "morevillagers:all_professions_traded"
+				criterion: ""
+				id: "471FC757C0A5ADBB"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "6D4829B88CC59A96"
+			rewards: [
+				{
+					id: "6A3EBA00A83EC80D"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "131BAF251EDD28D4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Obtain every villager workstation (21)"
+			tasks: [{
+				advancement: "morevillagers:all_workstations_get"
+				criterion: ""
+				id: "6EDEDE0D451B0079"
+				type: "advancement"
+			}]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000011"]
+			id: "34DE20EAE1581254"
+			subtitle: "Get every color of Corundum Cluster(9)"
+			tasks: [{
+				advancement: "quark:get_all_corundum"
+				criterion: ""
+				id: "0F095B7B41816327"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["031D29EEE7B5A5A7"]
+			id: "52FD67FD6156343A"
+			rewards: [{
+				id: "455361B3431332F6"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			subtitle: "Successfully defend a village from a raid"
+			tasks: [{
+				advancement: "minecraft:adventure/hero_of_the_village"
+				criterion: ""
+				id: "04724854D2AB6D77"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0000000000000054"]
+			description: [
+				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have chance to drop card package with random rarity. Opening the package will grant you 5 cards which can be used for album."
+				""
+				"Once you reach certain threshold with your album card collection you will obtain passive effects such as resistance/regeneration/extra health and more."
+			]
+			id: "59AEBB60B068FBF7"
+			subtitle: "900 new collectible cards in varying rarities which can enhance your character by filling your collector's album."
+			tasks: [{
+				id: "359FC96DAD135771"
+				item: {
+					Count: 1
+					id: "collectorsalbum:album"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 4.0d
 		}
 	]
-	quest_links: [ ]
+	title: "Getting Started"
 }

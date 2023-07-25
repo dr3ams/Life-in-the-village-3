@@ -1,46 +1,52 @@
 {
-	id: "3931E53FF85F6579"
-	order_index: 3
-	title: "Materials Random"
-	loot_size: 1
 	hide_tooltip: true
-	use_title: true
+	id: "3931E53FF85F6579"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		glow: 1b
+		string_id: "materials_random"
+	}
+	loot_size: 1
+	order_index: 1
 	rewards: [
 		{ item: "minecraft:iron_ingot" }
-		{ item: "minecraft:flint", count: 6 }
-		{ item: "minecraft:stick", count: 8 }
+		{ count: 6, item: "minecraft:flint" }
+		{ count: 8, item: "minecraft:stick" }
 		{
 			item: {
+				Count: 1
 				id: "minecraft:potion"
-				Count: 1b
 				tag: {
 					Potion: "minecraft:long_regeneration"
 				}
 			}
 		}
+		{ item: "randomite:randomite_ore" }
+		{ item: "atum:coin_dirty" }
+		{ item: "atum:coin_gold" }
 		{ item: "minecraft:gunpowder" }
 		{ item: "minecraft:diamond" }
 		{ item: "minecraft:water_bucket" }
-		{ item: "minecraft:paper", count: 3 }
-		{ item: "minecraft:clay_ball", count: 19 }
-		{ item: "minecraft:sugar", count: 5 }
+		{ count: 3, item: "minecraft:paper" }
+		{ count: 19, item: "minecraft:clay_ball" }
+		{ count: 5, item: "minecraft:sugar" }
 		{ item: "aquaculture:box" }
 		{ item: "aquaculture:lockbox" }
-		{ item: "minecraft:ender_pearl", count: 2 }
-		{ item: "minecraft:gold_nugget", count: 16 }
-		{ item: "minecraft:coal", count: 3 }
+		{ count: 2, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:gold_nugget" }
+		{ item: "twilightforest:ironwood_raw" }
+		{ count: 3, item: "minecraft:coal" }
 		{ item: "minecraft:netherite_scrap" }
-		{ item: "minecraft:brick", count: 15 }
+		{ count: 15, item: "minecraft:brick" }
 		{ item: "aquaculture:treasure_chest" }
+		{ item: "ars_nouveau:magic_clay" }
+		{ count: 4, item: "ars_nouveau:mana_gem" }
 	]
-	loot_crate: {
-		drops: {
-			boss: 0
-			passive: 0
-			monster: 0
-		}
-		color: 16777215
-		glow: 1b
-		string_id: "materials_random"
-	}
+	title: "Materials Random"
+	use_title: true
 }

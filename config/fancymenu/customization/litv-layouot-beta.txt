@@ -91,6 +91,11 @@ customization {
 }
 
 customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
   orientation = top-centered
   x = 47
@@ -231,12 +236,12 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = true
+  hidden = false
   x = 2
   width = 108
   action = deep_customization_element:title_screen_branding
   actionid = 0efecb36-aee1-4096-bfa9-86c1b0163f281659856829136
-  y = 467
+  y = 487
   height = 40
 }
 
@@ -253,12 +258,12 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
-  x = 583
+  hidden = true
+  x = 563
   width = 13
   action = deep_customization_element:title_screen_realms_notification
   actionid = a05a981b-13e7-409a-ac5d-7a0e177cada11659856829136
-  y = 227
+  y = 232
   height = 13
 }
 

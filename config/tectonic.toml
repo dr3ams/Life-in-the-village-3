@@ -1,0 +1,5 @@
+
+["Tectonic Mod Config"]
+	#Put "true" if you want large biomes to be enabled. Defaults to "false".
+	"Large Biomes Enabled" = false
+

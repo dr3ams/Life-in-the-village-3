@@ -1,0 +1,13 @@
+
+[general]
+	#How many slots should the Alpha Pouch have
+	#Range: 1 ~ 54
+	alpha_slots = 4
+	#Which items should the Alpha Pouch accept, "itemID1","itemID2"..., "minecraft:apple", "minecraft:stick"
+	alpha_items_accepted = ["kubejs:copper_coin", "kubejs:iron_coin", "kubejs:gold_coin", "kubejs:diamond_coin"]
+	#How many slots should the Beta Pouch have
+	#Range: 1 ~ 54
+	beta_slots = 8
+	#Which items should the Beta Pouch accept, "itemID1","itemID2"..., "minecraft:apple", "minecraft:stick"
+	beta_items_accepted = ["minecraft:stick"]
+
