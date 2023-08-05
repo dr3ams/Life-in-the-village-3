@@ -53,32 +53,6 @@
 			weight: 15.0f
 		}
 		{
-			count: 2
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "simplefarming:lasagna"
-			}
-			weight: 10.0f
-		}
-		{
-			count: 2
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "simplefarming:hamburger"
-			}
-			weight: 10.0f
-		}
-		{
 			item: {
 				Count: 1
 				ForgeCaps: {

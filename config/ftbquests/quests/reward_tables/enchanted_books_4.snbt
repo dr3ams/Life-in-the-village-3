@@ -261,4 +261,5 @@
 		}
 	]
 	title: "Enchantments"
+	use_title: true
 }

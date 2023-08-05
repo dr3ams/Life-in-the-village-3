@@ -115,19 +115,6 @@
 			weight: 5.0f
 		}
 		{
-			count: 4
-			item: {
-				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
-				id: "simplefarming:cornbread"
-			}
-			weight: 3.0f
-		}
-		{
 			item: {
 				Count: 1
 				ForgeCaps: {

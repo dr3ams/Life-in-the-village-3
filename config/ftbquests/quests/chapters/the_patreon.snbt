@@ -2031,7 +2031,7 @@
 		{
 			description: ["{image:kubejs:textures/item/plua.png width:100 height:100 align:1}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -2300,7 +2300,7 @@
 		{
 			description: ["{image:kubejs:textures/item/crankonator.png width:100 height:100 align:1}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -2361,7 +2361,7 @@
 		{
 			description: ["{image:kubejs:textures/item/lexileexx.png width:100 height:100 align:1}"]
 			icon: {
-				Count: 1b
+				Count: 1
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]

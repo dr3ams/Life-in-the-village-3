@@ -24,7 +24,7 @@
 		#Affects how many times the player can jump with the bunny hoppers before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 10000
+		durability = 1500
 		#Whether Bunny Hoppers should cancel fall damage
 		#Fall damage will still be reduced by the jump boost effect
 		should_cancel_fall_damage = true
@@ -43,7 +43,7 @@
 		#Affects how many times the player can double jump before breaking
 		#Setting this to 0 will make this item unbreakable
 		#Range: 0 ~ 32767
-		durability = 2500
+		durability = 1500
 		#Affects double jump height while sprinting
 		#1 for no height bonus
 		#Range: 0.0 ~ Infinity

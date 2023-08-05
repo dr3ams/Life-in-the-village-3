@@ -689,6 +689,9 @@
 					type: "item"
 				}
 			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Visit 'Fish n Farm' chapter to find more about farming possibilities"
 			tasks: [
 				{
 					id: "0000000000000172"
@@ -1116,7 +1119,6 @@
 				""
 				"- Blue indicates your current NUs for each category"
 				"- Green lines show the range for buffs"
-				"- Red lines indicate malnourishment and engorgement, which gives you debuffs"
 			]
 			id: "1D857C5D4DF99256"
 			rewards: [{
@@ -1980,7 +1982,7 @@
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 2.0d
 		}
 		{
@@ -2072,7 +2074,7 @@
 			size: 1.5d
 			subtitle: "Head over to Tetra chapter to learn more about tools creation!"
 			title: "Tinkers Workshop"
-			x: -0.75d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -2206,7 +2208,7 @@
 				id: "00897EB3BEEE3685"
 				type: "advancement"
 			}]
-			x: 2.5d
+			x: 3.0d
 			y: 3.0d
 		}
 		{
@@ -2444,6 +2446,45 @@
 			}]
 			x: 2.5d
 			y: 4.0d
+		}
+		{
+			dependencies: ["0000000000000171"]
+			id: "1E2D44BB26BFCCF7"
+			tasks: [{
+				id: "4E1BA1DD6F3DDBC8"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1E2D44BB26BFCCF7"]
+			description: [
+				"Lunch Box used to store several stacks of food that can be eaten directly from it."
+				""
+				"Shift right click to open lunch box inventory GUI which also shows nutrient status."
+				""
+				"Select the active food to eat in the GUI or by shift scrolling through the food items while the lunch box is in hand."
+				""
+				"Right click to eat the active food as if you were holding the food item."
+				""
+				"Active food item icon appears on the lunch box item."
+			]
+			id: "6C92788AD1A8A4DA"
+			tasks: [{
+				id: "2F24972020B5087D"
+				item: {
+					Count: 1
+					id: "nutritionalbalance:lunchbox"
+					tag: {
+						contents: [ ]
+					}
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.0d
 		}
 	]
 	title: "Getting Started"

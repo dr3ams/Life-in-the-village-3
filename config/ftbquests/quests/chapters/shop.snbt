@@ -192,9 +192,10 @@
 			}
 			id: "62356B57A7D667A6"
 			rewards: [{
-				id: "4602EE5ADE50C4EA"
+				exclude_from_claim_all: true
+				id: "0419F53FFAE1F705"
 				table_id: 1428536202741681313L
-				type: "questsadditions:repeat_random"
+				type: "random"
 			}]
 			shape: "octagon"
 			size: 2.0d
@@ -221,9 +222,10 @@
 			}
 			id: "2EB2758D16E8BAE2"
 			rewards: [{
-				id: "3C25C0FEAF1FD585"
+				exclude_from_claim_all: true
+				id: "3FE59339D464D095"
 				table_id: 4179527381065745422L
-				type: "questsadditions:repeat_random"
+				type: "random"
 			}]
 			shape: "octagon"
 			size: 2.0d

@@ -567,7 +567,7 @@
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				id: "5321C4C0423E58F1"
+				id: "55DD732D83CBD70C"
 				item: "croptopia:knife"
 				type: "item"
 			}]
