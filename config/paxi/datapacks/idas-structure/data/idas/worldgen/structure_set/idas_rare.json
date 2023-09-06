@@ -7,7 +7,12 @@
     {
       "structure": "idas:tinkers_workshop",
       "weight": 1
-    }
+    },
+	{
+	  "structure": "idas:ruins_of_the_deep",
+      "weight": 1
+	}
+		
   ],
   "placement": {
     "salt": 169480678,
