@@ -1,4 +1,4 @@
-ignoreUpdate:0
+ignoreUpdate:162
 updateNotification:true
 differentiateByServerAddress:true
 caveMapsAllowed:true
@@ -42,7 +42,11 @@ displayCaveModeStart:true
 caveModeToggleTimer:1000
 defaultCaveModeType:1
 biomeBlending:true
-pacPlayers:true
+trackedPlayers:true
+multipleImagesExport:false
+nightExport:false
+highlightsExport:false
+exportScaleDownSquare:20
 displayClaims:true
 claimsFillOpacity:46
 claimsBorderOpacity:80

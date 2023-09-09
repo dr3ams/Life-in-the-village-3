@@ -27,3 +27,6 @@ persistAlbumThroughDeath: true
 # When set to true no cards will be received from package unless you flip all cards
 requireTurnAllCards: false
 
+# When allowed, all unpacked cards will be moved to your album if applicable
+autoEquipUnpackedCards: true
+
