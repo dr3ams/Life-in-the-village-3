@@ -12,12 +12,12 @@
 		string_id: "junk_3"
 	}
 	loot_size: 1
-	order_index: 42
+	order_index: 41
 	rewards: [
 		{
 			count: 8
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -30,7 +30,7 @@
 		{
 			count: 8
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -43,7 +43,7 @@
 		{
 			count: 16
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -56,7 +56,7 @@
 		{
 			count: 8
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -69,7 +69,7 @@
 		{
 			count: 64
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -82,7 +82,7 @@
 		{
 			count: 64
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -95,7 +95,7 @@
 		{
 			count: 8
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -107,7 +107,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]

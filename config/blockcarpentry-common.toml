@@ -8,4 +8,31 @@
 [blocks]
 	#Determines whether you have to sneak when placing vertical slabs, when set to false, frame slabs will always be placed on the side of the block; when set to true, frame slabs will be placed like vanilla slabs, and you have to sneak in order to make place vertical slabs (default: true)
 	sneak_for_vertical_slabs = true
+	#Determines whether the player can use coal, charcoal or glowstone dust to let frame or illusion blocks glow.
+	lighting_enabled = true
+	#Determines whether the player can use blue ice or honey blocks to increase the frame or illusion block's friction.
+	friction_enabled = true
+	#Maximum amount of friction modification of a frame or illusion block. Normally, a block has a friction of 0.6. Larger values make the block seem more sticky. However, values > 1 seem to negate the effect.
+	#Range: 0.6 ~ 1.7976931348623157E308
+	friction_max = 1.0
+	#Minimum amount of friction modification of a frame or illusion block. Normally, a block has a friction of 0.6. Smaller values make the player move faster over the block.
+	#Range: 0.0 ~ 0.6
+	friction_min = 0.2
+	#The factor, with which the friction is modified, when the corresponding block is applied to the frame or illusion block. Factor 1 means nothing will change at all!
+	#Range: 1.0 ~ 1.7976931348623157E308
+	friction_modifier = 1.05
+	#Determines whether the player can use flint or the obsidian compound chunk to increase the frame or illusion block's explosion resistance value.
+	explosion_resistance_enabled = true
+	#Maximum amount of explosion resistance modification of a frame or illusion block. For comparison: Stone has 6, Obsidian has 1200.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	explosion_resistance_max = 1200.0
+	#The factor, with which the explosion resistance is modified with a single Flint item. With the default values, 123 Flint items are required to achieve maximum explosion resistance.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	explosion_resistance_modifier = 1.05
+	#Determines whether the player can use bone meal to allow for plants planted on top of frame or illusion blocks.
+	sustainability_enabled = true
+	#Determines whether the player can use experience bottles to give frame or illusion blocks the same enchanting power that bookshelves have.
+	enchant_power_enabled = true
+	#Determines whether the player can use nether stars on frame or illusion blocks such that certain entities (such as the Ender Dragon and the Wither) can no longer destroy frame or illusion blocks.
+	entity_destroy_modifier_enabled = true
 

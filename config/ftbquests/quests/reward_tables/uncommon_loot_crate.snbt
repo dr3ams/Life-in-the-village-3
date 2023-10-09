@@ -11,11 +11,11 @@
 		string_id: "uncommon_loot_crate"
 	}
 	loot_size: 1
-	order_index: 9
+	order_index: 8
 	rewards: [
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -31,7 +31,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -47,7 +47,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -63,7 +63,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -79,7 +79,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -95,7 +95,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -111,7 +111,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -121,6 +121,9 @@
 			}
 			weight: 5.0f
 		}
+		{ item: "waystones:waystone" }
+		{ item: "waystones:warp_plate" }
+		{ item: "waystones:sharestone" }
 	]
 	title: "Uncommon loot crate"
 	use_title: true

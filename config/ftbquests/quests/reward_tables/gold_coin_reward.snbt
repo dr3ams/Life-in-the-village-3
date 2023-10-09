@@ -1,7 +1,7 @@
 {
 	id: "5D7127D0072C76C4"
 	loot_size: 1
-	order_index: 17
+	order_index: 16
 	rewards: [
 		{ item: "aquaculture:treasure_chest" }
 		{ count: 3, item: "kubejs:iron_coin" }
@@ -26,7 +26,7 @@
 		{ count: 32, item: "minecraft:firework_rocket" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "vanilla_food_3"
@@ -35,7 +35,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "materials_3"
@@ -45,6 +45,26 @@
 		{ item: "waystones:waystone" }
 		{ item: "waystones:mossy_waystone" }
 		{ item: "waystones:sandy_waystone" }
+		{ item: "waystones:warp_plate" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:energized_hearthstone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "gag:sacred_salve" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:escape_rope"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 	title: "Gold coin reward"
 }

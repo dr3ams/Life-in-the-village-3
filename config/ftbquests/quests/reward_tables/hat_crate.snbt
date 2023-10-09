@@ -11,11 +11,11 @@
 		string_id: "hat_crate"
 	}
 	loot_size: 1
-	order_index: 18
+	order_index: 17
 	rewards: [
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:aquanaut_helmet"
 				tag: {
 					Damage: 0
@@ -25,7 +25,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:bunny_ears"
 				tag: {
 					Damage: 0
@@ -35,7 +35,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:chopping_hat"
 				tag: {
 					Damage: 0
@@ -45,7 +45,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:ender_helmet"
 				tag: {
 					Damage: 0
@@ -55,7 +55,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:lucky_hat"
 				tag: {
 					Damage: 0
@@ -65,7 +65,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:mining_hat"
 				tag: {
 					Damage: 0
@@ -75,7 +75,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:mushroom_hat"
 				tag: {
 					Damage: 0
@@ -85,7 +85,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:postman_hat"
 				tag: {
 					Damage: 0
@@ -95,7 +95,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:shulker_helmet"
 				tag: {
 					Damage: 0
@@ -105,7 +105,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:stocking_cap"
 				tag: {
 					Damage: 0
@@ -115,7 +115,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:straw_hat"
 				tag: {
 					Damage: 0
@@ -125,7 +125,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "usefulhats:wing_helmet"
 				tag: {
 					Damage: 0
@@ -135,7 +135,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "artifacts:novelty_drinking_hat"
 				tag: {
 					Damage: 0
@@ -145,7 +145,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "artifacts:plastic_drinking_hat"
 				tag: {
 					Damage: 0
@@ -155,7 +155,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "artifacts:superstitious_hat"
 				tag: {
 					Damage: 0
@@ -165,7 +165,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "artifacts:villager_hat"
 				tag: {
 					Damage: 0
@@ -175,7 +175,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -190,7 +190,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]

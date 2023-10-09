@@ -788,7 +788,7 @@
 					count: 64
 					id: "011BDDFD8FF8A919"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "aquaculture:worm"
 						tag: {
 							Damage: 0
@@ -805,7 +805,7 @@
 				{
 					id: "000000000000035F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "aquaculture:neptunium_fillet_knife"
 						tag: {
 							Damage: 0
@@ -953,7 +953,7 @@
 				{
 					id: "0000000000000356"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "aquaculture:minnow"
 						tag: {
 							Damage: 0
@@ -1283,7 +1283,7 @@
 				count: 32L
 				id: "7BFF0D0902CDA1C4"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1316,7 +1316,7 @@
 				count: 32L
 				id: "331DF550FCA05A44"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1335,7 +1335,7 @@
 			rewards: [{
 				id: "7EBF3F3B020955CC"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "uncommon_loot_crate"
@@ -1348,7 +1348,7 @@
 				count: 64L
 				id: "30D0116213A45892"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1381,7 +1381,7 @@
 				count: 64L
 				id: "5E3C38EBFA2B2106"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1573,7 +1573,7 @@
 				count: 64L
 				id: "3EA584B4BA8DD977"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -1599,7 +1599,7 @@
 			tasks: [{
 				id: "00000000000015DC"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:fishing_rod"
 					tag: {
 						Damage: 0
@@ -1634,7 +1634,7 @@
 			tasks: [{
 				id: "000000000000161B"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:wooden_fillet_knife"
 					tag: {
 						Damage: 0
@@ -1670,7 +1670,7 @@
 			tasks: [{
 				id: "00000000000015DE"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:iron_fishing_rod"
 					tag: {
 						Damage: 0
@@ -1700,7 +1700,7 @@
 			tasks: [{
 				id: "000000000000161D"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:stone_fillet_knife"
 					tag: {
 						Damage: 0
@@ -1723,7 +1723,7 @@
 			tasks: [{
 				id: "000000000000161F"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:iron_fillet_knife"
 					tag: {
 						Damage: 0
@@ -1746,7 +1746,7 @@
 			tasks: [{
 				id: "0000000000001621"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:gold_fillet_knife"
 					tag: {
 						Damage: 0
@@ -1770,7 +1770,7 @@
 				{
 					id: "6A6A0E42B26711B6"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1782,7 +1782,7 @@
 			tasks: [{
 				id: "0000000000001623"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:diamond_fillet_knife"
 					tag: {
 						Damage: 0
@@ -1859,7 +1859,7 @@
 				{
 					id: "0000000000001654"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "aquaculture:minnow"
 						tag: {
 							Damage: 0
@@ -1870,7 +1870,7 @@
 				{
 					id: "0000000000001655"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "aquaculture:leech"
 						tag: {
 							Damage: 0
@@ -1882,7 +1882,7 @@
 			tasks: [{
 				id: "00000000000015EA"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:worm"
 					tag: {
 						Damage: 0
@@ -1978,7 +1978,7 @@
 			rewards: [{
 				id: "29509B1943C17344"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "materials_monsters"
@@ -2108,7 +2108,7 @@
 			tasks: [{
 				id: "00000000000015E0"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:gold_fishing_rod"
 					tag: {
 						Damage: 0
@@ -2133,7 +2133,7 @@
 					count: 10
 					id: "0000000000001649"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "aquaculture:worm"
 						tag: {
 							Damage: 0
@@ -2150,7 +2150,7 @@
 			tasks: [{
 				id: "00000000000015E2"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:diamond_fishing_rod"
 					tag: {
 						Damage: 0
@@ -2174,7 +2174,7 @@
 				{
 					id: "6A80FEA9F5625E8C"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -2191,7 +2191,7 @@
 			tasks: [{
 				id: "00000000000015E4"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "aquaculture:neptunium_fishing_rod"
 					tag: {
 						Damage: 0
@@ -4503,7 +4503,7 @@
 				{
 					id: "10E4A48AED6E6542"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -4539,7 +4539,7 @@
 				{
 					id: "0C4347285A1F0CDE"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -4575,7 +4575,7 @@
 				{
 					id: "36F846EB05DA5BBD"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -4611,7 +4611,7 @@
 				{
 					id: "742B5AF763D7A0EF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -4646,7 +4646,7 @@
 				{
 					id: "47018ED89A724F62"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -4689,7 +4689,7 @@
 				{
 					id: "0421FCCE0871DB43"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -4720,7 +4720,7 @@
 				{
 					id: "748CD29BEFD9F2D2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -4770,7 +4770,7 @@
 			tasks: [{
 				id: "325414C7C64C34F1"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "farmersdelight:flint_knife"
 					tag: {
 						Damage: 0
@@ -4792,7 +4792,7 @@
 			tasks: [{
 				id: "08BA65E1FA0D98C9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "farmersdelight:iron_knife"
 					tag: {
 						Damage: 0
@@ -4837,7 +4837,7 @@
 			tasks: [{
 				id: "35D540E73DE01D44"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "farmersdelight:golden_knife"
 					tag: {
 						Damage: 0
@@ -4854,7 +4854,7 @@
 			rewards: [{
 				id: "2616B0FD5D5DCEDC"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "random_mob_drops"
@@ -4888,7 +4888,7 @@
 			tasks: [{
 				id: "56FC2F11AF962177"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "farmersdelight:diamond_knife"
 					tag: {
 						Damage: 0
@@ -4911,7 +4911,7 @@
 				{
 					id: "2D434F325A5CEC9D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -4928,7 +4928,7 @@
 			tasks: [{
 				id: "6C2B43C22E0E1315"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "farmersdelight:netherite_knife"
 					tag: {
 						Damage: 0

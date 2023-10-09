@@ -12,12 +12,12 @@
 		string_id: "vanilla_food_3"
 	}
 	loot_size: 1
-	order_index: 43
+	order_index: 42
 	rewards: [
 		{
 			count: 3
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -29,7 +29,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -42,7 +42,7 @@
 		{
 			count: 64
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -54,7 +54,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -92,7 +92,7 @@
 		{
 			count: 8
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]

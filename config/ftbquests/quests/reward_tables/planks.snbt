@@ -11,12 +11,12 @@
 		string_id: "planks"
 	}
 	loot_size: 1
-	order_index: 32
+	order_index: 31
 	rewards: [
 		{
 			count: 32
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -28,7 +28,7 @@
 		{
 			count: 32
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -40,7 +40,7 @@
 		{
 			count: 32
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -52,7 +52,7 @@
 		{
 			count: 32
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -64,7 +64,7 @@
 		{
 			count: 32
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -76,7 +76,7 @@
 		{
 			count: 32
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]

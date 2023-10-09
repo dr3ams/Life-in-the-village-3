@@ -53,7 +53,7 @@
 			tasks: [{
 				id: "4E354A738A8DA865"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -155,7 +155,7 @@
 				{
 					id: "73116AA9599287C3"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:swiftness"
@@ -194,7 +194,7 @@
 				{
 					id: "0000000000000201"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:fishing_rod"
 						tag: {
 							Damage: 0
@@ -205,7 +205,7 @@
 				{
 					id: "6B4699496C63CD21"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -253,7 +253,7 @@
 				{
 					id: "0000000000000200"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:stone_hoe"
 						tag: {
 							Damage: 0
@@ -360,7 +360,7 @@
 				{
 					id: "00000000000001FF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:stone_axe"
 						tag: {
 							Damage: 0
@@ -371,7 +371,7 @@
 				{
 					id: "35268BCD19F96C34"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -411,7 +411,7 @@
 				{
 					id: "00000000000001FE"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:stone_pickaxe"
 						tag: {
 							Damage: 0
@@ -422,7 +422,7 @@
 				{
 					id: "5273D85B92117357"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -452,7 +452,7 @@
 				{
 					id: "00000000000001FC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:bow"
 						tag: {
 							Damage: 0
@@ -469,7 +469,7 @@
 				{
 					id: "2295367B93475578"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -499,7 +499,7 @@
 				{
 					id: "000000000000027F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_regeneration"
@@ -724,7 +724,7 @@
 				{
 					id: "265311F4CA978DCA"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:clock"
 						tag: {
 							"quark:clock_calculated": 1
@@ -741,7 +741,7 @@
 				{
 					id: "423CAA030D15316B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -781,7 +781,7 @@
 				{
 					id: "7354A474CD5A5B7E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:strong_strength"
@@ -792,7 +792,7 @@
 				{
 					id: "08495D3FB8AD7715"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "biomemakeover:adrenaline"
@@ -888,7 +888,7 @@
 				{
 					id: "56B951E9A45A5EA9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -976,7 +976,7 @@
 				{
 					id: "74687B4AB9179F43"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:swiftness"
@@ -1019,7 +1019,7 @@
 				{
 					id: "654B3EF0C2AB368E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:swiftness"
@@ -1066,7 +1066,7 @@
 				{
 					id: "00000000000002F4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -1080,7 +1080,7 @@
 				{
 					id: "1FCCC854C51C83F5"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1139,7 +1139,7 @@
 				{
 					id: "00000000000002F2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -1153,7 +1153,7 @@
 				{
 					id: "020CFB937EE0C0DB"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1326,7 +1326,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:enchanted_book"
 					tag: {
 						StoredEnchantments: [{
@@ -1355,7 +1355,7 @@
 				{
 					id: "79C33645C694E458"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1502,7 +1502,7 @@
 				{
 					id: "0EA7EE17411CF43E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1542,7 +1542,7 @@
 				{
 					id: "7116ADF9A6D7EB74"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1738,7 +1738,7 @@
 				"After all of the raiders have been defeated and spawners broken, your colonists will go back to their jobs. If any of your colonists die, then their family will mourn their death and not work that day. However, Guards will not be mourned."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:golden_sword"
 				tag: {
 					Damage: 0
@@ -1776,7 +1776,7 @@
 				{
 					id: "5799F910407CE00F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"

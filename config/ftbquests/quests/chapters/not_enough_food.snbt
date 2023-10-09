@@ -71,7 +71,7 @@
 				{
 					id: "13C0B2E68E8C5156"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_mob_drops"
@@ -106,7 +106,7 @@
 				{
 					id: "5BB5D95CE99B6B49"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_enchant"
@@ -140,7 +140,7 @@
 				{
 					id: "7FCEC06500CB0C20"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_mob_drops"
@@ -169,7 +169,7 @@
 				{
 					id: "4359813A1EE6935E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -198,7 +198,7 @@
 				{
 					id: "4B1258A107995AE1"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_enchant"
@@ -2758,7 +2758,7 @@
 				{
 					id: "181762967958B7D4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -2787,7 +2787,7 @@
 				{
 					id: "514A2BFE5E6D09AD"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -2816,7 +2816,7 @@
 				{
 					id: "5A48CD35022E76BA"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -2827,7 +2827,7 @@
 				{
 					id: "519D620D2E5D0FF5"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -2858,7 +2858,7 @@
 				{
 					id: "083CC03DD10CCBA4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -2888,7 +2888,7 @@
 				{
 					id: "618FA908F3BA2B3C"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -2918,7 +2918,7 @@
 				{
 					id: "7911F1F7AA4DE8A3"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -2948,7 +2948,7 @@
 				{
 					id: "11E3B8B3A7FEA0C2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -2978,7 +2978,7 @@
 				{
 					id: "73D794BD014AD5A7"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -3008,7 +3008,7 @@
 				{
 					id: "6F138EE456FAFEE3"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -3038,7 +3038,7 @@
 				{
 					id: "678CD24F339DA825"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -3068,7 +3068,7 @@
 				{
 					id: "729D0346C2B1A66A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -3098,7 +3098,7 @@
 				{
 					id: "4B3A4F5C9C9B2C56"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -3128,7 +3128,7 @@
 				{
 					id: "14EBE219335BB49B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -3158,7 +3158,7 @@
 				{
 					id: "4D0D2974E2CE7F70"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -3188,7 +3188,7 @@
 				{
 					id: "2BD8154A25176F67"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -4899,7 +4899,7 @@
 				{
 					id: "779663B36195BC62"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"
@@ -4928,7 +4928,7 @@
 				{
 					id: "73257ACEFD95C3E4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"
@@ -4957,7 +4957,7 @@
 				{
 					id: "46C9AD04D2B2CDE0"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"
@@ -4986,7 +4986,7 @@
 				{
 					id: "2D9EBF49A6476587"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"
@@ -5015,7 +5015,7 @@
 				{
 					id: "47EDC71544CCD9D6"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"
@@ -5044,7 +5044,7 @@
 				{
 					id: "0F615A75F0D588AF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"
@@ -5073,7 +5073,7 @@
 				{
 					id: "09FDE22E15091A87"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"
@@ -5102,7 +5102,7 @@
 				{
 					id: "66188A08321A5CBF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:water"

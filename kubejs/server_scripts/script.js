@@ -25,6 +25,16 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'waystones:warp_plate'})
 	event.remove({output: 'waystones:warp_stone'})
 
+
+    event.remove({output: 'gag:time_sand_pouch'})
+    event.remove({output: 'gag:escape_rope'})
+    event.remove({output: 'gag:hearthstone'})
+    event.remove({output: 'gag:sacred_salt'})
+    event.remove({output: 'gag:sacred_salve'})
+    event.remove({output: 'gag:sacred_balm'})
+	event.remove({output: 'gag:mining_dynamite'})
+	event.remove({output: 'gag:labeling_tool'})
+	
 	event.shaped('minecraft:diamond', [
     'DDD',
     'DDD',
@@ -77,6 +87,28 @@ ServerEvents.recipes(event => {
     C: 'kubejs:coin_04'
 	})
 	event.shapeless('9x kubejs:coin_04', ['kubejs:coin_05'])
+
+	//provided by @Linguardium	
+	event.replaceInput(
+        {  input: 'nourished_nether:hoglin_hide' },
+        'nourished_nether:hoglin_hide',
+        '#litv:hoglin_hides'
+    );
+    event.replaceInput(
+        {  input: 'nethersdelight:hoglin_hide' },
+        'nethersdelight:hoglin_hide',
+        '#litv:hoglin_hides'
+    );
+    event.custom({
+        type: 'farmersdelight:cutting',
+        ingredients:[
+            { item: "nethersdelight:hoglin_loin"}
+        ],
+        tool: { tag: 'forge:tools/knives' },        
+        result:[{
+            item:'nourished_nether:raw_hoglin'
+        }]
+    });
 	
 })
 
@@ -109,4 +141,9 @@ ServerEvents.tags('item', event => {
 
 	// Get the #forge:cobblestone tag collection and remove Mossy Cobblestone from it
 	// event.get('forge:cobblestone').remove('minecraft:mossy_cobblestone')
+	
+	//provided by @Linguardium
+	event.get('litv:hoglin_hides')
+    .add('nethersdelight:hoglin_hide')
+    .add('nourished_nether:hoglin_hide');
 })

@@ -10,7 +10,7 @@
 		string_id: "mythic_loot_crate"
 	}
 	loot_size: 1
-	order_index: 12
+	order_index: 11
 	rewards: [ ]
 	title: "Mythic loot crate"
 }

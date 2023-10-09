@@ -6,6 +6,13 @@
 	rewardTimePerDay = 30
 	#Shows the rewards menu when a player joins the server (if there are unclaimed rewards).
 	showRewardMenuOnPlayerJoin = false
+	#Automatically reward players after the rewardTimePerDay is reached. (e.g. 30 minutes). If disabled the reward command needs to be executed manually to reward the players.
+	automaticRewardPlayers = true
+	#Automatically reward players with specials after the rewardTimePerDay is reached. (e.g. 30 minutes). If disabled the reward command needs to be executed manually to reward the players.
+	automaticRewardSpecialPlayers = true
+	#Type of the reward screen.
+	#Allowed Values: COMPACT, DEFAULT_OVERVIEW, SPECIAL_OVERVIEW
+	rewardScreenType = "COMPACT"
 
 ["Fill Items"]
 	#List of normal fill items which are used in the case we have not enough valid items for a month.
@@ -24,30 +31,108 @@
 	useFillItems = true
 
 ["Rewards Items"]
-	#List of rewards items for January.
-	rewardsJanuaryItems = []
-	#List of rewards items for February.
-	rewardsFebruaryItems = []
-	#List of rewards items for March.
-	rewardsMarchItems = []
-	#List of rewards items for April.
-	rewardsAprilItems = []
-	#List of rewards items for May.
-	rewardsMayItems = ["minecraft:egg:16"]
-	#List of rewards items for June.
-	rewardsJuneItems = []
-	#List of rewards items for July.
-	rewardsJulyItems = []
-	#List of rewards items for August.
-	rewardsAugustItems = []
-	#List of rewards items for September.
-	rewardsSeptemberItems = []
-	#List of rewards items for October.
-	rewardsOctoberItems = []
-	#List of rewards items for November.
-	rewardsNovemberItems = []
-	#List of rewards items for December.
-	rewardsDecemberItems = ["minecraft:firework_rocket:32"]
 	#Shuffle the rewards items instead of using the defined order.
 	shuffleRewardsItems = true
+	#Shuffle the special rewards items instead of using the defined order.
+	shuffleRewardsSpecialItems = false
+	#Preview the upcoming rewards items for the next days.
+	previewRewardsItems = true
+	#Preview the upcoming special rewards items for the next days.
+	previewRewardsSpecialItems = true
+
+	["Rewards Items"."January Rewards Items"]
+		#List of rewards items for January
+		rewardsJanuaryItems = ["minecraft:oak_log:32", "minecraft:cooked_salmon:16", "minecraft:white_wool:16", "minecraft:cake:1"]
+		#Single reward item or list of special streak rewards items for January. (Only used if rewardsJanuarySpecialItemsNeededDays is greater than 0)
+		rewardsJanuarySpecialItems = ["minecraft:cooked_salmon:1", "minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for January. (Use empty list to allow all players to get special rewards items for January)
+		rewardsJanuarySpecialUsers = [""]
+
+	["Rewards Items"."February Rewards Items"]
+		#List of rewards items for February
+		rewardsFebruaryItems = []
+		#Single reward item or list of special streak rewards items for February. (Only used if rewardsFebruarySpecialItemsNeededDays is greater than 0)
+		rewardsFebruarySpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for February. (Use empty list to allow all players to get special rewards items for February)
+		rewardsFebruarySpecialUsers = [""]
+
+	["Rewards Items"."March Rewards Items"]
+		#List of rewards items for March
+		rewardsMarchItems = []
+		#Single reward item or list of special streak rewards items for March. (Only used if rewardsMarchSpecialItemsNeededDays is greater than 0)
+		rewardsMarchSpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for March. (Use empty list to allow all players to get special rewards items for March)
+		rewardsMarchSpecialUsers = [""]
+
+	["Rewards Items"."April Rewards Items"]
+		#List of rewards items for April
+		rewardsAprilItems = []
+		#Single reward item or list of special streak rewards items for April. (Only used if rewardsAprilSpecialItemsNeededDays is greater than 0)
+		rewardsAprilSpecialItems = ["minecraft:eggs:1", "minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for April. (Use empty list to allow all players to get special rewards items for April)
+		rewardsAprilSpecialUsers = [""]
+
+	["Rewards Items"."May Rewards Items"]
+		#List of rewards items for May
+		rewardsMayItems = ["minecraft:egg:16"]
+		#Single reward item or list of special streak rewards items for May. (Only used if rewardsMaySpecialItemsNeededDays is greater than 0)
+		rewardsMaySpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for May. (Use empty list to allow all players to get special rewards items for May)
+		rewardsMaySpecialUsers = [""]
+
+	["Rewards Items"."June Rewards Items"]
+		#List of rewards items for June
+		rewardsJuneItems = []
+		#Single reward item or list of special streak rewards items for June. (Only used if rewardsJuneSpecialItemsNeededDays is greater than 0)
+		rewardsJuneSpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for June. (Use empty list to allow all players to get special rewards items for June)
+		rewardsJuneSpecialUsers = [""]
+
+	["Rewards Items"."July Rewards Items"]
+		#List of rewards items for July
+		rewardsJulyItems = []
+		#Single reward item or list of special streak rewards items for July. (Only used if rewardsJulySpecialItemsNeededDays is greater than 0)
+		rewardsJulySpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for July. (Use empty list to allow all players to get special rewards items for July)
+		rewardsJulySpecialUsers = [""]
+
+	["Rewards Items"."August Rewards Items"]
+		#List of rewards items for August
+		rewardsAugustItems = []
+		#Single reward item or list of special streak rewards items for August. (Only used if rewardsAugustSpecialItemsNeededDays is greater than 0)
+		rewardsAugustSpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for August. (Use empty list to allow all players to get special rewards items for August)
+		rewardsAugustSpecialUsers = [""]
+
+	["Rewards Items"."September Rewards Items"]
+		#List of rewards items for September
+		rewardsSeptemberItems = []
+		#Single reward item or list of special streak rewards items for September. (Only used if rewardsSeptemberSpecialItemsNeededDays is greater than 0)
+		rewardsSeptemberSpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for September. (Use empty list to allow all players to get special rewards items for September)
+		rewardsSeptemberSpecialUsers = [""]
+
+	["Rewards Items"."October Rewards Items"]
+		#List of rewards items for October
+		rewardsOctoberItems = []
+		#Single reward item or list of special streak rewards items for October. (Only used if rewardsOctoberSpecialItemsNeededDays is greater than 0)
+		rewardsOctoberSpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for October. (Use empty list to allow all players to get special rewards items for October)
+		rewardsOctoberSpecialUsers = [""]
+
+	["Rewards Items"."November Rewards Items"]
+		#List of rewards items for November
+		rewardsNovemberItems = []
+		#Single reward item or list of special streak rewards items for November. (Only used if rewardsNovemberSpecialItemsNeededDays is greater than 0)
+		rewardsNovemberSpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for November. (Use empty list to allow all players to get special rewards items for November)
+		rewardsNovemberSpecialUsers = [""]
+
+	["Rewards Items"."December Rewards Items"]
+		#List of rewards items for December
+		rewardsDecemberItems = ["minecraft:firework_rocket:32"]
+		#Single reward item or list of special streak rewards items for December. (Only used if rewardsDecemberSpecialItemsNeededDays is greater than 0)
+		rewardsDecemberSpecialItems = ["minecraft:cake:1", "minecraft:cookie:1"]
+		#List of users which will get the special rewards items for December. (Use empty list to allow all players to get special rewards items for December)
+		rewardsDecemberSpecialUsers = [""]
 

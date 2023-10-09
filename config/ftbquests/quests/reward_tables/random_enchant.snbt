@@ -15,7 +15,7 @@
 	rewards: [
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -27,7 +27,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -39,7 +39,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -51,7 +51,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -63,7 +63,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -75,7 +75,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -87,7 +87,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -99,7 +99,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -111,7 +111,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -123,7 +123,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -135,7 +135,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -147,7 +147,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -159,7 +159,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -171,7 +171,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -183,7 +183,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -195,7 +195,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -207,7 +207,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -219,7 +219,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -231,7 +231,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -243,7 +243,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -255,7 +255,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -267,7 +267,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{
@@ -279,7 +279,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:enchanted_book"
 				tag: {
 					StoredEnchantments: [{

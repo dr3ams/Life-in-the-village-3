@@ -1,11 +1,11 @@
 {
 	id: "780A6CFC2F1EFBE6"
 	loot_size: 1
-	order_index: 20
+	order_index: 19
 	rewards: [
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "legendary_loot_crate"

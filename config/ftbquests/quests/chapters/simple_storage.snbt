@@ -18,7 +18,7 @@
 			rewards: [{
 				id: "77D62054D856C3A6"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "common_loot_crate"
@@ -117,7 +117,7 @@
 			tasks: [{
 				id: "38D6DB6F8EDE2E63"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -165,7 +165,7 @@
 			tasks: [{
 				id: "23A19BE3AFE3F041"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -213,7 +213,7 @@
 			tasks: [{
 				id: "702BCF9A77D94BFF"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -261,7 +261,7 @@
 			tasks: [{
 				id: "2936B970D64810EC"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -309,7 +309,7 @@
 			tasks: [{
 				id: "12084578B8CA0A5E"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -357,7 +357,7 @@
 			tasks: [{
 				id: "6ABC8CE33AAEDE2F"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -405,7 +405,7 @@
 			tasks: [{
 				id: "3CCB0CCB0FF80E03"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -714,7 +714,7 @@
 			rewards: [{
 				id: "15793FDB88CB6488"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "common_loot_crate"
@@ -735,7 +735,7 @@
 			rewards: [{
 				id: "749516CF5D97E14D"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "common_loot_crate"
@@ -901,7 +901,7 @@
 			tasks: [{
 				id: "68BEC4CF2EED289E"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -936,7 +936,7 @@
 			tasks: [{
 				id: "378EF9C1BF3E8B09"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -1026,7 +1026,7 @@
 				{
 					id: "063D1B51514796FF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1054,7 +1054,7 @@
 			tasks: [{
 				id: "61A839CACDC3E1CE"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:barrels/wooden"
@@ -1084,7 +1084,7 @@
 			tasks: [{
 				id: "5AA84C7A6A118F4F"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:iron_barrel"
 					tag: {
 						woodType: "oak"
@@ -1113,7 +1113,7 @@
 			tasks: [{
 				id: "1B31C98B0FE398E9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:iron_chest"
 					tag: {
 						woodType: "oak"
@@ -1148,7 +1148,7 @@
 			tasks: [{
 				id: "63A28F6B136DE309"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:gold_chest"
 					tag: {
 						woodType: "oak"
@@ -1183,7 +1183,7 @@
 			tasks: [{
 				id: "45C456A41BA34DAE"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:diamond_chest"
 					tag: {
 						woodType: "oak"
@@ -1217,7 +1217,7 @@
 			tasks: [{
 				id: "36D75143B63631B8"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:netherite_chest"
 					tag: {
 						woodType: "oak"
@@ -1252,7 +1252,7 @@
 			tasks: [{
 				id: "6D8A31110C1D9566"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:gold_barrel"
 					tag: {
 						woodType: "oak"
@@ -1287,7 +1287,7 @@
 			tasks: [{
 				id: "34ADC3D5DD862ECC"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:diamond_barrel"
 					tag: {
 						woodType: "oak"
@@ -1321,7 +1321,7 @@
 			tasks: [{
 				id: "433935F707CE8622"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:netherite_barrel"
 					tag: {
 						woodType: "oak"
@@ -1355,7 +1355,7 @@
 			tasks: [{
 				id: "409A3CB114A90A5E"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -1389,7 +1389,7 @@
 			tasks: [{
 				id: "77B5D113DD54E40D"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -1418,7 +1418,7 @@
 			tasks: [{
 				id: "765B65A0C48E4E4A"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -1447,7 +1447,7 @@
 			tasks: [{
 				id: "6B4C8E61B1D3E094"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -1521,7 +1521,7 @@
 				{
 					id: "736F0D5535C7D6A2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1731,7 +1731,7 @@
 			rewards: [{
 				id: "2A784D880FA6D122"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "common_loot_crate"
@@ -1742,7 +1742,7 @@
 			tasks: [{
 				id: "749B451D6990169C"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"polymorph:stack_recipe_data": { }
 					}
@@ -1813,7 +1813,7 @@
 				{
 					id: "1A68E35631DDCE7F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -1863,7 +1863,7 @@
 				{
 					id: "2BA1664B7D8A1411"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -2084,7 +2084,7 @@
 				{
 					id: "15547E7B9E18914E"
 					item: {
-						Count: 1
+						Count: 1b
 						ForgeCaps: {
 							"maledicta:energy_collector": {
 								energy: 0.0d
@@ -2209,7 +2209,7 @@
 			tasks: [{
 				id: "1CC8A8961DE84711"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "toms_storage:ts.item_filter"
 					tag: {
 						Filter: [ ]

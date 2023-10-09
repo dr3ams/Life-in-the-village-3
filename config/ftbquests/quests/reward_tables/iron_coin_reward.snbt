@@ -1,12 +1,12 @@
 {
 	id: "32F9A93C0635A760"
 	loot_size: 1
-	order_index: 16
+	order_index: 15
 	rewards: [
 		{ count: 4, item: "aquaculture:lockbox" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "uncommon_loot_crate"
@@ -15,7 +15,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "vanilla_food_2"
@@ -24,7 +24,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "ores_2"
@@ -33,7 +33,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "passive_spawn_eggs"
@@ -42,7 +42,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "vanilla_materials_2"
@@ -53,7 +53,7 @@
 		{
 			count: 2
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "common_loot_crate"
@@ -83,7 +83,7 @@
 		{ item: "aquaculture:lockbox" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:potion"
 				tag: {
 					Potion: "alexsmobs:speed_iii"
@@ -92,7 +92,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:potion"
 				tag: {
 					Potion: "alexsmobs:lava_vision"
@@ -113,6 +113,9 @@
 		{ item: "simplehats:hatbag_uncommon" }
 		{ item: "minecraft:tnt" }
 		{ item: "minecraft:lead" }
+		{ item: "minecraft:cactus" }
+		{ item: "minecraft:feather" }
+		{ item: "minecraft:gunpowder" }
 		{ count: 32, item: "minecraft:rail" }
 		{ item: "minecraft:redstone_lamp" }
 		{ count: 6, item: "supplementaries:bomb" }
@@ -124,6 +127,18 @@
 		{ count: 64, item: "buildersaddition:hedge_spruce" }
 		{ count: 16, item: "farmersdelight:mixed_salad" }
 		{ item: "waystones:bound_scroll" }
+		{ item: "waystones:sharestone" }
+		{ item: "waystones:warp_plate" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:hearthstone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "gag:sacred_salt" }
 	]
 	title: "Iron coin reward"
 }

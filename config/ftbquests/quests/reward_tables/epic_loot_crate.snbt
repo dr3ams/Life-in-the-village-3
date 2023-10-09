@@ -7,14 +7,15 @@
 			monster: 0
 			passive: 0
 		}
+		item_name: "Epic Loot Crate"
 		string_id: "epic_loot_crate"
 	}
 	loot_size: 1
-	order_index: 10
+	order_index: 9
 	rewards: [
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -30,7 +31,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -46,7 +47,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -62,7 +63,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -78,7 +79,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -94,7 +95,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -108,6 +109,11 @@
 			title: "Spawn Eggs 3"
 			weight: 80.0f
 		}
+		{ item: "oreberriesreplanted:essence_berry_bush" }
+		{ item: "oreberriesreplanted:zinc_oreberry_bush" }
+		{ item: "oreberriesreplanted:iron_oreberry_bush" }
+		{ item: "oreberriesreplanted:gold_oreberry_bush" }
+		{ item: "oreberriesreplanted:copper_oreberry_bush" }
 	]
 	title: "Epic loot crate"
 	use_title: true

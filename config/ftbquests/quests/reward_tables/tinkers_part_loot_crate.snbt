@@ -10,7 +10,7 @@
 		string_id: "tinker_s_part_loot_crate"
 	}
 	loot_size: 1
-	order_index: 11
+	order_index: 10
 	rewards: [
 		{
 			item: {

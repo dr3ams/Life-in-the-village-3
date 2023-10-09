@@ -4,7 +4,7 @@
 	filename: "getting_started"
 	group: ""
 	icon: {
-		Count: 1
+		Count: 1b
 		id: "minecraft:stone_pickaxe"
 		tag: {
 			Damage: 0
@@ -42,7 +42,7 @@
 			tasks: [{
 				id: "0000000000000009"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:logs"
@@ -80,7 +80,7 @@
 			tasks: [{
 				id: "000000000000000B"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:wooden_pickaxe"
 					tag: {
 						Damage: 0
@@ -146,7 +146,7 @@
 			tasks: [{
 				id: "0000000000000014"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
 						value: "forge:chests"
@@ -187,7 +187,7 @@
 				{
 					id: "77D7A2ED18656D97"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -204,7 +204,7 @@
 			tasks: [{
 				id: "0000000000000018"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:tag"
 					tag: {
 						value: "minecraft:beds"
@@ -373,7 +373,7 @@
 				{
 					id: "0000000000000220"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:strength"
@@ -556,7 +556,7 @@
 			tasks: [{
 				id: "0000000000000064"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "quark:trowel"
 					tag: {
 						Damage: 0
@@ -720,7 +720,7 @@
 				{
 					id: "7FC1DD7303B55C33"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:swiftness"
@@ -755,7 +755,7 @@
 				{
 					id: "00000000000002D9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -769,7 +769,7 @@
 				{
 					id: "00000000000002DA"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:enchanted_book"
 						tag: {
 							StoredEnchantments: [{
@@ -783,7 +783,7 @@
 				{
 					id: "4229240D9A9F4A3D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:strength"
@@ -801,7 +801,7 @@
 				{
 					id: "00000000000002AB"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:iron_helmet"
 						tag: {
 							Damage: 0
@@ -812,7 +812,7 @@
 				{
 					id: "00000000000002AC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:iron_chestplate"
 						tag: {
 							Damage: 0
@@ -823,7 +823,7 @@
 				{
 					id: "00000000000002AD"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:iron_leggings"
 						tag: {
 							Damage: 0
@@ -834,7 +834,7 @@
 				{
 					id: "00000000000002AE"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:iron_boots"
 						tag: {
 							Damage: 0
@@ -845,7 +845,7 @@
 				{
 					id: "554729809ED5063C"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:shield"
 						tag: {
 							Damage: 0
@@ -870,7 +870,7 @@
 			tasks: [{
 				id: "0000000000000577"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "naturescompass:naturescompass"
 					tag: { }
 				}
@@ -892,7 +892,7 @@
 				{
 					id: "6BB131699E21FDB6"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:diamond_helmet"
 						tag: {
 							Damage: 0
@@ -903,7 +903,7 @@
 				{
 					id: "2D22FE1D7EB7149D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:diamond_chestplate"
 						tag: {
 							Damage: 0
@@ -914,7 +914,7 @@
 				{
 					id: "1640D7A699DEF0DA"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:diamond_leggings"
 						tag: {
 							Damage: 0
@@ -925,7 +925,7 @@
 				{
 					id: "6165A318A0C852C0"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:diamond_boots"
 						tag: {
 							Damage: 0
@@ -997,7 +997,7 @@
 			tasks: [{
 				id: "7638244305D2B4B3"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:trident"
 					tag: {
 						Damage: 0
@@ -1080,7 +1080,7 @@
 				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "create_sa:experience_pickaxe"
 				tag: {
 					Damage: 0
@@ -1284,7 +1284,7 @@
 				{
 					id: "5743FA3A1FE7A714"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1325,7 +1325,7 @@
 				{
 					id: "03AAE55F5968ED2A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -1396,7 +1396,7 @@
 				{
 					id: "499C028530B15983"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_enchant"
@@ -1467,7 +1467,7 @@
 				{
 					id: "0C362517CBF03A4B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_dyes"
@@ -1497,7 +1497,7 @@
 				{
 					id: "621519DFFAB4C6EA"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_enchant"
@@ -1527,7 +1527,7 @@
 				{
 					id: "3CC38F8DA0FEFF52"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1550,7 +1550,7 @@
 			tasks: [{
 				id: "3839B784CE0DE249"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "constructionwand:diamond_wand"
 					tag: {
 						Damage: 0
@@ -1574,7 +1574,7 @@
 			tasks: [{
 				id: "6EF3EBA783FDAD19"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "constructionwand:iron_wand"
 					tag: {
 						Damage: 0
@@ -1599,7 +1599,7 @@
 				{
 					id: "58E48C82E5EF2CF0"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_mob_drops"
@@ -1633,7 +1633,7 @@
 				{
 					id: "5DE10AA0D4257E31"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:stone_sword"
 						tag: {
 							Damage: 0
@@ -1693,7 +1693,7 @@
 			tasks: [{
 				id: "027EBE349BC287BC"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "constructionwand:stone_wand"
 					tag: {
 						Damage: 0
@@ -1725,7 +1725,7 @@
 			tasks: [{
 				id: "0498B4CE87823DEF"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "itemfilters:or"
 					tag: {
 						items: [
@@ -1810,7 +1810,7 @@
 			tasks: [{
 				id: "5824CE59BA380036"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "sophisticatedstorage:iron_chest"
 					tag: {
 						woodType: "oak"
@@ -1851,7 +1851,7 @@
 				{
 					id: "57EFED8B0FDF975D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1918,7 +1918,7 @@
 				{
 					id: "1DC17B5DBF8F2B58"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1963,7 +1963,7 @@
 				{
 					id: "176F80BC2143D9BB"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -2006,7 +2006,7 @@
 			tasks: [{
 				id: "042C1BA4BA9C296A"
 				item: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						Parent: {
 							Items: [ ]
@@ -2044,7 +2044,7 @@
 				"Tetra has two advancement tabs which covers most of the available content, and the holosphere provides an overview of the stats of modules, improvements and materials."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"maledicta:energy_collector": {
 						energy: 0.0d
@@ -2224,7 +2224,7 @@
 				{
 					id: "67D19FFF347AC943"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "deeppouches:alpha_pouch"
 						tag: { }
 					}
@@ -2275,7 +2275,7 @@
 				{
 					id: "20857AE219963026"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -2351,7 +2351,7 @@
 				{
 					id: "4E1BC620F85C50EA"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "hat_loot_crate"
@@ -2438,7 +2438,7 @@
 			tasks: [{
 				id: "359FC96DAD135771"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "collectorsalbum:album"
 					tag: { }
 				}
@@ -2475,7 +2475,7 @@
 			tasks: [{
 				id: "2F24972020B5087D"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nutritionalbalance:lunchbox"
 					tag: {
 						contents: [ ]
@@ -2485,6 +2485,50 @@
 			}]
 			x: 0.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["000000000000003F"]
+			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
+			id: "4DCD0744847F44B8"
+			subtitle: "Apply custom skins to anything: from equipment to blocks!"
+			tasks: [{
+				id: "483DFE0BA1E6149D"
+				item: "armourers_workshop:skin-library-global"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4DCD0744847F44B8"]
+			description: ["This is your local skin library"]
+			id: "789F5AA2E53CFE82"
+			tasks: [
+				{
+					id: "6018EBA6E3FC1694"
+					item: "armourers_workshop:skin-library"
+					type: "item"
+				}
+				{
+					id: "48536602B54C6B4C"
+					item: "armourers_workshop:skin-template"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["789F5AA2E53CFE82"]
+			id: "7B0A6930B521088F"
+			subtitle: "For applying skins from your local skin library"
+			tasks: [{
+				id: "460571AA8E2DF4C7"
+				item: "armourers_workshop:skinning-table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
 		}
 	]
 	title: "Getting Started"

@@ -84,7 +84,7 @@
 				{
 					id: "2632C18832A9FFB3"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -217,7 +217,7 @@
 				{
 					id: "396DC8167D45292A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -296,7 +296,7 @@
 			rewards: [{
 				id: "2F38F948DB30AC7B"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "random_dyes"
@@ -307,7 +307,7 @@
 			tasks: [{
 				id: "4C1AB16E2EBCAA5A"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "patchouli:guide_book"
 					tag: {
 						"patchouli:book": "productivebees:guide"
@@ -330,7 +330,7 @@
 			tasks: [{
 				id: "3F9BE709C13D4B87"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "productivebees:nest_locator"
 					tag: { }
 				}
@@ -346,7 +346,7 @@
 			rewards: [{
 				id: "56BA6500BF77CBFF"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "random_mob_drops"
@@ -381,7 +381,7 @@
 			tasks: [{
 				id: "14660E3E34B6C228"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "productivebees:jar_oak"
 					tag: { }
 				}
@@ -426,7 +426,7 @@
 				{
 					id: "320D3EA394A6638D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -477,7 +477,7 @@
 				{
 					id: "1FD9A7572FEC8330"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -506,7 +506,7 @@
 				{
 					id: "36B43204954F9DFB"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -535,7 +535,7 @@
 				{
 					id: "32F9E0E66628FD93"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -564,7 +564,7 @@
 				{
 					id: "39AE91C335E98AB0"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -593,7 +593,7 @@
 				{
 					id: "0206083EA2E69356"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -622,7 +622,7 @@
 				{
 					id: "301A67A5926052BF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -651,7 +651,7 @@
 				{
 					id: "0B98FDB4DBA9A200"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -680,7 +680,7 @@
 				{
 					id: "32F64E0A88FA11FE"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -709,7 +709,7 @@
 				{
 					id: "2BE09C53CB49BB05"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -738,7 +738,7 @@
 				{
 					id: "47B2163F00635C20"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -805,7 +805,7 @@
 				{
 					id: "76987B24A9FC6661"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -836,7 +836,7 @@
 				{
 					id: "6E7A22DFCDF3F844"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -913,7 +913,7 @@
 				{
 					id: "38CAEA9B254865B6"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -949,7 +949,7 @@
 				{
 					id: "0BB33F29DDC07E2D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -968,7 +968,7 @@
 				{
 					id: "0AA503ACD8D2DB02"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -981,7 +981,7 @@
 				{
 					id: "5517A9589173887F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -994,7 +994,7 @@
 				{
 					id: "44819DCEC500D4C3"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1007,7 +1007,7 @@
 				{
 					id: "7D40AAD9D0B13556"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1020,7 +1020,7 @@
 				{
 					id: "4D865C05651557A7"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1033,7 +1033,7 @@
 				{
 					id: "7DB0F5388F0AD39A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1046,7 +1046,7 @@
 				{
 					id: "47C0BCA693B29573"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1059,7 +1059,7 @@
 				{
 					id: "21D7DA514B40E52B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1072,7 +1072,7 @@
 				{
 					id: "134C9CF519A4F044"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1085,7 +1085,7 @@
 				{
 					id: "4FB7BCB2521A4D05"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1098,7 +1098,7 @@
 				{
 					id: "5665F00A0A250DC5"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1111,7 +1111,7 @@
 				{
 					id: "472A9B8B1B824EF8"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1139,7 +1139,7 @@
 				{
 					id: "10E397B309BBAA1C"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1166,7 +1166,7 @@
 				{
 					id: "40F03D51D6324384"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1185,7 +1185,7 @@
 				{
 					id: "76F0D19F30C96FEC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1198,7 +1198,7 @@
 				{
 					id: "68677B460A018F6C"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1211,7 +1211,7 @@
 				{
 					id: "2BBF94E308BD0344"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1224,7 +1224,7 @@
 				{
 					id: "3D499DA5CEE7ECBB"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1237,7 +1237,7 @@
 				{
 					id: "256D9DEC68FE92A6"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1264,7 +1264,7 @@
 				{
 					id: "3D85C6BF0E508AB9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1283,7 +1283,7 @@
 				{
 					id: "17A4A5833F30CA79"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1296,7 +1296,7 @@
 				{
 					id: "704E655513D5CD34"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1309,7 +1309,7 @@
 				{
 					id: "762046DFE16FE814"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1322,7 +1322,7 @@
 				{
 					id: "3BACF2125A31B35B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1335,7 +1335,7 @@
 				{
 					id: "7D90E22A18EE2BEF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1348,7 +1348,7 @@
 				{
 					id: "15D2D10C104F85E7"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1361,7 +1361,7 @@
 				{
 					id: "47F8D91995022B73"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1374,7 +1374,7 @@
 				{
 					id: "07631A25B06159B1"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {
@@ -1387,7 +1387,7 @@
 				{
 					id: "70541D25FF5435BC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "productivebees:configurable_honeycomb"
 						tag: {
 							EntityTag: {

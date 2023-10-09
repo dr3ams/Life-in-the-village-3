@@ -54,7 +54,7 @@
 			tasks: [{
 				id: "12F81678685F16CD"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:roadrunner_boots"
 					tag: {
 						Damage: 0
@@ -72,7 +72,7 @@
 			rewards: [{
 				id: "3E1A49BB8521AFF7"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:fire_resistance"
@@ -100,7 +100,7 @@
 			tasks: [{
 				id: "72DEF711876FB75D"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:lava_vision"
@@ -166,7 +166,7 @@
 			tasks: [{
 				id: "55B1F5C0010212AB"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:crocodile_chestplate"
 					tag: {
 						Damage: 0
@@ -270,7 +270,7 @@
 			tasks: [{
 				id: "3703E14E87D5EAC9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:blood_sprayer"
 					tag: {
 						Damage: 0
@@ -479,7 +479,7 @@
 			tasks: [{
 				id: "6AB5340F587CFDC4"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:poison_resistance"
@@ -564,7 +564,7 @@
 			tasks: [{
 				id: "364EC70179948791"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:centipede_leggings"
 					tag: {
 						Damage: 0
@@ -622,7 +622,7 @@
 			tasks: [{
 				id: "2A68C851464EBAC0"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:moose_headgear"
 					tag: {
 						Damage: 0
@@ -714,7 +714,7 @@
 			tasks: [{
 				id: "1CFD2F5A909BAEE3"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:frontier_cap"
 					tag: {
 						Damage: 0
@@ -848,7 +848,7 @@
 			tasks: [{
 				id: "1B05EE63E81476D3"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:bug_pheromones"
@@ -889,7 +889,7 @@
 				{
 					id: "23BE6640C97931B9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_regeneration"
@@ -918,7 +918,7 @@
 			tasks: [{
 				id: "66B8F8B6B4128277"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:soulsteal"
@@ -959,7 +959,7 @@
 			tasks: [{
 				id: "43B7921B92D4A21C"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:spiked_turtle_shell"
 					tag: {
 						Damage: 0
@@ -999,7 +999,7 @@
 			tasks: [{
 				id: "79667C6F209C2E6A"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:pocket_sand"
 					tag: {
 						Damage: 0
@@ -1087,7 +1087,7 @@
 			tasks: [{
 				id: "733A3D3E59544AC5"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:hemolymph_blaster"
 					tag: {
 						Damage: 0
@@ -1144,7 +1144,7 @@
 			tasks: [{
 				id: "6F0FC34DF30FD700"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:straddleboard"
 					tag: {
 						Damage: 0
@@ -1229,7 +1229,7 @@
 			tasks: [{
 				id: "417EE5A316C452B3"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:emu_leggings"
 					tag: {
 						Damage: 0
@@ -1269,7 +1269,7 @@
 			tasks: [{
 				id: "491D219FBC87114E"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:clinging"
@@ -1380,7 +1380,7 @@
 			tasks: [{
 				id: "1ACE9699E2BFB049"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:echolocator"
 					tag: {
 						Damage: 0
@@ -1410,7 +1410,7 @@
 			tasks: [{
 				id: "1464AB23C58B3215"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:endolocator"
 					tag: {
 						Damage: 0
@@ -1578,7 +1578,7 @@
 			tasks: [{
 				id: "446C9044228A45EE"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "alexsmobs:tarantula_hawk_elytra"
 					tag: {
 						Damage: 0
@@ -1654,7 +1654,7 @@
 			tasks: [{
 				id: "5842E473899E6454"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:speed_iii"
@@ -2473,7 +2473,7 @@
 		{
 			description: ["The seal is a cute, if not loud, creature frequently found on beaches or icebergs. Usually they are found sleeping but are very good swimmers. Giving a seal three fish with \"trade\" with the seal and they will dive into the water and bring back a sea related item (some are valuable). Can be bred with lobster tails."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:seal"
@@ -2487,7 +2487,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2508,7 +2508,7 @@
 		{
 			description: ["Shoebills are strange birds that inhabit swamps and will flee if attacked. They are more of solitary fishmen and won't keep all of their catch which can be picked up. They can be fed Crocodile eggs to increase the lure of their catches and Blobfish to increase the luck of their catch. They cannot be bred."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:shoebill"
@@ -2522,7 +2522,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2543,7 +2543,7 @@
 		{
 			description: ["The Snow Leopard is a big cat found in snowy mountain area where they live in solitude. They won't be aggressive to players but love hunting and will protect themselves. While hunting they often create extra drops due to their skill (like high luck). They cannot be tamed but can be bred with Moose Ribs. "]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:snow_leopard"
@@ -2557,7 +2557,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2581,7 +2581,7 @@
 				"They can be tamed by giving them some pumpkin seeds. When tamed they can follow the the basic tamed animal rules (Stay, follow, wander) but can also collect items. When set to gather mode crows will look for chests with item frames on them. Whatever item is in the frame will be collected and placed into the chest."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:crow"
@@ -2595,7 +2595,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2616,7 +2616,7 @@
 		{
 			description: ["Mungi are mushroom creatures found in different Mushroom biomes. They are completely passive. They have mushroomson them that on them that they will grow more of depending on the biome. They have a chance of creating giant mushrooms. If killed with 5 mushrooms on it, it will explode and spread their mushroom covering them. They can be bred with Mushroom Stew."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:mungus"
@@ -2637,7 +2637,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2662,7 +2662,7 @@
 				"It's special ability is that when fed with redstone it will seak out clay blocks where it will dig up maggots and clay balls."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:platypus"
@@ -2676,7 +2676,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2697,7 +2697,7 @@
 		{
 			description: ["The Tasmanian Devil is a small creature found in temperate forests. They can be found in groups making growling noises. They will also heartily defend themselves if attacked. Can be fed rotten flesh to release a howl to scare away all monsters for a time. They cannot be tamed but can be bred with meat."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:tasmanian_devil"
@@ -2718,7 +2718,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2739,7 +2739,7 @@
 		{
 			description: ["Raccoons are natives of plains and forests where they can be seen foraging for food. They will come up to players to beg if food is being held but they will also steal food from chests. Will wash food when near water. Can be tamed when given an egg near water and can be bred with bread."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:raccoon"
@@ -2753,7 +2753,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2774,7 +2774,7 @@
 		{
 			description: ["The Gazelle is a small creature of the savannas is very timid and prefers its large groups which will flee at the first sign of danger."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:gazelle"
@@ -2788,7 +2788,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2809,7 +2809,7 @@
 		{
 			description: ["This annoying bug is pretty common across the overworld. They will chase and bite zombies to near death. They are bred with rotten flesh. Make sure these do not get into the Nether...."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:fly"
@@ -2835,7 +2835,7 @@
 				"Can be bred with dandelions."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:moose"
@@ -2849,7 +2849,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2873,7 +2873,7 @@
 				"If given a very large amount of rotten flesh they can be tamed where they will fiercely protect their friends and are also a good mount."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:komodo_dragon"
@@ -2894,7 +2894,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2915,7 +2915,7 @@
 		{
 			description: ["The Roadrunner is a quick ground bird that can be found in deserts and badlands. They are predator of Rattlesnakes. Can be bred with maggots."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:roadrunner"
@@ -2936,7 +2936,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -2957,7 +2957,7 @@
 		{
 			description: ["A rare underground bug that can be found deep down. It slowly moves but it has a powerful bite and is poisonous."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:centipede_head"
@@ -2978,7 +2978,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3002,7 +3002,7 @@
 				"Their most unique ability may be the ability to lose their head and keep on running though. They can be bred with sugar."
 			]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:cockroach"
@@ -3016,7 +3016,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3037,7 +3037,7 @@
 		{
 			description: ["A Lobster is a small sea creature found in the water right off the beach. They will pinch anything aggresive to them but usually won't chase. Can come in a number of colors."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:lobster"
@@ -3051,7 +3051,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3072,7 +3072,7 @@
 		{
 			description: ["This..... squishy fish is usually found deep in oceans. When a slimeball is used on a blobfish will allow it to survive on land."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:blobfish"
@@ -3086,7 +3086,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3107,7 +3107,7 @@
 		{
 			description: ["A Hammerhead Shark are a large creature native in warmer oceans. It is a predator of any creature below half health."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:hammerhead_shark"
@@ -3121,7 +3121,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3142,7 +3142,7 @@
 		{
 			description: ["This large animal of the End is a peaceful floating creature that is happy spending its days just floating around Chorus Forests eating chorus fruits. You can lure a Endergrade over to you by holding a Chorus fruit which you can also use to breed them."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:endergrade"
@@ -3163,7 +3163,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3184,7 +3184,7 @@
 		{
 			description: ["A slime relative of the End found typically in End Cities. Have very powerful magical abilities of mimicing an attackers weapons and armor."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:mimicube"
@@ -3205,7 +3205,7 @@
 			]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3226,7 +3226,7 @@
 		{
 			description: ["The Bone Serpent is a native of the lava lakes of the Nether where it preys on almost everything, especially Wither Skeletons."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:bone_serpent"
@@ -3240,7 +3240,7 @@
 			}]
 			tasks: [{
 				icon: {
-					Count: 1
+					Count: 1b
 					ForgeCaps: {
 						"dungeons_libraries:built_in_enchantments": {
 							BuiltInEnchantments: [ ]
@@ -3261,7 +3261,7 @@
 		{
 			description: ["The Dropbear is an evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."]
 			icon: {
-				Count: 1
+				Count: 1b
 				id: "alexsmobs:tab_icon"
 				tag: {
 					DisplayEntityType: "alexsmobs:dropbear"
@@ -3288,7 +3288,7 @@
 				}
 				{
 					icon: {
-						Count: 1
+						Count: 1b
 						ForgeCaps: {
 							"dungeons_libraries:built_in_enchantments": {
 								BuiltInEnchantments: [ ]
@@ -3319,7 +3319,7 @@
 			tasks: [{
 				id: "7F6CA93CB8FA72D9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "alexsmobs:knockback_resistance"

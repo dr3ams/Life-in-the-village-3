@@ -1,12 +1,12 @@
 {
 	id: "4154CA41BC809899"
 	loot_size: 1
-	order_index: 22
+	order_index: 21
 	rewards: [
 		{
 			count: 2
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -17,7 +17,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]

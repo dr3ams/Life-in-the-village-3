@@ -79,7 +79,7 @@
 
 [world]
 	#Disables thunder storms, fixing glitched lighting from thunder and other side-effects
-	enableStormTweak = true
+	enableStormTweak = false
 
 #All changes made here require a game restart.
 [mixins]

@@ -8,17 +8,17 @@
 	disable_gui: false
 	drop_loot_crates: false
 	emergency_items: [
-		{ Count: 1, id: "minecraft:apple" }
+		{ Count: 1b, id: "minecraft:apple" }
 		{
-			Count: 1
+			Count: 1b
 			id: "minecraft:stone_pickaxe"
 			tag: {
 				Damage: 0
 			}
 		}
-		{ Count: 1, id: "ftbquests:book" }
+		{ Count: 1b, id: "ftbquests:book" }
 		{
-			Count: 1
+			Count: 1b
 			id: "minecraft:potion"
 			tag: {
 				Potion: "minecraft:swiftness"

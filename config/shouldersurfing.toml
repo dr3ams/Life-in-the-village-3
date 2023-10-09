@@ -1,7 +1,5 @@
 
 [perspective]
-	#Whether or not to hide the player model if the camera gets too close to it
-	keep_camera_out_of_head = true
 	#The default perspective when you load the game
 	#Allowed Values: FIRST_PERSON, THIRD_PERSON_BACK, THIRD_PERSON_FRONT, SHOULDER_SURFING
 	default_perspective = "FIRST_PERSON"
@@ -14,6 +12,17 @@
 	#Size of the camera adjustment per step
 	#Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
 	camera_step_size = 0.025
+	#The distance scale on whether or not to hide the player model if the camera gets too close to it. Set to 0 to disable.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	keep_camera_out_of_head_scale = 0.75
+	#Whether or not to temporarily center the camera when climbing
+	center_camera_when_climbing = true
+	#The speed at which the camera transitions between positions
+	#Range: 0.05 ~ 1.0
+	camera_transition_speed = 0.25
+	#The angle at which the camera will be centered when looking down. Set to 0 to disable.
+	#Range: 0.0 ~ 90.0
+	center_camera_when_looking_down_angle = 15.0
 
 	[perspective.offset]
 		#Third person camera x-offset

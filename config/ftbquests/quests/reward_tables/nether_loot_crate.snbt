@@ -12,7 +12,7 @@
 		string_id: "nether_loot_crate"
 	}
 	loot_size: 1
-	order_index: 28
+	order_index: 27
 	rewards: [
 		{ item: "minecraft:golden_apple" }
 		{ count: 2, item: "minecraft:obsidian" }
@@ -29,7 +29,7 @@
 		{ count: 32, item: "quark:soul_sandstone" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:potion"
 				tag: {
 					Potion: "alexsmobs:strong_soulsteal"
@@ -50,7 +50,7 @@
 		{ item: "kubejs:copper_coin" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "common_loot_crate"
@@ -59,7 +59,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "random_dyes"
@@ -68,7 +68,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "random_mob_drops"

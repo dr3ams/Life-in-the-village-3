@@ -30,13 +30,6 @@
 		"minecraft:bookshelf",
 		"minecraft:pumpkin",
 		"minecraft:chest",
-		"minecraft:snow_block",
-		"quark:marble",
-		"quark:myalite",
-		"quark:jasper",
-		"quark:basalt",
-		"quark:slate",
-		"quark:limestone",
-		"quark:glowcelium"
+		"minecraft:snow_block"
 	]
 }

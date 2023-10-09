@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "curtains",
+    
+    "pattern": [
+	"S",
+    "W",
+	"W"
+    ],
+    
+    "key":
+    {     
+        "S":
+        {
+            "item": "minecraft:stick"
+        },	
+        "W":
+        {
+            "item": "minecraft:purple_wool"
+        }
+    },
+    
+    "result":
+    {
+        "item":  "mcwwindows:purple_curtain",
+        "count": 3
+    }
+}

@@ -466,7 +466,7 @@
 			rewards: [{
 				id: "682FA6CDD657A92A"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "random_dyes"
@@ -502,7 +502,7 @@
 			rewards: [{
 				id: "7D262DCEA7899D6F"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "random_mob_drops"
@@ -583,7 +583,7 @@
 			rewards: [{
 				id: "2506C19976D1C0D1"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "ftbquests:lootcrate"
 					tag: {
 						type: "common_loot_crate"

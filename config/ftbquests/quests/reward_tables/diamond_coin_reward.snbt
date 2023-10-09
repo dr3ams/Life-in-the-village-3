@@ -1,11 +1,11 @@
 {
 	id: "0BC9EE62BBE93C0A"
 	loot_size: 1
-	order_index: 19
+	order_index: 18
 	rewards: [
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "epic_loot_crate"
@@ -25,7 +25,7 @@
 		{ count: 10, item: "randomite:randomite_ore" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "hat_loot_crate"
@@ -35,7 +35,7 @@
 		{ item: "simplehats:hatbag_epic" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"maledicta:energy_collector": {
 						energy: 0.0d
@@ -46,6 +46,14 @@
 				tag: {
 					Damage: 0
 				}
+			}
+		}
+		{ item: "gag:sacred_balm" }
+		{
+			item: {
+				Count: 1b
+				id: "gag:time_sand_pouch"
+				tag: { }
 			}
 		}
 	]

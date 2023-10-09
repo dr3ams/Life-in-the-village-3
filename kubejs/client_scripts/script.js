@@ -29,7 +29,14 @@ event.addItem('waystones:warp_stone', ["This item can be bought in the shop", ""
 event.addItem('waystones:warp_plate', ["This item can be bought in the shop", "", "Warp Plates can be compared to teleporting pressure plates. Stand on one and you will get teleported to another warp plate. Warp Plates are attuned to each other by inserting the Attuned Shard of another warp plate."])
   
   
-  
+    event.addItem('gag:time_sand_pouch', ["This item can be bought in the shop for a reasonable price"])
+    event.addItem('gag:escape_rope', ["This item can be bought in the shop for a reasonable price"])
+    event.addItem('gag:hearthstone', ["This item can be bought in the shop for a reasonable price"])
+    event.addItem('gag:sacred_salt', ["This item can be bought in the shop for a reasonable price"])
+    event.addItem('gag:sacred_salve', ["This item can be bought in the shop for a reasonable price"])
+    event.addItem('gag:sacred_balm', ["This item can be bought in the shop for a reasonable price"])
+	event.addItem('gag:mining_dynamite', ["This item can be bought in the shop for a reasonable price"])
+	event.addItem('gag:labeling_tool', ["This item can be bought in the shop for a reasonable price"]) 
   
 })
 

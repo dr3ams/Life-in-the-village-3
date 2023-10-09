@@ -4,7 +4,7 @@
 	filename: "nomad"
 	group: "2280ECB310C79FE3"
 	icon: {
-		Count: 1
+		Count: 1b
 		id: "nomadictents:tiny_tepee"
 		tag: { }
 	}
@@ -30,7 +30,7 @@
 			tasks: [{
 				id: "10C3118E15709E55"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:golden_mallet"
 					tag: {
 						Damage: 0
@@ -81,7 +81,7 @@
 			tasks: [{
 				id: "198CF829D519DC4F"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:mallet"
 					tag: {
 						Damage: 0
@@ -109,7 +109,7 @@
 			tasks: [{
 				id: "0B346259E937DDB5"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:tiny_yurt"
 					tag: { }
 				}
@@ -135,7 +135,7 @@
 			tasks: [{
 				id: "6A590A92C03DB04B"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:tiny_tepee"
 					tag: { }
 				}
@@ -161,7 +161,7 @@
 			tasks: [{
 				id: "7C38F2C0446CAE2A"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:tiny_bedouin"
 					tag: { }
 				}
@@ -187,7 +187,7 @@
 			tasks: [{
 				id: "4CC3BED8373B1A4B"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:tiny_indlu"
 					tag: { }
 				}
@@ -213,7 +213,7 @@
 			tasks: [{
 				id: "0E65B8666575DF8E"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:tiny_shamiyana"
 					tag: { }
 				}
@@ -324,7 +324,7 @@
 			tasks: [{
 				id: "405523270D323D9D"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:small_yurt"
 					tag: { }
 				}
@@ -351,7 +351,7 @@
 			tasks: [{
 				id: "3BF99F74EAD43084"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:medium_yurt"
 					tag: { }
 				}
@@ -388,7 +388,7 @@
 			tasks: [{
 				id: "19CA63531E62E0C0"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:giant_yurt"
 					tag: { }
 				}
@@ -420,7 +420,7 @@
 			tasks: [{
 				id: "573B772A9C70F17A"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:mega_yurt"
 					tag: { }
 				}
@@ -447,7 +447,7 @@
 			tasks: [{
 				id: "1E542C1830507E42"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:small_tepee"
 					tag: { }
 				}
@@ -474,7 +474,7 @@
 			tasks: [{
 				id: "56A6C9A5501078A7"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:medium_tepee"
 					tag: { }
 				}
@@ -511,7 +511,7 @@
 			tasks: [{
 				id: "64F7A9CCD06EA301"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:giant_tepee"
 					tag: { }
 				}
@@ -543,7 +543,7 @@
 			tasks: [{
 				id: "0F630B337E639A7F"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:mega_tepee"
 					tag: { }
 				}
@@ -570,7 +570,7 @@
 			tasks: [{
 				id: "51475230A686571D"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:small_bedouin"
 					tag: { }
 				}
@@ -597,7 +597,7 @@
 			tasks: [{
 				id: "1671CFCB22D45DBA"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:medium_bedouin"
 					tag: { }
 				}
@@ -634,7 +634,7 @@
 			tasks: [{
 				id: "74922DE31E86E130"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:giant_bedouin"
 					tag: { }
 				}
@@ -666,7 +666,7 @@
 			tasks: [{
 				id: "0BAB08EA7E939921"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:mega_bedouin"
 					tag: { }
 				}
@@ -693,7 +693,7 @@
 			tasks: [{
 				id: "61D4A32B8883BDE2"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:small_indlu"
 					tag: { }
 				}
@@ -720,7 +720,7 @@
 			tasks: [{
 				id: "4C961F33098F36E3"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:medium_indlu"
 					tag: { }
 				}
@@ -757,7 +757,7 @@
 			tasks: [{
 				id: "4023FCF921B94EE0"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:giant_indlu"
 					tag: { }
 				}
@@ -789,7 +789,7 @@
 			tasks: [{
 				id: "4BDBCE053CE84E54"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:mega_indlu"
 					tag: { }
 				}
@@ -816,7 +816,7 @@
 			tasks: [{
 				id: "3BED1EBC8B27ECDD"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:small_shamiyana"
 					tag: { }
 				}
@@ -843,7 +843,7 @@
 			tasks: [{
 				id: "6756431F8F8A666C"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:medium_shamiyana"
 					tag: { }
 				}
@@ -880,7 +880,7 @@
 			tasks: [{
 				id: "4B85ACC574938D39"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:giant_shamiyana"
 					tag: { }
 				}
@@ -912,7 +912,7 @@
 			tasks: [{
 				id: "014BCE6F74600C9A"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:mega_shamiyana"
 					tag: { }
 				}
@@ -939,7 +939,7 @@
 			tasks: [{
 				id: "0053295FC37EE115"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:large_yurt"
 					tag: { }
 				}
@@ -966,7 +966,7 @@
 			tasks: [{
 				id: "4672BDEBA8D9379A"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:large_tepee"
 					tag: { }
 				}
@@ -993,7 +993,7 @@
 			tasks: [{
 				id: "14FABC86371B47DD"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:large_bedouin"
 					tag: { }
 				}
@@ -1020,7 +1020,7 @@
 			tasks: [{
 				id: "24D486AA256438F1"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:large_indlu"
 					tag: { }
 				}
@@ -1047,7 +1047,7 @@
 			tasks: [{
 				id: "1E0F0BEBC7C81533"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "nomadictents:large_shamiyana"
 					tag: { }
 				}

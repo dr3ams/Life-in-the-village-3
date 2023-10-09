@@ -19,7 +19,7 @@
 		{ count: 8, item: "minecraft:stick" }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				id: "minecraft:potion"
 				tag: {
 					Potion: "minecraft:long_regeneration"

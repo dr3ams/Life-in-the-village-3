@@ -20,7 +20,7 @@
 				{
 					id: "3C7E5B828F4C583E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:strong_leaping"
@@ -65,7 +65,7 @@
 				{
 					id: "5F3BBE58749408E4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:healing"
@@ -278,7 +278,7 @@
 				{
 					id: "523FBB56C0771936"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:fire_resistance"
@@ -312,7 +312,7 @@
 				{
 					id: "6C91D8BCA9AF77ED"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:healing"
@@ -448,7 +448,7 @@
 			tasks: [{
 				id: "0F1EEF1EA840B4D9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:warped_fungus_on_a_stick"
 					tag: {
 						Damage: 0
@@ -737,7 +737,7 @@
 				{
 					id: "40DE6B4F95519D54"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -766,7 +766,7 @@
 				{
 					id: "4C448384342EAEB2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -795,7 +795,7 @@
 				{
 					id: "36A73D40540D8DB1"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -824,7 +824,7 @@
 				{
 					id: "5FD426ADF64DC27E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -853,7 +853,7 @@
 				{
 					id: "56C1622464E0FF06"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -882,7 +882,7 @@
 				{
 					id: "0856DADAD667C364"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -911,7 +911,7 @@
 				{
 					id: "131AC64DB78057D8"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -940,7 +940,7 @@
 				{
 					id: "381F0755D6BA3C3D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -974,7 +974,7 @@
 				{
 					id: "7445C8C51873D5BC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_enchant"
@@ -1010,7 +1010,7 @@
 				{
 					id: "1C72352F2CE1F79F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1028,7 +1028,7 @@
 				{
 					id: "51C19FD07C6B24D6"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:gold_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1039,7 +1039,7 @@
 				{
 					id: "4B52A00A5022409E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:gold_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1050,7 +1050,7 @@
 				{
 					id: "61091F06A6A61B24"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:gold_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1061,7 +1061,7 @@
 				{
 					id: "01763DBA30A14198"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:gold_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1086,7 +1086,7 @@
 				{
 					id: "5EA94B9CDDCD7200"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1104,7 +1104,7 @@
 				{
 					id: "7528A1C720B6C6F5"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:water_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1115,7 +1115,7 @@
 				{
 					id: "16B95EA610E5C408"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:water_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1126,7 +1126,7 @@
 				{
 					id: "61869886A93172FD"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:water_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1137,7 +1137,7 @@
 				{
 					id: "034A507BAE675019"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:water_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1162,7 +1162,7 @@
 				{
 					id: "27980DB57A46527A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1180,7 +1180,7 @@
 				{
 					id: "0C4A0F96FFAC465A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:ender_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1191,7 +1191,7 @@
 				{
 					id: "67291AA6FFAC92DC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:ender_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1202,7 +1202,7 @@
 				{
 					id: "1ADEB21B5E02B923"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:ender_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1213,7 +1213,7 @@
 				{
 					id: "63D909FAB37314C3"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:ender_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1238,7 +1238,7 @@
 				{
 					id: "24EE6C7DF3958BB9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1256,7 +1256,7 @@
 				{
 					id: "12A272438625CA16"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:fire_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1267,7 +1267,7 @@
 				{
 					id: "7F2B32C357B557B8"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:fire_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1278,7 +1278,7 @@
 				{
 					id: "750697B80A8EB2A2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:fire_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1289,7 +1289,7 @@
 				{
 					id: "047EC975102EB1C4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:fire_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1319,7 +1319,7 @@
 				{
 					id: "6C958A46138C7E7F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1337,7 +1337,7 @@
 				{
 					id: "212DD4E061BDD7A2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:feather_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1348,7 +1348,7 @@
 				{
 					id: "597388EDB1959918"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:feather_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1359,7 +1359,7 @@
 				{
 					id: "174569B6144FC4F8"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:feather_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1370,7 +1370,7 @@
 				{
 					id: "0AACAFDFE852FB6B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:feather_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1400,7 +1400,7 @@
 				{
 					id: "4DD96818738B1E85"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1418,7 +1418,7 @@
 				{
 					id: "7ED8A0489873B69D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:phantom_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1429,7 +1429,7 @@
 				{
 					id: "082914C018753EEC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:phantom_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1440,7 +1440,7 @@
 				{
 					id: "4AE1C495591D2C96"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:phantom_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1451,7 +1451,7 @@
 				{
 					id: "4963730B016401BF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:phantom_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1476,7 +1476,7 @@
 				{
 					id: "6F019BFCD5C109D2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1494,7 +1494,7 @@
 				{
 					id: "364A0E0DF57B4655"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:poison_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1505,7 +1505,7 @@
 				{
 					id: "3DE0E9DDCED51EB4"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:poison_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1516,7 +1516,7 @@
 				{
 					id: "552B16804992BE9A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:poison_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1527,7 +1527,7 @@
 				{
 					id: "14B2B8CA7CA5CFD0"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:poison_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1552,7 +1552,7 @@
 				{
 					id: "02BE6EEAF93BAF38"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "random_materials"
@@ -1570,7 +1570,7 @@
 				{
 					id: "67B7BD9FC62C09EF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:wither_upgraded_netherite_helmet"
 						tag: {
 							Damage: 0
@@ -1581,7 +1581,7 @@
 				{
 					id: "29A3814C89476CD9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:wither_upgraded_netherite_chestplate"
 						tag: {
 							Damage: 0
@@ -1592,7 +1592,7 @@
 				{
 					id: "1750F34968056FD1"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:wither_upgraded_netherite_leggings"
 						tag: {
 							Damage: 0
@@ -1603,7 +1603,7 @@
 				{
 					id: "3C47453D2B5603E9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "upgradednetherite:wither_upgraded_netherite_boots"
 						tag: {
 							Damage: 0
@@ -1658,7 +1658,7 @@
 				{
 					id: "3B4A715A425B428A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1694,7 +1694,7 @@
 				{
 					id: "3E2C9D5B4086E320"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1753,7 +1753,7 @@
 				{
 					id: "0EFB16E318B32E4C"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1789,7 +1789,7 @@
 				{
 					id: "1707FDD0DFD9BD4B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -2125,7 +2125,7 @@
 				{
 					id: "685BB37A3BAD7949"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "minecraft:potion"
 						tag: {
 							Potion: "minecraft:long_fire_resistance"
@@ -2154,7 +2154,7 @@
 				count: 5
 				id: "57A26A8D0FD349C1"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:potion"
 					tag: {
 						Potion: "minecraft:water"
@@ -2235,7 +2235,7 @@
 				{
 					id: "2E61DBF1811BE8CF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -2374,7 +2374,7 @@
 				{
 					id: "1E75963DDA2DE483"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"

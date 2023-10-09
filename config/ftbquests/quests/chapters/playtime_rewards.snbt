@@ -69,7 +69,7 @@
 				{
 					id: "1FDB9663E058DD69"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -140,7 +140,7 @@
 				{
 					id: "0E1E7EF7872C3DE2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -216,7 +216,7 @@
 				{
 					id: "55C112DCB5648811"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -248,7 +248,7 @@
 				{
 					id: "7D6F8EEFE6A09E4A"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -391,7 +391,7 @@
 				{
 					id: "5C77A60ED05C3C0C"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -423,7 +423,7 @@
 				{
 					id: "561320C752F9D37D"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -583,7 +583,7 @@
 				{
 					id: "70375E77966A72F2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -615,7 +615,7 @@
 				{
 					id: "6977C75D0E6C51DA"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -646,7 +646,7 @@
 				{
 					id: "06ECEB551920083E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -736,7 +736,7 @@
 				{
 					id: "1078A4373F5D3423"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "hat_loot_crate"
@@ -1014,7 +1014,7 @@
 				{
 					id: "7DDC6A9772B143D2"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "hat_loot_crate"
@@ -1069,7 +1069,7 @@
 				{
 					id: "7E939CF94E2FE783"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1108,7 +1108,7 @@
 				{
 					id: "6B98BDB939C388D9"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1210,7 +1210,7 @@
 				{
 					id: "6A2D5F70AD5640F0"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1259,7 +1259,7 @@
 				{
 					id: "2C222D95AA763FA0"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1313,7 +1313,7 @@
 				{
 					id: "1812BD1D9250DA28"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -1362,7 +1362,7 @@
 				{
 					id: "0857C7466FCCCA9E"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1411,7 +1411,7 @@
 				{
 					id: "22F8750094F449AF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
@@ -1493,7 +1493,7 @@
 				{
 					id: "0067851845AFBB0F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"

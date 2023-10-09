@@ -12,12 +12,12 @@
 		string_id: "spawn_eggs_3"
 	}
 	loot_size: 1
-	order_index: 50
+	order_index: 49
 	rewards: [
 		{
 			count: 4
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -30,7 +30,7 @@
 		{
 			count: 2
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]

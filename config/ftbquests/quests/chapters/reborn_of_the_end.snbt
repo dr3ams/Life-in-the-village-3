@@ -3,7 +3,7 @@
 	default_quest_shape: "hexagon"
 	filename: "reborn_of_the_end"
 	group: "2280ECB310C79FE3"
-	icon: "enlightened_end:congealed_fern"
+	icon: "minecraft:end_crystal"
 	id: "00000000000005C5"
 	images: [
 		{
@@ -563,7 +563,7 @@
 				{
 					id: "1F50061C97E06AA7"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "rare_loot_crate"
@@ -777,7 +777,7 @@
 			tasks: [{
 				id: "3CC15784518C6E45"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "minecraft:elytra"
 					tag: {
 						Damage: 0
@@ -1349,28 +1349,6 @@
 			}]
 			x: 4.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["10CE75318BCDDCBD"]
-			id: "076BAE1C74790E88"
-			rewards: [{
-				id: "4BD64BC4DABF1AC8"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "56A21E2F90060A64"
-				item: {
-					Count: 1
-					id: "minecraft:potion"
-					tag: {
-						Potion: "enlightened_end:radiation_resistance_potion"
-					}
-				}
-				type: "item"
-			}]
-			x: 8.0d
-			y: 14.0d
 		}
 		{
 			dependencies: ["490CD2A9D679B003"]

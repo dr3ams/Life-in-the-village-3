@@ -1,7 +1,7 @@
 {
 	id: "3FB4AFFD6D13AE61"
 	loot_size: 1
-	order_index: 27
+	order_index: 26
 	rewards: [{ item: "kubejs:diamond_coin" }]
 	title: "Diamond-coin-reward"
 }

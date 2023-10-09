@@ -11,12 +11,12 @@
 		string_id: "rare_loot_crate"
 	}
 	loot_size: 1
-	order_index: 7
+	order_index: 6
 	rewards: [
 		{
 			count: 16
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -29,7 +29,7 @@
 		{ count: 4, item: "aquaculture:treasure_chest", weight: 5.0f }
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -45,7 +45,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -61,7 +61,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -76,7 +76,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -92,7 +92,7 @@
 		}
 		{
 			item: {
-				Count: 1
+				Count: 1b
 				ForgeCaps: {
 					"dungeons_libraries:built_in_enchantments": {
 						BuiltInEnchantments: [ ]
@@ -106,6 +106,10 @@
 			title: "Spawn Eggs 2"
 			weight: 15.0f
 		}
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ count: 2, item: "waystones:sharestone" }
+		{ count: 2, item: "waystones:warp_plate" }
 	]
 	title: "Rare loot crate"
 	use_title: true

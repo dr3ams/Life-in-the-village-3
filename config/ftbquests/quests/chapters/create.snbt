@@ -422,7 +422,7 @@
 				{
 					id: "6A66A84C77FF2FBD"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -525,7 +525,7 @@
 				{
 					id: "1680E769F323492B"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -957,7 +957,7 @@
 				{
 					id: "73C48E9BF781A6BC"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "create:super_glue"
 						tag: {
 							Damage: 0
@@ -987,7 +987,7 @@
 				{
 					id: "3AAEEC9A82197E5F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1196,7 +1196,7 @@
 				{
 					id: "3D02924C9DFC2641"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1307,7 +1307,7 @@
 				{
 					id: "0D44296DECECD6BB"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1443,7 +1443,7 @@
 				{
 					id: "5232BF762C07F5CF"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1474,7 +1474,7 @@
 				{
 					id: "3722CDAF2E3FE0E8"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "create_sa:drone_controller"
 						tag: {
 							tagAction: 0b
@@ -1520,7 +1520,7 @@
 			tasks: [{
 				id: "4DE1CA413A74F4E9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "create_sa:flamethrower"
 					tag: { }
 				}
@@ -1547,7 +1547,7 @@
 				{
 					id: "7A494BFAA11D3430"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1678,7 +1678,7 @@
 				{
 					id: "11443D8F3B2B3A1F"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "common_loot_crate"
@@ -1727,7 +1727,7 @@
 			tasks: [{
 				id: "7BCBE1F08E4598F9"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "create:linked_controller"
 					tag: {
 						Items: {
@@ -1923,7 +1923,7 @@
 			tasks: [{
 				id: "4ED83556084C5FE1"
 				item: {
-					Count: 1
+					Count: 1b
 					id: "create:extendo_grip"
 					tag: {
 						Damage: 0
@@ -2000,7 +2000,7 @@
 				{
 					id: "6C0C30529A5A3E48"
 					item: {
-						Count: 1
+						Count: 1b
 						id: "ftbquests:lootcrate"
 						tag: {
 							type: "uncommon_loot_crate"
