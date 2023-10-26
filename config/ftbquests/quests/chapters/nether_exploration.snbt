@@ -2476,7 +2476,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Get full suit of Netherite armor"
+			subtitle: "Get a full suit of Netherite armor"
 			tasks: [{
 				advancement: "minecraft:nether/netherite_armor"
 				criterion: ""
@@ -2507,6 +2507,11 @@
 		{
 			dependencies: ["39D411EBF412394A"]
 			id: "47996E93799B3383"
+			rewards: [{
+				id: "16C022CF2C40B93F"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
 			subtitle: "Ride a Strider with a Warped Fungus on a stick"
 			tasks: [{
 				advancement: "minecraft:nether/ride_strider"

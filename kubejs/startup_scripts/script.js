@@ -21,7 +21,7 @@ event.create('dreadnoughtbow').displayName('Dreadnought Bow icon').tooltip('This
 event.create('mace').displayName('Mace icon').tooltip('This item is just an icon. Recipe for Mace can be found in dungeon loot')
 event.create('halberd').displayName('Halberd icon').tooltip('This item is just an icon. Recipe for Halberd can be found in dungeon loot')
 
-event.create('coin_01').displayName('Coin')
+event.create('coin_01').displayName('Coin').tooltip('Acquired by slaying Challenger mobs').rarity('Rare')
 event.create('coin_02').displayName('Couple of Coins')
 event.create('coin_03').displayName('Stack of Coins')
 event.create('coin_04').displayName('Pile of Coins')

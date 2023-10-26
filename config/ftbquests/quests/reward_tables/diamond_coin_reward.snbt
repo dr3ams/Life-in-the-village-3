@@ -56,6 +56,9 @@
 				tag: { }
 			}
 		}
+		{ item: "collectorsalbum:common_card_package" }
+		{ item: "collectorsalbum:uncommon_card_package" }
+		{ count: 3, item: "create:experience_block" }
 	]
 	title: "Diamond coin reward"
 }

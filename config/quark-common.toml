@@ -612,7 +612,7 @@
 
 	[tweaks.simple_harvest]
 		#Can players harvest crops with empty hand clicks?
-		"Empty Hand Harvest" = true
+		"Empty Hand Harvest" = false
 		#Does harvesting crops with a hoe cost durability?
 		"Harvesting Costs Durability" = false
 		#Should Quark look for (nonvanilla) crops, and handle them?

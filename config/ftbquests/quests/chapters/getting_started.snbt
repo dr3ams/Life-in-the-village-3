@@ -168,9 +168,9 @@
 			]
 			id: "0000000000000015"
 			rewards: [{
-				id: "000000000000021B"
-				type: "xp_levels"
-				xp_levels: 1
+				id: "634BD1256A920F5C"
+				item: "farmersdelight:mixed_salad"
+				type: "item"
 			}]
 			tasks: [{
 				id: "0000000000000016"
@@ -263,8 +263,8 @@
 				title: "JEI"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -1.5d
+			x: -7.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0000000000000011"]
@@ -583,9 +583,9 @@
 					type: "item"
 				}
 				{
-					id: "4411730270783908"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "14A3619734412A06"
+					type: "xp"
+					xp: 150
 				}
 			]
 			tasks: [{
@@ -1022,11 +1022,19 @@
 				"Finally to collect any reward simply click on in it in the above Rewards box, as you can above, to get a torch for some light as you get going."
 			]
 			id: "33886A5EFC27C3B4"
-			rewards: [{
-				id: "38E8BDCE36F9B06D"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "38E8BDCE36F9B06D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "7427E8E56A07BCD7"
+					item: "minecraft:torch"
+					type: "item"
+				}
+			]
 			tasks: [{
 				icon: "minecraft:writable_book"
 				id: "2A4D9ED1B278E912"
@@ -1037,32 +1045,7 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["0000000000000008"]
-			description: [
-				"There are couple of new mechanics that this pack employs, descriptions of which you will find following this quest."
-				"You can always come back here to read them again."
-				""
-				"- Gain variable benefits for eating a greater variety of foods."
-				"- Harvest groups of blocks at time to speed up mining, harvesting, and tilling."
-				"- jobs with each unique feature;"
-			]
-			id: "50AFC676130E87C4"
-			rewards: [{
-				id: "5370B2C62673821E"
-				item: "aquaculture:box"
-				type: "item"
-			}]
-			tasks: [{
-				icon: "minecraft:barrier"
-				id: "2E10385D8AB84F2F"
-				title: "New Mechanics"
-				type: "checkmark"
-			}]
-			x: -7.5d
-			y: 1.5d
-		}
-		{
-			dependencies: ["50AFC676130E87C4"]
+			dependencies: ["000000000000000A"]
 			description: [
 				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key)."
 				""
@@ -1105,37 +1088,8 @@
 				title: "FTB Ultimine"
 				type: "checkmark"
 			}]
-			x: -6.0d
+			x: -5.5d
 			y: 1.5d
-		}
-		{
-			dependencies: ["50AFC676130E87C4"]
-			description: [
-				"Eating a variety of nutrients, with the right balance, will grant you buffs, while having a bad diet will give you debuffs."
-				""
-				"Food now has tooltips that show which nutrients they provide, along with the total number of Nutritional Units (NUs)."
-				""
-				"To see Nutritional Balance, press the Nutrient Gui keybind (Default: N) or click the bread icon in your inventory."
-				""
-				"- Blue indicates your current NUs for each category"
-				"- Green lines show the range for buffs"
-			]
-			id: "1D857C5D4DF99256"
-			rewards: [{
-				id: "4EB8ABFB53015486"
-				item: "minecraft:apple"
-				type: "item"
-			}]
-			subtitle: "Benefis for eating different food!"
-			tasks: [{
-				icon: "minecraft:potato"
-				id: "63EF8646E409CD6E"
-				title: "Spice Of Life: Potato Edition"
-				type: "checkmark"
-			}]
-			title: "Benefits for eating variety of foods"
-			x: -6.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["0000000000000049"]
@@ -1511,7 +1465,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Free Wandering Trader llamas from captivity, converting them to normal"
+			subtitle: "Free Wandering Trader llamas from captivity, converting them to normal llamas"
 			tasks: [{
 				id: "6363A8E87027A1B9"
 				item: "villagertools:key"
@@ -1617,18 +1571,12 @@
 			y: 2.5d
 		}
 		{
-			description: ["But, better to just not lose it :)"]
 			id: "70EE00F2D166500E"
 			rewards: [
 				{
 					id: "7B767CE1FCBF19F3"
 					item: "ftbquests:book"
 					type: "item"
-				}
-				{
-					id: "1667BF349FDD7E06"
-					type: "xp_levels"
-					xp_levels: 1
 				}
 				{
 					id: "5DE10AA0D4257E31"
@@ -1642,7 +1590,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "You can craft a new quest book with a book and stone."
+			subtitle: "Die at least 1 time"
 			tasks: [{
 				id: "51A7BB84F95A8A07"
 				stat: "minecraft:deaths"
@@ -1650,7 +1598,7 @@
 				value: 1
 			}]
 			x: -9.0d
-			y: 2.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["000000000000000A"]
@@ -1716,9 +1664,9 @@
 					type: "item"
 				}
 				{
-					id: "61A6685EAD8774C2"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "3BFD5F314416CE1C"
+					type: "xp"
+					xp: 150
 				}
 			]
 			subtitle: "Head over to the Storage Solutions chapter to learn more!"
@@ -1772,9 +1720,9 @@
 					type: "item"
 				}
 				{
-					id: "72F6C70FF4224F16"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "58968A82395AFA04"
+					type: "xp"
+					xp: 150
 				}
 			]
 			subtitle: "Head over to Deco Madness chapter to find more about decorations!"
@@ -1927,9 +1875,9 @@
 					type: "item"
 				}
 				{
-					id: "26721C2A27AC3F64"
-					type: "xp_levels"
-					xp_levels: 1
+					id: "44110C23B7F69D85"
+					type: "xp"
+					xp: 150
 				}
 			]
 			tasks: [{
@@ -2073,6 +2021,10 @@
 			shape: "gear"
 			size: 1.5d
 			subtitle: "Head over to Tetra chapter to learn more about tools creation!"
+			tasks: [{
+				id: "0DA97E28370849E2"
+				type: "checkmark"
+			}]
 			title: "Tinkers Workshop"
 			x: -1.5d
 			y: 1.5d
@@ -2398,6 +2350,11 @@
 		{
 			dependencies: ["0000000000000011"]
 			id: "34DE20EAE1581254"
+			rewards: [{
+				id: "791AF2FCBC442E9F"
+				type: "xp"
+				xp: 1000
+			}]
 			subtitle: "Get every color of Corundum Cluster(9)"
 			tasks: [{
 				advancement: "quark:get_all_corundum"
@@ -2429,11 +2386,16 @@
 		{
 			dependencies: ["0000000000000054"]
 			description: [
-				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have chance to drop card package with random rarity. Opening the package will grant you 5 cards which can be used for album."
+				"First you need to craft your album and then start killing hostile mobs. Hostile mobs have a chance to drop a card package with a random rarity. Opening the package will grant you 5 cards which can be used for album to gain positive effects."
 				""
-				"Once you reach certain threshold with your album card collection you will obtain passive effects such as resistance/regeneration/extra health and more."
+				"Once you reach certain a threshold with your album card collection you will obtain passive effects such as resistance/regeneration/extra health and more."
 			]
 			id: "59AEBB60B068FBF7"
+			rewards: [{
+				id: "53CF0E49F8AA2EF1"
+				type: "xp"
+				xp: 250
+			}]
 			subtitle: "900 new collectible cards in varying rarities which can enhance your character by filling your collector's album."
 			tasks: [{
 				id: "359FC96DAD135771"
@@ -2450,6 +2412,11 @@
 		{
 			dependencies: ["0000000000000171"]
 			id: "1E2D44BB26BFCCF7"
+			rewards: [{
+				id: "4AC5F233954355C7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4E1BA1DD6F3DDBC8"
 				item: "minecraft:baked_potato"
@@ -2459,37 +2426,14 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1E2D44BB26BFCCF7"]
-			description: [
-				"Lunch Box used to store several stacks of food that can be eaten directly from it."
-				""
-				"Shift right click to open lunch box inventory GUI which also shows nutrient status."
-				""
-				"Select the active food to eat in the GUI or by shift scrolling through the food items while the lunch box is in hand."
-				""
-				"Right click to eat the active food as if you were holding the food item."
-				""
-				"Active food item icon appears on the lunch box item."
-			]
-			id: "6C92788AD1A8A4DA"
-			tasks: [{
-				id: "2F24972020B5087D"
-				item: {
-					Count: 1b
-					id: "nutritionalbalance:lunchbox"
-					tag: {
-						contents: [ ]
-					}
-				}
-				type: "item"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
-		{
 			dependencies: ["000000000000003F"]
 			description: ["The Global Skin Library loads a list of skins that have been uploaded to the skin database. There are lots and lots of pre-built designs to search through, and they can be downloaded to your private instance by clicking on one and hitting the download button."]
 			id: "4DCD0744847F44B8"
+			rewards: [{
+				id: "7FBB9EAE677E1BB5"
+				type: "xp"
+				xp: 20
+			}]
 			subtitle: "Apply custom skins to anything: from equipment to blocks!"
 			tasks: [{
 				id: "483DFE0BA1E6149D"
@@ -2503,6 +2447,11 @@
 			dependencies: ["4DCD0744847F44B8"]
 			description: ["This is your local skin library"]
 			id: "789F5AA2E53CFE82"
+			rewards: [{
+				id: "5F170B5F24C8424D"
+				type: "xp"
+				xp: 20
+			}]
 			tasks: [
 				{
 					id: "6018EBA6E3FC1694"
@@ -2521,6 +2470,11 @@
 		{
 			dependencies: ["789F5AA2E53CFE82"]
 			id: "7B0A6930B521088F"
+			rewards: [{
+				id: "30B0B51473AFD1DA"
+				type: "xp"
+				xp: 20
+			}]
 			subtitle: "For applying skins from your local skin library"
 			tasks: [{
 				id: "460571AA8E2DF4C7"
@@ -2529,6 +2483,155 @@
 			}]
 			x: 6.0d
 			y: -5.5d
+		}
+		{
+			dependencies: ["000000000000000A"]
+			description: [
+				"To get started, gather some experience to acquire your first skill point."
+				""
+				"Then press O (default key, if it doesn't work - check your key bindings)."
+				""
+				"Then select your class but choose carefully, you cannot change it."
+				""
+				"You can path to other classes later if you think it is worth it."
+			]
+			icon: "create:experience_nugget"
+			id: "1A6295743A494017"
+			rewards: [{
+				id: "38CA208D214B1E77"
+				type: "xp"
+				xp: 150
+			}]
+			tasks: [{
+				id: "4E0724E01E7A8913"
+				title: "Passive Skill Tree"
+				type: "checkmark"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["70EE00F2D166500E"]
+			description: [
+				"Players earns knowledge points each time they use a grave's soul to enchant an item, when they free a soul from a receptacle, by praying near a decorative grave with a special item called Ankh of Pray (with a cooldown of 6 in-game hours), or by accomplishing the tombstone advancements."
+				""
+				"Theses points allow you to unlock some perks in a special gui \"Knowledge of Death\" (the keybind in \"misc\" is not defined by default)."
+				""
+				"The perks are small bonus related to all the features of tombstone, instead of providing them by default."
+			]
+			id: "2C5C6BA3B3AFEFD7"
+			rewards: [{
+				id: "688962A447F65683"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "Chose your first knowledge of death"
+			tasks: [{
+				advancement: "tombstone:adventure/choose_knowledge"
+				criterion: ""
+				id: "518B97A059D9C268"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2C5C6BA3B3AFEFD7"]
+			description: [
+				"The decorative graves are special blocks with a fog particle only during the night."
+				""
+				"The decorative graves can be haunted by a soul. The soul stays until used and allows some enchants like magic scroll/tablet, or upgrade the grave's key."
+				""
+				"To build a decorative grave, you will need to collect Grave's Dust (the common way to obtain them is by killing undeads or with Cat Morning Gift), and one Essence of Undeath being an ingredient obtainable through the advancements (the first one is by finding how to select your favorite grave in the config in game) and rarely foundable on undeads, Cat Morning Gift and by fishing in deep water (but don't hope to find them by theses ways except by luck)."
+				""
+				"Rarely, a Grave Guardian can appear near a decorative grave. This guardian will protect the surroundings from hostile creatures and will offer to trade with the players. This is one way to obtain Grave's Dust and Essence of Undeath. During special events, the trades may differ."
+			]
+			id: "1747432114401210"
+			rewards: [{
+				id: "2ECF31D51DEB3A77"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "7FD817A158BC24AB"
+					item: "tombstone:essence_of_undeath"
+					type: "item"
+				}
+				{
+					id: "63E06DA1257CDC4A"
+					item: "tombstone:grave_dust"
+					type: "item"
+				}
+				{
+					id: "0707C6E6A7C3A185"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tombstone:decorative_graves"
+						}
+					}
+					title: "Any #tombstone:decorative_graves"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["2C5C6BA3B3AFEFD7"]
+			description: [
+				"The Ankh allows you to use prayers by period."
+				""
+				"You can pray near a Decorative Grave giving you a chance to receive a beneficial effect or on certain creatures depending on your alignment."
+				""
+				"If your alignment is neutral or better, you can use Exorcism to convert a zombie-villager into a villager (or Zombify doing the opposite if your alignment is negative)"
+				""
+				"If your alignment is +1, you can use Prayer of Protection on a villager (or citizen of Minecolonies) preventing its next death."
+				""
+				"If your alignment is +2, you can use Prayer of Empathy to rally a tameable creature."
+			]
+			id: "0611628E78DF44FB"
+			rewards: [{
+				id: "453C2306AEB7BFD8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5A7D361140FECB49"
+				item: {
+					Count: 1b
+					id: "tombstone:ankh_of_pray"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2C5C6BA3B3AFEFD7"]
+			description: [
+				"Once enchanted, they allow to teleport in various ways."
+				""
+				"In ancient time, tablets had the ability to transport multiple creatures, but not one remembers the secret of their creation."
+			]
+			id: "05E6055834D440E5"
+			rewards: [{
+				id: "3B73BA00E43033DC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7CF72A116DB6C85C"
+				item: "tombstone:strange_tablet"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 8.5d
 		}
 	]
 	title: "Getting Started"

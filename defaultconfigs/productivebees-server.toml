@@ -8,10 +8,10 @@
 	timeInHive = 4800
 	#How many ticks it takes for process a recipe in the centrifuge. Default 300.
 	#Range: > 20
-	centrifugeProcessingTime = 300
+	centrifugeProcessingTime = 900
 	#How many ticks it takes for process a recipe in the powered centrifuge. Default 100.
 	#Range: > 20
-	centrifugePoweredProcessingTime = 100
+	centrifugePoweredProcessingTime = 600
 	#How much FE to use per tick for a powered centrifuge when processing an item. Default 10.
 	#Range: > 1
 	centrifugePowerUse = 10

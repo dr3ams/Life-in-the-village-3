@@ -75,6 +75,7 @@
 		{ item: "minecraft:experience_bottle" }
 		{ item: "gag:labeling_tool" }
 		{ count: 3, item: "gag:mining_dynamite" }
+		{ count: 2, item: "minecraft:slime_ball" }
 	]
 	title: "Copper coin reward"
 }

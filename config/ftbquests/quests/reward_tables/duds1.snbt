@@ -106,6 +106,7 @@
 		{ item: "minecraft:lily_of_the_valley" }
 		{ item: "minecraft:iron_bars" }
 		{ item: "waterstrainer:worm" }
+		{ item: "collectorsalbum:common_card_package" }
 	]
 	title: "Junk 1"
 	use_title: true

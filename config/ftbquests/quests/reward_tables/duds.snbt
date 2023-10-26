@@ -118,6 +118,7 @@
 		{ item: "supplementaries:jar" }
 		{ item: "supplementaries:flower_box" }
 		{ item: "supplementaries:candy" }
+		{ item: "collectorsalbum:common_card_package" }
 	]
 	title: "Junk 2"
 	use_title: true

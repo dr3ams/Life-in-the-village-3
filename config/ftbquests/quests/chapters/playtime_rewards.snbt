@@ -48,7 +48,7 @@
 				{
 					id: "27A437AA139BD250"
 					type: "xp_levels"
-					xp_levels: 3
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -85,7 +85,7 @@
 				{
 					id: "5FD39B232C36C0FE"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -116,7 +116,7 @@
 				{
 					id: "617F3F5DA1564728"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -151,7 +151,7 @@
 				{
 					id: "471F7C2DC8213DF1"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "430D5DC21EC258EF"
@@ -227,7 +227,7 @@
 				{
 					id: "5F267062F7F4D6CB"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -266,7 +266,7 @@
 				{
 					id: "39A45987E9DCF4CE"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -300,7 +300,7 @@
 				{
 					id: "728FBFF4D28BC630"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 			]
 			tasks: [{
@@ -355,7 +355,7 @@
 				{
 					id: "44F70944FA884FFF"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "62C466936488EB60"
@@ -418,7 +418,7 @@
 				{
 					id: "6B270F960E4D411D"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "561320C752F9D37D"
@@ -486,7 +486,7 @@
 				{
 					id: "159D88B45169E865"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "55BD7837A7514AE5"
@@ -547,7 +547,7 @@
 				{
 					id: "254A82750B24A1AD"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "1BA2A7CF995FA044"
@@ -610,7 +610,7 @@
 				{
 					id: "4DE7F851E3CD885D"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "6977C75D0E6C51DA"
@@ -688,7 +688,7 @@
 				{
 					id: "01ADFC86040C0E62"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "1E90B06A7E8E91C1"
@@ -763,7 +763,7 @@
 				{
 					id: "7355F53CF60508B4"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "4823FD35A8A86FBA"
@@ -832,7 +832,7 @@
 				{
 					id: "1721BA80180922C5"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "28DD5F9446B79E0F"
@@ -906,7 +906,7 @@
 				{
 					id: "76F5129AECDE93CB"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "11BFB732D65A5EAE"
@@ -970,7 +970,7 @@
 				{
 					id: "057C86A8AD743CA1"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "2A9A84A0EDA43504"
@@ -1052,7 +1052,7 @@
 				{
 					id: "5089BE88DC4D5EA4"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "215F7FF39140E782"
@@ -1119,7 +1119,7 @@
 				{
 					id: "3DFD5155920BB1CD"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 3
 				}
 				{
 					id: "7B4D24BD342642CC"
@@ -1145,7 +1145,7 @@
 				{
 					id: "30E79C634B727B40"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "58A18DA126C34E84"
@@ -1205,7 +1205,7 @@
 				{
 					id: "7FF24BF116E28A53"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 3
 				}
 				{
 					id: "6A2D5F70AD5640F0"
@@ -1237,7 +1237,7 @@
 				{
 					id: "2AB3AF1353639E2C"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "4177FD7011C50D50"
@@ -1308,7 +1308,7 @@
 				{
 					id: "5424AE5EBF3AB597"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 3
 				}
 				{
 					id: "1812BD1D9250DA28"
@@ -1345,7 +1345,7 @@
 				{
 					id: "4DE0DAAC79FE1EA6"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "539D1D60945CA24B"
@@ -1406,7 +1406,7 @@
 				{
 					id: "165771C6296BD96D"
 					type: "xp_levels"
-					xp_levels: 10
+					xp_levels: 3
 				}
 				{
 					id: "22F8750094F449AF"
@@ -1443,7 +1443,7 @@
 				{
 					id: "140FCCA45AAA44A5"
 					type: "xp_levels"
-					xp_levels: 5
+					xp_levels: 1
 				}
 				{
 					id: "6B1984E45D0C4994"
@@ -1504,7 +1504,7 @@
 				{
 					id: "2D6400B2FB848DC4"
 					type: "xp_levels"
-					xp_levels: 30
+					xp_levels: 3
 				}
 				{
 					id: "0B206C44189FA755"

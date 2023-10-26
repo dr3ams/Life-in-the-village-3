@@ -1,0 +1,179 @@
+
+[Layers]
+	#The Y level at which layer 1 starts. Default: 59 (stone level)
+	top_y_level = 59.0
+	#The Y level at which layer 1 ends and layer 2 starts. Default: 0 (deepslate level)
+	mid_y_level = 0.0
+	#The Y level at which layer 2 ends and layer 3 starts. Default: -64 (bedrock level)
+	bottom_y_level = -64.0
+
+["Above Layer 1"]
+	#Weapon that skeletons can spawn with *not a list
+	skeleton_weapon1 = "minecraft:wooden_sword"
+	#Chance that skeletons will spawn with a weapon (1 = 100%, 0.1 = 10%)
+	skeleton_weapon_chance1 = 0.1
+	#The chance that a zombie will be knockback resistant (1 = 100%, 0.1 = 10%) *This affects all layers
+	zombie_knockback_res_chance = 0.1
+	#The amount of knockback zombies ignore *This affects all layers
+	zombie_knockback_res = 0.3
+
+["Layer 1"]
+	#list of weapons skeletons can spawn with. Seperated with , (Make sure there is no , at the start or end of the list and no spaces)
+	skeleton_weapon1_list = "minecraft:wooden_sword,minecraft:stone_pickaxe"
+	#Chance that skeletons will spawn with a weapon (1 = 100%, 0.1 = 10%)
+	skeleton_weapon_chance2 = 0.1
+	#Chance that skeletons that spawn with weapons will also spawn with increased speed (1 = 100%, 0.1 = 10%)
+	skeleton_speed_chance1 = 0.0
+	#The chance that skeletons will spawn with the first set of armor (This chance will be ran for every armor slot)
+	skeleton_armor_chance1 = 0.05
+	#The chance that skeletons will spawn with the second set of armor (This chance will be ran for every armor slot)
+	skeleton_armor_chance2 = 0.05
+	#Boots
+	skeleton_armor1_slot1 = "minecraft:leather_boots"
+	#Leggings
+	skeleton_armor1_slot2 = "minecraft:leather_leggings"
+	#Chestplate
+	skeleton_armor1_slot3 = "minecraft:leather_chestplate"
+	#Helmet
+	skeleton_armor1_slot4 = "minecraft:leather_helmet"
+	#Boots
+	skeleton_armor2_slot1 = "minecraft:air"
+	#Leggings
+	skeleton_armor2_slot2 = "minecraft:air"
+	#Chestplate
+	skeleton_armor2_slot3 = "minecraft:air"
+	#Helmet
+	skeleton_armor2_slot4 = "minecraft:air"
+	#list of weapons zombies can spawn with. Seperated with , (Make sure there is no , at the start or end of the list and no spaces)
+	zombie_weapon1_list = "minecraft:stone_pickaxe,minecraft:stone_shovel,minecraft:stone_sword"
+	#Chance that zombies will spawn with a weapon (1 = 100%, 0.1 = 10%)
+	zombie_weapon_chance1 = 0.15
+	#The chance that zombies will spawn with the first set of armor (This chance will be ran for every armor slot)
+	zombie_armor_chance1 = 0.05
+	#The chance that zombies will spawn with the second set of armor (This chance will be ran for every armor slot)
+	zombie_armor_chance2 = 0.05
+	#Boots
+	zombie_armor1_slot1 = "minecraft:leather_boots"
+	#Leggings
+	zombie_armor1_slot2 = "minecraft:leather_leggings"
+	#Chestplate
+	zombie_armor1_slot3 = "minecraft:leather_chestplate"
+	#Helmet
+	zombie_armor1_slot4 = "minecraft:leather_helmet"
+	#Boots
+	zombie_armor2_slot1 = "minecraft:golden_boots"
+	#Leggings
+	zombie_armor2_slot2 = "minecraft:golden_leggings"
+	#Chestplate
+	zombie_armor2_slot3 = "minecraft:golden_chestplate"
+	#Helmet
+	zombie_armor2_slot4 = "minecraft:golden_helmet"
+
+["Layer 2"]
+	#list of weapons skeletons can spawn with. Seperated with , (Make sure there is no , at the start or end of the list and no spaces)
+	skeleton_weapon2_list = "minecraft:iron_sword,minecraft:iron_pickaxe"
+	#Chance that skeletons will spawn with a weapon (1 = 100%, 0.1 = 10%)
+	skeleton_weapon_chance3 = 0.1
+	#Chance that skeletons that spawn with weapons will also spawn with increased speed (1 = 100%, 0.1 = 10%)
+	skeleton_speed_chance2 = 0.05
+	#The chance that skeletons will spawn with the first set of armor (This chance will be ran for every armor slot)
+	skeleton_armor_chance3 = 0.05
+	#The chance that skeletons will spawn with the second set of armor (This chance will be ran for every armor slot)
+	skeleton_armor_chance4 = 0.05
+	#Boots
+	skeleton_armor1_slot1 = "minecraft:chainmail_boots"
+	#Leggings
+	skeleton_armor1_slot2 = "minecraft:chainmail_leggings"
+	#Chestplate
+	skeleton_armor1_slot3 = "minecraft:chainmail_chestplate"
+	#Helmet
+	skeleton_armor1_slot4 = "minecraft:chainmail_helmet"
+	#Boots
+	skeleton_armor2_slot1 = "minecraft:leather_boots"
+	#Leggings
+	skeleton_armor2_slot2 = "minecraft:leather_leggings"
+	#Chestplate
+	skeleton_armor2_slot3 = "minecraft:leather_chestplate"
+	#Helmet
+	skeleton_armor2_slot4 = "minecraft:leather_helmet"
+	#list of weapons zombies can spawn with. Seperated with , (Make sure there is no , at the start or end of the list and no spaces)
+	zombie_weapon2_list = "minecraft:iron_pickaxe,minecraft:iron_shovel,minecraft:iron_sword,minecraft:stone_sword,minecraft:stone_pickaxe"
+	#Chance that zombies will spawn with a weapon (1 = 100%, 0.1 = 10%)
+	zombie_weapon_chance2 = 0.05
+	#The chance that zombies will spawn with the first set of armor (This chance will be ran for every armor slot)
+	zombie_armor_chance3 = 0.05
+	#The chance that zombies will spawn with the second set of armor (This chance will be ran for every armor slot)
+	zombie_armor_chance4 = 0.05
+	#Boots
+	zombie1_armor1_slot1 = "minecraft:chainmail_boots"
+	#Leggings
+	zombie1_armor1_slot2 = "minecraft:chainmail_leggings"
+	#Chestplate
+	zombie1_armor1_slot3 = "minecraft:chainmail_chestplate"
+	#Helmet
+	zombie1_armor1_slot4 = "minecraft:chainmail_helmet"
+	#Boots
+	zombie1_armor2_slot1 = "minecraft:golden_boots"
+	#Leggings
+	zombie1_armor2_slot2 = "minecraft:golden_leggings"
+	#Chestplate
+	zombie1_armor2_slot3 = "minecraft:golden_chestplate"
+	#Helmet
+	zombie1_armor2_slot4 = "minecraft:golden_helmet"
+	#The chance that spiders will be invisible
+	spider_invis_chance1 = 0.0
+	#The chance that creepers will be fast
+	creeper_speed_chance1 = 0.0
+
+["Layer 3"]
+	#list of weapons skeletons can spawn with. Seperated with , (Make sure there is no , at the start or end of the list and no spaces)
+	skeleton_weapon3_list = "minecraft:stone_pickaxe,minecraft:iron_sword,minecraft:diamond_sword,minecraft:iron_axe,minecraft:iron_pickaxe"
+	#Chance that skeletons will spawn with a weapon (1 = 100%, 0.1 = 10%)
+	skeleton_weapon_chance4 = 0.05
+	#Chance that skeletons that spawn with weapons will also spawn with increased speed (1 = 100%, 0.1 = 10%)
+	skeleton_speed_chance3 = 0.0
+	#The chance that skeletons will spawn with the first set of armor (This chance will be ran for every armor slot)
+	skeleton_armor_chance5 = 0.05
+	#The chance that skeletons will spawn with the second set of armor (This chance will be ran for every armor slot)
+	skeleton_armor_chance6 = 0.05
+	#Boots
+	skeleton2_armor1_slot1 = "minecraft:chainmail_boots"
+	#Leggings
+	skeleton2_armor1_slot2 = "minecraft:chainmail_leggings"
+	#Chestplate
+	skeleton2_armor1_slot3 = "minecraft:chainmail_chestplate"
+	#Helmet
+	skeleton2_armor1_slot4 = "minecraft:chainmail_helmet"
+	#Boots
+	skeleton2_armor2_slot1 = "minecraft:iron_boots"
+	#Leggings
+	skeleton2_armor2_slot2 = "minecraft:iron_leggings"
+	#Chestplate
+	skeleton2_armor2_slot3 = "minecraft:iron_chestplate"
+	#Helmet
+	skeleton2_armor2_slot4 = "minecraft:iron_helmet"
+	#list of weapons zombies can spawn with. Seperated with , (Make sure there is no , at the start or end of the list and no spaces)
+	zombie_weapon3_list = "minecraft:iron_sword,minecraft:iron_axe,minecraft:iron_pickaxe,minecraft:iron_shovel"
+	#Chance that zombies will spawn with a weapon (1 = 100%, 0.1 = 10%)
+	zombie_weapon_chance3 = 0.05
+	#The chance that zombies will spawn with the first set of armor (This chance will be ran for every armor slot)
+	zombie_armor_chance5 = 0.05
+	#The chance that zombies will spawn with the second set of armor (This chance will be ran for every armor slot)
+	zombie_armor_chance6 = 0.05
+	#Boots
+	zombie2_armor1_slot1 = "minecraft:iron_boots"
+	#Leggings
+	zombie2_armor1_slot2 = "minecraft:iron_leggings"
+	#Chestplate
+	zombie2_armor1_slot3 = "minecraft:iron_chestplate"
+	#Helmet
+	zombie2_armor1_slot4 = "minecraft:iron_helmet"
+	#Boots
+	zombie2_armor2_slot1 = "minecraft:diamond_boots"
+	#Leggings
+	zombie2_armor2_slot2 = "minecraft:diamond_leggings"
+	#Chestplate
+	zombie2_armor2_slot3 = "minecraft:diamond_chestplate"
+	#Helmet
+	zombie2_armor2_slot4 = "minecraft:diamond_helmet"
+

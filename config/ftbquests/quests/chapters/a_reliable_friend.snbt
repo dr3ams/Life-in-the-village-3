@@ -545,7 +545,7 @@
 			description: [
 				"Modes"
 				""
-				"These control how the dog reacts to other entities and interacts with you The tips of each mode appear above the dog as in the following image"
+				"These control how the dog reacts to other entities and interacts with you. The tips of each mode appear above the dog."
 				""
 				"Docile (D)"
 				"In this mode, your dog will follow you but not attack anything. They will also play fetch with you when you throw the Throw Bone or Throw Stick. This mode will show up as the tip,\"(D)\" just above the dogs name."
@@ -633,7 +633,7 @@
 		}
 		{
 			description: [
-				"Animal Tamers can be found in villages in their own unique houses (spawn rate configurable) or can be created with a unemployed villager using a pet bed as a workstation. They trade a variety of items related to animals from both vanilla minecraft and this mod, including unique pet enchants(charisma)."
+				"Animal Tamers can be found in villages in their own unique houses or can be created with a unemployed villager using a pet bed as a workstation. They trade a variety of items related to animals from both vanilla minecraft and this mod, including unique pet enchants(charisma)."
 				""
 				"Their houses also contain some untamed mobs and sometimes fish tanks."
 			]
@@ -730,9 +730,9 @@
 		}
 		{
 			description: [
-				"Rotten Apples have a chance to form if an apple item despawns on the ground (configurable). These green, wormy apples can be fed to a horse in order to turn it into a zombie horse. Note that you'll want to make sure the horse is tamed and saddled prior to this action. This zombification process will also preserve the speed and other aspects of the horse. Zombie horses cannot wear armor."
+				"Rotten Apples have a chance to form if an apple item despawns on the ground. These green, wormy apples can be fed to a horse in order to turn it into a zombie horse. Note that you'll want to make sure the horse is tamed and saddled prior to this action. This zombification process will also preserve the speed and other aspects of the horse. Zombie horses cannot wear armor."
 				""
-				"Sinister Carrots are rarely found as loot in Woodland Mansions (configurable). They can be fed to a zombie horse in order to turn it into a skeleton horse. They can also be fed to a tamed rabbit to transform it into a Killer Rabbit, which can attack and is much stronger than a normal rabbit."
+				"Sinister Carrots are rarely found as loot in Woodland Mansions. They can be fed to a zombie horse in order to turn it into a skeleton horse. They can also be fed to a tamed rabbit to transform it into a Killer Rabbit, which can attack and is much stronger than a normal rabbit."
 			]
 			id: "10836519F612623F"
 			rewards: [{

@@ -27,30 +27,28 @@ customization {
   orientation = bottom-centered
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.patreon.com/Dreams01%btnaction_splitter_fm%
   x = -102
   width = 98
-  actionid = a1b34f12-4b6d-4a82-bb16-f76e7a281ad81641053959316
   action = addbutton
-  y = -124
+  actionid = a1b34f12-4b6d-4a82-bb16-f76e7a281ad81641053959316
+  y = -25
   label = Support the author
-  value = https://www.patreon.com/Dreams01
   height = 20
 }
 
 customization {
   orientation = bottom-centered
-  restartbackgroundanimations = true
-  buttonaction = openlink
-  label = Report Bugs
   loopbackgroundanimations = true
   hoverlabel = Visit Discord
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/npNApNFn2r%btnaction_splitter_fm%
   x = 4
   width = 98
-  actionid = d3fa7b45-d091-407c-a3e4-50708c5d4ced1641053981499
   action = addbutton
-  y = -124
-  value = https://discord.gg/npNApNFn2r
+  actionid = d3fa7b45-d091-407c-a3e4-50708c5d4ced1641053981499
+  y = -25
+  label = Report Bugs
   height = 20
 }
 

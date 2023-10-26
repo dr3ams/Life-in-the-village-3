@@ -33,11 +33,6 @@
 			id: "00000000000000CC"
 			rewards: [
 				{
-					id: "0000000000000204"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 16
 					id: "0000000000000372"
 					item: "minecraft:oak_log"
@@ -48,6 +43,11 @@
 					id: "48219DA268AA8DBD"
 					item: "minecraft:cobblestone"
 					type: "item"
+				}
+				{
+					id: "06A561C897B5968A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -86,11 +86,6 @@
 			id: "00000000000000D7"
 			rewards: [
 				{
-					id: "0000000000000203"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					count: 64
 					id: "000000000000020D"
 					item: "minecraft:stone"
@@ -100,6 +95,11 @@
 					id: "7B8C3DC9E61110BB"
 					item: "kubejs:copper_coin"
 					type: "item"
+				}
+				{
+					id: "27BC77CA6301BA2C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [
@@ -123,11 +123,6 @@
 			id: "00000000000000DA"
 			rewards: [
 				{
-					id: "0000000000000202"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
 					id: "0000000000000207"
 					item: "minecraft:emerald"
 					type: "item"
@@ -137,6 +132,11 @@
 					id: "000000000000020C"
 					item: "minecraft:cobblestone"
 					type: "item"
+				}
+				{
+					id: "24517E04DADF3C12"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -173,6 +173,11 @@
 					item: "kubejs:emerald_nugget"
 					random_bonus: 2
 					type: "item"
+				}
+				{
+					id: "468480CDB9FCB2DA"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -218,6 +223,11 @@
 					item: "kubejs:emerald_nugget"
 					random_bonus: 2
 					type: "item"
+				}
+				{
+					id: "7E7F55420D1B53D7"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -310,6 +320,11 @@
 					random_bonus: 1
 					type: "item"
 				}
+				{
+					id: "0075A2D34297E247"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "00000000000000E3"
@@ -385,6 +400,11 @@
 					random_bonus: 4
 					type: "item"
 				}
+				{
+					id: "665420B9F49A3D03"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "00000000000000E7"
@@ -429,6 +449,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "1E148AB1DB2CDFAC"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -518,6 +543,11 @@
 					id: "00000000000002F1"
 					item: "minecraft:potato"
 					type: "item"
+				}
+				{
+					id: "605BEDA01CE29BE8"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -639,6 +669,11 @@
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
+				{
+					id: "470B8AAECF851119"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "00000000000000F7"
@@ -759,6 +794,11 @@
 					id: "18BF64EF084A95D7"
 					item: "kubejs:copper_coin"
 					type: "item"
+				}
+				{
+					id: "55FAD39AC41A48F3"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -896,6 +936,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "76016307EE8D9663"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "0000000000000106"
@@ -950,6 +995,11 @@
 					random_bonus: 5
 					type: "item"
 				}
+				{
+					id: "5979DA590F5F1152"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "000000000000010A"
@@ -995,6 +1045,11 @@
 					item: "kubejs:copper_coin"
 					type: "item"
 				}
+				{
+					id: "171A3562AA09CC5B"
+					type: "xp"
+					xp: 100
+				}
 			]
 			tasks: [{
 				id: "000000000000010C"
@@ -1037,6 +1092,11 @@
 					id: "0000000000000285"
 					item: "minecraft:paper"
 					type: "item"
+				}
+				{
+					id: "45499A54EE483474"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1087,6 +1147,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "4E6BED6DA75F6DEA"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1160,6 +1225,11 @@
 						}
 					}
 					type: "item"
+				}
+				{
+					id: "68BE7F96A3B71E31"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1429,6 +1499,11 @@
 					item: "kubejs:emerald_nugget"
 					random_bonus: 3
 					type: "item"
+				}
+				{
+					id: "661581413A33F252"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1887,11 +1962,18 @@
 		{
 			dependencies: ["0000000000000101"]
 			id: "557DE4B851A81D4A"
-			rewards: [{
-				id: "753BD04DE3CFEC54"
-				item: "kubejs:iron_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "753BD04DE3CFEC54"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					id: "73A73608AD04E807"
+					type: "xp"
+					xp: 100
+				}
+			]
 			subtitle: "Hire 8 guards"
 			tasks: [{
 				advancement: "minecolonies:military/army_8"

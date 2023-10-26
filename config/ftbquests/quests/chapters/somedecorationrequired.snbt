@@ -38,7 +38,7 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			id: "000000000000005D"
@@ -70,7 +70,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -8.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["00000000000000A9"]
@@ -114,7 +114,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.5d
 			y: 7.5d
 		}
 		{
@@ -154,7 +154,7 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
+			x: 5.5d
 			y: 6.5d
 		}
 		{
@@ -199,7 +199,7 @@
 					type: "item"
 				}
 			]
-			x: 5.5d
+			x: 6.5d
 			y: 5.5d
 		}
 		{
@@ -232,7 +232,7 @@
 				item: "mcwbridges:spruce_rail_bridge"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 6.5d
 		}
 		{
@@ -242,7 +242,7 @@
 				title: "Bridges!"
 				type: "checkmark"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 6.5d
 		}
 		{
@@ -286,7 +286,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -330,7 +330,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -6.0d
 			y: -3.5d
 		}
 		{
@@ -363,7 +363,7 @@
 				item: "mcwroofs:red_striped_awning"
 				type: "item"
 			}]
-			x: -5.0d
+			x: -6.0d
 			y: -2.5d
 		}
 		{
@@ -374,12 +374,12 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "59C06D747319DD1C"
-				item: "blockcarpentry:frameblock"
+				id: "30B831BE27F8291F"
+				item: "framedblocks:framed_cube"
 				type: "item"
 			}]
 			x: -3.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["289133175EA692FE"]
@@ -390,12 +390,12 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "18E5A67EBB2F9F77"
-				item: "blockcarpentry:frame_slab"
+				id: "0F9587FE8CD50573"
+				item: "framedblocks:framed_slab"
 				type: "item"
 			}]
 			x: -2.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["3ABED164FB5F10A7"]
@@ -406,12 +406,12 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "31D507926B49CBD0"
-				item: "blockcarpentry:frame_stairs"
+				id: "75121A01B4A3066E"
+				item: "framedblocks:framed_stairs"
 				type: "item"
 			}]
 			x: -0.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["740840E49E2980F9"]
@@ -422,12 +422,12 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "25F8523E0E344F49"
-				item: "blockcarpentry:frame_door"
+				id: "21C2DDEE620EF63A"
+				item: "framedblocks:framed_door"
 				type: "item"
 			}]
 			x: 1.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["0C3BE5BF82B61343"]
@@ -438,12 +438,12 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "60423CC2D4B7F5BA"
-				item: "blockcarpentry:frame_fence"
+				id: "3EB7EE8CEB096E84"
+				item: "framedblocks:framed_fence"
 				type: "item"
 			}]
 			x: 2.5d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["794B1ABA2BB7B28D"]
@@ -454,12 +454,12 @@
 				xp_levels: 1
 			}]
 			tasks: [{
-				id: "7FFEBCB0AF15B9E0"
-				item: "blockcarpentry:frame_chest"
+				id: "3443FF1A7E94DD8A"
+				item: "framedblocks:framed_chest"
 				type: "item"
 			}]
 			x: 4.0d
-			y: 3.0d
+			y: 3.5d
 		}
 		{
 			id: "15028D7F77DB219B"
@@ -479,7 +479,7 @@
 				item: "mcwfences:dark_oak_stockade_fence"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: -0.5d
 		}
 		{
@@ -494,7 +494,7 @@
 				item: "mcwfences:spruce_highley_gate"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: -1.0d
 		}
 		{
@@ -515,7 +515,7 @@
 				item: "mcwfences:railing_stone_brick_wall"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 4.5d
 			y: 0.5d
 		}
 		{
@@ -530,7 +530,7 @@
 				item: "mcwfences:oak_picket_fence"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: 0.0d
 		}
 		{
@@ -545,7 +545,7 @@
 				item: "mcwfences:modern_stone_brick_wall"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 0.0d
 		}
 		{
@@ -560,7 +560,7 @@
 				item: "mcwfences:oak_wired_fence"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: -1.0d
 		}
 		{
@@ -575,7 +575,7 @@
 				item: "supplementaries:hanging_sign_jungle"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 5.5d
 		}
 		{
@@ -597,7 +597,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4A9B67D783AB3EFC"]
@@ -626,7 +626,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -642,7 +642,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -658,7 +658,7 @@
 				type: "item"
 			}]
 			x: -2.0d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -674,7 +674,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -6.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -690,7 +690,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -706,7 +706,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -7.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -722,7 +722,7 @@
 				type: "item"
 			}]
 			x: 1.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -738,7 +738,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			dependencies: ["5A4A965D2EF1F4D8"]
@@ -754,7 +754,7 @@
 				type: "item"
 			}]
 			x: 2.0d
-			y: -5.0d
+			y: -6.5d
 		}
 		{
 			id: "2C050EBBD3FD2335"
@@ -777,7 +777,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -796,7 +796,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -815,7 +815,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			dependencies: [
@@ -834,7 +834,7 @@
 				type: "item"
 			}]
 			x: -1.0d
-			y: -2.5d
+			y: -4.5d
 		}
 		{
 			id: "12A9F90FEB2F022D"
@@ -848,7 +848,7 @@
 				item: "mcwfences:oak_horse_fence"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: -0.5d
 		}
 		{
@@ -870,7 +870,7 @@
 				item: "mcwfences:jungle_pyramid_gate"
 				type: "item"
 			}]
-			x: 6.5d
+			x: 7.5d
 			y: 0.5d
 		}
 		{
@@ -893,7 +893,7 @@
 				item: "mcwwindows:oak_window"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: -1.5d
 		}
 		{
@@ -916,7 +916,7 @@
 				item: "mcwwindows:oak_window2"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: -1.5d
 		}
 		{
@@ -952,7 +952,7 @@
 				}
 			]
 			title: "Window additions edition"
-			x: -5.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -974,7 +974,7 @@
 				item: "mcwwindows:window_base"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 0.0d
 		}
 		{
@@ -996,7 +996,7 @@
 				item: "mcwwindows:window_centre_bar_base"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 0.0d
 		}
 		{
@@ -1018,7 +1018,7 @@
 				item: "mcwwindows:stone_brick_gothic"
 				type: "item"
 			}]
-			x: -4.0d
+			x: -5.0d
 			y: 1.5d
 		}
 		{
@@ -1040,7 +1040,7 @@
 				item: "mcwwindows:stone_brick_arrow_slit"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -7.0d
 			y: 1.5d
 		}
 		{
@@ -1059,12 +1059,12 @@
 				}
 			]
 			tasks: [{
-				id: "0154D50D89A8E037"
-				item: "blockcarpentry:frame_wall"
+				id: "12314DBDDE9EF312"
+				item: "framedblocks:framed_wall"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["794B1ABA2BB7B28D"]
@@ -1082,12 +1082,12 @@
 				}
 			]
 			tasks: [{
-				id: "2943653084D70EEF"
-				item: "blockcarpentry:frame_fence_gate"
+				id: "28CCF41E46110611"
+				item: "framedblocks:framed_gate_door"
 				type: "item"
 			}]
 			x: 3.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["740840E49E2980F9"]
@@ -1105,12 +1105,12 @@
 				}
 			]
 			tasks: [{
-				id: "3AA6A48AE615F810"
-				item: "blockcarpentry:frame_slope"
+				id: "784DB012B6124197"
+				item: "framedblocks:framed_slope"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["740840E49E2980F9"]
@@ -1128,12 +1128,12 @@
 				}
 			]
 			tasks: [{
-				id: "37BF58424BEDA474"
-				item: "blockcarpentry:frame_edged_slope"
+				id: "31837F2434F4628F"
+				item: "framedblocks:framed_slope_panel"
 				type: "item"
 			}]
 			x: 0.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["289133175EA692FE"]
@@ -1151,12 +1151,12 @@
 				}
 			]
 			tasks: [{
-				id: "345751057A03D5C0"
-				item: "blockcarpentry:frame_trapdoor"
+				id: "79318D63A29519C1"
+				item: "framedblocks:framed_trapdoor"
 				type: "item"
 			}]
 			x: -2.5d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["289133175EA692FE"]
@@ -1174,12 +1174,12 @@
 				}
 			]
 			tasks: [{
-				id: "7E1337078CEB7C20"
-				item: "blockcarpentry:frame_ladder"
+				id: "0E2E71DAB0352DD9"
+				item: "framedblocks:framed_ladder"
 				type: "item"
 			}]
 			x: -2.5d
-			y: 2.0d
+			y: 2.5d
 		}
 		{
 			id: "4DF96CD512DB7BD8"
@@ -1200,7 +1200,7 @@
 				item: "buildersaddition:hedge_oak"
 				type: "item"
 			}]
-			x: 4.5d
+			x: 5.5d
 			y: 1.0d
 		}
 		{
@@ -1280,7 +1280,7 @@
 				item: "quark:dark_oak_hedge"
 				type: "item"
 			}]
-			x: 5.5d
+			x: 6.5d
 			y: 1.0d
 		}
 		{
@@ -1383,7 +1383,7 @@
 				item: "supplementaries:wind_vane"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -5.0d
 			y: 6.5d
 		}
 		{
@@ -1446,7 +1446,7 @@
 				item: "supplementaries:flower_box"
 				type: "item"
 			}]
-			x: -4.5d
+			x: -6.0d
 			y: 7.5d
 		}
 		{
@@ -1683,7 +1683,7 @@
 				item: "supplementaries:sign_post_spruce"
 				type: "item"
 			}]
-			x: -5.5d
+			x: -7.0d
 			y: 6.5d
 		}
 		{
@@ -1740,18 +1740,33 @@
 		}
 		{
 			id: "4C14E37EE844102B"
-			rewards: [{
-				id: "5C0B4D1E84090ECE"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "5C0B4D1E84090ECE"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "5284C64BE1A9F8F0"
+					item: "fantasyfurniture:decorations/potion_bottles"
+					type: "item"
+				}
+				{
+					id: "1AFD500A51769E06"
+					item: "fantasyfurniture:decorations/dunmer_pottery_0"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Fantasy-Themed Furniture and Decorational blocks"
 			tasks: [{
 				id: "295471300BD8275F"
 				item: "fantasyfurniture:furniture_station"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 0.5d
+			x: -2.25d
+			y: -3.0d
 		}
 		{
 			id: "5D0A780AEA30195F"
@@ -1766,7 +1781,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			id: "24ECAE84753C074E"
@@ -1826,7 +1841,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			id: "232C203A001D86AE"
@@ -1841,7 +1856,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -8.0d
+			y: -9.5d
 		}
 		{
 			id: "35A0EC774B945869"
@@ -1856,7 +1871,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			id: "0C2842A9B015FDAE"
@@ -1871,7 +1886,7 @@
 				type: "item"
 			}]
 			x: 0.5d
-			y: -8.5d
+			y: -10.0d
 		}
 		{
 			id: "7AE0BAEA8D9EC3C4"
@@ -1886,7 +1901,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -7.0d
+			y: -8.5d
 		}
 		{
 			id: "05507ADF7C1596BE"
@@ -1901,7 +1916,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			id: "41296C82DBFF1955"
@@ -1916,7 +1931,7 @@
 				type: "item"
 			}]
 			x: 5.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			id: "50F920BFBB762764"
@@ -1931,7 +1946,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 3.5d
+			y: 4.0d
 		}
 		{
 			id: "01B798386B1762CD"
@@ -1946,7 +1961,7 @@
 				type: "item"
 			}]
 			x: 6.5d
-			y: 2.5d
+			y: 3.0d
 		}
 		{
 			id: "568C50D1A8C95EFE"
@@ -2052,6 +2067,161 @@
 			}]
 			x: 1.0d
 			y: 10.0d
+		}
+		{
+			id: "002DF8F20A30069B"
+			rewards: [
+				{
+					id: "366A306BBB1A4E28"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "20536B9DA52CBD94"
+					item: "chipped:checkered_iron_lantern"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "38B2B8D8B13DB80B"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: -2.25d
+			y: -0.75d
+		}
+		{
+			id: "13E6B7E895B9049C"
+			rewards: [{
+				id: "547A072C4FFCB798"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2CB813076B7F6A07"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: -0.75d
+			y: -0.75d
+		}
+		{
+			id: "73D1FCFD573B78E5"
+			rewards: [
+				{
+					count: 64
+					id: "7C3D83DAF339D97E"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4082E1577A291D9B"
+					item: "minecraft:basalt"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5F93652FC1F5F0A6"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -0.75d
+		}
+		{
+			id: "29183F7DC868CF6A"
+			rewards: [{
+				count: 5
+				id: "5980399F6AEF8DBF"
+				item: "chipped:windmill_light_gray_wool"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "14FBA665BDA9F1A9"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.75d
+		}
+		{
+			id: "6624074D486E77C7"
+			rewards: [
+				{
+					id: "5A140EDE5B9F4B9F"
+					item: "chipped:barred_oak_door"
+					type: "item"
+				}
+				{
+					id: "6C44C02E9616D555"
+					item: "chipped:gilded_barrel"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "04AA71D460B5FAA0"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: 2.25d
+			y: -0.75d
+		}
+		{
+			id: "1353ED6784CFFA6C"
+			rewards: [{
+				id: "3CD52A3DDC7E459A"
+				item: "chipped:raster_blue_stained_glass"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4A1DDB9A4169C89B"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.75d
+		}
+		{
+			id: "6FBB42355E97B0D3"
+			rewards: [
+				{
+					id: "20BE1508B7E873F3"
+					item: "chipped:cherry_acacia_leaves"
+					type: "item"
+				}
+				{
+					id: "561156E157E64C2F"
+					item: "chipped:blue_moss_block"
+					type: "item"
+				}
+				{
+					id: "07BF6C6B45262D15"
+					item: "chipped:big_flower_lily_pad"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "211B161639265AF5"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.75d
 		}
 	]
 	title: "Deco madness"

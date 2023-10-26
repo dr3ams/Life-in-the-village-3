@@ -761,7 +761,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "Discover a Underground Bastion"
+			subtitle: "Discover an Underground Bastion"
 			tasks: [{
 				advancement: "repurposed_structures:bastion_underground"
 				criterion: ""

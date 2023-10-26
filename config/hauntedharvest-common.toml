@@ -1,0 +1,71 @@
+
+[pumpkin_carving]
+	#Allows custom carved pumpkins to be placed by villagers and appear in abandoned farm structure
+	custom_carvings = true
+	#Pumpkin carving mode
+	#Allowed Values: NONE, BOTH, GUI, MANUAL
+	pumpkin_carve_mode = "BOTH"
+	#Jack o Lantern carving mode
+	#Allowed Values: NONE, BOTH, GUI, MANUAL
+	jack_o_lantern_carve_mode = "NONE"
+
+[halloween_season]
+	#Day from which villagers will start placing pumpkins & trick or treating
+	#Range: 1 ~ 12
+	start_month = 10
+	#Day from which villagers will start placing pumpkins & trick or treating
+	#Range: 1 ~ 31
+	start_day = 20
+	#Day from which villagers will start removing placed pumpkins
+	#Range: 1 ~ 12
+	end_month = 11
+	#Day from which villagers will start removing placed pumpkins
+	#Range: 1 ~ 31
+	end_day = 10
+
+[mob_pumpkins_season]
+	#Chance for a mob to wear a pumpkin. All this does not affect vanilla halloween behavior
+	#Range: 0.0 ~ 1.0
+	wear_chance = 0.25
+	#Day from which zombies and skeletons can wear pumpkins
+	#Range: 1 ~ 12
+	start_month = 10
+	#Day from which zombies and skeletons can wear pumpkins
+	#Range: 1 ~ 31
+	start_day = 30
+	#Day from which zombies and skeletons can wear pumpkins
+	#Range: 1 ~ 12
+	end_month = 10
+	#Day from which zombies and skeletons can wear pumpkins
+	#Range: 1 ~ 31
+	end_day = 31
+
+[trick_or_treating_time]
+	#Nota that all these configs will not take effect until the game is reloaded
+	#Time of day at which baby villagers will start trick-or-treating
+	#Range: 0 ~ 24000
+	start_time = 12000
+	#Time of day at which baby villagers will stop trick-or-treating. Note that this will only properly work if it's at night since baby villagers can only trick or treat during their sleep schedule which is from 12000 to 0
+	#Range: 0 ~ 24000
+	end_time = 0
+
+[season_mod_compat]
+	#Enables compatibility with Serene Seasons (Forge) or Fabric Seasons (Fabric). Only takes effect if the mod is installed. Will make halloween season only active during certain seasons. Note that this will override previous time window settings
+	enabled = false
+
+[general]
+	#Enable Creative Tab
+	creative_tab = false
+	#Enables custom Configured config screen
+	custom_configured_screen = true
+
+#Here are configs that need reloading to take effect
+[features]
+	corn = true
+	grim_apple = true
+	paper_bag = true
+	popcorn = true
+	carved_pumpkin = true
+	splattered_egg = true
+	candy_corn = true
+

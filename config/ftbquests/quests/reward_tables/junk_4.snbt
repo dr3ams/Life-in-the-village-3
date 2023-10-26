@@ -79,6 +79,8 @@
 		}
 		{ count: 32, item: "minecraft:coal_block" }
 		{ count: 64, item: "minecraft:lantern" }
+		{ item: "collectorsalbum:epic_card_package" }
+		{ item: "collectorsalbum:legendary_card_package" }
 	]
 	title: "Junk 4"
 	use_title: true

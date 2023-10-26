@@ -109,11 +109,6 @@
 			title: "Spawn Eggs 3"
 			weight: 80.0f
 		}
-		{ item: "oreberriesreplanted:essence_berry_bush" }
-		{ item: "oreberriesreplanted:zinc_oreberry_bush" }
-		{ item: "oreberriesreplanted:iron_oreberry_bush" }
-		{ item: "oreberriesreplanted:gold_oreberry_bush" }
-		{ item: "oreberriesreplanted:copper_oreberry_bush" }
 	]
 	title: "Epic loot crate"
 	use_title: true

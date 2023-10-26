@@ -35,6 +35,15 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'gag:mining_dynamite'})
 	event.remove({output: 'gag:labeling_tool'})
 	
+	event.remove({output: 'skilltree:copper_ring'})
+	event.remove({output: 'skilltree:iron_ring'})
+	event.remove({output: 'skilltree:golden_ring'})
+	event.remove({output: 'skilltree:simple_necklace'})
+	event.remove({output: 'skilltree:traveler_necklace'})
+	event.remove({output: 'skilltree:fisherman_necklace'})
+	event.remove({output: 'skilltree:assassin_necklace'})
+	event.remove({output: 'skilltree:healer_necklace'})
+	
 	event.shaped('minecraft:diamond', [
     'DDD',
     'DDD',
@@ -51,7 +60,7 @@ ServerEvents.recipes(event => {
     E: 'kubejs:emerald_nugget'
 	})
 	
-		event.shaped('kubejs:coin_02', [
+	event.shaped('kubejs:coin_02', [
     'CCC',
     'CCC',
     'CCC'
@@ -146,4 +155,5 @@ ServerEvents.tags('item', event => {
 	event.get('litv:hoglin_hides')
     .add('nethersdelight:hoglin_hide')
     .add('nourished_nether:hoglin_hide');
+	
 })

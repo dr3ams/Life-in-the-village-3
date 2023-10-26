@@ -385,7 +385,7 @@
 			}]
 			shape: "octagon"
 			size: 2.0d
-			subtitle: "For Diamond coin (repeatable)"
+			subtitle: "For Nether coin (repeatable)"
 			tasks: [{
 				consume_items: true
 				disable_toast: true
@@ -393,7 +393,7 @@
 				item: "kubejs:nether_coin"
 				type: "item"
 			}]
-			title: "Nether loot crate random reward"
+			title: "Nether Coin"
 			x: 8.0d
 			y: 0.0d
 		}

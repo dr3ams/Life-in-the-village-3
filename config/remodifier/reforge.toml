@@ -1,0 +1,5 @@
+
+[Remodifier]
+	UniversalReforgeItem = "minecraft:diamond"
+	DisableRepairingReforging = false
+

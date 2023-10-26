@@ -73,7 +73,7 @@
 
 [recipes]
 	#Makes all anvil tool repairs always cost 1 level of XP
-	enableCheapAnvilRepair = true
+	enableCheapAnvilRepair = false
 	#Allows you to throw things into specific fluids to convert them - by default this is just Concrete Powder this feature can be extended using Data Packs.
 	enableFluidConversionRecipes = true
 

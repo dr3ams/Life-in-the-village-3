@@ -1,0 +1,18 @@
+[
+  {
+    "loot": "majruszsdifficulty:gameplay/cursed_armor_nether",
+    "chests": [
+      "minecraft:chests/nether_bridge"
+    ],
+    "sound": "minecraft:item.armor.equip_gold",
+    "chance": 0.05
+  },
+  {
+    "loot": "majruszsdifficulty:gameplay/cursed_armor_end",
+    "chests": [
+      "minecraft:chests/end_city_treasure"
+    ],
+    "sound": "minecraft:item.armor.equip_diamond",
+    "chance": 0.05
+  }
+]

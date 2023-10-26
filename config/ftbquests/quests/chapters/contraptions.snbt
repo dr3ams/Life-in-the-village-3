@@ -333,7 +333,7 @@
 			y: -4.0d
 		}
 		{
-			description: ["stores liquids and captures tiny mobs"]
+			description: ["Stores liquids and captures tiny mobs"]
 			id: "7EFBB9A760690892"
 			rewards: [{
 				id: "69C71AF63827C24E"
@@ -537,7 +537,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["rotates blocks and mobs standing on it"]
+			description: ["Rotates blocks and mobs standing on it"]
 			id: "6C27B8ECBE98B97A"
 			rewards: [{
 				id: "67F82B8D2133F3AE"
@@ -1057,7 +1057,7 @@
 			y: -5.0d
 		}
 		{
-			description: ["The Brass Lantern can only be obtained from Librarian Villagers. You cannot find it anywhere else, not even in JEI!"]
+			description: ["Lantern but brass"]
 			id: "60A8B8712FF18A56"
 			rewards: [{
 				id: "77D822B55C022793"

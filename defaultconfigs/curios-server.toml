@@ -7,8 +7,9 @@
 	identifier = "body"
 	size = 1
 [[curiosSettings]]
-	identifier = "medal"
+	identifier = "book"
 	size = 1	
+	icon = "curios:slot/book"
 [[curiosSettings]]
 	identifier = "scroll"
 	size = 1

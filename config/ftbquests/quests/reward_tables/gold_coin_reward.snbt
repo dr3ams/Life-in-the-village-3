@@ -16,7 +16,7 @@
 		{ item: "quark:stoneling_spawn_egg" }
 		{ item: "minecraft:horse_spawn_egg" }
 		{ item: "minecraft:ocelot_spawn_egg" }
-		{ count: 4, item: "minecraft:ender_pearl" }
+		{ count: 8, item: "minecraft:ender_pearl" }
 		{ count: 5, item: "randomite:randomite_ore" }
 		{ count: 32, item: "minecraft:golden_carrot" }
 		{ count: 32, item: "minecraft:glistering_melon_slice" }

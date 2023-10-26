@@ -91,9 +91,9 @@
 	#Range: -1 ~ 1440
 	cooldown_teleport_bind = 2
 	#Beneficial effects that can't used by certain features such as ankh of pray, lollipop, scroll of preservation, alchemy perk and magic siphon enchantment
-	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze"]
+	unhandled_beneficial_effects = ["astralsorcery:potiontimefreeze", "tetra:suspended"]
 	#Harmful effects that can't used by certain features such as tablet of cupidity and the enchantment plague bringer
-	unhandled_harmful_effects = ["minecraft:nausea"]
+	unhandled_harmful_effects = ["minecraft:nausea", "tetra:suspended"]
 
 #Allows to define the conditions for a village siege to begin
 [village_siege]
@@ -167,7 +167,7 @@
 	nerf_plague_bringer = true
 	#Maximum duration of stolen effects in minutes [1..MAX|default:60]
 	#Range: > 1
-	max_duration_magic_siphon = 60
+	max_duration_magic_siphon = 3
 	#Duration of applied effects in seconds [1..MAX|default:10]
 	#Range: > 1
 	duration_plague_bringer = 10

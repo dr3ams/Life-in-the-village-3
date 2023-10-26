@@ -1,0 +1,128 @@
+{
+  "op": "ACTIVE",
+  "action": {
+    "type": "collectorsalbum:first_valid",
+    "values": [
+      {
+        "conditions": [
+          {
+            "type": "collectorsalbum:points",
+            "points": 900
+          }
+        ],
+        "apply": {
+          "type": "collectorsalbum:give_missing_effects",
+          "effects": [
+            {
+              "effect": "minecraft:health_boost",
+              "duration": 2147483647,
+              "amplifier": 12,
+              "visible": false,
+              "showIcon": false
+            }
+          ]
+        }
+      },
+      {
+        "conditions": [
+          {
+            "type": "collectorsalbum:points",
+            "points": 700
+          }
+        ],
+        "apply": {
+          "type": "collectorsalbum:give_missing_effects",
+          "effects": [
+            {
+              "effect": "minecraft:health_boost",
+              "duration": 2147483647,
+              "amplifier": 6,
+              "visible": false,
+              "showIcon": false
+            }
+          ]
+        }
+      },
+      {
+        "conditions": [
+          {
+            "type": "collectorsalbum:points",
+            "points": 600
+          }
+        ],
+        "apply": {
+          "type": "collectorsalbum:give_missing_effects",
+          "effects": [
+            {
+              "effect": "minecraft:health_boost",
+              "duration": 2147483647,
+              "amplifier": 4,
+              "visible": false,
+              "showIcon": false
+            }
+          ]
+        }
+      },
+      {
+        "conditions": [
+          {
+            "type": "collectorsalbum:points",
+            "points": 500
+          }
+        ],
+        "apply": {
+          "type": "collectorsalbum:give_missing_effects",
+          "effects": [
+            {
+              "effect": "minecraft:health_boost",
+              "duration": 2147483647,
+              "amplifier": 2,
+              "visible": false,
+              "showIcon": false
+            }
+          ]
+        }
+      },
+      {
+        "conditions": [
+          {
+            "type": "collectorsalbum:points",
+            "points": 400
+          }
+        ],
+        "apply": {
+          "type": "collectorsalbum:give_missing_effects",
+          "effects": [
+            {
+              "effect": "minecraft:health_boost",
+              "duration": 2147483647,
+              "amplifier": 1,
+              "visible": false,
+              "showIcon": false
+            }
+          ]
+        }
+      },
+      {
+        "conditions": [
+          {
+            "type": "collectorsalbum:points",
+            "points": 300
+          }
+        ],
+        "apply": {
+          "type": "collectorsalbum:give_missing_effects",
+          "effects": [
+            {
+              "effect": "minecraft:health_boost",
+              "duration": 2147483647,
+              "amplifier": 0,
+              "visible": false,
+              "showIcon": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

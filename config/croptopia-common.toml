@@ -1,5 +1,5 @@
 #allows the user to right click harvest crops
-rightClickHarvest = false
+rightClickHarvest = true
 #allows the user to disable salt generation in the world, default is false
 disableSaltGeneration = false
 

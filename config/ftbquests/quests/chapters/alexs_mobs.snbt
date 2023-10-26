@@ -5,7 +5,7 @@
 	group: "2280ECB310C79FE3"
 	icon: "quark:slime_in_a_bucket"
 	id: "0399220027D545F6"
-	order_index: 5
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -297,30 +297,6 @@
 			}]
 			x: -13.0d
 			y: 2.0d
-		}
-		{
-			dependencies: ["3CD714A755372F99"]
-			description: ["Once you lead a Endergrade down to you with a Chorus fruit you can saddle them much like a pig in the overworld. By crafting a Chorus Fruit on a Stick you can lead an Endergrade around in any direction you want."]
-			id: "60286A30B5BF3EBF"
-			rewards: [
-				{
-					id: "372062164B25838D"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "5478A87BCFD6F7A9"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "539E21D26BDBDE87"
-				item: "alexsmobs:chorus_on_a_stick"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 10.5d
 		}
 		{
 			dependencies: ["2C2D57D238A96C47"]
@@ -666,24 +642,6 @@
 			}]
 			x: -5.5d
 			y: -0.5d
-		}
-		{
-			dependencies: ["54A887A01A32BB84"]
-			description: ["A drop from Mimicubes that can be used to duplicate enchanted tools, result is broken but duplicate tool."]
-			id: "0B0040DAC5D0E2C8"
-			rewards: [{
-				count: 3
-				id: "753E61056FEA34DF"
-				item: "alexsmobs:mimicream"
-				type: "item"
-			}]
-			tasks: [{
-				id: "00FAEB55E3A7B2AA"
-				item: "alexsmobs:mimicream"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 12.5d
 		}
 		{
 			dependencies: ["5AF05B20BB414210"]
@@ -1075,7 +1033,6 @@
 				"323E3518BE41C84D"
 				"1DD27A6265642B96"
 				"2BA62BA8195FC90F"
-				"0B0040DAC5D0E2C8"
 			]
 			description: ["An upgraded Blood Sprayer."]
 			id: "7E104C87A3BB6CA4"
@@ -1455,40 +1412,6 @@
 			}]
 			x: -1.0d
 			y: -11.5d
-		}
-		{
-			dependencies: ["40CFB3D7A3ECB1B9"]
-			description: ["A drop from Enderiophage, it can hold a stack of items inside which will be transported into whatever block is above them."]
-			id: "57D3C1E86A23E5AD"
-			rewards: [{
-				id: "39173D66A55F793A"
-				item: "aquaculture:box"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1D7D964AFD8CCC28"
-				item: "alexsmobs:capsid"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 12.5d
-		}
-		{
-			dependencies: ["57D3C1E86A23E5AD"]
-			description: ["A special firework with special DNA effect that can be made in the End."]
-			id: "1A85A5ED5D9EDD86"
-			rewards: [{
-				id: "14BEC4B0CF295317"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "660A9211FC204506"
-				item: "alexsmobs:enderiophage_rocket"
-				type: "item"
-			}]
-			x: 7.5d
-			y: 10.0d
 		}
 		{
 			dependencies: ["0433861EE023060D"]
@@ -2232,47 +2155,6 @@
 			y: 0.5d
 		}
 		{
-			description: [
-				"Encounter Enderiophage"
-				""
-				"The Enderiophage is pretty much just a giant virus commonly found in the End Midlands. It's primary prey is the Endergrades, but it will also attack Endermen. If allowed to pass on its virus it will affect the host until they die and burst with new Enderiophages. "
-			]
-			id: "40CFB3D7A3ECB1B9"
-			rewards: [{
-				id: "16D1ECC238BC0E81"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/enderiophage"
-				criterion: ""
-				id: "04F776AF5D636E3E"
-				title: "End Virus"
-				type: "advancement"
-			}]
-			x: 7.5d
-			y: 11.5d
-		}
-		{
-			dependencies: ["40CFB3D7A3ECB1B9"]
-			description: ["To heal the End Flu Chorus fruit or milk can be eaten/drank."]
-			id: "44DD26244ADEC0F8"
-			rewards: [{
-				id: "7E919881CF916589"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/ender_flu"
-				criterion: ""
-				id: "6BCC47F491E9A812"
-				title: "Hope it isn't Contagious"
-				type: "advancement"
-			}]
-			x: 6.0d
-			y: 12.5d
-		}
-		{
 			description: ["Long dead birds that now inhabits the Nether. They have a health stealing attack which they use to great effect up to five times."]
 			id: "292B32B34CD5094A"
 			rewards: [
@@ -2819,7 +2701,7 @@
 			rewards: [{
 				id: "2C6DFA122BB1BD9B"
 				type: "xp"
-				xp: 100
+				xp: 10
 			}]
 			tasks: [{
 				id: "3F5513E24A79A11D"
@@ -3138,90 +3020,6 @@
 			}]
 			x: 11.0d
 			y: 0.5d
-		}
-		{
-			description: ["This large animal of the End is a peaceful floating creature that is happy spending its days just floating around Chorus Forests eating chorus fruits. You can lure a Endergrade over to you by holding a Chorus fruit which you can also use to breed them."]
-			icon: {
-				Count: 1b
-				id: "alexsmobs:tab_icon"
-				tag: {
-					DisplayEntityType: "alexsmobs:endergrade"
-				}
-			}
-			id: "3CD714A755372F99"
-			rewards: [
-				{
-					id: "453DF25531B70071"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "033D1483DE2ED063"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "alexsmobs:spawn_egg_endergrade"
-				}
-				id: "4D0FF467DC7E8FF7"
-				observe_type: 5
-				timer: 0L
-				title: "Endergrade"
-				to_observe: "alexsmobs:endergrade"
-				type: "observation"
-			}]
-			x: 8.5d
-			y: 9.0d
-		}
-		{
-			description: ["A slime relative of the End found typically in End Cities. Have very powerful magical abilities of mimicing an attackers weapons and armor."]
-			icon: {
-				Count: 1b
-				id: "alexsmobs:tab_icon"
-				tag: {
-					DisplayEntityType: "alexsmobs:mimicube"
-				}
-			}
-			id: "54A887A01A32BB84"
-			rewards: [
-				{
-					id: "52D6521BBC52700F"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "3F60EEEC9446F6A0"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "alexsmobs:spawn_egg_mimicube"
-				}
-				id: "76E60071ABEBB37D"
-				observe_type: 5
-				timer: 0L
-				title: "Mimicube"
-				to_observe: "alexsmobs:mimicube"
-				type: "observation"
-			}]
-			x: 6.5d
-			y: 9.0d
 		}
 		{
 			description: ["The Bone Serpent is a native of the lava lakes of the Nether where it preys on almost everything, especially Wither Skeletons."]

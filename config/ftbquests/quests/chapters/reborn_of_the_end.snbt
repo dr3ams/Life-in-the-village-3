@@ -10,72 +10,24 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
+			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:textures/items/zure_berry_vine_tip_green.png"
+			image: "buzzier_bees:item/endermite_bottle"
 			rotation: 0.0d
-			width: 2.0d
-			x: 8.0d
-			y: 19.0d
+			width: 1.0d
+			x: 6.5d
+			y: 12.5d
 		}
 		{
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
+			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:textures/items/zure_berry_vine_green.png"
+			image: "alexsmobs:item/cosmic_cod"
 			rotation: 0.0d
-			width: 2.0d
-			x: 8.0d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:textures/items/zure_berry_vine_green.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 8.0d
-			y: 16.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:textures/items/enduring_vine.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 12.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:textures/items/enduring_vine_tip.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 15.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:textures/items/enduring_vine.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
+			width: 1.0d
+			x: 1.5d
 			y: 10.5d
 		}
 		{
@@ -84,7 +36,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/chorus_roots_potted"
+			image: "quark:block/chorus_weed0"
 			rotation: 0.0d
 			width: 1.0d
 			x: 4.5d
@@ -96,47 +48,11 @@
 			dev: false
 			height: 2.0d
 			hover: [ ]
-			image: "enlightened_end:items/hanging_cerulean_moss"
+			image: "alexsmobs:item/mimicream"
 			rotation: 0.0d
 			width: 2.0d
-			x: 8.0d
-			y: 10.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:items/cerulean_vine_4"
-			rotation: 0.0d
-			width: 2.0d
-			x: 8.0d
-			y: 14.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:items/cerulean_vine_4"
-			rotation: 0.0d
-			width: 2.0d
-			x: 8.0d
-			y: 17.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:blocks/double_cerulean_grass_bottom"
-			rotation: 0.0d
-			width: 2.0d
-			x: 10.5d
-			y: 14.5d
+			x: -2.5d
+			y: 13.0d
 		}
 		{
 			click: ""
@@ -144,23 +60,11 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:items/congealed_sapling"
+			image: "quark:block/chorus_weed0"
 			rotation: 0.0d
 			width: 1.0d
-			x: 10.0d
-			y: 8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:textures/items/enduring_vine.png"
-			rotation: 0.0d
-			width: 2.0d
-			x: 0.0d
-			y: 13.5d
+			x: 5.0d
+			y: 12.5d
 		}
 		{
 			click: ""
@@ -168,11 +72,11 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/chorus_roots"
+			image: "majruszsdifficulty:item/enderium_shard_locator_5"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.0d
-			y: 7.0d
+			x: 5.5d
+			y: 11.5d
 		}
 		{
 			click: ""
@@ -180,71 +84,11 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/congealed_bush_bottom"
+			image: "quark:block/chorus_weed1"
 			rotation: 0.0d
 			width: 1.0d
-			x: 11.0d
-			y: 8.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "enlightened_end:blocks/congealed_bush_top"
-			rotation: 0.0d
-			width: 1.0d
-			x: 11.0d
-			y: 8.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "enlightened_end:textures/blocks/chorus_vine.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.0d
-			y: 9.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "enlightened_end:textures/blocks/chorus_vine.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.0d
-			y: 10.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "enlightened_end:textures/blocks/chorus_vine.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.0d
-			y: 10.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "enlightened_end:textures/blocks/chorus_vine.png"
-			rotation: 0.0d
-			width: 1.0d
-			x: 14.0d
-			y: 11.0d
+			x: 5.5d
+			y: 12.5d
 		}
 		{
 			click: ""
@@ -264,11 +108,23 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/cradling_flower_green"
+			image: "alexsmobs:item/cosmic_cod"
 			rotation: 0.0d
 			width: 1.0d
-			x: 7.0d
-			y: 14.0d
+			x: 8.0d
+			y: 14.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "alexsmobs:item/cosmic_cod"
+			rotation: 45.0d
+			width: 0.8d
+			x: 1.5d
+			y: 11.5d
 		}
 		{
 			click: ""
@@ -276,11 +132,11 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/cradling_flower_green"
+			image: "quark:item/echorang"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.5d
-			y: 12.5d
+			x: 1.0d
+			y: 13.0d
 		}
 		{
 			click: ""
@@ -288,19 +144,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/hanging_ennegel_2"
-			rotation: 0.0d
-			width: 1.0d
-			x: 13.0d
-			y: 10.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.0d
-			hover: [ ]
-			image: "enlightened_end:blocks/jelly_ring_sprout"
+			image: "quark:block/chorus_weed2"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.5d
@@ -315,8 +159,8 @@
 			image: "quark:block/chorus_weed0"
 			rotation: 0.0d
 			width: 1.0d
-			x: 9.0d
-			y: 8.5d
+			x: 7.5d
+			y: 12.5d
 		}
 		{
 			click: ""
@@ -324,7 +168,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "quark:block/chorus_weed1"
+			image: "quark:block/chorus_twist"
 			rotation: 0.0d
 			width: 1.0d
 			x: -1.0d
@@ -346,21 +190,9 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "enlightened_end:blocks/ooze_shroom"
-			rotation: 0.0d
-			width: 1.0d
-			x: 6.0d
-			y: 8.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/chorus_roots"
+			image: "quark:block/chorus_twist"
 			rotation: 0.0d
 			width: 1.0d
 			x: 6.0d
@@ -372,11 +204,23 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/congealed_bush_top"
+			image: "quark:block/chorus_weed1"
 			rotation: 0.0d
 			width: 1.0d
-			x: 5.0d
+			x: 5.5d
 			y: 8.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "alexsmobs:textures/item/end_pirate_flag.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 4.5d
 		}
 		{
 			click: ""
@@ -400,30 +244,6 @@
 			rotation: 0.0d
 			width: 1.0d
 			x: 5.0d
-			y: 4.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "alexsmobs:block/ender_residue_3"
-			rotation: 0.0d
-			width: 2.0d
-			x: -4.5d
-			y: 13.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 2.0d
-			hover: [ ]
-			image: "alexsmobs:block/ender_residue_3"
-			rotation: 0.0d
-			width: 2.0d
-			x: 13.5d
 			y: 3.5d
 		}
 		{
@@ -435,8 +255,32 @@
 			image: "alexsmobs:block/ender_residue_3"
 			rotation: 0.0d
 			width: 2.0d
-			x: 13.0d
-			y: 16.0d
+			x: -4.0d
+			y: 12.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "alexsmobs:block/ender_residue_3"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 2.0d
+			hover: [ ]
+			image: "alexsmobs:block/ender_residue_3"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.0d
+			y: 13.0d
 		}
 		{
 			click: ""
@@ -444,7 +288,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:textures/mob_effect/bouncy_effect.png"
+			image: "quark:block/chorus_weed0"
 			rotation: 0.0d
 			width: 1.0d
 			x: 7.0d
@@ -456,11 +300,11 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:blocks/parasol_vine_top"
-			rotation: 0.0d
+			image: "alexsmobs:item/cosmic_cod"
+			rotation: 30.0d
 			width: 1.0d
-			x: 3.5d
-			y: 10.0d
+			x: 2.5d
+			y: 11.0d
 		}
 		{
 			click: ""
@@ -471,8 +315,8 @@
 			image: "alexsmobs:textures/mob_effect/ender_flu.png"
 			rotation: 0.0d
 			width: 1.0d
-			x: 12.5d
-			y: 5.5d
+			x: 10.0d
+			y: 7.5d
 		}
 		{
 			click: ""
@@ -483,8 +327,8 @@
 			image: "alexsmobs:textures/mob_effect/ender_flu.png"
 			rotation: 0.0d
 			width: 0.5d
-			x: -2.0d
-			y: 14.0d
+			x: -1.0d
+			y: 11.0d
 		}
 		{
 			click: ""
@@ -504,7 +348,7 @@
 			dev: false
 			height: 1.0d
 			hover: [ ]
-			image: "enlightened_end:textures/particle/ennegel_drip_6.png"
+			image: "minecraft:textures/entity/enderdragon/dragon_fireball.png"
 			rotation: 0.0d
 			width: 1.0d
 			x: 2.0d
@@ -514,40 +358,52 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 1.5d
-			hover: [ ]
-			image: "enlightened_end:textures/particle/adamantite_radiation_7.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: 5.5d
-			y: 13.5d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
-			height: 1.5d
-			hover: [ ]
-			image: "enlightened_end:textures/blocks/adamantite_reinforcements.png"
-			rotation: 0.0d
-			width: 1.5d
-			x: 5.5d
-			y: 15.0d
-		}
-		{
-			click: ""
-			corner: false
-			dev: false
 			height: 20.0d
 			hover: [ ]
 			image: "litv3:textures/misc/nebula.png"
 			rotation: 0.0d
-			width: 20.0d
-			x: 5.0d
-			y: 10.5d
+			width: 25.742574257425744d
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "majruszsdifficulty:item/ender_dragon_treasure_bag"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "tetra:items/dragon_sinew"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "italian_delight:items/dragonbron_wine"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.0d
+			y: 11.5d
 		}
 	]
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -614,14 +470,14 @@
 			id: "2AF6CFC422E0F2D4"
 			rewards: [
 				{
-					id: "3AC5645B5D3E0768"
-					item: "kubejs:diamond_coin"
-					type: "item"
-				}
-				{
 					id: "1C26C70FAE806065"
 					type: "xp_levels"
 					xp_levels: 10
+				}
+				{
+					id: "3B69E21456189065"
+					item: "kubejs:gold_coin"
+					type: "item"
 				}
 			]
 			tasks: [{
@@ -644,8 +500,8 @@
 					xp_levels: 15
 				}
 				{
-					id: "7AED328457360585"
-					item: "kubejs:gold_coin"
+					id: "2E40AF8662F2DBFC"
+					item: "kubejs:diamond_coin"
 					type: "item"
 				}
 			]
@@ -657,46 +513,6 @@
 			}]
 			x: 0.0d
 			y: 5.0d
-		}
-		{
-			dependencies: ["75608E7DC3EB41B9"]
-			hide_dependency_lines: true
-			id: "33D3627ABB9AAD02"
-			rewards: [
-				{
-					id: "29136E20F80AF423"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "7623AF5D3C6D8BB2"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "2A3BA43BD911DDEA"
-				item: "enlightened_end:malachite_ore"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 11.0d
-		}
-		{
-			dependencies: ["33D3627ABB9AAD02"]
-			id: "288F36DBEE4A47D1"
-			rewards: [{
-				id: "5290ACDC93B59F12"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				id: "68B2A36291B774AB"
-				item: "enlightened_end:malachite"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 12.0d
 		}
 		{
 			dependencies: ["2D52B25FB37E4F2E"]
@@ -737,8 +553,8 @@
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 5.0d
+			x: 8.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["00000000000002A8"]
@@ -785,8 +601,8 @@
 				}
 				type: "item"
 			}]
-			x: 3.5d
-			y: 4.0d
+			x: 10.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["2ADEF087D07921AA"]
@@ -808,8 +624,8 @@
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			x: 6.5d
-			y: 7.0d
+			x: 4.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["2ADEF087D07921AA"]
@@ -833,7 +649,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.0d
+			y: 13.0d
 		}
 		{
 			dependencies: ["241AD7C07B239921"]
@@ -857,7 +673,7 @@
 				type: "item"
 			}]
 			x: 9.0d
-			y: 4.5d
+			y: 14.5d
 		}
 		{
 			dependencies: ["241AD7C07B239921"]
@@ -880,11 +696,11 @@
 				item: "quark:dusky_myalite"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 9.0d
+			y: 11.5d
 		}
 		{
-			dependencies: ["6CDC6733BD84ACA1"]
+			dependencies: ["0A5F8CB7AF0AF2BA"]
 			description: ["This biome generates as part of the outer islands of the End, forming the gradual slope from the hilltops of each island down to the cliffs around the edge. End cities generate here, but chorus trees do not."]
 			icon: "minecraft:end_stone"
 			id: "75608E7DC3EB41B9"
@@ -896,11 +712,11 @@
 			shape: "octagon"
 			size: 2.0d
 			tasks: [{
-				biome: "minecraft:end_midlands"
+				biome: "minecraft:end_highlands"
 				id: "316571AFCA43A168"
 				type: "biome"
 			}]
-			x: 3.5d
+			x: 9.0d
 			y: 9.0d
 		}
 		{
@@ -950,7 +766,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["75608E7DC3EB41B9"]
+			dependencies: ["0A5F8CB7AF0AF2BA"]
 			description: ["This biome generates as part of the outer islands of the End, forming the hilltops in the center of each island. This is the only biome where chorus trees naturally generate. End cities also generate here."]
 			icon: "quark:myalite"
 			id: "2ADEF087D07921AA"
@@ -967,11 +783,11 @@
 				id: "6DE69CFFA7DF1846"
 				type: "biome"
 			}]
-			x: 8.0d
-			y: 9.0d
+			x: 4.5d
+			y: 13.0d
 		}
 		{
-			dependencies: ["75608E7DC3EB41B9"]
+			dependencies: ["0A5F8CB7AF0AF2BA"]
 			description: ["This biome generates as part of the outer islands of the End which consists of the empty expanses between the larger islands, populated only by smaller, circle-shaped islands. Neither end cities nor chorus trees can generate in this biome."]
 			id: "0C40BCF669996CAA"
 			rewards: [{
@@ -985,338 +801,8 @@
 				id: "555F68855164BA3F"
 				type: "biome"
 			}]
-			x: 4.5d
-			y: 7.0d
-		}
-		{
-			dependencies: ["2ADEF087D07921AA"]
-			description: ["The Congealed Forest, a new sticky alien-forest biome with lots of bouncy and gooey foliage, ringlings also inhabit this biome and are quite scared of players"]
-			id: "29EA7A37DB5976AF"
-			rewards: [{
-				id: "796CE5841984796C"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "4049C8E5BF7E3C62"
-				item: "enlightened_end:congealed_stem"
-				type: "item"
-			}]
-			title: "The Congealed Forest"
-			x: 12.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["29EA7A37DB5976AF"]
-			id: "58484A65443317B1"
-			rewards: [{
-				id: "29FC0DC85395F672"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "4AFF9359FA05C1FC"
-				item: "enlightened_end:ennegel_glob"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 8.0d
-		}
-		{
-			dependencies: ["29EA7A37DB5976AF"]
-			id: "1365D4EDCFB584A8"
-			rewards: [{
-				id: "28289AEFBD575E0A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "29C47D6F8B9549E5"
-				item: "enlightened_end:congealed_fern"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["29EA7A37DB5976AF"]
-			id: "71B8813BC0CC5BD7"
-			rewards: [{
-				id: "004D036D8BFC1118"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "2C17AF15C76168BB"
-				item: "enlightened_end:ennegel_block"
-				type: "item"
-			}]
-			x: 13.0d
-			y: 10.0d
-		}
-		{
-			dependencies: ["29EA7A37DB5976AF"]
-			id: "09105A596FE99C63"
-			rewards: [{
-				id: "0F84D8522825B72B"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "26B86E854FD3E144"
-				item: "enlightened_end:chorus_roots"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 7.5d
-		}
-		{
-			dependencies: ["58484A65443317B1"]
-			id: "5635E421D7AB7BEA"
-			rewards: [{
-				id: "558EC9D308EDA6F3"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1636E9963972D4B1"
-				item: "enlightened_end:ennegel_pasta"
-				type: "item"
-			}]
-			x: 14.0d
-			y: 9.0d
-		}
-		{
-			dependencies: ["2ADEF087D07921AA"]
-			description: ["Found underneath the end islands, this radioactive overgrowth has been exposed to the void for far too long."]
-			id: "10CE75318BCDDCBD"
-			rewards: [{
-				id: "2D4404FA7ED2062C"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "6B6B805523393560"
-					item: "enlightened_end:underlily"
-					type: "item"
-				}
-				{
-					id: "188E3FD7F3F1C5D7"
-					item: "enlightened_end:emissive_underlily"
-					type: "item"
-				}
-			]
-			title: "Enderneath"
-			x: 8.0d
-			y: 12.0d
-		}
-		{
-			dependencies: ["10CE75318BCDDCBD"]
-			id: "7BD700BC8E0E44D1"
-			rewards: [{
-				id: "7BFF51895310808D"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1E834756844FC792"
-				item: "enlightened_end:emissive_bulb"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["10CE75318BCDDCBD"]
-			id: "20E5F7A280B23C48"
-			rewards: [{
-				id: "24961A8B76935C3E"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [
-				{
-					id: "2F702653A5450C23"
-					item: "enlightened_end:cerulean_vine"
-					type: "item"
-				}
-				{
-					id: "7C31745A95A20552"
-					item: "enlightened_end:cradling_flower"
-					type: "item"
-				}
-				{
-					id: "022BDD8EB63FE181"
-					item: "enlightened_end:cerulean_grass"
-					type: "item"
-				}
-			]
-			x: 7.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["10CE75318BCDDCBD"]
-			id: "05A65664CEB387FC"
-			rewards: [{
-				id: "433D5184A7B6B249"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1CE3EEB7ED3A3DDC"
-				item: "enlightened_end:enduring_waste"
-				type: "item"
-			}]
 			x: 6.5d
-			y: 12.0d
-		}
-		{
-			dependencies: ["10CE75318BCDDCBD"]
-			id: "77E601EB48A1ABBE"
-			rewards: [{
-				id: "77809BB4B376C47D"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "33116334BBC6FB29"
-				item: "enlightened_end:ebony_stalk"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 13.5d
-		}
-		{
-			dependencies: ["7BD700BC8E0E44D1"]
-			id: "7A1E1DF4730EE5BE"
-			rewards: [{
-				id: "6CF3A34449145E5E"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "02F83B5D3C39064E"
-				item: "enlightened_end:voikrust"
-				type: "item"
-			}]
-			x: 10.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["77E601EB48A1ABBE"]
-			id: "68D3C24E2E2D2FB7"
-			rewards: [{
-				id: "59D64548F8E732AA"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2DF0149721F116CD"
-				item: "enlightened_end:ebony_planks"
-				type: "item"
-			}]
-			x: 9.0d
-			y: 15.0d
-		}
-		{
-			dependencies: ["288F36DBEE4A47D1"]
-			id: "28BE6E0C1E09D31E"
-			rewards: [{
-				id: "29AFE959737BEB5B"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "652132E7292D921B"
-				item: "enlightened_end:malachite_block"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 13.5d
-		}
-		{
-			dependencies: [
-				"05A65664CEB387FC"
-				"288F36DBEE4A47D1"
-			]
-			id: "1B03A1290D327111"
-			rewards: [{
-				id: "6C1816A2C8933576"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "183107EA0BCCC16A"
-				item: "enlightened_end:adamantite_plates"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 13.5d
-		}
-		{
-			dependencies: ["1B03A1290D327111"]
-			id: "02933480190190B3"
-			rewards: [{
-				id: "23DDDB4E106E0E6A"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "15943F16AE1C0F78"
-				item: "enlightened_end:adamantite_ingot"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 15.0d
-		}
-		{
-			dependencies: ["02933480190190B3"]
-			id: "6538662D54859CB9"
-			rewards: [{
-				id: "0A42F63A7BF9A4C8"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "53E99DD18DC35CA7"
-				item: "enlightened_end:voidsteel_block"
-				type: "item"
-			}]
-			x: 5.5d
-			y: 16.5d
-		}
-		{
-			dependencies: ["23B66006F8EE3765"]
-			id: "0027EF7E82EB4860"
-			rewards: [{
-				id: "3DB3D605DBBD287A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "2B4E94CA313B09E9"
-				item: "enlightened_end:bismuth_ingot"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["2ADEF087D07921AA"]
-			id: "23B66006F8EE3765"
-			rewards: [{
-				id: "5E3B82F48BD36E5D"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "7003EAF61B404D1B"
-				item: "enlightened_end:bismuth_ore"
-				type: "item"
-			}]
-			x: 9.5d
-			y: 7.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["75608E7DC3EB41B9"]
@@ -1331,8 +817,8 @@
 				item: "minecraft:purpur_block"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 6.0d
+			x: 9.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2D52B25FB37E4F2E"]
@@ -1347,24 +833,231 @@
 				item: "minecraft:end_rod"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 5.0d
+			x: 9.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["490CD2A9D679B003"]
-			id: "5ADCEEAE0E9465AB"
+			dependencies: ["54A887A01A32BB84"]
+			description: ["A drop from Mimicubes that can be used to duplicate enchanted tools, result is broken but duplicate tool."]
+			id: "0B0040DAC5D0E2C8"
 			rewards: [{
-				id: "46B0150EAD0213A6"
+				count: 3
+				id: "753E61056FEA34DF"
+				item: "alexsmobs:mimicream"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00FAEB55E3A7B2AA"
+				item: "alexsmobs:mimicream"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0A5F8CB7AF0AF2BA"]
+			description: ["A slime relative of the End found typically in End Cities. Have very powerful magical abilities of mimicing an attackers weapons and armor."]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:mimicube"
+				}
+			}
+			id: "54A887A01A32BB84"
+			rewards: [
+				{
+					id: "52D6521BBC52700F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3F60EEEC9446F6A0"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_mimicube"
+				}
+				id: "76E60071ABEBB37D"
+				observe_type: 5
+				timer: 0L
+				title: "Mimicube"
+				to_observe: "alexsmobs:mimicube"
+				type: "observation"
+			}]
+			x: 3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0A5F8CB7AF0AF2BA"]
+			description: ["This large animal of the End is a peaceful floating creature that is happy spending its days just floating around Chorus Forests eating chorus fruits. You can lure a Endergrade over to you by holding a Chorus fruit which you can also use to breed them."]
+			icon: {
+				Count: 1b
+				id: "alexsmobs:tab_icon"
+				tag: {
+					DisplayEntityType: "alexsmobs:endergrade"
+				}
+			}
+			id: "3CD714A755372F99"
+			rewards: [
+				{
+					id: "453DF25531B70071"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "033D1483DE2ED063"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "alexsmobs:spawn_egg_endergrade"
+				}
+				id: "4D0FF467DC7E8FF7"
+				observe_type: 5
+				timer: 0L
+				title: "Endergrade"
+				to_observe: "alexsmobs:endergrade"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3CD714A755372F99"]
+			description: ["Once you lead a Endergrade down to you with a Chorus fruit you can saddle them much like a pig in the overworld. By crafting a Chorus Fruit on a Stick you can lead an Endergrade around in any direction you want."]
+			id: "60286A30B5BF3EBF"
+			rewards: [
+				{
+					id: "372062164B25838D"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "5478A87BCFD6F7A9"
+					item: "aquaculture:box"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "539E21D26BDBDE87"
+				item: "alexsmobs:chorus_on_a_stick"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["57D3C1E86A23E5AD"]
+			description: ["A special firework with special DNA effect that can be made in the End."]
+			id: "1A85A5ED5D9EDD86"
+			rewards: [{
+				id: "14BEC4B0CF295317"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "660A9211FC204506"
+				item: "alexsmobs:enderiophage_rocket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0A5F8CB7AF0AF2BA"]
+			description: [
+				"Encounter Enderiophage"
+				""
+				"The Enderiophage is pretty much just a giant virus commonly found in the End Midlands. It's primary prey is the Endergrades, but it will also attack Endermen. If allowed to pass on its virus it will affect the host until they die and burst with new Enderiophages. "
+			]
+			id: "40CFB3D7A3ECB1B9"
+			rewards: [{
+				id: "16D1ECC238BC0E81"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "4FCFABC2D92B49D9"
-				item: "enlightened_end:chorus_soup"
+				advancement: "alexsmobs:alexsmobs/enderiophage"
+				criterion: ""
+				id: "04F776AF5D636E3E"
+				title: "End Virus"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["40CFB3D7A3ECB1B9"]
+			description: ["To heal the End Flu Chorus fruit or milk can be eaten/drank."]
+			id: "44DD26244ADEC0F8"
+			rewards: [{
+				id: "7E919881CF916589"
+				item: "kubejs:copper_coin"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 6.0d
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/ender_flu"
+				criterion: ""
+				id: "6BCC47F491E9A812"
+				title: "Hope it isn't Contagious"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["40CFB3D7A3ECB1B9"]
+			description: ["A drop from Enderiophage, it can hold a stack of items inside which will be transported into whatever block is above them."]
+			id: "57D3C1E86A23E5AD"
+			rewards: [{
+				id: "39173D66A55F793A"
+				item: "aquaculture:box"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D7D964AFD8CCC28"
+				item: "alexsmobs:capsid"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6CDC6733BD84ACA1"]
+			id: "0A5F8CB7AF0AF2BA"
+			rewards: [{
+				id: "659680B7AB9C9200"
+				type: "xp"
+				xp: 200
+			}]
+			size: 2.0d
+			subtitle: "Escape the Island"
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "56F1731DC44B96AD"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 9.0d
 		}
 	]
 	title: "The End"

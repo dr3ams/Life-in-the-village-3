@@ -7,5 +7,5 @@
 	#Setting to 0 will disable the overlay
 	"Days until insomnia overlay" = 0
 	#If Glow Squids should use our Glow Squid Renderer.
-	"Replace Glow Squid Renderer" = true
+	"Replace Glow Squid Renderer" = false
 

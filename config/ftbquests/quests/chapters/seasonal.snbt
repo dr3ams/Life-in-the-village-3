@@ -1,0 +1,240 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "seasonal"
+	group: "46433AE7955AB640"
+	id: "453CDD203129AFF2"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "litv3:textures/misc/halloween-2.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "litv3:textures/misc/halloween-1.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.5d
+			y: 2.5d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"• To carve a Pumpkin simply use a Shear on the top of a normal one. After this simply interact with it either through its GUI or using a Sword/Knife to carve it in world."
+				""
+				"• Once you are happy with your design you can wax your Pumpkin to prevent further edit or craft it/click on it with a Torch to create a Jack'o'Lantern. Default carved Pumpkins can still be accessed by carving one on its side instead."
+				""
+				"• Just like any other Pumpkin you can wear it and give it to Snow Golems."
+			]
+			id: "54D5F8E18B280504"
+			rewards: [
+				{
+					id: "57E13B7825A89EEE"
+					item: {
+						Count: 1b
+						id: "minecraft:shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "05DA7412FAB1D2C6"
+					item: "simplehats:hatscraps_halloween"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "4DEE67E5F17402DE"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			title: "Pumpkin Carving"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• Baby villagers will now wear a mask at night. They can have 8 possible masks: creeper, pumpkin, zombie, illager, piglin, skeleton, enderman, spider and paper bag."
+				" "
+				"• Baby villagers will go door to door once night sets and will start trick or treating. Once a villager interacts with an adult one of 3 things can happen:"
+				""
+				"1. The adult will give the kid a random Candy (which also includes some from other mods like Supplementaries) and the kid will then visit another villager."
+				"2. The adult might not have any Candy and give the kid some Coal."
+				"3. The kid's spooky costume might scare off the adult."
+				"4. If a kid doesn't receive any Candy from an adult for whatever reason, he will take out some Eggs... You know what's next…"
+			]
+			id: "3AFD216300520673"
+			rewards: [{
+				id: "6B6B85225E5AAFE6"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "73809D03D80E0286"
+				item: "hauntedharvest:candy_corn"
+				type: "item"
+			}]
+			title: "Trick or Treating"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• If a baby villager is unfortunate enough to encounter a Witch during its night walk he will try to interact with her and ask her for Candy. Here 3 things can happen:"
+				""
+				"1. The Witch will spook and scare off the children."
+				"2. The Witch will give the kid a Rotten Apple."
+				"3. More rarely the Witch will give out a special Grim Apple to the unlucky trick or treater."
+			]
+			id: "087DCE43EB54F424"
+			rewards: [{
+				id: "0A8350FF1D7FAE3B"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "3B53F83023ACC390"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			title: "Witch Interactions"
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• During the day (and their play time so from 3000 ingame time) kids will actually start eating all the Candies that they have collected. Doing so will decrease their age a little and heal them. This means that they will be able to trick or treat for more nights in a row!"
+				""
+				"• Rotten Apples are a new food that has been added. It's similar to Rotten Flesh and can rarely drop from Oak and Dark Oak Leaves. It can be combined with many other nasty ingredients to make a Grim Apple."
+				""
+				"• Grim Apples are a more evil version of Rotten Apples and can be seen as the opposite of a Golden Apple. They will give all sorts of negative effects when consumed. If a kid has a Grim Apple in its inventory he will consume as with any other food it receives but doing so will actually start converting it into a Witch so be careful!"
+				""
+				"• Corn is a new 3 blocks tall rare crop that can be rarely found in abandoned farms, a mysterious new structure that the mod adds. It can be crafted into various items like Popcorn, Candy Corn or put in a Paper Bag next to a Campfire to pop it! Also has full integration with Farmer’s Delight."
+				""
+				"• Splattered Egg can be placed by throwing Eggs at any block."
+			]
+			id: "15F1F7D582CA496D"
+			rewards: [{
+				id: "28E86B77F304D1BB"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "592EB24DEB1D1250"
+				item: "hauntedharvest:corn_on_the_cob"
+				type: "item"
+			}]
+			title: "Food"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"During Halloween season (from the 20th of October to 10th of November, adult villagers will begin placing 1 Pumpkin each around the village. "
+				""
+				"&oNote that they cannot do so in their work time and in suitable location, that is on grass or sand and above y=64.&r "
+				""
+				"Baby villagers can take out some Shears and carve any Pumpkin they see. This again happens during their play time so for example at time 3000. At night baby villagers will try to light up the last Pumpkin they carved. At the end of season (after the 10th of November or whatever is set in the configs) adult villagers will try to remove all the Pumpkins they have placed down. "
+				""
+				"&oAlso note that all of this is supposed to occur rarely so to gradually fill up a village.&r"
+			]
+			id: "0496C63A47D195ED"
+			rewards: [{
+				id: "5F0FCE4202C82E7D"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "0EFD290B1D657029"
+				item: "manyideas_halloween:scarecrow"
+				type: "item"
+			}]
+			title: "Village Decorations"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "1F9E6B31AB222E47"
+			rewards: [{
+				id: "4F94B80949E68435"
+				item: "simplehats:hatscraps_halloween"
+				type: "item"
+			}]
+			size: 2.0d
+			subtitle: "For variations, just set, take and reset the decorations, like you would do it with a painting."
+			tasks: [
+				{
+					id: "0E4FFC2BBFED13A9"
+					item: "manyideas_halloween:autumn_leaves_carpet"
+					type: "item"
+				}
+				{
+					id: "058A1584B41FC5D2"
+					item: "manyideas_halloween:gravestone"
+					type: "item"
+				}
+				{
+					id: "5D2841C55184A3A8"
+					item: "manyideas_halloween:hay_bundle"
+					type: "item"
+				}
+				{
+					id: "1444FC8326E24D2C"
+					item: "manyideas_halloween:pitchfork"
+					type: "item"
+				}
+				{
+					id: "3E341BCAB1576A5D"
+					item: "manyideas_halloween:pumpkin_lantern"
+					type: "item"
+				}
+				{
+					id: "4DE2044A7B9E6F0E"
+					item: "manyideas_halloween:wreath_wheat"
+					type: "item"
+				}
+				{
+					id: "2DE41405F97E7795"
+					item: "manyideas_halloween:spiderweb"
+					type: "item"
+				}
+				{
+					id: "47980F70EFF18F67"
+					item: "manyideas_halloween:skeleton"
+					type: "item"
+				}
+				{
+					id: "4288FDDD479528CC"
+					item: "manyideas_halloween:spider_plushi"
+					type: "item"
+				}
+			]
+			title: "Home Decoration"
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Seasonal"
+}
