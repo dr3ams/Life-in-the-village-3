@@ -156,4 +156,6 @@ ServerEvents.tags('item', event => {
     .add('nethersdelight:hoglin_hide')
     .add('nourished_nether:hoglin_hide');
 	
+	event.add('quark:seed_pouch_holdable','italian_delight:grape_seeds')
+	event.add('quark:seed_pouch_holdable','farmersrespite:tea_seeds')
 })
