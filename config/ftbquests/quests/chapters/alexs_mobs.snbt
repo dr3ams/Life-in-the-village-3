@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 11.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["15132115F40EF4EA"]
@@ -108,8 +108,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.5d
-			y: 12.5d
+			x: -8.0d
+			y: 8.5d
 		}
 		{
 			dependencies: ["617FBFA90048602D"]
@@ -213,75 +213,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["3EF3C919FDC60E1B"]
-			description: ["A Crimson Mosquito drop when killed while inflated with blood from a mob."]
-			id: "3B5F5AF7209A9221"
-			rewards: [{
-				id: "4E407F372943B7DE"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "5EF379925A17EEAA"
-				item: "alexsmobs:blood_sac"
-				type: "item"
-			}]
-			x: -4.0d
-			y: 10.5d
-		}
-		{
-			dependencies: ["3EF3C919FDC60E1B"]
-			description: ["A random drop when killing a Crimson Mosquito."]
-			id: "3EC4C7FDCDB42C8D"
-			rewards: [{
-				count: 2
-				id: "74F337BD4367E789"
-				item: "alexsmobs:mosquito_proboscis"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1A81541ABDE0D3CA"
-				item: "alexsmobs:mosquito_proboscis"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 10.5d
-		}
-		{
-			dependencies: [
-				"3B5F5AF7209A9221"
-				"3EC4C7FDCDB42C8D"
-			]
-			description: ["A custom weapon that fires mosquito spit as a weapon. Blood sacks can be used as ammunition."]
-			id: "2BA62BA8195FC90F"
-			rewards: [
-				{
-					id: "6F0DBDCDADE8797F"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					count: 2
-					id: "435322EC940FD8AC"
-					item: "alexsmobs:blood_sac"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "3703E14E87D5EAC9"
-				item: {
-					Count: 1b
-					id: "alexsmobs:blood_sprayer"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -5.0d
-			y: 12.5d
-		}
-		{
 			dependencies: ["295FFF98AC0C3FB2"]
 			description: ["A Rattlesnake drop when killed, usually when protecting other creatures from its venomous bite."]
 			id: "1670F799696648EA"
@@ -313,7 +244,7 @@
 				item: "alexsmobs:shark_tooth"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: 1.5d
 		}
 		{
@@ -331,7 +262,7 @@
 				item: "alexsmobs:shark_tooth_arrow"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: 2.5d
 		}
 		{
@@ -400,7 +331,7 @@
 				item: "alexsmobs:komodo_spit"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -15.0d
 			y: 1.5d
 		}
 		{
@@ -417,54 +348,8 @@
 				item: "alexsmobs:komodo_spit_bottle"
 				type: "item"
 			}]
-			x: -17.5d
+			x: -15.0d
 			y: 2.5d
-		}
-		{
-			dependencies: [
-				"7EBEA1931702D1E5"
-				"154772C9462DDCC4"
-			]
-			description: ["The very definition of poison."]
-			id: "598345B0F9427722"
-			rewards: [{
-				id: "649407DAF5400409"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "0EA839DFED08E778"
-				item: "alexsmobs:poison_bottle"
-				type: "item"
-			}]
-			x: -17.5d
-			y: 3.5d
-		}
-		{
-			dependencies: [
-				"598345B0F9427722"
-				"1670F799696648EA"
-			]
-			description: ["A very potent poison resistance potion made from poison essence and a Rattlesnake tail."]
-			id: "310DB627AF3DCE9B"
-			rewards: [{
-				id: "3B9EC2967752C2D7"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
-			tasks: [{
-				id: "6AB5340F587CFDC4"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "alexsmobs:poison_resistance"
-					}
-				}
-				type: "item"
-			}]
-			x: -14.5d
-			y: 3.5d
 		}
 		{
 			dependencies: ["76291B63F0ED9022"]
@@ -502,72 +387,6 @@
 			}]
 			x: -3.5d
 			y: -6.5d
-		}
-		{
-			dependencies: ["3231E98238491AF0"]
-			description: ["This item is a Cave Centipede drop when they are killed, where multiple can be dropped."]
-			id: "154772C9462DDCC4"
-			rewards: [{
-				count: 2
-				id: "1AAB98F4A877062B"
-				item: "alexsmobs:centipede_leg"
-				type: "item"
-			}]
-			tasks: [{
-				id: "180B35B0BB919AD9"
-				item: "alexsmobs:centipede_leg"
-				type: "item"
-			}]
-			x: -19.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["154772C9462DDCC4"]
-			description: ["Grants the wearer the ability to climb walls."]
-			id: "673635AB75E98296"
-			rewards: [
-				{
-					id: "61D9563F82FA27DA"
-					type: "xp_levels"
-					xp_levels: 1
-				}
-				{
-					id: "00F60DD82068E585"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "364EC70179948791"
-				item: {
-					Count: 1b
-					id: "alexsmobs:centipede_leggings"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -19.5d
-			y: 4.5d
-		}
-		{
-			dependencies: ["3EC4C7FDCDB42C8D"]
-			description: ["The larva for a Crimson Mosquito, made from a maggot and proboscis. Is the favorite treat of the Warped Toad, and will allow you to tame it with a few of these."]
-			id: "6D5AA599D202F0AF"
-			rewards: [{
-				count: 2
-				id: "3F6128FEE1CFEB02"
-				item: "alexsmobs:mosquito_larva"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3DC5597D70910A0A"
-				item: "alexsmobs:mosquito_larva"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 10.5d
 		}
 		{
 			dependencies: ["3705153037F1DDEE"]
@@ -682,58 +501,6 @@
 			}]
 			x: -1.0d
 			y: -6.5d
-		}
-		{
-			dependencies: ["2142DDB9A0AF6B94"]
-			description: ["When you want a slimey little buddy of your own."]
-			id: "759CC2ED6720614D"
-			rewards: [{
-				id: "2DA03A33535CB465"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "50F159BA577FC800"
-				item: "alexsmobs:blobfish_bucket"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["2142DDB9A0AF6B94"]
-			description: ["The sad little body of a blobfish when it is killed."]
-			id: "235A8DAEDFF467D7"
-			rewards: [{
-				id: "0AFFC4BA380655F0"
-				item: "alexsmobs:blobfish"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3286E77C29DC9875"
-				item: "alexsmobs:blobfish"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["235A8DAEDFF467D7"]
-			description: ["By compressing blobfish down into a bottle, Fish Oil can be made that can have some interesting properties in the rain."]
-			id: "005E68B4C5271269"
-			rewards: [{
-				count: 2
-				id: "1E95E4F3FA1EEE0C"
-				item: "alexsmobs:fish_oil"
-				type: "item"
-			}]
-			tasks: [{
-				id: "5C7464F62CB0DD68"
-				item: "alexsmobs:fish_oil"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.5d
 		}
 		{
 			dependencies: ["1670F799696648EA"]
@@ -861,7 +628,7 @@
 				item: "alexsmobs:soul_heart"
 				type: "item"
 			}]
-			x: -6.0d
+			x: 3.5d
 			y: 6.5d
 		}
 		{
@@ -884,8 +651,8 @@
 				}
 				type: "item"
 			}]
-			x: -6.0d
-			y: 7.5d
+			x: 3.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6964B640BF90A11C"]
@@ -1007,8 +774,8 @@
 				item: "alexsmobs:warped_muscle"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.5d
+			x: -2.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["47BE77D8F21BBDCC"]
@@ -1025,14 +792,13 @@
 				item: "alexsmobs:hemolymph_sac"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.5d
+			x: -0.5d
+			y: 8.5d
 		}
 		{
 			dependencies: [
 				"323E3518BE41C84D"
 				"1DD27A6265642B96"
-				"2BA62BA8195FC90F"
 			]
 			description: ["An upgraded Blood Sprayer."]
 			id: "7E104C87A3BB6CA4"
@@ -1052,8 +818,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.5d
+			x: -1.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["4EDC8D006049F8E4"]
@@ -1069,8 +835,8 @@
 				item: "alexsmobs:stradpole_bucket"
 				type: "item"
 			}]
-			x: -12.5d
-			y: 10.5d
+			x: -10.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["4EDC8D006049F8E4"]
@@ -1086,8 +852,8 @@
 				item: "alexsmobs:straddlite"
 				type: "item"
 			}]
-			x: -13.5d
-			y: 10.5d
+			x: -11.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["1D01C2288B41EBDC"]
@@ -1109,8 +875,8 @@
 				}
 				type: "item"
 			}]
-			x: -13.5d
-			y: 12.5d
+			x: -11.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["051CA3BEF47E6BCF"]
@@ -1211,8 +977,8 @@
 				item: "alexsmobs:dropbear_claw"
 				type: "item"
 			}]
-			x: -12.0d
-			y: 6.5d
+			x: -6.5d
+			y: 10.5d
 		}
 		{
 			dependencies: ["3DAF08614ABA2EC5"]
@@ -1234,8 +1000,8 @@
 				}
 				type: "item"
 			}]
-			x: -10.0d
-			y: 6.5d
+			x: -6.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["6941D667244F04D9"]
@@ -1288,95 +1054,6 @@
 			}]
 			x: -5.5d
 			y: 1.5d
-		}
-		{
-			description: ["A drop from Cachalot Whales when they attack."]
-			id: "68D06C789ABF3D14"
-			rewards: [{
-				count: 3
-				id: "3F22DD01B390C13D"
-				item: "alexsmobs:cachalot_whale_tooth"
-				type: "item"
-			}]
-			tasks: [{
-				id: "6A36D4B67C346235"
-				item: "alexsmobs:cachalot_whale_tooth"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 2.0d
-		}
-		{
-			description: ["A reward given by a whale for saving it from being beached."]
-			id: "151159150037976D"
-			rewards: [{
-				id: "4313E32BE7BB072B"
-				item: "alexsmobs:ambergris"
-				type: "item"
-			}]
-			tasks: [{
-				id: "1BDD5F030839EFB0"
-				item: "alexsmobs:ambergris"
-				type: "item"
-			}]
-			x: 8.0d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"151159150037976D"
-				"68D06C789ABF3D14"
-			]
-			description: ["The Echolocator can locate nearby caves."]
-			id: "456C97EA74811997"
-			rewards: [{
-				id: "18117C87072BC748"
-				type: "xp_levels"
-				xp_levels: 1
-			}]
-			tasks: [{
-				id: "1ACE9699E2BFB049"
-				item: {
-					Count: 1b
-					id: "alexsmobs:echolocator"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["456C97EA74811997"]
-			description: ["The Enderlocator can be used to locate the end portal."]
-			id: "02E95675EB8EF204"
-			rewards: [
-				{
-					id: "39FD9B60FFE9608D"
-					item: "aquaculture:box"
-					type: "item"
-				}
-				{
-					id: "51209F4436DDF8E7"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "1464AB23C58B3215"
-				item: {
-					Count: 1b
-					id: "alexsmobs:endolocator"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: 9.0d
-			y: 4.5d
 		}
 		{
 			dependencies: ["7E6468F38A587264"]
@@ -1446,71 +1123,6 @@
 			}]
 			x: -6.5d
 			y: -12.5d
-		}
-		{
-			dependencies: ["737BD5F672EB23AF"]
-			description: ["A drop when a Tarantula Hawk is killed."]
-			id: "5F33DAD5DEE9892A"
-			rewards: [{
-				count: 4
-				id: "2FCFAB7AF6960D59"
-				item: "alexsmobs:tarantula_hawk_wing_fragment"
-				type: "item"
-			}]
-			tasks: [{
-				id: "470FA84FF6B6CF89"
-				item: "alexsmobs:tarantula_hawk_wing_fragment"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 1.5d
-		}
-		{
-			dependencies: ["5F33DAD5DEE9892A"]
-			description: ["A reconstructed Tarantula Hawk wing."]
-			id: "4480FBB32C9E3248"
-			rewards: [
-				{
-					id: "2A11577510479A13"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "643FEBDC40CDE574"
-					item: "aquaculture:box"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4818558C819F7EE6"
-				item: "alexsmobs:tarantula_hawk_wing"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["4480FBB32C9E3248"]
-			description: ["An enhanced elytra with Tarantula Hawk wings that provides extra protection, durability, and enchantability."]
-			id: "6F5AC67DDB20ADB4"
-			rewards: [{
-				id: "4C08A81F665BBC03"
-				item: "aquaculture:box"
-				type: "item"
-			}]
-			tasks: [{
-				id: "446C9044228A45EE"
-				item: {
-					Count: 1b
-					id: "alexsmobs:tarantula_hawk_elytra"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -15.0d
-			y: 2.5d
 		}
 		{
 			description: [
@@ -1679,7 +1291,7 @@
 				title: "Orca's Might"
 				type: "advancement"
 			}]
-			x: 8.0d
+			x: 7.0d
 			y: 0.5d
 		}
 		{
@@ -1887,8 +1499,8 @@
 				title: "Bullets, for Hands"
 				type: "advancement"
 			}]
-			x: 4.5d
-			y: 4.5d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1404B0021D22163E"]
@@ -1906,8 +1518,8 @@
 				title: "I'm Parched"
 				type: "advancement"
 			}]
-			x: 6.0d
-			y: 4.5d
+			x: 7.5d
+			y: 3.0d
 		}
 		{
 			description: [
@@ -1981,57 +1593,6 @@
 		}
 		{
 			description: [
-				"Encounter a Tarantula Hawk"
-				""
-				"The Tarantula Hawk is a giant neutral wasp that flies around deserts. They love attacking spiders, which they paralyze and bury underground. They are difficult to fight due to their very erratic flight. They can be healed with flowers."
-			]
-			id: "3CA1304CC6ED84A5"
-			rewards: [
-				{
-					id: "732299EB567FA6CA"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "79EDC44C0F9C3B04"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/tarantula_hawk"
-				criterion: ""
-				id: "7D15C1F72B8C19A2"
-				title: "Tarantula Hawk Encountered"
-				type: "advancement"
-			}]
-			x: -15.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["3CA1304CC6ED84A5"]
-			description: [
-				"Tame Tarantula Hawk with spider eyes. They can be very good protectors against most monsters."
-				"Two tamed Tarantula Hawks can be bred with fermented spider eyes, where they will then seek out a spider to paralyze and bury. Eventually a baby Tarantula Hawk will emerge from where the spider was buried."
-			]
-			id: "737BD5F672EB23AF"
-			rewards: [{
-				id: "0FE3CD398E6B8B3C"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/tame_tarantula_hawk"
-				criterion: ""
-				id: "470721B071F9795A"
-				title: "Pet Flying Devil"
-				type: "advancement"
-			}]
-			x: -14.5d
-			y: 1.5d
-		}
-		{
-			description: [
 				"Feed meat to a Tiger to gain its blessing."
 				""
 				"Tigers are large cats found in dense bamboo. They are weary of people and will attack if gotten too near. They are very good hunters and can become nearly invisible while hunting. By feeding them meat, their blessing can be gained which will allow you to approach them and they will come to your aid. They can be bred with Acacia Blossoms. They have potential to be born as white tigers."
@@ -2051,35 +1612,6 @@
 			}]
 			x: -6.5d
 			y: -3.5d
-		}
-		{
-			description: [
-				"Rescue a beached Cachalot Whale."
-				""
-				"Cachalot Whales are large neutral creatures found in pretty much every ocean. Their favorite prey are squid. Sometimes during storms they may spawn beached on the shore."
-			]
-			id: "4B530B73DFFA452D"
-			rewards: [
-				{
-					id: "1C8F925F7EF99FFF"
-					type: "xp_levels"
-					xp_levels: 2
-				}
-				{
-					id: "3FA9781CC49522BC"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/save_cachalot_whale"
-				criterion: ""
-				id: "41AB33590C0FB4EA"
-				title: "Aqua Rescue Force"
-				type: "advancement"
-			}]
-			x: 9.5d
-			y: 0.5d
 		}
 		{
 			description: [
@@ -2176,8 +1708,8 @@
 				title: "Soul Vulture Encountered"
 				type: "advancement"
 			}]
-			x: -8.0d
-			y: 6.5d
+			x: 1.5d
+			y: 8.5d
 		}
 		{
 			dependencies: ["3E83CFACFBDFDEB2"]
@@ -2206,8 +1738,8 @@
 				title: "Hitching a Ride"
 				type: "advancement"
 			}]
-			x: 7.5d
-			y: 6.5d
+			x: 5.5d
+			y: 8.5d
 		}
 		{
 			description: [
@@ -2235,14 +1767,11 @@
 				title: "Straddler Encountered"
 				type: "advancement"
 			}]
-			x: -13.5d
-			y: 8.5d
+			x: -11.5d
+			y: 6.5d
 		}
 		{
-			dependencies: [
-				"13EDF3FD77403F25"
-				"6D5AA599D202F0AF"
-			]
+			dependencies: ["13EDF3FD77403F25"]
 			description: ["Feeding a Stradpole a Crimson Mosquito Larva and it might grow up."]
 			id: "649DAB5F8334BF09"
 			rewards: [{
@@ -2257,36 +1786,10 @@
 				title: "Lava Tadpole Feast"
 				type: "advancement"
 			}]
-			x: -10.0d
-			y: 8.5d
+			x: -8.0d
+			y: 6.5d
 		}
 		{
-			description: ["The Crimson Mosquito is a native of Crimson Forests where it will suck the blood of almost an creature. It can then spit this blood back at other targets."]
-			id: "3EF3C919FDC60E1B"
-			rewards: [
-				{
-					id: "0616805ECC476653"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "44865AA108725FD9"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
-				criterion: ""
-				id: "5E6012AB1B7B64E9"
-				title: "Cimson Mosquito Encountered"
-				type: "advancement"
-			}]
-			x: -5.0d
-			y: 8.5d
-		}
-		{
-			dependencies: ["6D5AA599D202F0AF"]
 			description: [
 				"The Warped Toad is a rare spawn in Warped Forests which is neutral. Its favorite food is Crimson Mosquitos so it may be worth having one of these as a friend."
 				"It can be healed with maggots and bred with Crimson Mosquito Larva."
@@ -2304,33 +1807,10 @@
 				title: "Mosquito Repellent"
 				type: "advancement"
 			}]
-			x: -7.5d
-			y: 8.5d
+			x: -6.5d
+			y: 6.5d
 		}
 		{
-			dependencies: [
-				"3EF3C919FDC60E1B"
-				"365AD0B3FADC70B1"
-			]
-			description: ["What could happen when a Crimson Mosquito feeds on a Mungus covered with Warped Fungus?"]
-			id: "6AD1386215D8E52F"
-			rewards: [{
-				id: "2BDE0160261BA560"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
-				criterion: ""
-				id: "6DEB65E3D52A483A"
-				title: "Mad Scientist"
-				type: "advancement"
-			}]
-			x: -2.5d
-			y: 10.5d
-		}
-		{
-			dependencies: ["6AD1386215D8E52F"]
 			description: [
 				"Kill the Warped Mosquito"
 				""
@@ -2349,8 +1829,8 @@
 				title: "Bye Bye Mega Chad"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: 8.5d
+			x: -1.5d
+			y: 6.5d
 		}
 		{
 			description: ["The seal is a cute, if not loud, creature frequently found on beaches or icebergs. Usually they are found sleeping but are very good swimmers. Giving a seal three fish with \"trade\" with the seal and they will dive into the water and bring back a sea related item (some are valuable). Can be bred with lobster tails."]
@@ -2535,7 +2015,7 @@
 				type: "observation"
 			}]
 			title: "A Mungus"
-			x: -2.5d
+			x: -4.5d
 			y: 8.5d
 		}
 		{
@@ -2791,7 +2271,7 @@
 				to_observe: "alexsmobs:komodo_dragon"
 				type: "observation"
 			}]
-			x: -17.5d
+			x: -15.0d
 			y: 0.5d
 		}
 		{
@@ -2834,48 +2314,6 @@
 				type: "observation"
 			}]
 			x: -9.0d
-			y: 0.5d
-		}
-		{
-			description: ["A rare underground bug that can be found deep down. It slowly moves but it has a powerful bite and is poisonous."]
-			icon: {
-				Count: 1b
-				id: "alexsmobs:tab_icon"
-				tag: {
-					DisplayEntityType: "alexsmobs:centipede_head"
-				}
-			}
-			id: "3231E98238491AF0"
-			rewards: [
-				{
-					id: "6DA04C9E1A2BF052"
-					type: "xp"
-					xp: 100
-				}
-				{
-					id: "6A7E8D9B6574EA5E"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "alexsmobs:spawn_egg_centipede"
-				}
-				id: "1CBFA39AB4589B71"
-				observe_type: 5
-				timer: 0L
-				title: "Cave Centipede"
-				to_observe: "alexsmobs:centipede_head"
-				type: "observation"
-			}]
-			x: -19.5d
 			y: 0.5d
 		}
 		{
@@ -2952,41 +2390,6 @@
 			y: 0.5d
 		}
 		{
-			description: ["This..... squishy fish is usually found deep in oceans. When a slimeball is used on a blobfish will allow it to survive on land."]
-			icon: {
-				Count: 1b
-				id: "alexsmobs:tab_icon"
-				tag: {
-					DisplayEntityType: "alexsmobs:blobfish"
-				}
-			}
-			id: "2142DDB9A0AF6B94"
-			rewards: [{
-				id: "2E6F7297801F88E0"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				icon: {
-					Count: 1b
-					ForgeCaps: {
-						"dungeons_libraries:built_in_enchantments": {
-							BuiltInEnchantments: [ ]
-						}
-					}
-					id: "alexsmobs:spawn_egg_blobfish"
-				}
-				id: "3ED5AAA8C71CB733"
-				observe_type: 5
-				timer: 0L
-				title: "Blobfish"
-				to_observe: "alexsmobs:blobfish"
-				type: "observation"
-			}]
-			x: 6.5d
-			y: 0.5d
-		}
-		{
 			description: ["A Hammerhead Shark are a large creature native in warmer oceans. It is a predator of any creature below half health."]
 			icon: {
 				Count: 1b
@@ -3018,7 +2421,7 @@
 				to_observe: "alexsmobs:hammerhead_shark"
 				type: "observation"
 			}]
-			x: 11.0d
+			x: 9.0d
 			y: 0.5d
 		}
 		{
@@ -3053,8 +2456,8 @@
 				to_observe: "alexsmobs:bone_serpent"
 				type: "observation"
 			}]
-			x: -11.5d
-			y: 12.5d
+			x: -10.0d
+			y: 10.5d
 		}
 		{
 			description: ["The Dropbear is an evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."]
@@ -3102,8 +2505,8 @@
 					type: "observation"
 				}
 			]
-			x: -13.5d
-			y: 6.5d
+			x: -8.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["11AD9C3E6F7ED206"]
