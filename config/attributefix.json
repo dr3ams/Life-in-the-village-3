@@ -671,17 +671,6 @@
         "value": 1024
       }
     },
-    "potattributes:critical_attack_damage_bonus": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 0.4,
-        "value": 0.4
-      }
-    },
     "skilltree:brewed_healing_potions_strength": {
       "enabled": false,
       "min": {
@@ -691,6 +680,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "potattributes:critical_attack_damage_bonus": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.4,
+        "value": 0.4
       }
     },
     "skilltree:brewed_harmful_potions_strength": {
@@ -1221,17 +1221,6 @@
         "value": 20
       }
     },
-    "potattributes:damage_reduction": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 0.3,
-        "value": 0.3
-      }
-    },
     "skilltree:crafted_quivers_maximum_life": {
       "enabled": false,
       "min": {
@@ -1241,6 +1230,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "potattributes:damage_reduction": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.3,
+        "value": 0.3
       }
     },
     "skilltree:brewed_potions_duration": {
@@ -1881,17 +1881,6 @@
         "value": 1024
       }
     },
-    "potattributes:critical_attack_chance": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 0.6,
-        "value": 0.6
-      }
-    },
     "skilltree:crafted_shields_maximum_life": {
       "enabled": false,
       "min": {
@@ -1901,6 +1890,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "potattributes:critical_attack_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 0.6,
+        "value": 0.6
       }
     },
     "skilltree:crit_chance_per_gem_in_weapon": {

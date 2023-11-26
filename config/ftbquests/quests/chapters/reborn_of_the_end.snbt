@@ -605,7 +605,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["2ADEF087D07921AA"]
+			dependencies: ["75608E7DC3EB41B9"]
 			id: "490CD2A9D679B003"
 			rewards: [
 				{
@@ -624,11 +624,11 @@
 				item: "minecraft:chorus_fruit"
 				type: "item"
 			}]
-			x: 4.5d
-			y: 14.5d
+			x: 11.0d
+			y: 9.0d
 		}
 		{
-			dependencies: ["2ADEF087D07921AA"]
+			dependencies: ["75608E7DC3EB41B9"]
 			id: "241AD7C07B239921"
 			rewards: [
 				{
@@ -648,7 +648,7 @@
 				item: "quark:myalite"
 				type: "item"
 			}]
-			x: 8.0d
+			x: 9.0d
 			y: 13.0d
 		}
 		{
@@ -672,8 +672,8 @@
 				item: "quark:myalite_crystal"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 14.5d
+			x: 11.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["241AD7C07B239921"]
@@ -696,8 +696,8 @@
 				item: "quark:dusky_myalite"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 11.5d
+			x: 7.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["0A5F8CB7AF0AF2BA"]
@@ -716,6 +716,7 @@
 				id: "316571AFCA43A168"
 				type: "biome"
 			}]
+			title: "End Highlands"
 			x: 9.0d
 			y: 9.0d
 		}
@@ -764,27 +765,6 @@
 			}]
 			x: 1.5d
 			y: 7.5d
-		}
-		{
-			dependencies: ["0A5F8CB7AF0AF2BA"]
-			description: ["This biome generates as part of the outer islands of the End, forming the hilltops in the center of each island. This is the only biome where chorus trees naturally generate. End cities also generate here."]
-			icon: "quark:myalite"
-			id: "2ADEF087D07921AA"
-			rewards: [{
-				id: "0C7B2ADCEA396C10"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			shape: "octagon"
-			size: 2.0d
-			tasks: [{
-				biome: "minecraft:end_highlands"
-				icon: "quark:myalite"
-				id: "6DE69CFFA7DF1846"
-				type: "biome"
-			}]
-			x: 4.5d
-			y: 13.0d
 		}
 		{
 			dependencies: ["0A5F8CB7AF0AF2BA"]

@@ -21,12 +21,96 @@
 			click: ""
 			corner: false
 			dev: false
-			height: 3.0d
+			height: 2.0d
 			hover: [ ]
 			image: "litv3:textures/misc/halloween-1.png"
 			rotation: 0.0d
-			width: 3.0d
+			width: 2.0d
 			x: 3.5d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.6666666666666665d
+			hover: [ ]
+			image: "litv3:textures/misc/halloween-3.png"
+			rotation: 0.0d
+			width: 7.0d
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.32569558101473d
+			hover: [ ]
+			image: "litv3:textures/misc/christmas-1.png"
+			rotation: 0.0d
+			width: 9.0d
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 4.0d
+			hover: [ ]
+			image: "litv3:textures/misc/christmas-2.png"
+			rotation: 0.0d
+			width: 2.563106796116505d
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 0.8d
+			hover: [ ]
+			image: "snowyspirit:blocks/lights_rainbow"
+			rotation: 0.0d
+			width: 0.8d
+			x: 5.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "snowyspirit:items/snow_globe"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "snowyspirit:blocks/lights_rainbow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "snowyspirit:blocks/lights_rainbow"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.5d
 			y: 2.5d
 		}
 	]
@@ -233,6 +317,226 @@
 			]
 			title: "Home Decoration"
 			x: 0.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"• Sleds are new way to get around Snow. Differently from Boats they curve around the terrain they encounter making them able to smoothly climb up and down slopes."
+				"• When going downhill they will also accelerate further making ski courses possible."
+				"• Sleds have improved mobility on Ice and while being able to slide on Snow are still able to steer and you can even bring them to a full stop by rotating the sled by 90 degrees, as you would in real life!"
+				"• Chests can be placed on them to give some inventory space. Also works with Shulker Boxes and Sacks from Supplementaries."
+				"• You can also attach a tamed Wolf with a Lead to it. When Sleds are pulled by Wolves they will have increase mobility, speed and will be able to climb up with minimal deceleration."
+				"• Igloos can now spawn with an additional Sled with Chest in front that can contain some sweet winter loot."
+				"• Sleds can be further customized by placing Carpets on top of them. Doing so will additionally prevent freezing when sledding on top of frigid Powdered Snow."
+			]
+			id: "3BB63C651D9294AA"
+			rewards: [{
+				id: "594789E49AB2879C"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "36C9A5D8D687DD29"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "snowyspirit:sleds"
+					}
+				}
+				title: "Any #snowyspirit:sleds"
+				type: "item"
+			}]
+			title: "Sleds"
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"• During winter time villagers will occasionally place down Wreaths on their house doors. They can only place one each and don't worry, they will clean them up when winter is over. Wreath placing can happen during idle time so at around 0 for example."
+				"• Villagers will also place down Present blocks containing some cool items. They will only be able to place one Present each and will do so during their meet time (after 9000) around their meeting point."
+				"• Baby villagers from Taiga and Tundra will throw Snowballs at any entity they see during their play time."
+				"• \"Winter Time\" is a period of time which can be configured with the provided configs and by default goes from the 20th of December to the 30th of January."
+			]
+			icon: "simplehats:villagernose"
+			id: "1322190A2278D071"
+			rewards: [{
+				id: "1D99E1CEB36DB692"
+				type: "xp"
+				xp: 100
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "56E777F04E42C9B8"
+				title: "Villagers AI"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• Ginger: a new crop that can be crafted into Gingerbread Blocks, a new decorative block. Wild Ginger can be found in Sparse Jungle biomes."
+				"• Wreaths: can be placed on doors to bring some Christmasy joy to your house. Works with all modded doors as well."
+				"• Glow Lights: an item that can be placed on any Leaves to give it some glow in the dark action. Can be removed with Shears or broken."
+				"• Snow Globe: a block that will change to its snowy state when placed in places where it can snow."
+			]
+			icon: "snowyspirit:wreath"
+			id: "05E75063B2E7B696"
+			rewards: [{
+				id: "2F3A42D9741B70C6"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "2141D63D972D0291"
+					item: "snowyspirit:ginger"
+					type: "item"
+				}
+				{
+					id: "2533335956C83BB0"
+					item: "snowyspirit:wreath"
+					type: "item"
+				}
+				{
+					id: "1E5A84ECA8B1E818"
+					item: "manyideas_halloween:wreath_wheat"
+					type: "item"
+				}
+				{
+					id: "2CC3B134AF002925"
+					item: "manyideas_christmas:wreath"
+					type: "item"
+				}
+				{
+					id: "0D323ADEE3D839C6"
+					item: "manyideas_christmas:wreath_candle"
+					type: "item"
+				}
+				{
+					id: "5F3522AAF8A32899"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "snowyspirit:glow_lights"
+						}
+					}
+					title: "Any #snowyspirit:glow_lights"
+					type: "item"
+				}
+				{
+					id: "4ED7ED52BC053C97"
+					item: "snowyspirit:snow_globe"
+					type: "item"
+				}
+				{
+					id: "2EAEFD4A7CC7C3FA"
+					item: "snowyspirit:candy_cane_block"
+					type: "item"
+				}
+			]
+			title: "Winter themed blocks"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"• Candy Cane: a sweet looking item, literally. Can be crafted in decorative Candy Cane Blocks."
+				"• New music disc: a new winter themed music disc has been added and can be rarely found in Presents and Igloo Sled Chests."
+			]
+			icon: "snowyspirit:candy_cane"
+			id: "66117ED38DB8CC2B"
+			rewards: [{
+				id: "50D64B7605E01E97"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "3F29E440BE7BFA75"
+					item: "snowyspirit:winter_disc"
+					type: "item"
+				}
+				{
+					id: "60ECCE7695DEA326"
+					item: "snowyspirit:gingerbread_cookie"
+					type: "item"
+				}
+				{
+					id: "17C2E149CFDBF6D4"
+					item: "snowyspirit:eggnog"
+					type: "item"
+				}
+				{
+					id: "63391862D19B58E0"
+					item: "snowyspirit:candy_cane"
+					type: "item"
+				}
+			]
+			title: "Winter themed items"
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			description: ["The Christmas Tree can be decorated with Gold Ingots, Glowstone Dust or Sweetberries. There are 3 layers and each layer has four sides, so in total twelve slots for decoration. Each decoration slot can be individually decorated."]
+			id: "3EC939DCDF1C3B52"
+			rewards: [{
+				id: "6578833E96AD0386"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "76006A07B2CC067B"
+				item: "manyideas_christmas:christmas_tree"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			icon: "manyideas_christmas:fireplace_dark_oak"
+			id: "69273F730ABA4C40"
+			rewards: [{
+				id: "16C40257B61D0C73"
+				item: "simplehats:hatscraps_festive"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [
+				{
+					id: "7EB467341D9B43BD"
+					item: "manyideas_christmas:golden_star"
+					type: "item"
+				}
+				{
+					id: "2AD84F2FC91842B2"
+					item: "manyideas_christmas:fireplace_dark_oak"
+					type: "item"
+				}
+				{
+					id: "329EDA8F4C3406E3"
+					item: "manyideas_christmas:hot_chocolate"
+					type: "item"
+				}
+				{
+					id: "7E31469BD5C3C8A2"
+					item: "manyideas_christmas:plushi_cat"
+					type: "item"
+				}
+				{
+					id: "52598733349B3D1C"
+					item: "manyideas_christmas:present"
+					type: "item"
+				}
+			]
+			title: "Winter themed decorations"
+			x: 11.0d
 			y: 1.0d
 		}
 	]

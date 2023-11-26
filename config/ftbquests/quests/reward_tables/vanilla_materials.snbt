@@ -88,6 +88,7 @@
 		}
 		{ count: 16, item: "minecraft:glowstone_dust" }
 		{ count: 16, item: "minecraft:redstone" }
+		{ item: "alexsmobs:tarantula_hawk_wing_fragment" }
 	]
 	title: "Vanilla Materials 1"
 	use_title: true

@@ -38,9 +38,13 @@ event.addItem('waystones:warp_plate', ["This item can be bought in the shop", ""
 	event.addItem('gag:mining_dynamite', ["This item can be bought in the shop for a reasonable price"])
 	event.addItem('gag:labeling_tool', ["This item can be bought in the shop for a reasonable price"]) 
   
+ 
 })
 
 JEIEvents.hideItems(event => {
 	// Hide items in JEI here
 	// event.hide('minecraft:cobblestone')
+	
+	event.hide('storagedrawers:compacting_drawers_3')	
+	event.hide('tombstone:book_of_recycling')	
 })

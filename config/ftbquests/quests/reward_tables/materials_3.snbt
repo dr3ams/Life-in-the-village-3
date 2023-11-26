@@ -104,6 +104,7 @@
 			}
 			weight: 5.0f
 		}
+		{ item: "alexsmobs:tarantula_hawk_wing" }
 	]
 	title: "Vanilla Materials 3"
 	use_title: true

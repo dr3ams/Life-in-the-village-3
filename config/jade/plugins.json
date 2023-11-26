@@ -62,9 +62,9 @@
   },
   "create": {
     "filter": true,
+    "backtank_capacity": true,
     "goggles.requires_goggles": true,
     "goggles": true,
-    "copper_backtank": true,
     "blaze_burner": true,
     "exact_block": true,
     "crafting_blueprint": true,

@@ -43,6 +43,11 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'skilltree:fisherman_necklace'})
 	event.remove({output: 'skilltree:assassin_necklace'})
 	event.remove({output: 'skilltree:healer_necklace'})
+	event.remove({output: 'skilltree:scholar_necklace'})
+	event.remove({output: 'skilltree:arsonist_necklace'})
+	
+	event.remove({output: 'storagedrawers:compacting_drawers_3'})
+	event.remove({output: 'tombstone:book_of_recycling'})
 	
 	event.shaped('minecraft:diamond', [
     'DDD',

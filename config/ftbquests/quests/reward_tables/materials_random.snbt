@@ -39,7 +39,6 @@
 		{ item: "aquaculture:lockbox" }
 		{ count: 2, item: "minecraft:ender_pearl" }
 		{ count: 16, item: "minecraft:gold_nugget" }
-		{ item: "twilightforest:ironwood_raw" }
 		{ count: 3, item: "minecraft:coal" }
 		{ item: "minecraft:netherite_scrap" }
 		{ count: 15, item: "minecraft:brick" }

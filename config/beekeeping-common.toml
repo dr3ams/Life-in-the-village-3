@@ -1,0 +1,120 @@
+
+#Bee Lifecycle
+[bee]
+	#Time to breed bees in ticks.
+	#Range: > 0
+	breed_time = 60
+	#Lifetime ticks per game tick.
+	#Range: > 0
+	lifetime_step = 1
+	#Ignore weather satisfaction check.
+	ignore_weather = false
+	#Ignore temperature satisfaction check.
+	ignore_temperature = false
+	#Ignore light satisfaction check.
+	ignore_light = false
+
+#World
+[world]
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_upland_rarity = 16
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_forest_rarity = 10
+	#Number of place tries.
+	#Range: > 0
+	beehive_forest_tries = 4
+	#Number of place tries.
+	#Range: > 0
+	beehive_malignant_tries = 1
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_common_rarity = 16
+	#Min spawn height.
+	#Range: -127 ~ 255
+	beehive_dugout_min_height = 80
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_ender_rarity = 16
+	#Number of place tries.
+	#Range: > 0
+	beehive_tropical_tries = 4
+	#Max spawn height.
+	#Range: -127 ~ 255
+	beehive_dugout_max_height = 255
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_malignant_rarity = 8
+	#Number of place tries.
+	#Range: > 0
+	beehive_fungal_tries = 3
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_dugout_rarity = 2
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_snowy_rarity = 16
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_tropical_rarity = 10
+	#Max spawn height.
+	#Range: -127 ~ 255
+	beehive_scorched_max_height = 127
+	#Number of place tries.
+	#Range: > 0
+	beehive_upland_tries = 4
+	#Number of place tries.
+	#Range: > 0
+	beehive_snowy_tries = 4
+	#Number of place tries.
+	#Range: > 0
+	beehive_scorched_tries = 6
+	#Number of place tries.
+	#Range: > 0
+	beehive_ender_tries = 2
+	#Number of place tries.
+	#Range: > 0
+	beehive_common_tries = 2
+	#Number of place tries.
+	#Range: > 0
+	beehive_dune_tries = 3
+	#Number of place tries.
+	#Range: > 0
+	beehive_dugout_tries = 3
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_fungal_rarity = 10
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_scorched_rarity = 6
+	#Rarity, 1 in every.
+	#Range: > 0
+	beehive_dune_rarity = 12
+	#Enabled beehive world generation
+	beehive_generation_enabled = true
+	#Min spawn height.
+	#Range: -127 ~ 255
+	beehive_scorched_min_height = 0
+
+#Bee Genes
+[genes]
+	#Lifetime gene short in seconds.
+	#Range: > 0
+	lifetime_gene_short = 360
+	#Minimum required light level to be satisfied.
+	#Range: > 0
+	light_gene_min_light = 11
+	#Lifetime gene long in seconds.
+	#Range: > 0
+	lifetime_gene_long = 600
+	#Lifetime gene normal in seconds.
+	#Range: > 0
+	lifetime_gene_normal = 480
+	#Lifetime gene longest in seconds.
+	#Range: > 0
+	lifetime_gene_longest = 720
+	#Lifetime gene shortest in seconds.
+	#Range: > 0
+	lifetime_gene_shortest = 240
+

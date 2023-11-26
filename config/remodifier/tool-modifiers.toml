@@ -1,7 +1,7 @@
 
 ["Modifiers for tools"]
 	#This configuration file is based on index. it means, 'legendary' -> '30' ->'generic.attack_damage;generic.attack_speed' -> '0.15;0.1' -> '2;2' is the first index, and in it, 'generic.attack_damage' -> '0.15' -> '2', 'generic.attack_speed' -> '0.1' -> '2'
-	#WARNING: You have to make a resource pack to save the customization-required translation key for the attributes if the mod author didn't do that, or your customization on other mods' attribute will crash the game!
+	#You may need to make a resource pack to save the customization-required translation key for the attributes if the mod author didn't do that, or your customization on other mods' attribute may not look well
 	#A hint on the translation key format: attribute.modxxx.attributexxx, e.g. attribute.minecraft.generic.attack_damage
 	#The name of the modifier
 	NAMES = []

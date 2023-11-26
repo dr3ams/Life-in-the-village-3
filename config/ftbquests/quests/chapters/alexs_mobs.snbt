@@ -22,8 +22,8 @@
 				item: "alexsmobs:bear_fur"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -8.5d
+			x: 0.0d
+			y: -4.0d
 		}
 		{
 			dependencies: ["32F7D28F7B29709C"]
@@ -86,7 +86,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["15132115F40EF4EA"]
@@ -109,7 +109,7 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["617FBFA90048602D"]
@@ -126,8 +126,8 @@
 				item: "alexsmobs:gazelle_horn"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -7.0d
+			x: -9.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["4B89A8800535AB16"]
@@ -192,8 +192,8 @@
 				item: "alexsmobs:maggot"
 				type: "item"
 			}]
-			x: -8.5d
-			y: -1.5d
+			x: -7.0d
+			y: -1.0d
 		}
 		{
 			description: ["A rare drop from jungle leaves. Can be used to make a Simple Farming tree whose bananas will work in the same way."]
@@ -476,8 +476,8 @@
 				item: "alexsmobs:raccoon_tail"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -7.0d
+			x: 0.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["43A6451E42293BAC"]
@@ -499,8 +499,8 @@
 				}
 				type: "item"
 			}]
-			x: -1.0d
-			y: -6.5d
+			x: 1.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1670F799696648EA"]
@@ -598,8 +598,8 @@
 				item: "alexsmobs:acacia_blossom"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -9.0d
+			x: -7.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["292B32B34CD5094A"]
@@ -652,7 +652,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["6964B640BF90A11C"]
@@ -775,7 +775,7 @@
 				type: "item"
 			}]
 			x: -2.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["47BE77D8F21BBDCC"]
@@ -793,7 +793,7 @@
 				type: "item"
 			}]
 			x: -0.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: [
@@ -819,7 +819,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4EDC8D006049F8E4"]
@@ -853,7 +853,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["1D01C2288B41EBDC"]
@@ -876,7 +876,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["051CA3BEF47E6BCF"]
@@ -978,7 +978,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["3DAF08614ABA2EC5"]
@@ -1001,7 +1001,7 @@
 				type: "item"
 			}]
 			x: -6.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["6941D667244F04D9"]
@@ -1069,8 +1069,8 @@
 				item: "alexsmobs:leafcutter_ant_pupa"
 				type: "item"
 			}]
-			x: -2.5d
-			y: -12.5d
+			x: -1.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["7E6468F38A587264"]
@@ -1087,8 +1087,8 @@
 				item: "alexsmobs:gongylidia"
 				type: "item"
 			}]
-			x: -1.0d
-			y: -11.5d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0433861EE023060D"]
@@ -1104,8 +1104,8 @@
 				item: "alexsmobs:falconry_glove"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -11.5d
+			x: -10.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["7FB236F280E77256"]
@@ -1121,8 +1121,8 @@
 				item: "alexsmobs:falconry_hood"
 				type: "item"
 			}]
-			x: -6.5d
-			y: -12.5d
+			x: -9.0d
+			y: -8.0d
 		}
 		{
 			description: [
@@ -1155,8 +1155,8 @@
 				title: "Grizzly Bear Encountered"
 				type: "advancement"
 			}]
-			x: -4.0d
-			y: -9.0d
+			x: -1.5d
+			y: -4.5d
 		}
 		{
 			dependencies: ["4E20E64264B2AA55"]
@@ -1174,8 +1174,8 @@
 				title: "Teddy the Bear"
 				type: "advancement"
 			}]
-			x: 0.0d
-			y: -10.0d
+			x: 2.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["1561DE019D318A18"]
@@ -1197,8 +1197,8 @@
 				}
 				type: "item"
 			}]
-			x: -8.0d
-			y: -6.5d
+			x: -10.5d
+			y: -2.0d
 		}
 		{
 			description: ["A crocodile is a large swamp and river based creature that is very dangerous to be near. You can still breed these creatures though with the use of rotten flesh. When the egg hatches, a nearby player is imprinted upon the baby and it will listen to their commands."]
@@ -1314,7 +1314,7 @@
 				type: "advancement"
 			}]
 			x: -4.5d
-			y: -14.0d
+			y: -9.0d
 		}
 		{
 			dependencies: ["2CF3F2F094B0D3B1"]
@@ -1431,8 +1431,8 @@
 				title: "Safari Adventure"
 				type: "advancement"
 			}]
-			x: -6.5d
-			y: -9.0d
+			x: -9.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2FF82B88371F5F07"]
@@ -1454,8 +1454,8 @@
 				title: "Greatest Warrior"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: -10.0d
+			x: -11.5d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2FF82B88371F5F07"]
@@ -1477,8 +1477,8 @@
 				title: "Elephant Style"
 				type: "advancement"
 			}]
-			x: -9.0d
-			y: -8.0d
+			x: -11.5d
+			y: -3.5d
 		}
 		{
 			description: [
@@ -1569,8 +1569,8 @@
 				title: "Not Really Bald"
 				type: "advancement"
 			}]
-			x: -5.5d
-			y: -10.0d
+			x: -8.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["2BA83FDF7240DE8B"]
@@ -1588,8 +1588,8 @@
 				title: "Long Distance Killer"
 				type: "advancement"
 			}]
-			x: -4.5d
-			y: -12.5d
+			x: -7.0d
+			y: -8.0d
 		}
 		{
 			description: [
@@ -1632,8 +1632,8 @@
 				title: "Ants in my Pants"
 				type: "advancement"
 			}]
-			x: -3.5d
-			y: -10.0d
+			x: -1.0d
+			y: -5.5d
 		}
 		{
 			description: [
@@ -1709,7 +1709,7 @@
 				type: "advancement"
 			}]
 			x: 1.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["3E83CFACFBDFDEB2"]
@@ -1739,7 +1739,7 @@
 				type: "advancement"
 			}]
 			x: 5.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			description: [
@@ -2016,7 +2016,7 @@
 			}]
 			title: "A Mungus"
 			x: -4.5d
-			y: 8.5d
+			y: 8.0d
 		}
 		{
 			description: [
@@ -2130,8 +2130,8 @@
 				to_observe: "alexsmobs:raccoon"
 				type: "observation"
 			}]
-			x: -3.5d
-			y: -8.0d
+			x: -1.0d
+			y: -3.5d
 		}
 		{
 			description: ["The Gazelle is a small creature of the savannas is very timid and prefers its large groups which will flee at the first sign of danger."]
@@ -2165,8 +2165,8 @@
 				to_observe: "alexsmobs:gazelle"
 				type: "observation"
 			}]
-			x: -5.5d
-			y: -8.0d
+			x: -8.0d
+			y: -3.5d
 		}
 		{
 			description: ["This annoying bug is pretty common across the overworld. They will chase and bite zombies to near death. They are bred with rotten flesh. Make sure these do not get into the Nether...."]
@@ -2188,8 +2188,8 @@
 				title: "Fly Encountered"
 				type: "checkmark"
 			}]
-			x: -10.5d
-			y: -2.5d
+			x: -9.0d
+			y: -1.0d
 		}
 		{
 			description: [
@@ -2457,7 +2457,7 @@
 				type: "observation"
 			}]
 			x: -10.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			description: ["The Dropbear is an evil creature native to the Nether Wastes. It hangs from the ceiling where it waits for things to walk beneath it to drop down upon and attack."]
@@ -2506,7 +2506,7 @@
 				}
 			]
 			x: -8.0d
-			y: 10.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["11AD9C3E6F7ED206"]
@@ -2528,8 +2528,8 @@
 				}
 				type: "item"
 			}]
-			x: 0.0d
-			y: -8.0d
+			x: 2.5d
+			y: -3.5d
 		}
 	]
 	title: "Hostile World"
