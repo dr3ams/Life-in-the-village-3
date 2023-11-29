@@ -115,7 +115,7 @@
 	#Sounds
 	["Loot Beams".Sounds]
 		#If sounds should be played when items are dropped up.
-		play_sounds = true
+		play_sounds = false
 		#The volume of the sound.
 		#Range: 0.0 ~ 1.0
 		sound_volume = 1.0
