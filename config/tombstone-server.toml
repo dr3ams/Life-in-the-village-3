@@ -19,6 +19,9 @@
 	#Defines the progression scale to be able to upgrade perks to higher level (based on the level in Knowledge of Death) [1..5|default:2]
 	#Range: 1 ~ 5
 	perk_progression_scale = 2
+	#Defines the level max of the perk ShadowWalker [0..10|default:10]
+	#Range: 0 ~ 10
+	level_max_shadow_walker = 10
 
 #Allows to customize or disable the enchantments
 [enchantments]

@@ -60,6 +60,8 @@
   "jade:block_face": null,
   "create:goggles": null,
   "create:backtank_capacity": null,
+  "jadecolonies:colony.hut": null,
+  "jadecolonies:colony.pack": null,
   "tombstone:graves": null,
   "lootr:info": null,
   "lootr:inventory": null,
@@ -119,5 +121,7 @@
   "jade:registry_name": null,
   "jade:mod_name": null,
   "jade:distance": null,
-  "jade:block_face": null
+  "jade:block_face": null,
+  "jadecolonies:colony.hut": null,
+  "jadecolonies:colony.pack": null
 }

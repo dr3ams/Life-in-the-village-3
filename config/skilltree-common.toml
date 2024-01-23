@@ -41,7 +41,7 @@
 	#Example: Blacklisting whole mod: ["<mod_id>:*"]
 	#Example: Blacklisting all items: ["*:*"]
 	"IDs of items that shouldn't have sockets" = []
-	#You can force items from other mods into equipment categories here
+	#You can force items from other mods into equipmentType categories here
 	"Force into helmets category" = []
 	"Force into chestplates category" = []
 	"Force into leggings category" = []
