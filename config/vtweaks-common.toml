@@ -73,9 +73,9 @@
 	[entity.trader]
 		#If enabled, any valuable tools / items lost forever via Cactus, Lava, Void, etc. might be found by the next Wandering Trader and put up for sale!
 		#Valuable items are determined by the vtweaks:valuable tag and, if the item can be enchanted and the config option wanderingTraderRecoverySaveUnenchantedGear is set to true, is enchanted.
-		wanderingTraderRecoveryEnabled = true
+		wanderingTraderRecoveryEnabled = false
 		#Whether or not to show a silly message when interacting with a trader that has that player's items
-		enableFlavorText = true
+		enableFlavorText = false
 		#Determines if a destroyed #vtweaks:valuable should still be saved if it *can* be enchanted but isn't
 		saveUnenchantedGear = false
 		#The maximum number of a player's lost items will be sold by a Wandering Trader each visit
