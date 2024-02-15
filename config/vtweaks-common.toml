@@ -8,7 +8,7 @@
 
 	[block.chopdown]
 		#Trees fall down (like, actually not just like lumbering). Credit to Ternsip's impl (https://www.curseforge.com/minecraft/mc-mods/chopdown)
-		enableTreeChopDown = true
+		enableTreeChopDown = false
 		#The number of logs above the one broken to trigger the chopdown effect
 		#Range: > 1
 		chopDownLogRequirement = 3
