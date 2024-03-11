@@ -13,6 +13,16 @@
 	#Type of the reward screen.
 	#Allowed Values: COMPACT, DEFAULT_OVERVIEW, SPECIAL_OVERVIEW
 	rewardScreenType = "COMPACT"
+	#Shows a unclaimed rewards message when a player joins the server (if there are unclaimed rewards).
+	showUnclaimedRewardsOnPlayerJoin = true
+	#Shows a unclaimed special rewards message when a player joins the server (if there are unclaimed special rewards).
+	showUnclaimedRewardsSpecialOnPlayerJoin = true
+	#Shows a message when a player receives a reward.
+	showReceivedRewardMessage = true
+	#Shows a message when a player receives a special reward.
+	showReceivedRewardSpecialMessage = true
+	#Shows a message with the reward claim command to claim rewards.
+	showRewardClaimCommandMessage = true
 
 ["Fill Items"]
 	#List of normal fill items which are used in the case we have not enough valid items for a month.

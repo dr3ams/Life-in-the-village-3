@@ -1053,13 +1053,6 @@
 				"- You can also use hoe on grass in similar way to till multiple blocks at once"
 				"- Harvest crops by right-clicking on them"
 				""
-				"Select a shape by holding shift and the grave key while scrolling the mouse scroll wheel. "
-				"- Shapeless: No shape applied."
-				"- Small Tunnel: A 1x1 deep tunnel."
-				"- Small Square: A 3x3x1. (Depth of one. If you want a long 3x3 tunnel, you are probably better off digging 9 separate small tunnels.) "
-				"- Mining Tunnel: A 1x1 tunnel angled down. (You will need at least 3 of these to form stairs you can walk down.)"
-				"- Escape Tunnel: Same as the mining tunnel, but upward."
-				""
 				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
 			]
 			icon: {
