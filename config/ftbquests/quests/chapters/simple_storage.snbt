@@ -53,26 +53,6 @@
 		}
 		{
 			description: [
-				"Compacting drawers are a special drawer that will hold a specific material type and allow it to be changed between its different material amounts."
-				""
-				"For example, loading this drawer with a iron block will allow you to pull the iron block, 9 iron ingots, or 81 iron nuggets from it with no crafting required."
-			]
-			id: "69855EE51B48E6B7"
-			rewards: [{
-				id: "4E4A690FE189AAE4"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0EF6459DC48C1415"
-				item: "storagedrawers:compacting_drawers_3"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 9.5d
-		}
-		{
-			description: [
 				"The Drawer Key will allow you to lock an item to a storage drawer slot. This will lock that item into that slot, even when all items are removed from the drawer."
 				""
 				"The Quantify Key will allow you to show/hide the storage drawer display of the number of items contained on the face of the drawer."
@@ -103,7 +83,7 @@
 					type: "item"
 				}
 			]
-			x: -1.0d
+			x: -1.5d
 			y: 9.5d
 		}
 		{
@@ -439,7 +419,7 @@
 				title: "Storage Drawers Trim"
 				type: "item"
 			}]
-			x: -3.0d
+			x: -2.5d
 			y: 9.5d
 		}
 		{
