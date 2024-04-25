@@ -23,7 +23,7 @@
 				type: "item"
 			}]
 			x: 0.0d
-			y: -4.0d
+			y: -5.5d
 		}
 		{
 			dependencies: ["32F7D28F7B29709C"]
@@ -1056,41 +1056,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["7E6468F38A587264"]
-			description: ["A rare drop from chamber blocks or Queens. Can be used to create new ant colonies when used on dirt or grass."]
-			id: "16CAFA17D62FD870"
-			rewards: [{
-				id: "342F7978AC246185"
-				item: "kubejs:copper_coin"
-				type: "item"
-			}]
-			tasks: [{
-				id: "0BDA5802571BADA9"
-				item: "alexsmobs:leafcutter_ant_pupa"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -8.0d
-		}
-		{
-			dependencies: ["7E6468F38A587264"]
-			description: ["This fungi can be used to feed ants and heal them or boost the Queen's reprodction. It can be collected by right clicking a moldy ant chamber under an anthill, where placing a shroomlight will stop the ants from being angry."]
-			id: "6C244C409D094052"
-			rewards: [{
-				count: 5
-				id: "6D6723F46A073E05"
-				item: "alexsmobs:gongylidia"
-				type: "item"
-			}]
-			tasks: [{
-				id: "3F3CAE2209A529AA"
-				item: "alexsmobs:gongylidia"
-				type: "item"
-			}]
-			x: 1.5d
-			y: -7.0d
-		}
-		{
 			dependencies: ["0433861EE023060D"]
 			description: ["The Falconry Glove will allow you to pick up tamed Bald Eagles. Then by punching while pointing at a mob from long range will send the eagle off to attack it. If not hovering over a mob the eagle will just hop off."]
 			id: "7FB236F280E77256"
@@ -1156,7 +1121,7 @@
 				type: "advancement"
 			}]
 			x: -1.5d
-			y: -4.5d
+			y: -6.0d
 		}
 		{
 			dependencies: ["4E20E64264B2AA55"]
@@ -1175,7 +1140,7 @@
 				type: "advancement"
 			}]
 			x: 2.5d
-			y: -5.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["1561DE019D318A18"]
@@ -1612,28 +1577,6 @@
 			}]
 			x: -6.5d
 			y: -3.5d
-		}
-		{
-			description: [
-				"What could go wrong jumping on an anthill?"
-				""
-				"Leafcutter Ants are small ants that eat the leaves off of trees in jungles. Colonies can consist up to 20 ants. Typically only workers are seen but a queen can be summoned by jumping on an anthill. Queens are needed for the colony to repopulate."
-			]
-			id: "7E6468F38A587264"
-			rewards: [{
-				id: "5E47A36797E501F1"
-				type: "xp_levels"
-				xp_levels: 2
-			}]
-			tasks: [{
-				advancement: "alexsmobs:alexsmobs/stomp_leafcutter_anthill"
-				criterion: ""
-				id: "300156AB96F3BDE6"
-				title: "Ants in my Pants"
-				type: "advancement"
-			}]
-			x: -1.0d
-			y: -5.5d
 		}
 		{
 			description: [
@@ -2529,7 +2472,7 @@
 				type: "item"
 			}]
 			x: 2.5d
-			y: -3.5d
+			y: -5.0d
 		}
 	]
 	title: "Hostile World"

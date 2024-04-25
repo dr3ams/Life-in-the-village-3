@@ -33,6 +33,9 @@
 	#2 = always enable
 	#Range: 0 ~ 2
 	enableFirstPersonSkinRenderer = 0
+	#If enabled the server will check permission node in the each operation.
+	#Highly recommended in the forge server.
+	enablePermissionCheck = true
 
 #Setting for the players wardrobe.
 [wardrobe]

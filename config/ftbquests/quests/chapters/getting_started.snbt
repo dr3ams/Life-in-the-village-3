@@ -1050,6 +1050,8 @@
 				"This mod allows you to harvest multiple blocks at once if you hold the Grave/Tilde ( ` / ~ ) key (configurable in Controls, change FTB Ultimine key)."
 				""
 				"- Renders white lines around blocks that will be mined."
+				"- You can also use hoe on grass in similar way to till multiple blocks at once"
+				"- Harvest crops by right-clicking on them"
 				""
 				"Tip: Just remember to reset your shape to shapeless for clearing ore deposits or you will only mine the ores in the selected shape."
 			]

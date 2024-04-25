@@ -72,6 +72,8 @@
 	#Cooldown in second after using a tablet [60..1200|default:300]
 	#Range: 60 ~ 1200
 	tablet_cooldown = 300
+	#Prevents to craft Enchanted Grave Key [false/true|default:false]
+	disable_enchanted_grave_key_recipe = false
 
 #For settings related to decorative tombs and magic items
 [decorative_grave]

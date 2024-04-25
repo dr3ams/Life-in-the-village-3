@@ -52,3 +52,19 @@ customization {
   height = 20
 }
 
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/industrial-village%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/ivbanner.png
+  label = 
+  loopbackgroundanimations = true
+  x = 0
+  width = 289
+  action = addbutton
+  actionid = c67133d2-5109-4597-b960-1b7bda54c7d11713508287656
+  y = 0
+  backgroundnormal = config/fancymenu/ivbanner.png
+  height = 57
+}
+

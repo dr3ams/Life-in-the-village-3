@@ -2,6 +2,7 @@
 console.info('Starting recipe modification scripts...')
 
 ServerEvents.recipes(event => {
+	event.remove({output: 'constructionwand:core_destruction'})
 	event.remove({output: 'alexsmobs:vine_lasso'})
 	event.remove({output: 'usefulhats:aquanaut_helmet'})
 	event.remove({output: 'usefulhats:bunny_ears'})

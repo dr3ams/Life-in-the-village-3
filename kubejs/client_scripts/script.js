@@ -47,4 +47,5 @@ JEIEvents.hideItems(event => {
 	
 	event.hide('storagedrawers:compacting_drawers_3')	
 	event.hide('tombstone:book_of_recycling')	
+	event.hide('constructionwand:core_destruction')
 })

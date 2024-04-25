@@ -17,7 +17,7 @@
 		x: 3.0d
 		y: 10.5d
 	}]
-	order_index: 1
+	order_index: 4
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,9 +25,24 @@
 				"I would like to thank everyone who supports me in any way: subbing on Patreon, renting a server or by simply downloading any of my packs."
 				""
 				"Your contribution is very important."
+				""
+				"Also, I would like to thank everyone who were somehow involved in LITV 3 development."
 			]
 			icon: "kubejs:heart"
 			id: "1E533E35056D96A1"
+			rewards: [{
+				command: "/ftbquests change_progress @p complete 1E11739B02616720"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "ftblibrary:icons/heart"
+					}
+				}
+				id: "52692623AE499FAB"
+				title: "Complete Chapter"
+				type: "command"
+			}]
 			size: 2.0d
 			tasks: [{
 				id: "0816AD3C57AC7395"
@@ -2463,6 +2478,251 @@
 			x: 8.0d
 			y: 7.5d
 		}
+		{
+			icon: "kubejs:medal"
+			id: "01F57D56C15F22DD"
+			subtitle: "Jaidon Lambert"
+			tasks: [{
+				id: "4D21CA7B15F552DF"
+				title: "Jaidon Lambert"
+				type: "checkmark"
+			}]
+			x: 9.0d
+			y: 7.5d
+		}
+		{
+			icon: "fantasyfurniture:necrolord/wool"
+			id: "5869D231CF8B44C1"
+			subtitle: "Grand-Necrologist Zein"
+			tasks: [{
+				id: "1E8A145593F23C60"
+				title: "gNecrOz"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "1BA4592EB608EC59"
+			subtitle: "Beth Anne"
+			tasks: [{
+				id: "7832C0C9256B8421"
+				title: "Beth Anne"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "5186B0CD245F5344"
+			subtitle: "Lukas Stiel"
+			tasks: [{
+				id: "4C1D59EE4845C7C5"
+				title: "Lukas Stiel"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "62C7D703A984F21C"
+			subtitle: "Racctify"
+			tasks: [{
+				id: "4289EBBE37917AFF"
+				title: "Racctify"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "1A2A96EB0CE60778"
+			subtitle: "Quadieromg Brown"
+			tasks: [{
+				id: "7EEC8418C803FE46"
+				title: "Quadieromg Brown"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "71D68E20992C12DF"
+			subtitle: "Nicholas Thornton"
+			tasks: [{
+				id: "336517175DFA54B1"
+				title: "Nicholas Thornton"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "01C2AE474F9C586D"
+			subtitle: "Marissa Pierce"
+			tasks: [{
+				id: "66DAF6A2E33AB847"
+				title: "Marissa Pierce"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "14AEE4C128FB58FC"
+			subtitle: "Vaultraider"
+			tasks: [{
+				id: "5D16282A0DBAA4D2"
+				title: "Vaultraider"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "2D49E4E7B750A30C"
+			subtitle: "Celina_Marniss"
+			tasks: [{
+				id: "7A0D50DB82945ABC"
+				title: "Celina_Marniss"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "3A05C2E2C4A18A19"
+			subtitle: "Cammy"
+			tasks: [{
+				id: "0FFF0F0C04281F6E"
+				title: "Cammy"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 7.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6E22FA89876BF59C"
+			subtitle: "EightyBity"
+			tasks: [{
+				id: "59149261D9AA8651"
+				title: "EightyBity"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "kubejs:medal"
+			}
+			id: "6D22E5643CC6EBF1"
+			subtitle: "m7mood talb"
+			tasks: [{
+				id: "56C98D5E8FB08D20"
+				title: "m7mood talb"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: 4.5d
+		}
 	]
-	title: "The Patreon"
+	subtitle: ["Place of Immortality"]
+	title: "The Patreon of Gods"
 }

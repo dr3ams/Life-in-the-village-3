@@ -238,11 +238,11 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 108
+  width = 128
   action = deep_customization_element:title_screen_branding
   actionid = 0efecb36-aee1-4096-bfa9-86c1b0163f281659856829136
-  y = 487
-  height = 40
+  y = 457
+  height = 50
 }
 
 customization {
@@ -316,68 +316,64 @@ customization {
 customization {
   orientation = bottom-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://www.patreon.com/Dreams01%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\button_patreon_hover.png
   label = 
   loopbackgroundanimations = true
   x = -130
   width = 84
-  actionid = 7e71a6b3-b282-4f48-82b1-9150852f2e341639407945630
   action = addbutton
+  actionid = 7e71a6b3-b282-4f48-82b1-9150852f2e341639407945630
   y = -36
   backgroundnormal = config\fancymenu\button_patreon.png
-  value = https://www.patreon.com/Dreams01
   height = 36
 }
 
 customization {
   orientation = top-centered
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://discord.gg/npNApNFn2r%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\button_discord_hover.png
   label = 
   loopbackgroundanimations = true
   x = -130
   width = 84
-  actionid = 436e5ba9-b077-4d04-a97c-4064d9a555071639409286317
   action = addbutton
+  actionid = 436e5ba9-b077-4d04-a97c-4064d9a555071639409286317
   y = -1
   backgroundnormal = config\fancymenu\button_discord.png
-  value = https://discord.gg/npNApNFn2r
   height = 36
 }
 
 customization {
   orientation = bottom-right
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://bisecthosting.com/xdreamz%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\rentserver_hover.png
   label = 
   loopbackgroundanimations = true
   x = -84
   width = 84
-  actionid = 938fdc12-e0b6-4892-b17c-83a3faeec8821639499450090
   action = addbutton
+  actionid = 938fdc12-e0b6-4892-b17c-83a3faeec8821639499450090
   y = -36
   backgroundnormal = config\fancymenu\rentserver.png
-  value = https://bisecthosting.com/xdreamz
   height = 36
 }
 
 customization {
   orientation = mid-right
   restartbackgroundanimations = true
-  buttonaction = openlink
+  buttonaction = openlink;https://bisecthosting.com/xdreamz%btnaction_splitter_fm%
   backgroundhovered = config\fancymenu\bisect_banner.png
   label = 
   loopbackgroundanimations = true
   x = -122
   width = 122
-  actionid = 4604414b-9d4b-4704-959f-976a51f464b51639499861103
   action = addbutton
+  actionid = 4604414b-9d4b-4704-959f-976a51f464b51639499861103
   y = -74
   backgroundnormal = config\fancymenu\bisect_banner.png
-  value = https://bisecthosting.com/xdreamz
   height = 153
 }
 
@@ -390,5 +386,21 @@ customization {
   actionid = 50d6c575-bb4b-49e9-8ed1-14e99ffbf9c11643036203520
   y = -80
   height = 156
+}
+
+customization {
+  orientation = mid-right
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.curseforge.com/minecraft/modpacks/industrial-village%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/ivbannermenu.png
+  label = 
+  loopbackgroundanimations = true
+  x = -111
+  width = 102
+  action = addbutton
+  actionid = 1544fbdb-16e8-4259-94f8-00e69d293de41713509157753
+  y = -201
+  backgroundnormal = config/fancymenu/ivbannermenu.png
+  height = 133
 }
 

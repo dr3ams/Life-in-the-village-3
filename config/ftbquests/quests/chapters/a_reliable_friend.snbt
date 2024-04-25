@@ -200,7 +200,7 @@
 			tasks: [
 				{
 					id: "000000000000063C"
-					item: "doggytalents:radar"
+					item: "doggytalents:canine_tracker"
 					type: "item"
 				}
 				{
@@ -335,7 +335,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: 2.5d
 			y: 2.5d
 		}
 		{
@@ -356,8 +356,8 @@
 				}
 			]
 			tasks: [{
-				id: "000000000000064A"
-				item: "doggytalents:chew_stick"
+				id: "1E4B8A8F813B1C50"
+				item: "doggytalents:energizer_stick"
 				type: "item"
 			}]
 			x: 1.0d
@@ -514,31 +514,6 @@
 			}]
 			x: -2.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["0000000000000639"]
-			description: ["These special sheers can cut off the wool collars off your dog. Also, the sheers can untame your dog."]
-			id: "0000000000000658"
-			rewards: [
-				{
-					count: 5
-					id: "000000000000067C"
-					item: "minecraft:bone"
-					type: "item"
-				}
-				{
-					id: "43115CBE5049C311"
-					item: "kubejs:copper_coin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "0000000000000659"
-				item: "doggytalents:collar_shears"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.5d
 		}
 		{
 			dependencies: ["000000000000062F"]
