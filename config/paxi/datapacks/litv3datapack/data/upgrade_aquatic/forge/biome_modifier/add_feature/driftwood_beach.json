@@ -1,0 +1,6 @@
+{
+  "type": "forge:none",
+  "biomes": "#minecraft:is_beach",
+  "features": "upgrade_aquatic:driftwood_beach",
+  "step": "vegetal_decoration"
+}
