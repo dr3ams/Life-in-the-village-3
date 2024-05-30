@@ -1,7 +1,7 @@
 {
 	id: "0BC9EE62BBE93C0A"
 	loot_size: 1
-	order_index: 18
+	order_index: 17
 	rewards: [
 		{
 			item: {
@@ -59,6 +59,7 @@
 		{ item: "collectorsalbum:common_card_package" }
 		{ item: "collectorsalbum:uncommon_card_package" }
 		{ count: 3, item: "create:experience_block" }
+		{ item: "collectorsalbum:rare_card_package" }
 	]
 	title: "Diamond coin reward"
 }

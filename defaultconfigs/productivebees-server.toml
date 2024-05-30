@@ -5,7 +5,7 @@
 	hiveTickRate = 1500
 	#How long time a bee should stay in the hive when having delivered honey. Default 4800.
 	#Range: > 20
-	timeInHive = 4800
+	timeInHive = 9600
 	#How many ticks it takes for process a recipe in the centrifuge. Default 300.
 	#Range: > 20
 	centrifugeProcessingTime = 900

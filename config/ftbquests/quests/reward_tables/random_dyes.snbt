@@ -15,23 +15,23 @@
 	loot_size: 2
 	order_index: 2
 	rewards: [
-		{ item: "minecraft:white_dye" }
-		{ item: "minecraft:orange_dye" }
-		{ item: "minecraft:magenta_dye" }
-		{ item: "minecraft:light_blue_dye" }
-		{ item: "minecraft:yellow_dye" }
-		{ item: "minecraft:lime_dye" }
-		{ item: "minecraft:pink_dye" }
-		{ item: "minecraft:gray_dye" }
-		{ item: "minecraft:black_dye" }
-		{ item: "minecraft:red_dye" }
-		{ item: "minecraft:green_dye" }
-		{ item: "minecraft:brown_dye" }
-		{ item: "minecraft:brown_dye" }
-		{ item: "minecraft:blue_dye" }
-		{ item: "minecraft:purple_dye" }
-		{ item: "minecraft:light_gray_dye" }
-		{ item: "minecraft:cyan_dye" }
+		{ count: 32, item: "minecraft:white_dye" }
+		{ count: 32, item: "minecraft:orange_dye" }
+		{ count: 32, item: "minecraft:magenta_dye" }
+		{ count: 32, item: "minecraft:light_blue_dye" }
+		{ count: 32, item: "minecraft:yellow_dye" }
+		{ count: 32, item: "minecraft:lime_dye" }
+		{ count: 32, item: "minecraft:pink_dye" }
+		{ count: 32, item: "minecraft:gray_dye" }
+		{ count: 32, item: "minecraft:black_dye" }
+		{ count: 32, item: "minecraft:red_dye" }
+		{ count: 32, item: "minecraft:green_dye" }
+		{ count: 32, item: "minecraft:brown_dye" }
+		{ count: 32, item: "minecraft:brown_dye" }
+		{ count: 32, item: "minecraft:blue_dye" }
+		{ count: 32, item: "minecraft:purple_dye" }
+		{ count: 32, item: "minecraft:light_gray_dye" }
+		{ count: 32, item: "minecraft:cyan_dye" }
 	]
 	title: "Random Dyes"
 	use_title: true

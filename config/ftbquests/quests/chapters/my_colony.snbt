@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: "square"
 	filename: "my_colony"
-	group: ""
+	group: "46433AE7955AB640"
 	icon: "minecolonies:supplycampdeployer"
 	id: "5A62415E6BEF0970"
 	images: [{
@@ -17,7 +17,7 @@
 		x: 10.0d
 		y: -2.0d
 	}]
-	order_index: 2
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{

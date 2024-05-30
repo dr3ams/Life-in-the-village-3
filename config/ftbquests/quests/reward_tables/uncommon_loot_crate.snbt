@@ -11,7 +11,7 @@
 		string_id: "uncommon_loot_crate"
 	}
 	loot_size: 1
-	order_index: 8
+	order_index: 7
 	rewards: [
 		{
 			item: {

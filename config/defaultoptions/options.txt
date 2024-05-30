@@ -26,7 +26,7 @@ screenEffectScale:1.0
 fovEffectScale:1.0
 darknessEffectScale:1.0
 gamma:1.0
-renderDistance:12
+renderDistance:13
 simulationDistance:5
 entityDistanceScaling:1.0
 guiScale:3
@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","LITV3-RP-1.18.2","resources/simplehats_hatdl.zip","file/guiretextures-darkmode-1.7.6.zip","file/GUIRC+1.4+(1.19).zip"]
+resourcePacks:["vanilla","mod_resources","LITV3-RP-1.18.2","Lopy-Create-Sophisticated-Backpacks.zip","Snowyspirit Generated Pack","Supplementaries Generated Pack","quark:emote_resources","resources/simplehats_hatdl.zip","file/Create Style Modded Compats v16.zip","file/GUIRC+1.4+(1.19).zip","file/LootrChestRetexture_v1.1_1.19.zip","file/Minecolonies Refreshed 1.19.2-2.1.zip","file/guiretextures-darkmode-1.7.6.zip"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:
 lang:en_us

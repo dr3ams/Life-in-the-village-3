@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CMC",
+    "NEN",
+    "RRR"
+  ],
+  "key": {
+    "C": [
+      {
+        "item": "minecraft:slime_ball"
+      }
+    ],
+    "R": [
+      {
+        "item": "minecraft:brick"
+      }
+    ],
+    "N": [
+      {
+        "item": "create:brass_sheet"
+      }
+    ],
+    "E": [
+      {
+        "item": "immersive_aircraft:engine"
+      }
+    ],
+    "M": [
+      {
+        "item": "minecraft:redstone_block"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:eco_engine"
+  }
+}

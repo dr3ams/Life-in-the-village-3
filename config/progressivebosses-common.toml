@@ -156,9 +156,11 @@
 		#How many half hearts will the Wither regen at max difficulty. This is added to the natural regeneration of the Wither (1 Health per Second).
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Regeneration" = 2.4
-		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 3 seconds.
+		#Bonus regeneration will be multiplied by this ratio when the Wither has been hit in the last 'Bonus Regeneration When Hit Duration' ticks.
 		#Range: 0.0 ~ 2.0
 		"Bonus Regeneration Ratio When Hit" = 0.6
+		#Range: > 0
+		"Bonus Regeneration When Hit Duration" = 60
 
 	#Makes the Wither smarter (will no longer try to stand on the player's head ...), attack faster and hit harder
 	[Wither.Attack]
@@ -175,7 +177,7 @@
 			#Range: 0.0 ~ 1.0
 			Chance = 0.06
 			#Base damage of the charge attack. Increased by 'Increased Damage' config option.
-			#Range: 0.0 ~ 50.0
+			#Range: 0.0 ~ 32.0
 			"Base Damage" = 16.0
 
 		[Wither.Attack."Barrage Attack"]
@@ -248,15 +250,15 @@
 
 	#Bonus Health and Health regeneration.
 	["Elder Guardian".Health]
-		#Increase Elder Guardians' Health by this percentage (1 = +100% health)
-		#Range: 0.0 ~ 1.7976931348623157E308
-		"Health Bonus per Difficulty" = 0.5
-		#Adds absorption health to Elder Guradians (health that doesn't regen)
+		#Adds absorption health to Elder Guardians (health that doesn't regen)
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Absorption Health" = 40.0
 		#Health Regen per second
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Health Regen" = 0.5
+		#Increase Elder Guardians' Health by this percentage (1 = +100% health)
+		#Range: 0.0 ~ 1.7976931348623157E308
+		"Health Bonus" = 0.5
 
 	#Base feature for the Elder Guardian harder fights.
 	["Elder Guardian".Base]
@@ -411,9 +413,11 @@
 		#How much health (when missing 100% health) will the Ender Dragon regen at max difficulty each second whenever she's attached to a Crystal. So if she's missing 30% health, this will be 30% effective. This is added to the normal Crystal regen.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Crystal Regeneration" = 0.0
-		#Bonus regeneration (also bonus crystal regen) will be multiplied by this ratio when the Dragon has been hit in the last 3 seconds.
-		#Range: 0.0 ~ 2.0
+		#Bonus regeneration (also bonus crystal regen) will be multiplied by this ratio when the Dragon has been hit in the last 'Bonus Regeneration When Hit Duration' ticks.
+		#Range: 0.0 ~ 4.0
 		"Bonus Regeneration Ratio When Hit" = 0.4
+		#Range: > 0
+		"Bonus Regeneration When Hit Duration" = 85
 
 	#Handles the Damage Resistances and Vulnerabilities
 	["Ender Dragon"."Resistances & Vulnerabilities"]
@@ -432,7 +436,7 @@
 		#How much more experience (percentage, 36 means +3600%) will Dragon drop at max Difficulty.
 		#Range: 0.0 ~ 1.7976931348623157E308
 		"Bonus Experience" = 36.0
-		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg Ã¬Ã¬ will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
+		#If true whenever a player, that has never killed the dragon, kills the dragon a Dragon Egg will drop. E.g. If 2 players kill the Dragon for the first time, she will drop 2 Dragon Eggs
 		"Dragon Egg per Player" = true
 		#If true default mod drops are added to the Ender Dragon.
 		#Note that replacing the Ender Dragon loot table (e.g. via DataPack) will automatically remove the Injected loot.

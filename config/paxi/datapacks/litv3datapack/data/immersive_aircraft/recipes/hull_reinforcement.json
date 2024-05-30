@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IVI",
+    "HHH",
+    "IVI"
+  ],
+  "key": {
+    "H": [
+      {
+        "item": "immersive_aircraft:hull"
+      }
+    ],
+    "I": [
+      {
+        "item": "create:brass_sheet"
+      }
+    ],
+    "V": [
+      {
+        "tag": "forge:plates/steel"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:hull_reinforcement"
+  }
+}

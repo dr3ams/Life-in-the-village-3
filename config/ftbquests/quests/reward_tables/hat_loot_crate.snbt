@@ -11,7 +11,7 @@
 		string_id: "hat_loot_crate"
 	}
 	loot_size: 1
-	order_index: 14
+	order_index: 13
 	rewards: [
 		{
 			item: {

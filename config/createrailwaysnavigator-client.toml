@@ -3,6 +3,12 @@
 	#Display Time Format. (Default: Hours 24)
 	#Allowed Values: TICKS, HOURS_24, HOURS_12
 	time_format = "HOURS_24"
+	#The language that should be used for announcements of the navigator. Can be different from the game's language settings. (Default: Default)
+	#Allowed Values: DEFAULT, ENGLISH, GERMAN, DUTCH, POLISH, CHINESE_SIMPLIFIED, SAXON, BAVARIAN
+	language = "DEFAULT"
+	#The unit to be used to represent speed. (Default: KMH)
+	#Allowed Values: MS, KMH, MPH, FTS, KT, CMS
+	speed_unit = "KMH"
 
 	["Create Railways Navigator Config".general]
 		#The value indicates how much deviation from the schedule a train should be considered delayed. Delayed trains are marked red in the real-time display. (Default: 500, 30 in-game minutes)

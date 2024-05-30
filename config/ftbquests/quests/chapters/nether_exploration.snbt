@@ -5,7 +5,7 @@
 	group: "2280ECB310C79FE3"
 	icon: "minecraft:netherrack"
 	id: "1D0517C3BEA06389"
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
 		{

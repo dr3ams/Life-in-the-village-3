@@ -67,7 +67,7 @@
 			y: -2.5d
 		}
 	]
-	order_index: 6
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -3243,11 +3243,17 @@
 			shape: "octagon"
 			size: 2.0d
 			subtitle: "... add some challenge!"
-			tasks: [{
-				id: "2B177A80654B7BEE"
-				title: "If you're feeling the game is too easy for you..."
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2B177A80654B7BEE"
+					title: "If you're feeling the game is too easy for you..."
+					type: "checkmark"
+				}
+				{
+					id: "24D7336EBA0F303A"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.5d
 		}

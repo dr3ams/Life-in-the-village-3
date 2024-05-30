@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CTC",
+    "CFC"
+  ],
+  "key": {
+	      "T": 
+      {
+        "item": "create:fluid_tank"
+      },
+    "C": 
+      {
+        "item": "create:copper_sheet"
+      },
+    "F":
+      {
+        "item": "minecraft:furnace"
+      }
+  },
+  "result": {
+    "item": "immersive_aircraft:boiler"
+  }
+}

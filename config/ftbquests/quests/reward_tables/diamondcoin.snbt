@@ -1,7 +1,7 @@
 {
 	id: "39EB2D93C3945C01"
 	loot_size: 1
-	order_index: 25
+	order_index: 24
 	rewards: [
 		{ item: "kubejs:diamond_coin" }
 		{ item: "kubejs:gold_coin" }

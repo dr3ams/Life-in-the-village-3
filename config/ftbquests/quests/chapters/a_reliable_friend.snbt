@@ -5,7 +5,7 @@
 	group: "2280ECB310C79FE3"
 	icon: "doggytalents:doggy_charm"
 	id: "000000000000062C"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -148,8 +148,8 @@
 				}
 			]
 			tasks: [{
-				id: "0000000000000638"
-				item: "doggytalents:dire_treat"
+				id: "23E6D3E72701FA3F"
+				item: "doggytalents:kami_treat"
 				type: "item"
 			}]
 			x: 4.0d
@@ -250,11 +250,6 @@
 					xp_levels: 3
 				}
 				{
-					id: "0000000000000679"
-					item: "doggytalents:tiny_bone"
-					type: "item"
-				}
-				{
 					count: 5
 					id: "000000000000067A"
 					item: "minecraft:slime_ball"
@@ -267,11 +262,6 @@
 				}
 			]
 			tasks: [
-				{
-					id: "0000000000000640"
-					item: "doggytalents:cape"
-					type: "item"
-				}
 				{
 					id: "0000000000000641"
 					item: "doggytalents:cape_coloured"

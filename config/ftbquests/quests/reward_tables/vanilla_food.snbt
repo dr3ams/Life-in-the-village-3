@@ -12,7 +12,7 @@
 		string_id: "vanilla_food"
 	}
 	loot_size: 1
-	order_index: 29
+	order_index: 28
 	rewards: [
 		{
 			count: 8

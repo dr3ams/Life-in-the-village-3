@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "CLC",
+    " I "
+  ],
+  "key": {
+    "I": [
+      {
+        "item": "create:cogwheel"
+      }
+    ],
+    "L": [
+      {
+        "item": "create:precision_mechanism"
+      }
+    ],
+    "C": [
+      {
+        "tag": "forge:plates/steel"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:industrial_gears"
+  }
+}

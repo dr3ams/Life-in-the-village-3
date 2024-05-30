@@ -11,7 +11,7 @@
 		string_id: "rare_loot_crate"
 	}
 	loot_size: 1
-	order_index: 6
+	order_index: 5
 	rewards: [
 		{
 			count: 16

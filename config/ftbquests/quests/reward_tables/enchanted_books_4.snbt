@@ -7,10 +7,12 @@
 			monster: 0
 			passive: 0
 		}
+		glow: 1b
+		item_name: "Enchantments"
 		string_id: "enchanted_books_4"
 	}
 	loot_size: 1
-	order_index: 46
+	order_index: 45
 	rewards: [
 		{
 			item: {

@@ -11,7 +11,7 @@
 		string_id: "duds1"
 	}
 	loot_size: 1
-	order_index: 34
+	order_index: 33
 	rewards: [
 		{
 			item: {

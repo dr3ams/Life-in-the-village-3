@@ -12,7 +12,7 @@
 		string_id: "vanilla_materials"
 	}
 	loot_size: 1
-	order_index: 32
+	order_index: 31
 	rewards: [
 		{
 			count: 32

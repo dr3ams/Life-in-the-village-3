@@ -12,7 +12,7 @@
 		string_id: "spawn_eggs_3"
 	}
 	loot_size: 1
-	order_index: 49
+	order_index: 48
 	rewards: [
 		{
 			count: 4

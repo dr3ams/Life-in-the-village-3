@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "PFP",
+    "IBI"
+  ],
+  "key": {
+    "F": [
+      {
+        "item": "minecraft:blast_furnace"
+      }
+    ],
+    "C": [
+      {
+        "item": "create:brass_sheet"
+      }
+    ],
+    "B": [
+      {
+        "item": "immersive_aircraft:boiler"
+      }
+    ],
+    "P": [
+      {
+        "item": "create:mechanical_piston"
+      }
+    ],
+    "I": [
+      {
+        "item": "create:iron_sheet"
+      }
+    ]
+  },
+  "result": {
+    "item": "immersive_aircraft:engine"
+  }
+}

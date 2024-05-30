@@ -1,0 +1,37 @@
+
+#General
+[general]
+	#Enables ingame rewards on first spawn for Patreons
+	patreon_rewards = true
+
+#Collectibles
+[collectibles]
+	#How much xp a player should get when he finds a collectible
+	#Range: 0 ~ 1000
+	collectible_xp = 80
+	#How rarely should coin collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	coin_collectibles_rarity = 2500
+	#How rarely should fragment collectibles drop. higher = rarer [1:X]
+	#Range: 1 ~ 100000
+	fragment_collectibles_rarity = 2100
+
+#Loot Bag
+[loot_bag]
+	#How much xp a player should get when he uses a loot bag
+	#Range: 0 ~ 1000
+	epic_loot_bag_xp = 1000
+	#A list with all epic loot bag rewards [amount*modid:item]
+	epic_loot_bag_rewards = ["1*minecraft:netherite_ingot", "1*minecraft:nether_star", "1*minecraft:end_crystal", "1*minecraft:elytra", "1*minecraft:totem_of_undying", "1*minecraft:enchanted_golden_apple", "5*minecraft:dragon_breath", "10*minecraft:diamond", "8*minecraft:ender_pearl", "1*aquaculture:neptunium_ingot", "10*aquaculture:lockbox", "5*aquaculture:treasure_chest", "1*torchmaster:megatorch", "6*tetra:geode", "16x gag:mining_dynamite", "1*simplehats:hatbag_uncommon", "1*simplehats:hatbag_rare", "1*waystones:waystone", "1*waystones:warp_stone", "1*kubejs:gold_coin", "1*collectorsalbum:rare_card_package", "1*skilltree:wisdom_scroll", "1*artifacts:mimic_spawn_egg"]
+	#How many item entries the epic loot bag gives the player
+	#Range: 1 ~ 10
+	epic_loot_bag_item_amount = 1
+	#A list with all loot bag rewards [amount*modid:item]
+	loot_bag_rewards = ["3*minecraft:emerald", "3*minecraft:diamond", "1*minecraft:golden_apple", "1*minecraft:ender_eye", "32*minecraft:ink_sac", "64*minecraft:bone_meal", "64*minecraft:string", "1*simplehats:hatbag_common", "3*aquaculture:lockbox", "1*aquaculture:treasure_chest", "3*tetra:geode", "1*kubejs:copper_coin", "1*kubejs:iron_coin", "1*collectorsalbum:common_card_package", "1*collectorsalbum:uncommon_card_package"]
+	#How much xp a player should get when he uses a loot bag
+	#Range: 0 ~ 1000
+	loot_bag_xp = 500
+	#How many item entries the loot bag gives the player
+	#Range: 1 ~ 10
+	loot_bag_item_amount = 1
+

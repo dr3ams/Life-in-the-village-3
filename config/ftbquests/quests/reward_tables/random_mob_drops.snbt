@@ -15,16 +15,16 @@
 	loot_size: 1
 	order_index: 3
 	rewards: [
-		{ item: "minecraft:slime_ball" }
-		{ item: "minecraft:egg" }
-		{ item: "minecraft:ink_sac" }
-		{ item: "minecraft:bone" }
-		{ item: "minecraft:ender_pearl" }
-		{ item: "minecraft:rotten_flesh" }
-		{ item: "minecraft:gunpowder" }
-		{ item: "minecraft:feather" }
-		{ item: "minecraft:string" }
-		{ item: "minecraft:leather" }
+		{ count: 16, item: "minecraft:slime_ball" }
+		{ count: 16, item: "minecraft:egg" }
+		{ count: 16, item: "minecraft:ink_sac" }
+		{ count: 16, item: "minecraft:bone" }
+		{ count: 16, item: "minecraft:ender_pearl" }
+		{ count: 16, item: "minecraft:rotten_flesh" }
+		{ count: 16, item: "minecraft:gunpowder" }
+		{ count: 16, item: "minecraft:feather" }
+		{ count: 16, item: "minecraft:string" }
+		{ count: 16, item: "minecraft:leather" }
 	]
 	title: "Random mob drops"
 	use_title: true

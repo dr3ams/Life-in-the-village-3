@@ -12,7 +12,7 @@
 		string_id: "nether_loot_crate"
 	}
 	loot_size: 1
-	order_index: 27
+	order_index: 26
 	rewards: [
 		{ item: "minecraft:golden_apple" }
 		{ count: 2, item: "minecraft:obsidian" }
@@ -65,6 +65,7 @@
 					type: "random_dyes"
 				}
 			}
+			random_bonus: 1
 		}
 		{
 			item: {
@@ -74,6 +75,7 @@
 					type: "random_mob_drops"
 				}
 			}
+			random_bonus: 2
 		}
 	]
 	title: "Nether loot crate"

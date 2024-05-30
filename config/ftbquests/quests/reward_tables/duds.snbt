@@ -12,7 +12,7 @@
 		string_id: "duds2"
 	}
 	loot_size: 1
-	order_index: 33
+	order_index: 32
 	rewards: [
 		{
 			count: 3

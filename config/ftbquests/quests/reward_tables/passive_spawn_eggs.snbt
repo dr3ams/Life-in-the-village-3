@@ -12,7 +12,7 @@
 		string_id: "passive_spawn_eggs"
 	}
 	loot_size: 1
-	order_index: 35
+	order_index: 34
 	rewards: [
 		{
 			item: {

@@ -11,7 +11,7 @@
 		string_id: "epic_loot_crate"
 	}
 	loot_size: 1
-	order_index: 9
+	order_index: 8
 	rewards: [
 		{
 			item: {
@@ -80,17 +80,12 @@
 		{
 			item: {
 				Count: 1b
-				ForgeCaps: {
-					"dungeons_libraries:built_in_enchantments": {
-						BuiltInEnchantments: [ ]
-					}
-				}
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "enchanted_books_4"
 				}
 			}
-			title: "Enchanted Items"
+			title: "Enchantments"
 			weight: 70.0f
 		}
 		{

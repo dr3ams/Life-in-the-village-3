@@ -1,7 +1,7 @@
 {
 	id: "32F9A93C0635A760"
 	loot_size: 1
-	order_index: 15
+	order_index: 14
 	rewards: [
 		{ count: 4, item: "aquaculture:lockbox" }
 		{

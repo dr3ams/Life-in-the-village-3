@@ -5,7 +5,7 @@
 	group: "2280ECB310C79FE3"
 	icon: "quark:slime_in_a_bucket"
 	id: "0399220027D545F6"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
