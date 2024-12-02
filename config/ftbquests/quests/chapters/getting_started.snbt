@@ -1107,7 +1107,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0000000000000049"]
@@ -1124,7 +1124,7 @@
 				item: "minecraft:slime_ball"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -2.0d
 			y: -3.5d
 		}
 		{
@@ -1150,7 +1150,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: -3.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["0000000000000049"]
@@ -1167,7 +1167,7 @@
 				item: "minecraft:gunpowder"
 				type: "item"
 			}]
-			x: -3.5d
+			x: -4.0d
 			y: -3.5d
 		}
 		{
@@ -2595,7 +2595,7 @@
 				id: "5A7D361140FECB49"
 				item: {
 					Count: 1b
-					id: "tombstone:ankh_of_pray"
+					id: "tombstone:ankh_of_prayer"
 					tag: {
 						Damage: 0
 					}
@@ -2636,6 +2636,82 @@
 			}]
 			x: 11.5d
 			y: 2.0d
+		}
+		{
+			dependencies: ["54A2FF358B113724"]
+			description: [
+				"&6Collectibles&r drop very very rare when you mine specific blocks, open dungeon chests or brush suspicious blocks. If you complete one set of collectibles, craft a &5loot bag&r with it and use it, as a reward you will receive very valuable items and xp!"
+				"{image:litv3:textures/misc/q-b-collect.png width:130 height:150 align:1}"
+			]
+			id: "260CCF1AB75097F4"
+			rewards: [{
+				id: "40F938465CDDFEF1"
+				item: "aquaculture:lockbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F2B580341C966FF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:collectibles"
+					}
+				}
+				title: "Any #forge:collectibles"
+				type: "item"
+			}]
+			title: "Collectibles"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0000000000000049"]
+			description: [
+				"&5&nPassive Skill Tree&r&r"
+				""
+				"To get started, gather some &aexperience&r to acquire your first skill point."
+				""
+				"Then press O (default key, if it doesn't work - check your key bindings)."
+				""
+				"Then select your &5class&r but choose carefully, &nyou cannot change it.&r"
+				""
+				"You can path to other classes later if you think it is worth it."
+				""
+				"&4&nGems&r&r"
+				""
+				"{image:skilltree:gems/citrine_3 width:16 height:16 align:1}"
+				"You can find &4gems&r in any ore."
+				""
+				"Can be inserted into equipment(armor, weapons) on a &5smithing table.&r"
+				""
+				"{image:litv3:textures/misc/sockets.png width:90 height:40 align:1}"
+				""
+				"To remove &4gems&r from equipment, you need to insert &9Vacucite&r gem into it. It will &nconsume all&r the gems."
+				""
+				"{image:skilltree:gems/vacucite_3 width:16 height:16 align:1}"
+				"&9Vacucite&r have a smaller drop chance."
+				""
+				"Each &4gem&r provides different attribute bonuses, based on the type of equipment it is in."
+			]
+			icon: "skilltree:wisdom_scroll"
+			id: "07F50DAF9B4A7D2C"
+			rewards: [{
+				id: "4A9F27FD27E80328"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "684F9DB299C3BDD5"
+				points: false
+				type: "xp"
+				value: 1L
+			}]
+			title: "&5&nPassive Skill Tree&r&r"
+			x: -3.0d
+			y: -4.5d
 		}
 	]
 	title: "Getting Started"

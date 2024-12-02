@@ -12,7 +12,7 @@
 		string_id: "spawn_eggs_3"
 	}
 	loot_size: 1
-	order_index: 48
+	order_index: 49
 	rewards: [
 		{
 			count: 4
@@ -45,6 +45,7 @@
 		{ item: "minecraft:zombie_horse_spawn_egg" }
 		{ count: 4, item: "minecraft:zombie_villager_spawn_egg" }
 		{ item: "minecraft:witch_spawn_egg" }
+		{ item: "artifacts:mimic_spawn_egg" }
 	]
 	title: "Spawn Eggs 3"
 	use_title: true

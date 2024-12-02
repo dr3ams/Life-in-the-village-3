@@ -104,6 +104,15 @@
 			title: "Spawn Eggs 3"
 			weight: 80.0f
 		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "artifacts"
+				}
+			}
+		}
 	]
 	title: "Epic loot crate"
 	use_title: true

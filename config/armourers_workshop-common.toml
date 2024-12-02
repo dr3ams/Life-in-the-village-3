@@ -36,6 +36,8 @@
 	#If enabled the server will check permission node in the each operation.
 	#Highly recommended in the forge server.
 	enablePermissionCheck = true
+	#If enabled the server will allow client use server skins in the resource pack.
+	enableServerSkinsInResourcePack = false
 
 #Setting for the players wardrobe.
 [wardrobe]
@@ -63,6 +65,8 @@
 	#2 = always drop
 	#Range: 0 ~ 2
 	playerDropSkinsOnDeath = 0
+	#Only allows the player place to skin item into slots.
+	onlySkinIntoSlots = false
 
 #Setting for the library blocks.
 [library]
@@ -109,4 +113,38 @@
 	enableMatchingByItemId = true
 	#If the matching system wrong, you can add the item id here to this ignore it.
 	matchingBlacklistByItemId = []
+
+#Setting to configure tooltips on skinned items.
+[tooltip]
+	#Show has skin tooltip on skinned items.
+	tooltipHasSkin = true
+	#Show skin name tooltip on items.
+	tooltipSkinName = true
+	#Show skin author tooltip on items.
+	tooltipSkinAuthor = true
+	#Show skin type tooltip on items.
+	tooltipSkinType = true
+	#Show skin flavour text tooltip on items.
+	tooltipFlavour = true
+	#Show skin preview tooltip on items.
+	tooltipSkinPreview = true
+	#Show open wardrobe message on skins.
+	tooltipOpenWardrobe = true
+
+#Setting for the Database.
+[database]
+	#Save/Load skin data for the database.
+	#example1: "jdbc:mysql://<localhost>[:3306]/<database>[?user=<username>][&password=<password>]"
+	#example2: "jdbc:sqlite://</path/name.db>"
+	skin = ""
+	#Use fallback when database is specified.
+	#0 = enable
+	#1 = disable
+	#2 = migrate to database
+	#Range: 0 ~ 2
+	fallback = 0
+	#Keep alive time check when database is specified.
+	#the unit is seconds, 0 is disabled.
+	#Range: 0 ~ 86400
+	keepalive = 600
 

@@ -4852,15 +4852,9 @@
 			dependencies: ["29CD2BA25DD2395B"]
 			id: "4E2850F4670F5763"
 			rewards: [{
-				id: "2616B0FD5D5DCEDC"
-				item: {
-					Count: 1b
-					id: "ftbquests:lootcrate"
-					tag: {
-						type: "random_mob_drops"
-					}
-				}
-				type: "item"
+				id: "55FFB15D5769DFC8"
+				type: "xp"
+				xp: 100
 			}]
 			tasks: [{
 				id: "4103C981852AA608"
